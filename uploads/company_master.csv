@@ -1,0 +1,19 @@
+company_id,company_name,parent_company,industry,country
+COMP001,Novabyte Technologies Ltd,Novabyte Group,IT Services & Consulting,India
+COMP002,Silverline Softworks Ltd,,IT Services & Consulting,India
+COMP003,Helvetia Digital AG,,IT Services & Consulting,Switzerland
+COMP004,Beacon Cloud Systems Inc,Beacon Holdings,Software & Cloud,United States
+COMP101,Silverline Softworks Ltd,,IT Services & Consulting,India
+COMP102,Trilokya Infotech Ltd,,IT Services & Consulting,India
+COMP103,Helvetia Digital AG,,IT Services & Consulting,Switzerland
+COMP104,Beacon Cloud Systems Inc,,Software & Cloud,United States
+COMP105,Meridian Systems India Ltd,,IT Services & Consulting,India
+COMP106,Northgate Software plc,,Software & Cloud,United Kingdom
+COMP107,Auroville Analytics Ltd,,IT Services & Consulting,India
+COMP108,Rhein Cloud GmbH,,Software & Cloud,Germany
+COMP109,Pacific Byte Corp,,IT Services & Consulting,United States
+COMP110,Deccan Digital Ltd,,IT Services & Consulting,India
+COMP111,Nimbus Technologies Ltd,,Software & Cloud,India
+COMP112,Cortex Consulting AG,,IT Services & Consulting,Switzerland
+COMP113,Blue Meridian Softworks,,Software & Cloud,United States
+COMP114,Ganges Infotech Ltd,,IT Services & Consulting,India

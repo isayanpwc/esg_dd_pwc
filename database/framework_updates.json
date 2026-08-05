@@ -1,0 +1,271 @@
+{
+  "last_checked": "2026-08-03T13:09:50",
+  "updates": [
+    {
+      "update_id": "UPD001",
+      "regulation_id": "REG007",
+      "framework_abbr": "SEC",
+      "gap_id": "SEC-CLIMATE-2025",
+      "title": "SEC proposes rescission of the Climate-Related Disclosure Rules",
+      "description": "The SEC has proposed to rescind its 2024 final rules requiring registrants to provide climate-related disclosures in registration statements and annual reports. If adopted, the rescission would eliminate requirements for Scope 1, Scope 2, and material Scope 3 GHG emissions disclosures, climate risk governance and strategy disclosures, and financial statement footnotes related to climate impacts.",
+      "severity": "critical",
+      "published_date": "2025-03-27",
+      "source_url": "https://www.sec.gov/",
+      "status": "applied",
+      "reviewed_by": "dania",
+      "reviewed_at": "2026-07-30 14:06:29"
+    },
+    {
+      "update_id": "UPD002",
+      "regulation_id": "REG009",
+      "framework_abbr": "SOX",
+      "gap_id": "PCAOB-QC1000-2026",
+      "title": "PCAOB proposes amendments to QC 1000 ahead of December 2026 effective date",
+      "description": "Registered public accounting firms must implement a comprehensive risk-based quality control system (QC 1000) and comply with amended audit planning, supervision, documentation and engagement deficiency response requirements for audits with reporting periods on or after 15 December 2026.",
+      "severity": "critical",
+      "published_date": "2025-06-12",
+      "source_url": "https://pcaobus.org/",
+      "status": "applied",
+      "reviewed_by": "dania",
+      "reviewed_at": "2026-07-30 14:06:40"
+    },
+    {
+      "update_id": "UPD003",
+      "regulation_id": "REG003",
+      "framework_abbr": "GRI",
+      "gap_id": "GRI-101-BIO-2026",
+      "title": "GRI 101: Biodiversity and GRI 14: Mining Sector Standard take effect for reporting from 1 January 2026",
+      "description": "GRI 101: Biodiversity 2024 and GRI 14: Mining Sector 2024 become effective for reports covering periods starting on or after 1 January 2026. Organizations in the mining sector must now disclose impacts on biodiversity, land use, water stewardship, and community rights using the new topic-specific and sector-specific standards.",
+      "severity": "high",
+      "published_date": "2025-11-15",
+      "source_url": "https://www.globalreporting.org/",
+      "status": "applied",
+      "reviewed_by": "dania",
+      "reviewed_at": "2026-07-30 14:22:37"
+    },
+    {
+      "update_id": "UPD004",
+      "regulation_id": "REG003",
+      "framework_abbr": "GRI",
+      "gap_id": "GRI-ECON-2026",
+      "title": "GRI opens consultations on revised economic-impact standards (corruption, competition, public policy) and 2026-2028 GSSB work programme",
+      "description": "The Global Sustainability Standards Board has opened public consultations on exposure drafts revising GRI 205 (Anti-corruption), GRI 206 (Anti-competitive Behavior), and GRI 415 (Public Policy), as well as its proposed 2026-2028 work programme covering new standards on circular economy, human rights due diligence, and digital responsibility.",
+      "severity": "medium",
+      "published_date": "2026-02-20",
+      "source_url": "https://www.globalreporting.org/",
+      "status": "dismissed",
+      "reviewed_by": "dania",
+      "reviewed_at": "2026-07-30 14:22:53"
+    },
+    {
+      "update_id": "UPD010",
+      "regulation_id": "REG002",
+      "framework_abbr": "CSRD",
+      "gap_id": "ESRS-2026-REV",
+      "title": "Apply revised ESRS with reduced mandatory datapoints (-61%), new flexibility mechanisms (top-down DMA, phase-ins), and alternative statement layout permitted with justification",
+      "description": "Apply revised ESRS with reduced mandatory datapoints (-61%), new flexibility mechanisms (top-down DMA, phase-ins), and alternative statement layout permitted with justification. First-time adopters (Wave 1) may defer 'expected financial impacts' reporting until 2028 (qualitative) and 2030 (quantitative).",
+      "severity": "critical",
+      "published_date": "2026-04-15",
+      "source_url": "https://finance.ec.europa.eu/",
+      "status": "pending_review",
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "update_id": "UPD011",
+      "regulation_id": "REG008",
+      "framework_abbr": "SASB",
+      "gap_id": "SASB-2026-ED-MAR",
+      "title": "Align industry-specific SASB metrics with IFRS S2 requirements; entities applying IFRS S1 must refer to and consider applicability of amended SASB metrics",
+      "description": "Align industry-specific SASB metrics with IFRS S2 requirements; entities applying IFRS S1 must refer to and consider applicability of amended SASB metrics as a primary source of guidance for identifying sustainability-related risks and opportunities.",
+      "severity": "medium",
+      "published_date": "2026-03-01",
+      "source_url": "https://www.ifrs.org/",
+      "status": "pending_review",
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "update_id": "UPD012",
+      "regulation_id": "REG008",
+      "framework_abbr": "SASB",
+      "gap_id": "IFRS-S2-GHG-2027",
+      "title": "Apply amended GHG emissions disclosure requirements in IFRS S2 and aligned financed emissions metrics in three SASB Standards",
+      "description": "Apply amended GHG emissions disclosure requirements in IFRS S2 and aligned financed emissions metrics in three SASB Standards for reporting periods beginning on or after 1 January 2027.",
+      "severity": "high",
+      "published_date": "2026-05-10",
+      "source_url": "https://www.ifrs.org/",
+      "status": "pending_review",
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "update_id": "UPD013",
+      "regulation_id": "REG010",
+      "framework_abbr": "IFRS S1",
+      "gap_id": "IFRS-S1-ADOPT-2025",
+      "title": "IFRS S1 mandatory adoption in 20+ jurisdictions from 2025",
+      "description": "IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information became mandatory in over 20 jurisdictions for reporting periods beginning on or after 1 January 2025. Entities must disclose governance, strategy, risk management, and metrics/targets for sustainability-related risks and opportunities.",
+      "severity": "critical",
+      "published_date": "2025-01-01",
+      "source_url": "https://www.ifrs.org/",
+      "status": "pending_review",
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "update_id": "UPD014",
+      "regulation_id": "REG011",
+      "framework_abbr": "IFRS S2",
+      "gap_id": "IFRS-S2-SCOPE3-2027",
+      "title": "IFRS S2 Scope 3 GHG disclosure relief extended to reporting periods beginning 2027",
+      "description": "The ISSB extended the transition relief for Scope 3 GHG emissions disclosure under IFRS S2 to reporting periods beginning on or after 1 January 2027. Entities adopting IFRS S2 before that date may omit Scope 3 disclosures but must disclose Scope 1 and Scope 2 emissions from the first reporting period.",
+      "severity": "high",
+      "published_date": "2025-06-15",
+      "source_url": "https://www.ifrs.org/",
+      "status": "pending_review",
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "update_id": "UPD015",
+      "regulation_id": "REG012",
+      "framework_abbr": "PCAOB",
+      "gap_id": "PCAOB-QC1000-EFF-2026",
+      "title": "PCAOB QC 1000 effective for reporting periods on or after 15 December 2026",
+      "description": "QC 1000: A Firm's System of Quality Control becomes effective for registered public accounting firms for audits with reporting periods on or after 15 December 2026. Firms must implement a comprehensive risk-based quality control system covering governance, ethics, acceptance and continuance, engagement performance, resources, information and communication, and monitoring.",
+      "severity": "critical",
+      "published_date": "2025-12-01",
+      "source_url": "https://pcaobus.org/",
+      "status": "pending_review",
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "update_id": "UPD005",
+      "regulation_id": "REG002",
+      "framework_abbr": "CSRD",
+      "gap_id": "ESRS-SET1-2023",
+      "title": "European Commission adopts ESRS Set 1 delegated act with sector-agnostic standards",
+      "description": "The European Commission adopted the first set of European Sustainability Reporting Standards (ESRS) covering 12 sector-agnostic standards. Large public-interest entities with more than 500 employees began reporting under CSRD for financial years starting on or after 1 January 2024.",
+      "severity": "high",
+      "published_date": "2023-07-31",
+      "source_url": "https://finance.ec.europa.eu/",
+      "status": "applied",
+      "reviewed_by": "system",
+      "reviewed_at": "2024-01-15 09:00:00"
+    },
+    {
+      "update_id": "UPD006",
+      "regulation_id": "REG004",
+      "framework_abbr": "TCFD",
+      "gap_id": "TCFD-SUNSET-2023",
+      "title": "FSB TCFD disbanded; ISSB assumes climate-disclosure monitoring from 2024",
+      "description": "The Financial Stability Board's Task Force on Climate-related Financial Disclosures was formally disbanded in October 2023 after the ISSB published IFRS S1 and S2. The ISSB now monitors adoption of climate-related financial disclosures globally, building on the TCFD framework.",
+      "severity": "medium",
+      "published_date": "2023-10-12",
+      "source_url": "https://www.fsb-tcfd.org/",
+      "status": "applied",
+      "reviewed_by": "system",
+      "reviewed_at": "2023-11-01 10:30:00"
+    },
+    {
+      "update_id": "UPD007",
+      "regulation_id": "REG001",
+      "framework_abbr": "BRSR",
+      "gap_id": "BRSR-CORE-2024",
+      "title": "SEBI mandates BRSR Core for top 150 listed entities with reasonable assurance",
+      "description": "SEBI has mandated BRSR Core framework reporting with reasonable assurance for the top 150 listed entities by market capitalisation from FY 2024-25. The top 1000 listed entities must provide limited assurance on BRSR Core disclosures.",
+      "severity": "high",
+      "published_date": "2024-03-15",
+      "source_url": "https://www.sebi.gov.in/",
+      "status": "applied",
+      "reviewed_by": "system",
+      "reviewed_at": "2024-04-01 14:00:00"
+    },
+    {
+      "update_id": "UPD008",
+      "regulation_id": "REG006",
+      "framework_abbr": "GDPR",
+      "gap_id": "GDPR-AI-2024",
+      "title": "EU AI Act enters force with GDPR-aligned data governance provisions",
+      "description": "The EU AI Act (Regulation 2024/1689) entered into force on 1 August 2024, introducing GDPR-aligned provisions for high-risk AI systems processing personal data, including mandatory data governance, transparency, and human oversight requirements.",
+      "severity": "medium",
+      "published_date": "2024-08-01",
+      "source_url": "https://edpb.europa.eu/",
+      "status": "applied",
+      "reviewed_by": "system",
+      "reviewed_at": "2024-09-15 11:00:00"
+    },
+    {
+      "update_id": "UPD009",
+      "regulation_id": "REG008",
+      "framework_abbr": "SASB",
+      "gap_id": "SASB-IFRS-2024",
+      "title": "ISSB completes alignment of SASB Standards with IFRS S1 and S2",
+      "description": "The International Sustainability Standards Board completed the alignment of industry-specific SASB Standards with IFRS S1 (General Requirements) and S2 (Climate-related Disclosures). Entities applying IFRS S1 must now refer to aligned SASB metrics as a primary source of guidance for identifying sustainability-related risks and opportunities.",
+      "severity": "medium",
+      "published_date": "2024-12-20",
+      "source_url": "https://www.ifrs.org/",
+      "status": "applied",
+      "reviewed_by": "system",
+      "reviewed_at": "2025-01-10 08:45:00"
+    }
+  ],
+  "audit_log": [
+    {
+      "timestamp": "2024-01-15 09:00:00",
+      "action": "applied",
+      "update_id": "UPD005",
+      "user": "system"
+    },
+    {
+      "timestamp": "2023-11-01 10:30:00",
+      "action": "applied",
+      "update_id": "UPD006",
+      "user": "system"
+    },
+    {
+      "timestamp": "2024-04-01 14:00:00",
+      "action": "applied",
+      "update_id": "UPD007",
+      "user": "system"
+    },
+    {
+      "timestamp": "2024-09-15 11:00:00",
+      "action": "applied",
+      "update_id": "UPD008",
+      "user": "system"
+    },
+    {
+      "timestamp": "2025-01-10 08:45:00",
+      "action": "applied",
+      "update_id": "UPD009",
+      "user": "system"
+    },
+    {
+      "timestamp": "2026-07-30 14:06:29",
+      "action": "applied",
+      "update_id": "UPD001",
+      "user": "dania"
+    },
+    {
+      "timestamp": "2026-07-30 14:06:40",
+      "action": "applied",
+      "update_id": "UPD002",
+      "user": "dania"
+    },
+    {
+      "timestamp": "2026-07-30 14:22:37",
+      "action": "applied",
+      "update_id": "UPD003",
+      "user": "dania"
+    },
+    {
+      "timestamp": "2026-07-30 14:22:53",
+      "action": "dismissed",
+      "update_id": "UPD004",
+      "user": "dania"
+    }
+  ]
+}

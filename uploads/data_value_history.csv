@@ -1,0 +1,9 @@
+history_id,entity_type,entity_id,field_name,old_value,new_value,changed_by,change_date,change_reason
+D1-HIS1,esg_metric_data,D1-MR00002,metric_value,175000,185000,USR004,2024-11-20,Correction: switched to market-based Scope 2 factor
+D1-HIS2,esg_risk_opportunity,D1-FND01,financial_impact,85000000,110000000,USR001,2024-12-11,Revised financial-impact estimate after review
+D2-HIS1,esg_metric_data,D2-MR00002,metric_value,175000,185000,USR008,2024-11-20,Correction: switched to market-based Scope 2 factor
+D2-HIS2,esg_risk_opportunity,D2-FND01,financial_impact,85000000,110000000,USR006,2024-12-11,Revised financial-impact estimate after review
+D3-HIS1,esg_metric_data,D3-MR00002,metric_value,175000,185000,USR003,2024-11-20,Correction: switched to market-based Scope 2 factor
+D3-HIS2,esg_risk_opportunity,D3-FND01,financial_impact,85000000,110000000,USR001,2024-12-11,Revised financial-impact estimate after review
+D4-HIS1,esg_metric_data,D4-MR00002,metric_value,175000,185000,USR004,2024-11-20,Correction: switched to market-based Scope 2 factor
+D4-HIS2,esg_risk_opportunity,D4-FND01,financial_impact,85000000,110000000,USR006,2024-12-11,Revised financial-impact estimate after review

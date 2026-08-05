@@ -1,0 +1,23 @@
+crosswalk_id,metric_code,reporting_standard,standard_disclosure_code,standard_disclosure_name,unit_conversion_note
+CW001,ENV_SCOPE1,GRI,GRI 305-1,Direct (Scope 1) GHG emissions,
+CW002,ENV_SCOPE1,ESRS,ESRS E1-6,Gross Scope 1 GHG emissions,
+CW003,ENV_SCOPE1,BRSR,BRSR P6 E-7,Scope 1 emissions,Indian GHG Programme factors
+CW004,ENV_SCOPE2,GRI,GRI 305-2,Energy indirect (Scope 2) GHG emissions,Location vs market-based differ
+CW005,ENV_SCOPE2,ESRS,ESRS E1-6,Gross Scope 2 GHG emissions,
+CW006,ENV_SCOPE3,GRI,GRI 305-3,Other indirect (Scope 3) GHG emissions,
+CW007,ENV_SCOPE3,ESRS,ESRS E1-6,Gross Scope 3 GHG emissions,
+CW008,ENV_ENERGY,GRI,GRI 302-1,Energy consumption within the organization,
+CW009,ENV_ENERGY,BRSR,BRSR P6 E-1,Total energy consumption,
+CW010,ENV_DC_PUE,GRI,GRI 302-3,Energy intensity (data-centre proxy),"Reported as PUE, not GRI-standard"
+CW011,ENV_WATER,GRI,GRI 303-3,Water withdrawal,
+CW012,ENV_EWASTE,GRI,GRI 306-3,Waste generated (e-waste),
+CW013,ENV_EWASTE,BRSR,BRSR P6 E-9,E-waste generated,Per E-Waste Mgmt Rules 2016
+CW014,SOC_HEADCOUNT,GRI,GRI 2-7,Employees,
+CW015,SOC_FEMALE_PCT,GRI,GRI 405-1,Diversity of employees,
+CW016,SOC_FEMALE_PCT,BRSR,BRSR P5,Workforce diversity,
+CW017,SOC_ATTRITION,GRI,GRI 401-1,New employee hires and turnover,
+CW018,SOC_LTIFR,GRI,GRI 403-9,Work-related injuries,
+CW019,GOV_BOARD_INDEP_PCT,GRI,GRI 2-9,Governance structure and composition,
+CW020,GOV_WOMEN_BOARD_PCT,GRI,GRI 405-1,Diversity of governance bodies,
+CW021,GOV_DATA_BREACH,GRI,GRI 418-1,Customer privacy breaches,
+CW022,GOV_DATA_BREACH,BRSR,BRSR P9,Consumer data / privacy,Aligns with DPDP Act 2023

@@ -1,0 +1,53 @@
+document_id,deal_id,company_id,facility_id,document_name,document_type,reporting_year,source_system,file_path,document_date,version,language,confidentiality_flag,processing_status
+D1-DOC2015,DEAL001,COMP001,,Sustainability Report 2015,ESG report,2015,Virtual Data Room,/vdr/d1/esg/sustainability_2015.pdf,2016-06-30,v1.0,English,Restricted,processed
+D1-DOC2016,DEAL001,COMP001,,Sustainability Report 2016,ESG report,2016,Virtual Data Room,/vdr/d1/esg/sustainability_2016.pdf,2017-06-30,v1.0,English,Restricted,processed
+D1-DOC2017,DEAL001,COMP001,,Sustainability Report 2017,ESG report,2017,Virtual Data Room,/vdr/d1/esg/sustainability_2017.pdf,2018-06-30,v1.0,English,Restricted,processed
+D1-DOC2018,DEAL001,COMP001,,Sustainability Report 2018,ESG report,2018,Virtual Data Room,/vdr/d1/esg/sustainability_2018.pdf,2019-06-30,v1.0,English,Restricted,processed
+D1-DOC2019,DEAL001,COMP001,,Sustainability Report 2019,ESG report,2019,Virtual Data Room,/vdr/d1/esg/sustainability_2019.pdf,2020-06-30,v1.0,English,Restricted,processed
+D1-DOC2020,DEAL001,COMP001,,Sustainability Report 2020,ESG report,2020,Virtual Data Room,/vdr/d1/esg/sustainability_2020.pdf,2021-06-30,v1.0,English,Restricted,processed
+D1-DOC2021,DEAL001,COMP001,,Sustainability Report 2021,ESG report,2021,Virtual Data Room,/vdr/d1/esg/sustainability_2021.pdf,2022-06-30,v1.0,English,Restricted,processed
+D1-DOC2022,DEAL001,COMP001,,Sustainability Report 2022,ESG report,2022,Virtual Data Room,/vdr/d1/esg/sustainability_2022.pdf,2023-06-30,v1.0,English,Restricted,processed
+D1-DOC2023,DEAL001,COMP001,,Sustainability Report 2023,ESG report,2023,Virtual Data Room,/vdr/d1/esg/sustainability_2023.pdf,2024-06-30,v1.0,English,Restricted,processed
+D1-DOC2024,DEAL001,COMP001,,Sustainability Report 2024,ESG report,2024,Virtual Data Room,/vdr/d1/esg/sustainability_2024.pdf,2025-06-30,v1.0,English,Restricted,processed
+D1-DOC-AR24,DEAL001,COMP001,,Annual Report FY2024,annual report,2024,Virtual Data Room,/vdr/d1/fin/annual_2024.pdf,2025-05-15,v1.0,English,Restricted,processed
+D1-DOC-POL,DEAL001,COMP001,,Information Security & Privacy Policy,policy,2024,SharePoint,/vdr/d1/gov/infosec_policy.pdf,2024-01-10,v4.2,English,Internal,processed
+D1-DOC-INC,DEAL001,COMP001,,Security Incident Log 2023,audit report,2023,Virtual Data Room,/vdr/d1/gov/incident_log_2023.pdf,2024-01-31,v1.0,English,Confidential,pending
+D2-DOC2015,DEAL002,COMP002,,Sustainability Report 2015,ESG report,2015,Virtual Data Room,/vdr/d2/esg/sustainability_2015.pdf,2016-06-30,v1.0,English,Restricted,processed
+D2-DOC2016,DEAL002,COMP002,,Sustainability Report 2016,ESG report,2016,Virtual Data Room,/vdr/d2/esg/sustainability_2016.pdf,2017-06-30,v1.0,English,Restricted,processed
+D2-DOC2017,DEAL002,COMP002,,Sustainability Report 2017,ESG report,2017,Virtual Data Room,/vdr/d2/esg/sustainability_2017.pdf,2018-06-30,v1.0,English,Restricted,processed
+D2-DOC2018,DEAL002,COMP002,,Sustainability Report 2018,ESG report,2018,Virtual Data Room,/vdr/d2/esg/sustainability_2018.pdf,2019-06-30,v1.0,English,Restricted,processed
+D2-DOC2019,DEAL002,COMP002,,Sustainability Report 2019,ESG report,2019,Virtual Data Room,/vdr/d2/esg/sustainability_2019.pdf,2020-06-30,v1.0,English,Restricted,processed
+D2-DOC2020,DEAL002,COMP002,,Sustainability Report 2020,ESG report,2020,Virtual Data Room,/vdr/d2/esg/sustainability_2020.pdf,2021-06-30,v1.0,English,Restricted,processed
+D2-DOC2021,DEAL002,COMP002,,Sustainability Report 2021,ESG report,2021,Virtual Data Room,/vdr/d2/esg/sustainability_2021.pdf,2022-06-30,v1.0,English,Restricted,processed
+D2-DOC2022,DEAL002,COMP002,,Sustainability Report 2022,ESG report,2022,Virtual Data Room,/vdr/d2/esg/sustainability_2022.pdf,2023-06-30,v1.0,English,Restricted,processed
+D2-DOC2023,DEAL002,COMP002,,Sustainability Report 2023,ESG report,2023,Virtual Data Room,/vdr/d2/esg/sustainability_2023.pdf,2024-06-30,v1.0,English,Restricted,processed
+D2-DOC2024,DEAL002,COMP002,,Sustainability Report 2024,ESG report,2024,Virtual Data Room,/vdr/d2/esg/sustainability_2024.pdf,2025-06-30,v1.0,English,Restricted,processed
+D2-DOC-AR24,DEAL002,COMP002,,Annual Report FY2024,annual report,2024,Virtual Data Room,/vdr/d2/fin/annual_2024.pdf,2025-05-15,v1.0,English,Restricted,processed
+D2-DOC-POL,DEAL002,COMP002,,Information Security & Privacy Policy,policy,2024,SharePoint,/vdr/d2/gov/infosec_policy.pdf,2024-01-10,v4.2,English,Internal,processed
+D2-DOC-INC,DEAL002,COMP002,,Security Incident Log 2023,audit report,2023,Virtual Data Room,/vdr/d2/gov/incident_log_2023.pdf,2024-01-31,v1.0,English,Confidential,processed
+D3-DOC2015,DEAL003,COMP003,,Sustainability Report 2015,ESG report,2015,Virtual Data Room,/vdr/d3/esg/sustainability_2015.pdf,2016-06-30,v1.0,English,Restricted,processed
+D3-DOC2016,DEAL003,COMP003,,Sustainability Report 2016,ESG report,2016,Virtual Data Room,/vdr/d3/esg/sustainability_2016.pdf,2017-06-30,v1.0,English,Restricted,processed
+D3-DOC2017,DEAL003,COMP003,,Sustainability Report 2017,ESG report,2017,Virtual Data Room,/vdr/d3/esg/sustainability_2017.pdf,2018-06-30,v1.0,English,Restricted,processed
+D3-DOC2018,DEAL003,COMP003,,Sustainability Report 2018,ESG report,2018,Virtual Data Room,/vdr/d3/esg/sustainability_2018.pdf,2019-06-30,v1.0,English,Restricted,processed
+D3-DOC2019,DEAL003,COMP003,,Sustainability Report 2019,ESG report,2019,Virtual Data Room,/vdr/d3/esg/sustainability_2019.pdf,2020-06-30,v1.0,English,Restricted,processed
+D3-DOC2020,DEAL003,COMP003,,Sustainability Report 2020,ESG report,2020,Virtual Data Room,/vdr/d3/esg/sustainability_2020.pdf,2021-06-30,v1.0,English,Restricted,processed
+D3-DOC2021,DEAL003,COMP003,,Sustainability Report 2021,ESG report,2021,Virtual Data Room,/vdr/d3/esg/sustainability_2021.pdf,2022-06-30,v1.0,English,Restricted,processed
+D3-DOC2022,DEAL003,COMP003,,Sustainability Report 2022,ESG report,2022,Virtual Data Room,/vdr/d3/esg/sustainability_2022.pdf,2023-06-30,v1.0,English,Restricted,processed
+D3-DOC2023,DEAL003,COMP003,,Sustainability Report 2023,ESG report,2023,Virtual Data Room,/vdr/d3/esg/sustainability_2023.pdf,2024-06-30,v1.0,English,Restricted,processed
+D3-DOC2024,DEAL003,COMP003,,Sustainability Report 2024,ESG report,2024,Virtual Data Room,/vdr/d3/esg/sustainability_2024.pdf,2025-06-30,v1.0,English,Restricted,processed
+D3-DOC-AR24,DEAL003,COMP003,,Annual Report FY2024,annual report,2024,Virtual Data Room,/vdr/d3/fin/annual_2024.pdf,2025-05-15,v1.0,English,Restricted,processed
+D3-DOC-POL,DEAL003,COMP003,,Information Security & Privacy Policy,policy,2024,SharePoint,/vdr/d3/gov/infosec_policy.pdf,2024-01-10,v4.2,English,Internal,processed
+D3-DOC-INC,DEAL003,COMP003,,Security Incident Log 2023,audit report,2023,Virtual Data Room,/vdr/d3/gov/incident_log_2023.pdf,2024-01-31,v1.0,English,Confidential,processed
+D4-DOC2015,DEAL004,COMP004,,Sustainability Report 2015,ESG report,2015,Virtual Data Room,/vdr/d4/esg/sustainability_2015.pdf,2016-06-30,v1.0,English,Restricted,processed
+D4-DOC2016,DEAL004,COMP004,,Sustainability Report 2016,ESG report,2016,Virtual Data Room,/vdr/d4/esg/sustainability_2016.pdf,2017-06-30,v1.0,English,Restricted,processed
+D4-DOC2017,DEAL004,COMP004,,Sustainability Report 2017,ESG report,2017,Virtual Data Room,/vdr/d4/esg/sustainability_2017.pdf,2018-06-30,v1.0,English,Restricted,processed
+D4-DOC2018,DEAL004,COMP004,,Sustainability Report 2018,ESG report,2018,Virtual Data Room,/vdr/d4/esg/sustainability_2018.pdf,2019-06-30,v1.0,English,Restricted,processed
+D4-DOC2019,DEAL004,COMP004,,Sustainability Report 2019,ESG report,2019,Virtual Data Room,/vdr/d4/esg/sustainability_2019.pdf,2020-06-30,v1.0,English,Restricted,processed
+D4-DOC2020,DEAL004,COMP004,,Sustainability Report 2020,ESG report,2020,Virtual Data Room,/vdr/d4/esg/sustainability_2020.pdf,2021-06-30,v1.0,English,Restricted,processed
+D4-DOC2021,DEAL004,COMP004,,Sustainability Report 2021,ESG report,2021,Virtual Data Room,/vdr/d4/esg/sustainability_2021.pdf,2022-06-30,v1.0,English,Restricted,processed
+D4-DOC2022,DEAL004,COMP004,,Sustainability Report 2022,ESG report,2022,Virtual Data Room,/vdr/d4/esg/sustainability_2022.pdf,2023-06-30,v1.0,English,Restricted,processed
+D4-DOC2023,DEAL004,COMP004,,Sustainability Report 2023,ESG report,2023,Virtual Data Room,/vdr/d4/esg/sustainability_2023.pdf,2024-06-30,v1.0,English,Restricted,processed
+D4-DOC2024,DEAL004,COMP004,,Sustainability Report 2024,ESG report,2024,Virtual Data Room,/vdr/d4/esg/sustainability_2024.pdf,2025-06-30,v1.0,English,Restricted,processed
+D4-DOC-AR24,DEAL004,COMP004,,Annual Report FY2024,annual report,2024,Virtual Data Room,/vdr/d4/fin/annual_2024.pdf,2025-05-15,v1.0,English,Restricted,processed
+D4-DOC-POL,DEAL004,COMP004,,Information Security & Privacy Policy,policy,2024,SharePoint,/vdr/d4/gov/infosec_policy.pdf,2024-01-10,v4.2,English,Internal,processed
+D4-DOC-INC,DEAL004,COMP004,,Security Incident Log 2023,audit report,2023,Virtual Data Room,/vdr/d4/gov/incident_log_2023.pdf,2024-01-31,v1.0,English,Confidential,processed

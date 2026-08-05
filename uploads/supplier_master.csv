@@ -1,0 +1,13 @@
+supplier_id,supplier_name,country,tier,annual_spend,spend_currency,criticality
+SUP001,Hyperscale Cloud Services Inc,United States,Tier 1,5600000000,INR,High
+SUP002,Meridian Server Hardware Co,Taiwan,Tier 1,3400000000,INR,High
+SUP003,Bengaluru Facilities Mgmt Pvt Ltd,India,Tier 1,780000000,INR,Medium
+SUP004,GreenGrid Power (PPA),India,Tier 1,1900000000,INR,High
+SUP005,TalentBridge Staffing LLP,India,Tier 2,2200000000,INR,Medium
+SUP006,Recyktron E-waste Handlers,India,Tier 2,90000000,INR,Low
+SUP007,Nimbus Colocation Ltd,Germany,Tier 1,4100000000,INR,High
+SUP008,Apex Network Devices Inc,United States,Tier 2,1200000000,INR,Medium
+SUP009,SolarEdge Energy Pvt Ltd,India,Tier 1,1500000000,INR,High
+SUP010,Contour BPO Services,Philippines,Tier 2,980000000,INR,Medium
+SUP011,Ironwood Cabling Co,China,Tier 3,210000000,INR,Low
+SUP012,Zenith Travel Management,India,Tier 2,640000000,INR,Low

@@ -1,0 +1,1199 @@
+{
+  "logs": [
+    {
+      "user": "dania",
+      "action": "User Registered",
+      "timestamp": "2026-07-20 15:58:41"
+    },
+    {
+      "user": "nooriza",
+      "action": "User Registered",
+      "timestamp": "2026-07-20 16:29:06"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-20 16:30:22"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-21 10:53:14"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected",
+      "timestamp": "2026-07-21 12:40:46"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected",
+      "timestamp": "2026-07-21 12:42:11"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-21 12:53:13"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-21 14:33:05"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-21 14:36:00"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-21 14:37:49"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-21 14:42:09"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-07-21 14:43:56"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-21 14:44:24"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Disconnected: company_financials.csv",
+      "timestamp": "2026-07-21 14:44:42"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Disconnected: company_financials.csv",
+      "timestamp": "2026-07-21 14:45:03"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected",
+      "timestamp": "2026-07-21 14:45:26"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-07-21 14:45:52"
+    },
+    {
+      "user": "shub",
+      "action": "User Registered",
+      "timestamp": "2026-07-21 14:48:07"
+    },
+    {
+      "user": "shub",
+      "action": "Data Source Connected",
+      "timestamp": "2026-07-21 14:48:41"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-21 15:50:24"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-07-21 15:51:14"
+    },
+    {
+      "user": "shub",
+      "action": "User Logged In",
+      "timestamp": "2026-07-21 15:51:29"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-21 16:05:29"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected",
+      "timestamp": "2026-07-21 16:05:54"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-21 16:07:01"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected",
+      "timestamp": "2026-07-21 16:07:24"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Disconnected: data_value_history.csv",
+      "timestamp": "2026-07-21 16:07:33"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Disconnected: controversy_record.csv",
+      "timestamp": "2026-07-21 16:17:44"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 14:09:07"
+    },
+    {
+      "user": "xxx",
+      "action": "User Registered",
+      "timestamp": "2026-07-22 14:10:46"
+    },
+    {
+      "user": "xxx",
+      "action": "Data Source Connected",
+      "timestamp": "2026-07-22 14:11:11"
+    },
+    {
+      "user": "xxx",
+      "action": "Data Source Connected",
+      "timestamp": "2026-07-22 14:22:36"
+    },
+    {
+      "user": "xxx",
+      "action": "Data Source Disconnected: controversy_record.csv",
+      "timestamp": "2026-07-22 14:22:42"
+    },
+    {
+      "user": "xxx",
+      "action": "Data Source Disconnected: data_value_history.csv",
+      "timestamp": "2026-07-22 14:23:29"
+    },
+    {
+      "user": "xxx",
+      "action": "Data Source Connected",
+      "timestamp": "2026-07-22 14:23:59"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 14:30:33"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 14:45:48"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 15:13:39"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 15:41:48"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 15:50:40"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:03:25"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:04:47"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:10:58"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:13:43"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:14:12"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:15:57"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:16:32"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:23:23"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:24:03"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:25:27"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:26:10"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:29:04"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:29:37"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:30:58"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:31:26"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:34:24"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:35:43"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-07-22 16:36:23"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 16:36:44"
+    },
+    {
+      "user": "dania",
+      "action": "Batch extraction: 1 files processed",
+      "timestamp": "2026-07-22 16:43:09"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-22 18:11:49"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected",
+      "timestamp": "2026-07-22 18:12:02"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 11:27:14"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 11:34:06"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 12:24:32"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 12:39:52"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 13:04:36"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 15:28:09"
+    },
+    {
+      "user": "dania",
+      "action": "Data Loaded: company_financials.csv \u2192 esg_data (40 rows)",
+      "timestamp": "2026-07-23 15:28:53"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 16:20:30"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 16:31:03"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 16:42:43"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-07-23 16:42:58"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 16:43:15"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 16:46:36"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 17:35:52"
+    },
+    {
+      "user": "dania",
+      "action": "Collection: loaded company_financials.csv (40 rows)",
+      "timestamp": "2026-07-23 17:36:17"
+    },
+    {
+      "user": "dania",
+      "action": "Data Loaded: controversy_record.csv -> esg_data (24 rows)",
+      "timestamp": "2026-07-23 17:38:05"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected: controversy_record.csv (File Upload)",
+      "timestamp": "2026-07-23 17:38:05"
+    },
+    {
+      "user": "dania",
+      "action": "Data Loaded: regulation_master.csv -> esg_data (7 rows)",
+      "timestamp": "2026-07-23 17:39:15"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected: regulation_master.csv (File Upload)",
+      "timestamp": "2026-07-23 17:39:15"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 18:32:14"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 18:43:15"
+    },
+    {
+      "user": "dania",
+      "action": "Data Loaded: esg_target.csv -> esg_data (32 rows)",
+      "timestamp": "2026-07-23 18:43:31"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected: esg_target.csv (File Upload)",
+      "timestamp": "2026-07-23 18:43:31"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-07-23 18:43:48"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 18:44:42"
+    },
+    {
+      "user": "dania",
+      "action": "Data Loaded: metric_standard_crosswalk.csv -> esg_data (22 rows)",
+      "timestamp": "2026-07-23 18:44:57"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected: metric_standard_crosswalk.csv (File Upload)",
+      "timestamp": "2026-07-23 18:44:57"
+    },
+    {
+      "user": "dania",
+      "action": "Disconnected: esg_target.csv (File Upload)",
+      "timestamp": "2026-07-23 18:45:21"
+    },
+    {
+      "user": "dania",
+      "action": "Disconnected: company_financials.csv (File Upload)",
+      "timestamp": "2026-07-23 18:45:23"
+    },
+    {
+      "user": "dania",
+      "action": "Disconnected: company_financials (File Upload)",
+      "timestamp": "2026-07-23 18:46:28"
+    },
+    {
+      "user": "dania",
+      "action": "Disconnected: company_financials.csv (File Upload)",
+      "timestamp": "2026-07-23 18:46:31"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 18:52:20"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-07-23 18:52:48"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 18:53:03"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 18:58:42"
+    },
+    {
+      "user": "dania",
+      "action": "Data Loaded: supplier_master.csv -> esg_data (12 rows)",
+      "timestamp": "2026-07-23 18:59:23"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected: supplier_master.csv (File Upload)",
+      "timestamp": "2026-07-23 18:59:23"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:04:01"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-07-23 19:04:06"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:04:32"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:07:50"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-07-23 19:07:55"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:08:13"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:09:34"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:12:19"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:24:11"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:28:57"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:32:18"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:36:19"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:38:44"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:42:49"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:49:20"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 19:56:39"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-23 20:03:08"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-24 10:45:51"
+    },
+    {
+      "user": "dania",
+      "action": "Collection: loaded esg_risk_opportunity.csv (28 rows)",
+      "timestamp": "2026-07-24 10:46:15"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-27 12:00:37"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-27 12:14:21"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-27 12:44:22"
+    },
+    {
+      "user": "dania",
+      "action": "Source Registered: SRC_ESG_001 \u2014 controversy_record.csv",
+      "timestamp": "2026-07-27 12:46:32"
+    },
+    {
+      "user": "dania",
+      "action": "Mappings Approved for SRC_ESG_001",
+      "timestamp": "2026-07-27 12:47:36"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-27 16:11:25"
+    },
+    {
+      "user": "dania",
+      "action": "Source Registered: SRC_ESG_002 \u2014 company_financials.csv",
+      "timestamp": "2026-07-27 16:11:56"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-28 11:34:24"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-28 12:20:28"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-28 13:58:45"
+    },
+    {
+      "user": "dania",
+      "action": "Source Registered: SRC_ESG_003 \u2014 deal_access_control.csv",
+      "timestamp": "2026-07-28 14:04:39"
+    },
+    {
+      "user": "dania",
+      "action": "Mappings Approved for SRC_ESG_003",
+      "timestamp": "2026-07-28 14:05:48"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-28 16:05:35"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-28 17:58:09"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-28 18:32:14"
+    },
+    {
+      "user": "dania",
+      "action": "Data Loaded: data_value_history.csv -> esg_data (8 rows)",
+      "timestamp": "2026-07-28 18:34:54"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected: data_value_history.csv (File Upload)",
+      "timestamp": "2026-07-28 18:34:54"
+    },
+    {
+      "user": "dania",
+      "action": "Source Registered: SRC_ESG_004 \u2014 supplier_esg_assessment.csv",
+      "timestamp": "2026-07-28 18:40:01"
+    },
+    {
+      "user": "dania",
+      "action": "Mappings Approved for SRC_ESG_004",
+      "timestamp": "2026-07-28 18:41:09"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-28 19:17:30"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-28 19:35:42"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-28 19:58:46"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-28 20:00:06"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-28 20:15:54"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-28 21:00:14"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 10:56:43"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 12:40:23"
+    },
+    {
+      "user": "dania",
+      "action": "Source Registered: SRC_ESG_005 \u2014 supplier_esg_assessment.csv",
+      "timestamp": "2026-07-29 14:06:51"
+    },
+    {
+      "user": "dania",
+      "action": "Mappings Approved for SRC_ESG_005",
+      "timestamp": "2026-07-29 14:10:10"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 15:12:14"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 15:27:16"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-07-29 15:27:35"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 15:27:54"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 15:43:17"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 16:25:25"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 17:05:06"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 18:30:41"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_006 \u2014 certification.csv",
+      "timestamp": "2026-07-29 18:32:42"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_007 \u2014 company_master.csv",
+      "timestamp": "2026-07-29 18:33:52"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 18:34:48"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_008 \u2014 compliance_assessment.csv",
+      "timestamp": "2026-07-29 18:34:57"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_009 \u2014 data_value_history.csv",
+      "timestamp": "2026-07-29 18:35:15"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_010 \u2014 deal_master.csv",
+      "timestamp": "2026-07-29 18:35:45"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_011 \u2014 esg_document_register.csv",
+      "timestamp": "2026-07-29 18:36:11"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_012 \u2014 esg_metric_data.csv",
+      "timestamp": "2026-07-29 18:37:02"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_013 \u2014 esg_metric_master.csv",
+      "timestamp": "2026-07-29 18:37:34"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_014 \u2014 esg_risk_opportunity.csv",
+      "timestamp": "2026-07-29 18:38:13"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_015 \u2014 esg_target.csv",
+      "timestamp": "2026-07-29 18:39:04"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_016 \u2014 facility_master.csv",
+      "timestamp": "2026-07-29 18:39:55"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_017 \u2014 legal_penalty.csv",
+      "timestamp": "2026-07-29 18:40:22"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_018 \u2014 metric_standard_crosswalk.csv",
+      "timestamp": "2026-07-29 18:41:09"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_019 \u2014 regulation_master.csv",
+      "timestamp": "2026-07-29 18:41:45"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_020 \u2014 regulatory_requirement.csv",
+      "timestamp": "2026-07-29 18:42:50"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_021 \u2014 supplier_master.csv",
+      "timestamp": "2026-07-29 18:43:42"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 18:55:44"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 19:15:44"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-07-29 19:16:04"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 19:16:24"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 19:16:57"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 19:26:43"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 20:19:01"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-29 20:24:41"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-30 11:52:49"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-30 12:48:45"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-30 13:34:54"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-30 15:45:08"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-31 10:05:41"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-31 10:49:37"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-31 10:55:40"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-31 12:04:40"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-31 12:19:21"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-07-31 15:23:45"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-01 20:48:39"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_022 \u2014 fx_rate_reference.csv",
+      "timestamp": "2026-08-01 20:49:12"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_023 \u2014 peer_benchmark_data.csv",
+      "timestamp": "2026-08-01 20:49:13"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-01 22:01:17"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-01 22:02:58"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-01 22:07:11"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-01 22:29:35"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-02 22:07:39"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-02 22:17:51"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-02 22:58:21"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-02 23:23:59"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-02 23:28:46"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-08-02 23:29:08"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-02 23:30:45"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-02 23:39:53"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-02 23:49:00"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-03 11:28:54"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-03 12:32:44"
+    },
+    {
+      "user": "dania",
+      "action": "Data Loaded: regulatory_requirement.csv -> esg_data (10 rows)",
+      "timestamp": "2026-08-03 12:37:13"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected: regulatory_requirement.csv (File Upload)",
+      "timestamp": "2026-08-03 12:37:13"
+    },
+    {
+      "user": "dania",
+      "action": "Collection: loaded company_master.csv (18 rows)",
+      "timestamp": "2026-08-03 12:43:19"
+    },
+    {
+      "user": "dania",
+      "action": "Source Registered: SRC_ESG_024 \u2014 esg_target.csv",
+      "timestamp": "2026-08-03 12:44:04"
+    },
+    {
+      "user": "dania",
+      "action": "Mappings Approved for SRC_ESG_024",
+      "timestamp": "2026-08-03 12:44:36"
+    },
+    {
+      "user": "dania",
+      "action": "Data Loaded: user_master.csv -> esg_data (8 rows)",
+      "timestamp": "2026-08-03 12:45:22"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected: user_master.csv (File Upload)",
+      "timestamp": "2026-08-03 12:45:22"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-03 15:42:48"
+    },
+    {
+      "user": "dania",
+      "action": "Source Registered: SRC_ESG_026 \u2014 esg_document_register.csv",
+      "timestamp": "2026-08-03 16:25:57"
+    },
+    {
+      "user": "dania",
+      "action": "Mappings Approved for SRC_ESG_026",
+      "timestamp": "2026-08-03 16:27:25"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-04 11:55:42"
+    },
+    {
+      "user": "dania",
+      "action": "Data Loaded: review_audit_log.csv -> esg_data (56 rows)",
+      "timestamp": "2026-08-04 11:56:20"
+    },
+    {
+      "user": "dania",
+      "action": "Data Source Connected: review_audit_log.csv (File Upload)",
+      "timestamp": "2026-08-04 11:56:20"
+    },
+    {
+      "user": "dania",
+      "action": "Collection: loaded supplier_esg_assessment.csv (72 rows)",
+      "timestamp": "2026-08-04 11:57:17"
+    },
+    {
+      "user": "dania",
+      "action": "Source Registered: SRC_ESG_027 \u2014 metric_standard_crosswalk.csv",
+      "timestamp": "2026-08-04 11:58:20"
+    },
+    {
+      "user": "dania",
+      "action": "Mappings Approved for SRC_ESG_027",
+      "timestamp": "2026-08-04 12:06:45"
+    },
+    {
+      "user": "dania",
+      "action": "Auto-Registered: SRC_ESG_028 \u2014 review_audit_log.csv",
+      "timestamp": "2026-08-04 12:07:55"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-05 11:05:54"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-05 12:39:25"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-08-05 12:47:04"
+    },
+    {
+      "user": "joe",
+      "action": "User Registered",
+      "timestamp": "2026-08-05 12:49:22"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-05 13:10:16"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-05 13:10:36"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-05 13:34:47"
+    },
+    {
+      "user": "dania",
+      "action": "Logout",
+      "timestamp": "2026-08-05 13:36:29"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-05 13:36:46"
+    },
+    {
+      "user": "joe",
+      "action": "Data Loaded: certification.csv -> esg_data (32 rows)",
+      "timestamp": "2026-08-05 14:34:51"
+    },
+    {
+      "user": "joe",
+      "action": "Data Source Connected: certification.csv (File Upload)",
+      "timestamp": "2026-08-05 14:34:51"
+    },
+    {
+      "user": "joe",
+      "action": "Collection: loaded company_financials.csv (40 rows)",
+      "timestamp": "2026-08-05 14:35:09"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-05 15:35:11"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-05 16:28:17"
+    }
+  ]
+}

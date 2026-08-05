@@ -1,0 +1,6 @@
+penalty_id,company_id,regulation_id,penalty_type,penalty_amount,penalty_currency,penalty_date,description,status,resolution_date
+PEN001,COMP001,REG005,Fine,5000000,INR,2023-11-15,Late reporting of data breach under DPDP Act,Resolved,2024-02-28
+PEN002,COMP001,REG006,Fine,150000,EUR,2023-09-20,GDPR 72h breach notification missed,Pending,
+PEN003,COMP004,REG006,Fine,250000,EUR,2022-07-10,GDPR breach notification delay - customer data incident,Resolved,2023-01-15
+PEN004,COMP004,REG006,Fine,320000,EUR,2023-08-05,Repeat GDPR breach notification failure,Pending,
+PEN005,COMP004,REG007,Inquiry,0,USD,2024-01-20,SEC inquiry on climate risk disclosure completeness,Open,

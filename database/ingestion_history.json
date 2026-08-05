@@ -1,0 +1,364 @@
+{
+  "logs": [
+    {
+      "source_name": "company_financials.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 40,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-23 15:28:53",
+      "error": null
+    },
+    {
+      "source_name": "company_financials",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 40,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-23 17:36:17",
+      "error": null
+    },
+    {
+      "source_name": "company_financials",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 40,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-23 17:36:17",
+      "error": null
+    },
+    {
+      "source_name": "controversy_record.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 24,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-23 17:38:05",
+      "error": null
+    },
+    {
+      "source_name": "regulation_master.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 7,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-23 17:39:15",
+      "error": null
+    },
+    {
+      "source_name": "esg_target.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 32,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-23 18:43:31",
+      "error": null
+    },
+    {
+      "source_name": "metric_standard_crosswalk.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 22,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-23 18:44:57",
+      "error": null
+    },
+    {
+      "source_name": "supplier_master.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 12,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-23 18:59:23",
+      "error": null
+    },
+    {
+      "source_name": "esg_risk_opportunity",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 28,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-24 10:46:15",
+      "error": null
+    },
+    {
+      "source_name": "esg_risk_opportunity",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 28,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-24 10:46:15",
+      "error": null
+    },
+    {
+      "source_name": "Azure",
+      "source_type": "Azure",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 15:13:49",
+      "error": "azure-storage-blob is not installed. Run: pip install azure-storage-blob"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 15:42:07",
+      "error": "deltalake is not installed. Run: pip install deltalake"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:05:55",
+      "error": "Delta Lake connection failed: Local path \"dania_esg_poc.default.certification\" does not exist or you don't have access!\nError: Os { code: 2, kind: NotFound, message: \"The system cannot find the file specified.\" }"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:09:23",
+      "error": "Delta Lake connection failed: Local path \"dania_esg_poc.default.certification\" does not exist or you don't have access!\nError: Os { code: 2, kind: NotFound, message: \"The system cannot find the file specified.\" }"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:14:54",
+      "error": "Delta Lake connection failed: Local path \"dania_esg_poc.default.certification\" does not exist or you don't have access!\nError: Os { code: 2, kind: NotFound, message: \"The system cannot find the file specified.\" }"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:20:41",
+      "error": "Delta Lake connection failed: Local path \"dania_esg_poc.default.certification\" does not exist or you don't have access!\nError: Os { code: 2, kind: NotFound, message: \"The system cannot find the file specified.\" }"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:20:44",
+      "error": "Delta Lake connection failed: Local path \"dania_esg_poc.default.certification\" does not exist or you don't have access!\nError: Os { code: 2, kind: NotFound, message: \"The system cannot find the file specified.\" }"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:23:27",
+      "error": "Delta Lake connection failed: Local path \"dania_esg_poc.default.certification\" does not exist or you don't have access!\nError: Os { code: 2, kind: NotFound, message: \"The system cannot find the file specified.\" }"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:25:25",
+      "error": "Delta Lake connection failed: Local path \"./dania_esg_poc.default.certification\" does not exist or you don't have access!\nError: Os { code: 2, kind: NotFound, message: \"The system cannot find the file specified.\" }"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:25:46",
+      "error": "Delta Lake connection failed: Kernel error -> Generic MicrosoftAzure error\n          \u001b[31m\u21b3\u001b[0m Error performing token request\n           \u001b[31m\u21b3\u001b[0m Error performing GET http://169.254.169.254/metadata/identity/oauth2/token?api-version=2019-08-01&resource=https%3A%2F%2Fstorage.azure.com in 2.2204404s, after 10 retries, max_retries\n            \u001b[31m\u21b3\u001b[0m 10, retry_timeout\n             \u001b[31m\u21b3\u001b[0m 180s  - HTTP error\n              \u001b[31m\u21b3\u001b[0m error sending request\n               \u001b[31m\u21b3\u001b[0m client error (Connect)\n                \u001b[31m\u21b3\u001b[0m tcp connect error\n                 \u001b[31m\u21b3\u001b[0m A socket operation was attempted to an unreachable network. (os error 10051)\n"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:26:21",
+      "error": "Delta Lake connection failed: Generic DeltaTable error: The `allow_unsafe_rename` parameter must be specified"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:36:07",
+      "error": "Delta Lake connection failed: Local path \"dania_esg_poc.default.certification\" does not exist or you don't have access!\nError: Os { code: 2, kind: NotFound, message: \"The system cannot find the file specified.\" }"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:37:11",
+      "error": "Delta Lake connection failed: Local path \"dania_esg_poc.default.certification\" does not exist or you don't have access!\nError: Os { code: 2, kind: NotFound, message: \"The system cannot find the file specified.\" }"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:44:36",
+      "error": "Delta Lake connection failed: Kernel error -> Generic MicrosoftAzure error\n          \u001b[31m\u21b3\u001b[0m Error performing token request\n           \u001b[31m\u21b3\u001b[0m Error performing GET http://169.254.169.254/metadata/identity/oauth2/token?api-version=2019-08-01&resource=https%3A%2F%2Fstorage.azure.com in 2.3104708s, after 10 retries, max_retries\n            \u001b[31m\u21b3\u001b[0m 10, retry_timeout\n             \u001b[31m\u21b3\u001b[0m 180s  - HTTP error\n              \u001b[31m\u21b3\u001b[0m error sending request\n               \u001b[31m\u21b3\u001b[0m client error (Connect)\n                \u001b[31m\u21b3\u001b[0m tcp connect error\n                 \u001b[31m\u21b3\u001b[0m A socket operation was attempted to an unreachable network. (os error 10051)\n"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:50:59",
+      "error": "Delta Lake connection failed: Local path \"dania_esg_poc.default.certification\" does not exist or you don't have access!\nError: Os { code: 2, kind: NotFound, message: \"The system cannot find the file specified.\" }"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:52:22",
+      "error": "Delta Lake connection failed: Kernel error -> Generic MicrosoftAzure error\n          \u001b[31m\u21b3\u001b[0m Error performing token request\n           \u001b[31m\u21b3\u001b[0m Error performing GET http://169.254.169.254/metadata/identity/oauth2/token?api-version=2019-08-01&resource=https%3A%2F%2Fstorage.azure.com in 1.7436382s, after 10 retries, max_retries\n            \u001b[31m\u21b3\u001b[0m 10, retry_timeout\n             \u001b[31m\u21b3\u001b[0m 180s  - HTTP error\n              \u001b[31m\u21b3\u001b[0m error sending request\n               \u001b[31m\u21b3\u001b[0m client error (Connect)\n                \u001b[31m\u21b3\u001b[0m tcp connect error\n                 \u001b[31m\u21b3\u001b[0m A socket operation was attempted to an unreachable network. (os error 10051)\n"
+    },
+    {
+      "source_name": "Delta Lake",
+      "source_type": "Delta Lake",
+      "category": "esg_data",
+      "row_count": 0,
+      "status": "Failed",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 16:58:47",
+      "error": "Delta Lake connection failed: Kernel error -> Generic MicrosoftAzure error\n          \u001b[31m\u21b3\u001b[0m Error performing token request\n           \u001b[31m\u21b3\u001b[0m Error performing GET http://169.254.169.254/metadata/identity/oauth2/token?api-version=2019-08-01&resource=https%3A%2F%2Fstorage.azure.com in 1.9412859s, after 10 retries, max_retries\n            \u001b[31m\u21b3\u001b[0m 10, retry_timeout\n             \u001b[31m\u21b3\u001b[0m 180s  - HTTP error\n              \u001b[31m\u21b3\u001b[0m error sending request\n               \u001b[31m\u21b3\u001b[0m client error (Connect)\n                \u001b[31m\u21b3\u001b[0m tcp connect error\n                 \u001b[31m\u21b3\u001b[0m A socket operation was attempted to an unreachable network. (os error 10051)\n"
+    },
+    {
+      "source_name": "data_value_history.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 8,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-07-28 18:34:54",
+      "error": null
+    },
+    {
+      "source_name": "regulatory_requirement.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 10,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-08-03 12:37:13",
+      "error": null
+    },
+    {
+      "source_name": "company_master",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 18,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-08-03 12:43:19",
+      "error": null
+    },
+    {
+      "source_name": "company_master",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 18,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-08-03 12:43:19",
+      "error": null
+    },
+    {
+      "source_name": "user_master.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 8,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-08-03 12:45:22",
+      "error": null
+    },
+    {
+      "source_name": "review_audit_log.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 56,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-08-04 11:56:20",
+      "error": null
+    },
+    {
+      "source_name": "supplier_esg_assessment",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 72,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-08-04 11:57:17",
+      "error": null
+    },
+    {
+      "source_name": "supplier_esg_assessment",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 72,
+      "status": "Success",
+      "loaded_by": "dania",
+      "loaded_at": "2026-08-04 11:57:17",
+      "error": null
+    },
+    {
+      "source_name": "certification.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 32,
+      "status": "Success",
+      "loaded_by": "joe",
+      "loaded_at": "2026-08-05 14:34:51",
+      "error": null
+    }
+  ]
+}
