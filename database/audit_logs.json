@@ -1194,6 +1194,1306 @@
       "user": "joe",
       "action": "User Logged In",
       "timestamp": "2026-08-05 16:28:17"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 12:00:01"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 12:28:12"
+    },
+    {
+      "user": "joe",
+      "action": "Data Loaded: compliance_assessment.csv -> esg_data (200 rows)",
+      "timestamp": "2026-08-06 13:04:44"
+    },
+    {
+      "user": "joe",
+      "action": "Data Source Connected: compliance_assessment.csv (File Upload)",
+      "timestamp": "2026-08-06 13:04:44"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 13:10:50"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 15:20:30"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 15:21:14"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 15:26:32"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 15:33:36"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 15:38:51"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 15:53:49"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 15:59:57"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 16:06:53"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 16:23:03"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-06 16:23:08"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 16:23:26"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 16:47:10"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 16:51:58"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 19:32:35"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 20:15:03"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 20:38:51"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 20:44:14"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 20:45:15"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 20:46:06"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 20:49:27"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 20:53:59"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 21:09:39"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 21:18:28"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 21:29:24"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 21:31:23"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-06 22:01:06"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 11:22:26"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 11:51:18"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-07 11:52:02"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 11:56:56"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 12:23:26"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 12:47:40"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 13:12:24"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 13:24:04"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 13:34:10"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 13:52:44"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-07 13:54:24"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 13:54:42"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 14:03:04"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 14:09:06"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 14:13:43"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 14:17:03"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 14:29:35"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 14:32:51"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 15:29:25"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 17:08:07"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-07 17:08:42"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 17:08:59"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 17:15:43"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 17:19:26"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-07 17:19:49"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 17:20:47"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 17:24:10"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 17:30:52"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 17:31:59"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 19:08:28"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 20:27:24"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-07 20:27:29"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 20:27:46"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-07 20:37:58"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 11:58:31"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 12:56:18"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 12:56:21"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 12:56:36"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 13:05:30"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 13:45:19"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 13:46:01"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 13:46:22"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 13:55:14"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 14:09:05"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 14:09:19"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 14:09:45"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 14:33:49"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 14:42:31"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 15:25:07"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 15:29:04"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 15:33:12"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 15:43:07"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 15:43:16"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 15:43:25"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 15:48:48"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 15:48:53"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 15:49:02"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 15:56:26"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 16:17:13"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 16:23:34"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 16:23:41"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 16:23:51"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 16:32:40"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 16:32:58"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 16:33:09"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 16:38:50"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 16:39:11"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 16:45:53"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 16:53:25"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 16:55:55"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 16:56:06"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 17:00:03"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 17:00:12"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 17:08:57"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 17:09:09"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 17:56:39"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 18:06:26"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 18:07:54"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 18:08:15"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 18:12:47"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 18:32:13"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 18:46:18"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 18:55:09"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 19:15:25"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 19:15:34"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 19:15:52"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 19:25:54"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 19:31:25"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 19:31:30"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 19:31:56"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 19:43:26"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 19:43:39"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 19:43:53"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 20:09:29"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 20:09:39"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 20:10:00"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 20:14:39"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 20:22:56"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 20:38:05"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 20:39:43"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 20:40:11"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 20:48:48"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 20:52:27"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 20:52:39"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 20:52:54"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 20:54:20"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 21:03:41"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 21:04:01"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 21:04:27"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 21:08:02"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 21:09:51"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 21:16:27"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 21:24:04"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 21:24:20"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 21:24:35"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 21:36:11"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 21:43:39"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-08 21:43:56"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 21:44:39"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 21:47:54"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-08 23:40:42"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 00:24:46"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-09 00:25:14"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 00:25:26"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 00:27:31"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 00:31:42"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 12:09:53"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 12:27:21"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 13:14:06"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 13:53:33"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 13:54:30"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 14:13:12"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 14:16:01"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 16:02:13"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 16:12:34"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-09 16:12:41"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 16:12:57"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 16:41:45"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 17:00:48"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 22:14:08"
+    },
+    {
+      "user": "joe",
+      "action": "Source Registered: SRC_ESG_029 \u2014 peer_benchmark_data.csv",
+      "timestamp": "2026-08-09 22:15:33"
+    },
+    {
+      "user": "joe",
+      "action": "Mappings Approved for SRC_ESG_029",
+      "timestamp": "2026-08-09 22:16:43"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 22:40:05"
+    },
+    {
+      "user": "joe",
+      "action": "Source Registered: SRC_ESG_030 \u2014 peer_benchmark_data.csv ",
+      "timestamp": "2026-08-09 22:40:58"
+    },
+    {
+      "user": "joe",
+      "action": "Mappings Approved for SRC_ESG_030",
+      "timestamp": "2026-08-09 22:41:31"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 22:42:04"
+    },
+    {
+      "user": "joe",
+      "action": "Source Registered: SRC_ESG_031 \u2014 facility_master.csv",
+      "timestamp": "2026-08-09 22:42:37"
+    },
+    {
+      "user": "joe",
+      "action": "Mappings Approved for SRC_ESG_031",
+      "timestamp": "2026-08-09 22:43:15"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 22:58:39"
+    },
+    {
+      "user": "joe",
+      "action": "Data Loaded: peer_benchmark_data.csv -> esg_data (1120 rows)",
+      "timestamp": "2026-08-09 22:59:59"
+    },
+    {
+      "user": "joe",
+      "action": "Data Source Connected: peer_benchmark_data.csv (File Upload)",
+      "timestamp": "2026-08-09 22:59:59"
+    },
+    {
+      "user": "joe",
+      "action": "Data Source Disconnected: peer_benchmark_data.csv (File Upload)",
+      "timestamp": "2026-08-09 23:01:05"
+    },
+    {
+      "user": "joe",
+      "action": "Source Registered: SRC_ESG_032 \u2014 supplier_esg_assessment.csv",
+      "timestamp": "2026-08-09 23:02:18"
+    },
+    {
+      "user": "joe",
+      "action": "Mappings Approved for SRC_ESG_032",
+      "timestamp": "2026-08-09 23:03:08"
+    },
+    {
+      "user": "joe",
+      "action": "Data Loaded: esg_risk_opportunity.csv -> esg_data (28 rows)",
+      "timestamp": "2026-08-09 23:06:56"
+    },
+    {
+      "user": "joe",
+      "action": "Data Source Connected: esg_risk_opportunity.csv (File Upload)",
+      "timestamp": "2026-08-09 23:06:56"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-09 23:24:25"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-10 10:58:12"
+    },
+    {
+      "user": "joe",
+      "action": "Source Registered: SRC_ESG_033 \u2014 legal_penalty.csv",
+      "timestamp": "2026-08-10 11:24:29"
+    },
+    {
+      "user": "joe",
+      "action": "Mappings Approved for SRC_ESG_033",
+      "timestamp": "2026-08-10 11:25:11"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-10 12:51:45"
+    },
+    {
+      "user": "joe",
+      "action": "Source Registered: SRC_ESG_034 \u2014 facility_master.csv",
+      "timestamp": "2026-08-10 12:52:50"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-10 13:47:21"
+    },
+    {
+      "user": "joe",
+      "action": "Source Registered: SRC_ESG_035 \u2014 company_financials.csv",
+      "timestamp": "2026-08-10 13:48:42"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 11:48:16"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 12:28:14"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 16:36:46"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 16:37:34"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 16:37:52"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 16:57:14"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 16:57:27"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 18:04:32"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 18:06:45"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 18:07:01"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 18:11:42"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 18:11:54"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 18:24:06"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 18:24:19"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 18:24:52"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 18:25:13"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 18:53:34"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 18:54:00"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 18:54:14"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 18:55:50"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 18:58:27"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:00:49"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:01:43"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:03:47"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:04:42"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:11:41"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:14:27"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 19:19:06"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:19:23"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:21:15"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 19:21:30"
+    },
+    {
+      "user": "dania",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:21:55"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:26:52"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:30:27"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:40:35"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:42:07"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 19:42:15"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:42:35"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 19:51:12"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 20:50:31"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 20:58:38"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:04:41"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:06:21"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 21:06:38"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:06:53"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:09:29"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 21:11:11"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:11:25"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 21:18:27"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:18:42"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:20:50"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:29:15"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 21:29:32"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:29:45"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:31:03"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:34:06"
+    },
+    {
+      "user": "joe",
+      "action": "Logout",
+      "timestamp": "2026-08-11 21:34:34"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:34:48"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:38:11"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:47:59"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:50:59"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:55:24"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-11 21:58:52"
+    },
+    {
+      "user": "joe",
+      "action": "User Logged In",
+      "timestamp": "2026-08-12 12:07:51"
+    },
+    {
+      "user": "ABC",
+      "action": "User Registered",
+      "timestamp": "2026-08-12 12:09:30"
     }
   ]
 }

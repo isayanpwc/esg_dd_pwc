@@ -9,7 +9,9 @@ Displays synthesised risk/opportunity findings with:
   Tab 5  Evidence Trail       -- links to source data
 """
 
+import html as _html
 import io
+import json
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
@@ -107,6 +109,221 @@ def _format_original_currency(value, currency):
     if abs(value) >= 1_000:
         return f"{value / 1_000:,.1f}K {currency}"
     return f"{value:,.0f} {currency}"
+
+
+def _get_severity_label(risk):
+    score = risk.get("calculated_risk_score", 0)
+    if score >= 20:
+        return "Critical"
+    if score >= 15:
+        return "High"
+    if score >= 10:
+        return "Major"
+    if score >= 5:
+        return "Medium"
+    return "Low"
+
+
+_FRAMEWORK_KEYWORDS = {
+    "CSRD": "CSRD", "ESRS": "ESRS", "BRSR": "BRSR", "GRI": "GRI",
+    "SASB": "SASB", "GDPR": "GDPR", "SEBI": "SEBI", "ISO": "ISO",
+    "TCFD": "TCFD", "CDP": "CDP", "UNGC": "UNGC", "SDG": "SDG",
+}
+
+
+def _detect_frameworks(risk):
+    text = " ".join([
+        risk.get("title", ""), risk.get("description", ""),
+        risk.get("category", ""),
+    ]).upper()
+    found = [label for kw, label in _FRAMEWORK_KEYWORDS.items() if kw in text]
+    return found if found else [risk.get("category", "N/A")]
+
+
+def _build_cell_tooltip(cell_findings, impact_label, likelihood_label):
+    pillar_short = {"Environmental": "E", "Social": "S", "Governance": "G"}
+    lines = [
+        f"Impact: {impact_label}  |  Likelihood: {likelihood_label}",
+        f"Count: {len(cell_findings)}",
+    ]
+    for r in cell_findings[:3]:
+        rid = r.get("finding_id", "")
+        pillar = r.get("esg_pillar", "")
+        tag = pillar_short.get(pillar, "?")
+        lines.append(f"  {rid} — {tag} — {r.get('title', '')[:40]}")
+    if len(cell_findings) > 3:
+        lines.append(f"  … +{len(cell_findings) - 3} more")
+    lines.append("Click to view details")
+    return "\n".join(lines)
+
+
+_CURRENCY_SYMBOLS = {"INR": "₹", "USD": "$", "EUR": "€", "GBP": "£", "CHF": "CHF "}
+
+
+def _format_exposure(value, currency):
+    if value is None or value == 0:
+        return "Not Available"
+    sym = _CURRENCY_SYMBOLS.get(currency, currency + " ")
+    return f"{sym}{value:,.0f}"
+
+
+def _remediation_steps(recommendation):
+    if not recommendation:
+        return ["Review risk and define remediation steps"]
+    parts = [s.strip() for s in recommendation.replace(";", "\n").split("\n") if s.strip()]
+    if len(parts) == 1 and len(parts[0]) > 60:
+        parts = [s.strip() for s in parts[0].split(",") if s.strip()]
+    if len(parts) <= 1:
+        parts = [recommendation.strip()]
+    return parts[:5]
+
+
+def _render_risk_drilldown(cell_risks, impact_label, likelihood_label,
+                           company_name, deal_name):
+    pillar_colors = {
+        "Environmental": ("#ECFDF5", "#059669"),
+        "Social": ("#EFF6FF", "#2563EB"),
+        "Governance": ("#FFFBEB", "#D97706"),
+    }
+    pillar_short = {"Environmental": "E", "Social": "S", "Governance": "G"}
+    severity_colors = {
+        "Critical": ("#FEF2F2", "#DC2626"),
+        "High": ("#FFF7ED", "#EA580C"),
+        "Major": ("#FFFBEB", "#D97706"),
+        "Medium": ("#FFFBEB", "#CA8A04"),
+        "Low": ("#F0FDF4", "#16A34A"),
+    }
+    status_colors = {
+        "Open": ("#F3F4F6", "#374151"),
+        "In Progress": ("#EFF6FF", "#2563EB"),
+        "Mitigated": ("#ECFDF5", "#059669"),
+    }
+
+    st.session_state.setdefault("rm_drilldown_idx", 0)
+    idx = st.session_state.get("rm_drilldown_idx", 0)
+    if idx >= len(cell_risks):
+        idx = 0
+        st.session_state["rm_drilldown_idx"] = 0
+
+    if len(cell_risks) > 1:
+        nav_cols = st.columns([1, 6, 1])
+        with nav_cols[0]:
+            if st.button("◀", key="rm_dd_prev", use_container_width=True):
+                st.session_state["rm_drilldown_idx"] = (idx - 1) % len(cell_risks)
+                st.rerun()
+        with nav_cols[1]:
+            st.markdown(
+                f'<div style="text-align:center; font-size:0.82rem; font-weight:600; '
+                f'color:#6B7280; padding:8px 0;">'
+                f'Risk {idx + 1} of {len(cell_risks)}</div>',
+                unsafe_allow_html=True,
+            )
+        with nav_cols[2]:
+            if st.button("▶", key="rm_dd_next", use_container_width=True):
+                st.session_state["rm_drilldown_idx"] = (idx + 1) % len(cell_risks)
+                st.rerun()
+
+    risk = cell_risks[idx]
+    pillar = risk.get("esg_pillar", "N/A")
+    p_bg, p_fg = pillar_colors.get(pillar, ("#F3F4F6", "#6B7280"))
+    p_tag = pillar_short.get(pillar, "?")
+    severity = _get_severity_label(risk)
+    s_bg, s_fg = severity_colors.get(severity, ("#F3F4F6", "#6B7280"))
+    status = risk.get("status", "Open")
+    st_bg, st_fg = status_colors.get(status, ("#F3F4F6", "#374151"))
+    fi = risk.get("financial_impact", 0)
+    fi_cur = risk.get("financial_impact_currency", "USD")
+    exposure_text = _format_exposure(fi, fi_cur)
+    likelihood = risk.get("likelihood_score", 0)
+    impact = risk.get("impact_score", 0)
+    score = risk.get("calculated_risk_score", 0)
+    frameworks = ", ".join(_detect_frameworks(risk))
+    description = risk.get("description", "Not Available")
+    category = risk.get("category", "N/A")
+    finding_id = risk.get("finding_id", "N/A")
+    score_color = s_fg
+
+    badge_html = (
+        f'<span style="display:inline-block; background:{p_bg}; color:{p_fg}; '
+        f'font-size:0.72rem; font-weight:700; padding:4px 12px; border-radius:20px; '
+        f'margin-right:6px;">✔ {pillar.upper()} ({p_tag})</span>'
+        f'<span style="display:inline-block; background:{s_bg}; color:{s_fg}; '
+        f'font-size:0.72rem; font-weight:700; padding:4px 12px; border-radius:20px; '
+        f'margin-right:6px;">⚠ {severity.upper()}</span>'
+        f'<span style="display:inline-block; background:{st_bg}; color:{st_fg}; '
+        f'font-size:0.72rem; font-weight:700; padding:4px 12px; border-radius:20px;">'
+        f'{status.upper()}</span>'
+    )
+
+    exposure_block = (
+        f'<div style="background:#EFF6FF; border-radius:10px; padding:16px 20px; '
+        f'margin:16px 0;">'
+        f'<div style="font-size:0.65rem; font-weight:700; color:#2563EB; '
+        f'text-transform:uppercase; letter-spacing:0.08em; margin-bottom:2px;">'
+        f'Financial Exposure</div>'
+        f'<div style="font-size:1.6rem; font-weight:800; color:#111827;">'
+        f'{exposure_text}</div></div>'
+    )
+
+    grid_html = (
+        f'<div style="display:grid; grid-template-columns:1fr 1fr; gap:1px; '
+        f'border:1px solid #E5E7EB; border-radius:10px; overflow:hidden; margin:14px 0;">'
+        f'<div style="padding:14px 16px; background:#FAFAFA;">'
+        f'<div style="font-size:0.65rem; font-weight:700; color:#6B7280; '
+        f'text-transform:uppercase; letter-spacing:0.06em;">Likelihood</div>'
+        f'<div style="font-size:1.15rem; font-weight:800; color:#111827;">{likelihood}</div></div>'
+        f'<div style="padding:14px 16px; background:#FAFAFA;">'
+        f'<div style="font-size:0.65rem; font-weight:700; color:#6B7280; '
+        f'text-transform:uppercase; letter-spacing:0.06em;">Impact</div>'
+        f'<div style="font-size:1.15rem; font-weight:800; color:#111827;">{impact}</div></div>'
+        f'<div style="padding:14px 16px; background:#FAFAFA;">'
+        f'<div style="font-size:0.65rem; font-weight:700; color:#6B7280; '
+        f'text-transform:uppercase; letter-spacing:0.06em;">Score (LxI)</div>'
+        f'<div style="font-size:1.15rem; font-weight:800; color:{score_color};">{score}</div></div>'
+        f'<div style="padding:14px 16px; background:#FAFAFA;">'
+        f'<div style="font-size:0.65rem; font-weight:700; color:#6B7280; '
+        f'text-transform:uppercase; letter-spacing:0.06em;">Framework</div>'
+        f'<div style="font-size:1.0rem; font-weight:700; color:#111827;">{frameworks}</div></div>'
+        f'<div style="padding:14px 16px; background:#FAFAFA; grid-column:1/-1;">'
+        f'<div style="font-size:0.65rem; font-weight:700; color:#6B7280; '
+        f'text-transform:uppercase; letter-spacing:0.06em;">Entity</div>'
+        f'<div style="font-size:1.0rem; font-weight:700; color:#111827;">'
+        f'{company_name or "Not Available"}</div></div>'
+        f'</div>'
+    )
+
+    st.markdown(
+        f'<div style="border:1px solid #E5E7EB; border-radius:16px; '
+        f'background:white; padding:24px; margin-top:16px; '
+        f'box-shadow:0 4px 24px rgba(0,0,0,0.08);">'
+        f'<div style="margin-bottom:14px;">{badge_html}</div>'
+        f'{exposure_block}'
+        f'<div style="margin-bottom:6px;">'
+        f'<div style="font-size:0.92rem; font-weight:700; color:#111827;">Description</div>'
+        f'<div style="font-size:0.84rem; color:#374151; line-height:1.6; margin-top:4px;">'
+        f'{description}</div></div>'
+        f'{grid_html}'
+        f'</div>',
+        unsafe_allow_html=True,
+    )
+
+    steps = _remediation_steps(risk.get("recommendation", ""))
+    st.markdown(
+        '<div style="margin-top:18px;">'
+        '<div style="font-size:0.92rem; font-weight:700; color:#111827; '
+        'margin-bottom:10px;">✔ Remediation Plan</div></div>',
+        unsafe_allow_html=True,
+    )
+    for si, step in enumerate(steps):
+        st.checkbox(step, key=f"rm_dd_step_{idx}_{si}", value=False)
+
+    st.markdown('<div style="margin-top:14px;"></div>', unsafe_allow_html=True)
+    st.button(
+        "Assign Owner",
+        key="rm_dd_assign",
+        type="primary",
+        use_container_width=True,
+    )
 
 
 # ════════════════════════════════════════════════════════════
@@ -251,65 +468,346 @@ def _render_executive_dashboard():
 
     st.markdown("---")
 
-    # --- Risk matrix heatmap ---
+    # --- Risk matrix (Plotly heatmap) ---
     _section("Risk Matrix", "Likelihood vs Impact (risk findings only)")
 
-    matrix = get_risk_matrix_data(findings)
-    z_vals = [[len(cell) for cell in row] for row in matrix]
-    hover_texts = []
-    for row in matrix:
-        hover_row = []
-        for cell in row:
-            if cell:
-                hover_row.append("<br>".join(str(c) for c in cell[:5]))
-            else:
-                hover_row.append("")
-        hover_texts.append(hover_row)
-
-    annotation_texts = []
-    for row in z_vals:
-        annotation_texts.append([str(v) if v > 0 else "" for v in row])
+    rich_matrix = [[[] for _ in range(5)] for _ in range(5)]
+    for f in findings:
+        if f.get("finding_type") != "Risk":
+            continue
+        li = max(0, min(4, int(f.get("likelihood_score", 1)) - 1))
+        im = max(0, min(4, int(f.get("impact_score", 1)) - 1))
+        rich_matrix[li][im].append(f)
 
     impact_labels = ["Negligible", "Minor", "Moderate", "Major", "Severe"]
     likelihood_labels = ["Rare", "Unlikely", "Possible", "Likely", "Almost certain"]
 
+    st.session_state.setdefault("rm_selected", None)
+
+    pillar_short = {"Environmental": "E", "Social": "S", "Governance": "G"}
+    severity_badge = {
+        "Critical": ("#DC2626", "#FEF2F2"),
+        "High": ("#EA580C", "#FFF7ED"),
+        "Major": ("#D97706", "#FFFBEB"),
+        "Medium": ("#CA8A04", "#FFFBEB"),
+        "Low": ("#16A34A", "#F0FDF4"),
+    }
+    nan = float("nan")
+
+    z_matrix = []
+    tooltip_data = {}
+    annotations = []
+
+    for li in range(5):
+        row_z = []
+        for im in range(5):
+            cell = rich_matrix[li][im]
+            cnt = len(cell)
+            if cnt == 0:
+                row_z.append(nan)
+            else:
+                row_z.append(cnt)
+                risks_for_tt = []
+                for r in cell:
+                    rid = r.get("finding_id", "N/A")
+                    title = r.get("title", "N/A")
+                    pillar = r.get("esg_pillar", "")
+                    tag = pillar_short.get(pillar, "?")
+                    sev = _get_severity_label(r)
+                    exp = _format_exposure(
+                        r.get("financial_impact"),
+                        r.get("financial_impact_currency", ""),
+                    )
+                    fw = ", ".join(_detect_frameworks(r)[:3])
+                    rec = r.get("recommendation", "") or "N/A"
+                    _e = _html.escape
+                    risks_for_tt.append({
+                        "id": _e(rid), "title": _e(title),
+                        "pillar": _e(pillar), "tag": _e(tag),
+                        "severity": _e(sev), "exposure": _e(exp),
+                        "framework": _e(fw), "remediation": _e(rec),
+                    })
+                tooltip_data[
+                    f"{impact_labels[im]}|{likelihood_labels[li]}"
+                ] = {"count": cnt, "risks": risks_for_tt}
+                annotations.append(dict(
+                    x=impact_labels[im],
+                    y=likelihood_labels[li],
+                    text=f"<b>{cnt}</b>",
+                    showarrow=False,
+                    font=dict(size=22, color="#1a1a1a"),
+                ))
+        z_matrix.append(row_z)
+
     fig = go.Figure(data=go.Heatmap(
-        z=z_vals,
+        z=z_matrix,
         x=impact_labels,
         y=likelihood_labels,
+        hoverinfo="none",
         colorscale=[
-            [0.0, "#F0FDF4"],
-            [0.25, "#FEF9C3"],
-            [0.5, "#FED7AA"],
-            [0.75, "#FECACA"],
-            [1.0, "#FCA5A5"],
+            [0.0, "#FDEBD0"],
+            [0.5, "#F5CBA7"],
+            [1.0, "#F1948A"],
         ],
+        zmin=1,
+        zmax=5,
         showscale=False,
-        hovertext=hover_texts,
-        hovertemplate="<b>Impact:</b> %{x}<br><b>Likelihood:</b> %{y}<br>"
-                      "<b>Count:</b> %{z}<br>%{hovertext}<extra></extra>",
+        xgap=3,
+        ygap=3,
+        connectgaps=False,
     ))
 
-    for i, row in enumerate(annotation_texts):
-        for j, text in enumerate(row):
-            if text:
-                fig.add_annotation(
-                    x=impact_labels[j], y=likelihood_labels[i],
-                    text=f"<b>{text}</b>", showarrow=False,
-                    font=dict(size=16, color="#111827"),
-                )
-
     fig.update_layout(
-        xaxis_title="Impact",
-        yaxis_title="Likelihood",
-        height=380,
-        margin=dict(l=10, r=10, t=10, b=10),
+        annotations=annotations,
+        xaxis=dict(
+            title=dict(text="Impact", font=dict(size=14, color="#374151")),
+            tickfont=dict(size=12, color="#6B7280"),
+            side="bottom",
+            dtick=1,
+            showgrid=False,
+        ),
+        yaxis=dict(
+            title=dict(text="Likelihood", font=dict(size=14, color="#374151")),
+            tickfont=dict(size=12, color="#6B7280"),
+            dtick=1,
+            categoryorder="array",
+            categoryarray=likelihood_labels,
+            showgrid=False,
+        ),
+        plot_bgcolor="#E8F5E9",
         paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor="white",
-        xaxis=dict(side="bottom", tickfont=dict(size=11)),
-        yaxis=dict(tickfont=dict(size=11)),
+        margin=dict(l=20, r=20, t=10, b=20),
+        height=450,
     )
-    st.plotly_chart(fig, use_container_width=True)
+
+    event = st.plotly_chart(
+        fig, use_container_width=True,
+        on_select="rerun",
+        selection_mode="points",
+        key="rm_heatmap",
+    )
+
+    # --- Custom scrollable tooltip (replaces Plotly's native SVG hover) ---
+    _tt_json = json.dumps(tooltip_data).replace("</", r"<\/")
+    _tooltip_html = (
+        "<html><head><script>"
+        "(function(){"
+        "var TD=" + _tt_json + ";"
+        "var top_doc=window.parent.document;"
+        "var tt=top_doc.getElementById('rm-custom-tooltip');"
+        "if(!tt){"
+        "  tt=top_doc.createElement('div');"
+        "  tt.id='rm-custom-tooltip';"
+        "  top_doc.body.appendChild(tt);"
+        "  var st=top_doc.createElement('style');"
+        "  st.textContent='"
+        "#rm-custom-tooltip{"
+        "  position:fixed;z-index:999999;background:#fff;"
+        "  border:1px solid #CBD5E1;border-radius:6px;"
+        "  padding:10px 14px;font-family:Arial,sans-serif;"
+        "  font-size:13px;color:#1E293B;text-align:left;"
+        "  max-height:60vh;max-width:420px;min-width:300px;"
+        "  overflow-y:auto;box-shadow:0 4px 12px rgba(0,0,0,.15);"
+        "  pointer-events:auto;display:none;line-height:1.5;"
+        "  word-wrap:break-word;overflow-wrap:break-word;"
+        "}"
+        "#rm-custom-tooltip::-webkit-scrollbar{width:6px}"
+        "#rm-custom-tooltip::-webkit-scrollbar-track{"
+        "  background:#F1F5F9;border-radius:3px}"
+        "#rm-custom-tooltip::-webkit-scrollbar-thumb{"
+        "  background:#94A3B8;border-radius:3px}"
+        "#rm-custom-tooltip .rm-tt-sep{"
+        "  border:0;border-top:1px solid #E2E8F0;margin:6px 0}"
+        "';"
+        "  top_doc.head.appendChild(st);"
+        "}"
+        "var ht;"
+        "function bld(d,x,y){"
+        "  var h=\"<b>\"+x+\"</b> \\u00d7 <b>\"+y+\"</b>  \\u00b7  \"+"
+        "    d.count+\" risk\"+(d.count>1?\"s\":\"\")+\"<br>\"+"
+        "    '<hr class=\\\"rm-tt-sep\\\">';"
+        "  d.risks.forEach(function(r,i){"
+        "    if(i>0)h+='<hr class=\\\"rm-tt-sep\\\">';"
+        "    h+=\"<b>\"+r.id+\"</b><br>\";"
+        "    h+=\"  \\u2022 Risk: \"+r.title+\"<br>\";"
+        "    h+=\"  \\u2022 Pillar: \"+r.pillar+\" (\"+r.tag+\")<br>\";"
+        "    h+=\"  \\u2022 Severity: \"+r.severity+\"<br>\";"
+        "    h+=\"  \\u2022 Exposure: \"+r.exposure+\"<br>\";"
+        "    h+=\"  \\u2022 Framework: \"+r.framework+\"<br>\";"
+        "    h+=\"  \\u2022 Remediation: \"+r.remediation+\"<br>\";"
+        "  });"
+        "  h+='<br><i style=\\\"color:#64748B\\\">Click to view full details</i>';"
+        "  return h;"
+        "}"
+        "function showTT(html,mx,my){"
+        "  tt.innerHTML=html;tt.style.display='block';"
+        "  var tw=tt.offsetWidth,th=tt.offsetHeight;"
+        "  var vw=top_doc.documentElement.clientWidth;"
+        "  var vh=top_doc.documentElement.clientHeight;"
+        "  var l=mx+15,t=my+15;"
+        "  if(l+tw>vw-10)l=mx-tw-15;"
+        "  if(l<5)l=5;"
+        "  if(t+th>vh-10)t=vh-th-10;"
+        "  if(t<5)t=5;"
+        "  tt.style.left=l+'px';tt.style.top=t+'px';"
+        "}"
+        "function hideTT(){tt.style.display='none';}"
+        "tt.addEventListener('mouseenter',function(){clearTimeout(ht);});"
+        "tt.addEventListener('mouseleave',function(){"
+        "  ht=setTimeout(hideTT,200);});"
+        "var tries=0;"
+        "function attach(){"
+        "  if(tries++>60)return;"
+        "  var pd=null,chart_ifr=null;"
+        "  var all_docs=[top_doc];"
+        "  var ifs=top_doc.querySelectorAll('iframe');"
+        "  for(var i=0;i<ifs.length;i++){"
+        "    try{all_docs.push(ifs[i].contentDocument||"
+        "      ifs[i].contentWindow.document);}catch(e){}"
+        "  }"
+        "  for(var di=0;di<all_docs.length;di++){"
+        "    var d=all_docs[di];"
+        "    var ifs2=d.querySelectorAll('iframe');"
+        "    for(var j=0;j<ifs2.length;j++){"
+        "      try{"
+        "        var cd=ifs2[j].contentDocument||ifs2[j].contentWindow.document;"
+        "        pd=cd.querySelector('.js-plotly-plot');"
+        "        if(pd&&pd._fullLayout){chart_ifr=ifs2[j];break;}"
+        "        else pd=null;"
+        "      }catch(e){pd=null;}"
+        "    }"
+        "    if(pd)break;"
+        "    pd=d.querySelector('.js-plotly-plot');"
+        "    if(pd&&pd._fullLayout){if(d!==top_doc){"
+        "      for(var fi=0;fi<ifs.length;fi++){"
+        "        try{if((ifs[fi].contentDocument||"
+        "          ifs[fi].contentWindow.document)===d)"
+        "          {chart_ifr=ifs[fi];break;}}catch(e){}"
+        "      }"
+        "    }break;}"
+        "    pd=null;"
+        "  }"
+        "  if(!pd||!pd._fullLayout){setTimeout(attach,250);return;}"
+        "  var sdoc=chart_ifr?(chart_ifr.contentDocument||"
+        "    chart_ifr.contentWindow.document):top_doc;"
+        "  var sty=sdoc.createElement('style');"
+        "  sty.textContent='.hoverlayer .hovertext{display:none!important}';"
+        "  sdoc.head.appendChild(sty);"
+        "  pd.on('plotly_hover',function(ev){"
+        "    clearTimeout(ht);"
+        "    var pt=ev.points[0];"
+        "    var key=pt.x+'|'+pt.y,cd=TD[key];"
+        "    if(cd){"
+        "      var mx=ev.event.clientX,my=ev.event.clientY;"
+        "      if(chart_ifr){"
+        "        var r=chart_ifr.getBoundingClientRect();"
+        "        mx+=r.left;my+=r.top;"
+        "      }"
+        "      showTT(bld(cd,pt.x,pt.y),mx,my);"
+        "    }"
+        "  });"
+        "  pd.on('plotly_unhover',function(){"
+        "    ht=setTimeout(hideTT,300);"
+        "  });"
+        "}"
+        "attach();"
+        "})();"
+        "</script></head><body></body></html>"
+    )
+    import streamlit.components.v1 as _stc
+    _stc.html(_tooltip_html, height=0, scrolling=False)
+
+    if event and hasattr(event, "selection") and event.selection.points:
+        pt = event.selection.points[0]
+        clicked_x = pt.get("x") if isinstance(pt, dict) else getattr(pt, "x", None)
+        clicked_y = pt.get("y") if isinstance(pt, dict) else getattr(pt, "y", None)
+        if clicked_x in impact_labels and clicked_y in likelihood_labels:
+            im_idx = impact_labels.index(clicked_x)
+            li_idx = likelihood_labels.index(clicked_y)
+            if rich_matrix[li_idx][im_idx]:
+                st.session_state["rm_selected"] = (li_idx, im_idx)
+                st.session_state["rm_drilldown_idx"] = 0
+
+    sel = st.session_state.get("rm_selected")
+    if sel is not None:
+        li_sel, im_sel = sel
+        cell_risks = rich_matrix[li_sel][im_sel]
+        if cell_risks:
+            cards_html = []
+            for r in cell_risks:
+                rid = r.get("finding_id", "N/A")
+                title = r.get("title", "N/A")
+                pillar = r.get("esg_pillar", "")
+                tag = pillar_short.get(pillar, "?")
+                severity = _get_severity_label(r)
+                sev_color, sev_bg = severity_badge.get(severity, ("#6B7280", "#F9FAFB"))
+                exposure = _format_exposure(
+                    r.get("financial_impact"),
+                    r.get("financial_impact_currency", ""),
+                )
+                fw_str = ", ".join(_detect_frameworks(r)[:4])
+                rec = r.get("recommendation", "") or "Review risk and define remediation steps"
+                cards_html.append(f"""
+                <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-radius:10px;
+                            padding:16px 20px; margin-bottom:10px;">
+                  <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+                    <span style="font-weight:700; font-size:0.95rem; color:#1E293B;">{rid}</span>
+                    <span style="background:{sev_bg}; color:{sev_color}; font-size:0.75rem;
+                                 font-weight:700; padding:2px 10px; border-radius:20px;
+                                 border:1px solid {sev_color}20;">{severity}</span>
+                    <span style="background:#F0F9FF; color:#0369A1; font-size:0.75rem;
+                                 font-weight:600; padding:2px 10px; border-radius:20px;">
+                      {tag} — {pillar}</span>
+                  </div>
+                  <div style="font-size:0.88rem; color:#334155; font-weight:600;
+                              margin-bottom:10px;">{title}</div>
+                  <table style="width:100%; font-size:0.82rem; color:#475569;
+                                border-collapse:collapse;">
+                    <tr>
+                      <td style="padding:4px 0; width:40%;"><b>Impact:</b> {impact_labels[im_sel]}</td>
+                      <td style="padding:4px 0;"><b>Likelihood:</b> {likelihood_labels[li_sel]}</td>
+                    </tr>
+                    <tr>
+                      <td style="padding:4px 0;"><b>Exposure:</b> {exposure}</td>
+                      <td style="padding:4px 0;"><b>Framework:</b> {fw_str}</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" style="padding:6px 0 2px 0;">
+                        <b>Remediation:</b> {rec}
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                """)
+
+            panel_html = f"""
+            <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px;
+                        padding:16px 18px; margin-top:8px; max-height:420px;
+                        overflow-y:auto;">
+              <div style="display:flex; align-items:center; justify-content:space-between;
+                          margin-bottom:12px;">
+                <span style="font-weight:700; font-size:0.95rem; color:#1E293B;">
+                  {len(cell_risks)} Risk{'s' if len(cell_risks) > 1 else ''} —
+                  {impact_labels[im_sel]} Impact × {likelihood_labels[li_sel]} Likelihood
+                </span>
+              </div>
+              {"".join(cards_html)}
+            </div>
+            """
+            st.markdown(panel_html, unsafe_allow_html=True)
+
+            close_col1, close_col2 = st.columns([8, 1])
+            with close_col2:
+                if st.button("✕ Close", key="rm_dd_close"):
+                    st.session_state["rm_selected"] = None
+                    st.session_state["rm_drilldown_idx"] = 0
+                    st.rerun()
+            _render_risk_drilldown(
+                cell_risks, impact_labels[im_sel], likelihood_labels[li_sel],
+                res.get("company_name", ""), res.get("deal_name", ""),
+            )
+        else:
+            st.session_state["rm_selected"] = None
 
     st.markdown("---")
 
@@ -325,6 +823,49 @@ def _render_executive_dashboard():
                 "Social": "#2563EB",
                 "Governance": "#D97706",
             }
+            _p_short = {"Environmental": "E", "Social": "S",
+                        "Governance": "G"}
+            total_exp = summary.get("total_financial_exposure", 0) or 1
+            _e = _html.escape
+
+            _cat_impacts = {
+                "Data privacy": "Regulatory penalties, Compliance violations",
+                "Regulatory penalty": "Financial penalties, Regulatory sanctions",
+                "Certifications": "Market access restrictions, Contract risk",
+                "Supply chain": "Supply disruption, Third-party liability",
+                "Human rights": "Legal liability, Investor divestment risk",
+                "Scope 3 disclosure": "Regulatory non-compliance, Carbon pricing exposure",
+                "Target progress": "Missed commitments, Greenwashing allegations",
+            }
+
+            ep_tooltip_data = {}
+            for p_name in pillar_data:
+                p_risks = [f for f in findings
+                           if f.get("finding_type") == "Risk"
+                           and f.get("esg_pillar") == p_name]
+                all_fw = set()
+                all_impacts = set()
+                for r in p_risks:
+                    for fw in _detect_frameworks(r)[:3]:
+                        all_fw.add(fw)
+                    cat = r.get("category", "")
+                    if cat in _cat_impacts:
+                        all_impacts.add(_cat_impacts[cat])
+                pct = (pillar_data[p_name] / total_exp * 100
+                       ) if total_exp else 0
+                impacts_str = "; ".join(sorted(all_impacts)) \
+                    if all_impacts else "Compliance violations, Reputation damage"
+                fw_str = ", ".join(sorted(all_fw)) \
+                    if all_fw else "BRSR, GRI"
+                ep_tooltip_data[p_name] = {
+                    "segment": _p_short.get(p_name, "?"),
+                    "count": len(p_risks),
+                    "exposure": _format_currency(pillar_data[p_name]),
+                    "contribution": f"{pct:.1f}%",
+                    "impact": _e(impacts_str),
+                    "framework": _e(fw_str),
+                }
+
             pillars = list(pillar_data.keys())
             values = [pillar_data[p] for p in pillars]
             colors = [pillar_colors.get(p, "#6B7280") for p in pillars]
@@ -337,6 +878,7 @@ def _render_executive_dashboard():
                 text=[_format_currency(v) for v in values],
                 textposition="auto",
                 textfont=dict(size=11, color="white"),
+                hoverinfo="none",
             ))
             fig_bar.update_layout(
                 height=220,
@@ -347,7 +889,140 @@ def _render_executive_dashboard():
                            tickformat="$,.0f"),
                 yaxis=dict(autorange="reversed"),
             )
-            st.plotly_chart(fig_bar, use_container_width=True)
+            st.plotly_chart(fig_bar, use_container_width=True,
+                            key="ep_bar_chart")
+
+            _ep_tt_json = json.dumps(ep_tooltip_data).replace("</", r"<\/")
+            _ep_tooltip_html = (
+                "<html><head><script>"
+                "(function(){"
+                "var TD=" + _ep_tt_json + ";"
+                "var top_doc=window.parent.document;"
+                "var tt=top_doc.getElementById('ep-custom-tooltip');"
+                "if(!tt){"
+                "  tt=top_doc.createElement('div');"
+                "  tt.id='ep-custom-tooltip';"
+                "  top_doc.body.appendChild(tt);"
+                "  var st=top_doc.createElement('style');"
+                "  st.textContent='"
+                "#ep-custom-tooltip{"
+                "  position:fixed;z-index:999999;background:#fff;"
+                "  border:1px solid #CBD5E1;border-radius:6px;"
+                "  padding:10px 14px;font-family:Arial,sans-serif;"
+                "  font-size:13px;color:#1E293B;text-align:left;"
+                "  max-height:60vh;max-width:420px;min-width:300px;"
+                "  overflow-y:auto;box-shadow:0 4px 12px rgba(0,0,0,.15);"
+                "  pointer-events:auto;display:none;line-height:1.5;"
+                "  word-wrap:break-word;overflow-wrap:break-word;"
+                "}"
+                "#ep-custom-tooltip::-webkit-scrollbar{width:6px}"
+                "#ep-custom-tooltip::-webkit-scrollbar-track{"
+                "  background:#F1F5F9;border-radius:3px}"
+                "#ep-custom-tooltip::-webkit-scrollbar-thumb{"
+                "  background:#94A3B8;border-radius:3px}"
+                "#ep-custom-tooltip .ep-tt-sep{"
+                "  border:0;border-top:1px solid #E2E8F0;margin:6px 0}"
+                "';"
+                "  top_doc.head.appendChild(st);"
+                "}"
+                "var ht;"
+                "function bld(pillar,d){"
+                "  var h='<b>'+pillar+' ('+d.segment+')</b><br>'+"
+                "    '<hr class=\\\"ep-tt-sep\\\">';"
+                "  h+='\\u2022 <b>Total Exposure:</b> '+d.exposure+'<br>';"
+                "  h+='\\u2022 <b>Contribution:</b> '+d.contribution+"
+                "    ' of Total Exposure<br>';"
+                "  h+='\\u2022 <b>Number of Risks:</b> '+d.count+'<br>';"
+                "  h+='\\u2022 <b>Potential Business Impact:</b> '+"
+                "    d.impact+'<br>';"
+                "  h+='\\u2022 <b>Affected Frameworks:</b> '+"
+                "    d.framework+'<br>';"
+                "  return h;"
+                "}"
+                "function showTT(html,mx,my){"
+                "  tt.innerHTML=html;tt.style.display='block';"
+                "  var tw=tt.offsetWidth,th=tt.offsetHeight;"
+                "  var vw=top_doc.documentElement.clientWidth;"
+                "  var vh=top_doc.documentElement.clientHeight;"
+                "  var l=mx+15,t=my+15;"
+                "  if(l+tw>vw-10)l=mx-tw-15;"
+                "  if(l<5)l=5;"
+                "  if(t+th>vh-10)t=vh-th-10;"
+                "  if(t<5)t=5;"
+                "  tt.style.left=l+'px';tt.style.top=t+'px';"
+                "}"
+                "function hideTT(){tt.style.display='none';}"
+                "tt.addEventListener('mouseenter',function(){"
+                "  clearTimeout(ht);});"
+                "tt.addEventListener('mouseleave',function(){"
+                "  ht=setTimeout(hideTT,200);});"
+                "var tries=0;"
+                "function attach(){"
+                "  if(tries++>60)return;"
+                "  var pd=null,chart_ifr=null;"
+                "  var all_docs=[top_doc];"
+                "  var ifs=top_doc.querySelectorAll('iframe');"
+                "  for(var i=0;i<ifs.length;i++){"
+                "    try{all_docs.push(ifs[i].contentDocument||"
+                "      ifs[i].contentWindow.document);}catch(e){}"
+                "  }"
+                "  for(var di=0;di<all_docs.length;di++){"
+                "    var d=all_docs[di];"
+                "    var plots=d.querySelectorAll('.js-plotly-plot');"
+                "    for(var pi=0;pi<plots.length;pi++){"
+                "      var p=plots[pi];"
+                "      if(p&&p._fullLayout&&p._fullLayout.xaxis"
+                "        &&p._fullLayout.xaxis.tickformat==='$,.0f'"
+                "        &&!p.dataset.epBound){"
+                "        pd=p;break;"
+                "      }"
+                "    }"
+                "    if(pd)break;"
+                "    var ifs2=d.querySelectorAll('iframe');"
+                "    for(var j=0;j<ifs2.length;j++){"
+                "      try{"
+                "        var cd=ifs2[j].contentDocument||"
+                "          ifs2[j].contentWindow.document;"
+                "        var plots2=cd.querySelectorAll('.js-plotly-plot');"
+                "        for(var pk=0;pk<plots2.length;pk++){"
+                "          var p2=plots2[pk];"
+                "          if(p2&&p2._fullLayout&&p2._fullLayout.xaxis"
+                "            &&p2._fullLayout.xaxis.tickformat==='$,.0f'"
+                "            &&!p2.dataset.epBound){"
+                "            pd=p2;chart_ifr=ifs2[j];break;"
+                "          }"
+                "        }"
+                "        if(pd)break;"
+                "      }catch(e){}"
+                "    }"
+                "    if(pd)break;"
+                "  }"
+                "  if(!pd||!pd._fullLayout){"
+                "    setTimeout(attach,250);return;}"
+                "  pd.dataset.epBound='1';"
+                "  pd.on('plotly_hover',function(ev){"
+                "    clearTimeout(ht);"
+                "    var pt=ev.points[0];"
+                "    var key=pt.y,cd=TD[key];"
+                "    if(cd){"
+                "      var mx=ev.event.clientX,my=ev.event.clientY;"
+                "      if(chart_ifr){"
+                "        var r=chart_ifr.getBoundingClientRect();"
+                "        mx+=r.left;my+=r.top;"
+                "      }"
+                "      showTT(bld(key,cd),mx,my);"
+                "    }"
+                "  });"
+                "  pd.on('plotly_unhover',function(){"
+                "    ht=setTimeout(hideTT,300);"
+                "  });"
+                "}"
+                "attach();"
+                "})();"
+                "</script></head><body></body></html>"
+            )
+            import streamlit.components.v1 as _stc_ep
+            _stc_ep.html(_ep_tooltip_html, height=0, scrolling=False)
         else:
             st.info("No financial exposure data to display.")
 
@@ -369,6 +1044,38 @@ def _render_executive_dashboard():
                 colors_list.append(priority_color_map.get(p, "#6B7280"))
 
         if vals:
+            total_risks = summary.get("total_risks", 1) or 1
+            _p_short_pd = {"Environmental": "E", "Social": "S",
+                           "Governance": "G"}
+            pd_tooltip_data = {}
+            for pri in labels:
+                pri_risks = [f for f in findings
+                             if f.get("finding_type") == "Risk"
+                             and f.get("priority") == pri]
+                pri_exp = sum(
+                    f.get("financial_usd", 0) or 0 for f in pri_risks)
+                pillars_set = set()
+                fw_set = set()
+                for r in pri_risks:
+                    pil = r.get("esg_pillar", "")
+                    if pil:
+                        pillars_set.add(
+                            f"{pil} ({_p_short_pd.get(pil, '?')})")
+                    for fw in _detect_frameworks(r)[:3]:
+                        fw_set.add(fw)
+                pct_share = len(pri_risks) / total_risks * 100
+                pd_tooltip_data[pri] = {
+                    "count": len(pri_risks),
+                    "share": f"{pct_share:.1f}%",
+                    "exposure": _format_currency(pri_exp),
+                    "pillars": _html.escape(
+                        ", ".join(sorted(pillars_set))
+                        if pillars_set else "N/A"),
+                    "framework": _html.escape(
+                        ", ".join(sorted(fw_set))
+                        if fw_set else "BRSR, GRI"),
+                }
+
             fig_donut = go.Figure(go.Pie(
                 labels=labels,
                 values=vals,
@@ -376,7 +1083,7 @@ def _render_executive_dashboard():
                 marker=dict(colors=colors_list),
                 textinfo="label+value",
                 textfont=dict(size=11),
-                hovertemplate="<b>%{label}</b>: %{value} findings<extra></extra>",
+                hoverinfo="none",
             ))
             fig_donut.update_layout(
                 height=220,
@@ -389,7 +1096,143 @@ def _render_executive_dashboard():
                     font_color="#111827",
                 )],
             )
-            st.plotly_chart(fig_donut, use_container_width=True)
+            st.plotly_chart(fig_donut, use_container_width=True,
+                            key="pd_donut_chart")
+
+            _pd_tt_json = json.dumps(pd_tooltip_data).replace(
+                "</", r"<\/")
+            _pd_tooltip_html = (
+                "<html><head><script>"
+                "(function(){"
+                "var TD=" + _pd_tt_json + ";"
+                "var top_doc=window.parent.document;"
+                "var tt=top_doc.getElementById('pd-custom-tooltip');"
+                "if(!tt){"
+                "  tt=top_doc.createElement('div');"
+                "  tt.id='pd-custom-tooltip';"
+                "  top_doc.body.appendChild(tt);"
+                "  var st=top_doc.createElement('style');"
+                "  st.textContent='"
+                "#pd-custom-tooltip{"
+                "  position:fixed;z-index:999999;background:#fff;"
+                "  border:1px solid #CBD5E1;border-radius:6px;"
+                "  padding:10px 14px;font-family:Arial,sans-serif;"
+                "  font-size:13px;color:#1E293B;text-align:left;"
+                "  max-height:60vh;max-width:420px;min-width:280px;"
+                "  overflow-y:auto;box-shadow:0 4px 12px rgba(0,0,0,.15);"
+                "  pointer-events:auto;display:none;line-height:1.5;"
+                "  word-wrap:break-word;overflow-wrap:break-word;"
+                "}"
+                "#pd-custom-tooltip::-webkit-scrollbar{width:6px}"
+                "#pd-custom-tooltip::-webkit-scrollbar-track{"
+                "  background:#F1F5F9;border-radius:3px}"
+                "#pd-custom-tooltip::-webkit-scrollbar-thumb{"
+                "  background:#94A3B8;border-radius:3px}"
+                "#pd-custom-tooltip .pd-tt-sep{"
+                "  border:0;border-top:1px solid #E2E8F0;margin:6px 0}"
+                "';"
+                "  top_doc.head.appendChild(st);"
+                "}"
+                "var ht;"
+                "function bld(label,d){"
+                "  var h='<b>'+label+' Priority</b><br>'+"
+                "    '<hr class=\\\"pd-tt-sep\\\">';"
+                "  h+='\\u2022 <b>Number of Risks:</b> '+d.count+'<br>';"
+                "  h+='\\u2022 <b>Share:</b> '+d.share+"
+                "    ' of Total Risks<br>';"
+                "  h+='\\u2022 <b>Total Exposure:</b> '+d.exposure+'<br>';"
+                "  h+='\\u2022 <b>Affected Pillars:</b> '+"
+                "    d.pillars+'<br>';"
+                "  h+='\\u2022 <b>Affected Frameworks:</b> '+"
+                "    d.framework+'<br>';"
+                "  return h;"
+                "}"
+                "function showTT(html,mx,my){"
+                "  tt.innerHTML=html;tt.style.display='block';"
+                "  var tw=tt.offsetWidth,th=tt.offsetHeight;"
+                "  var vw=top_doc.documentElement.clientWidth;"
+                "  var vh=top_doc.documentElement.clientHeight;"
+                "  var l=mx+15,t=my+15;"
+                "  if(l+tw>vw-10)l=mx-tw-15;"
+                "  if(l<5)l=5;"
+                "  if(t+th>vh-10)t=vh-th-10;"
+                "  if(t<5)t=5;"
+                "  tt.style.left=l+'px';tt.style.top=t+'px';"
+                "}"
+                "function hideTT(){tt.style.display='none';}"
+                "tt.addEventListener('mouseenter',function(){"
+                "  clearTimeout(ht);});"
+                "tt.addEventListener('mouseleave',function(){"
+                "  ht=setTimeout(hideTT,200);});"
+                "var tries=0;"
+                "function attach(){"
+                "  if(tries++>60)return;"
+                "  var pd=null,chart_ifr=null;"
+                "  var all_docs=[top_doc];"
+                "  var ifs=top_doc.querySelectorAll('iframe');"
+                "  for(var i=0;i<ifs.length;i++){"
+                "    try{all_docs.push(ifs[i].contentDocument||"
+                "      ifs[i].contentWindow.document);}catch(e){}"
+                "  }"
+                "  for(var di=0;di<all_docs.length;di++){"
+                "    var d=all_docs[di];"
+                "    var plots=d.querySelectorAll('.js-plotly-plot');"
+                "    for(var pi=0;pi<plots.length;pi++){"
+                "      var p=plots[pi];"
+                "      if(p&&p._fullLayout&&p._fullData"
+                "        &&p._fullData[0]&&p._fullData[0].type==='pie'"
+                "        &&!p.dataset.pdBound){"
+                "        pd=p;break;"
+                "      }"
+                "    }"
+                "    if(pd)break;"
+                "    var ifs2=d.querySelectorAll('iframe');"
+                "    for(var j=0;j<ifs2.length;j++){"
+                "      try{"
+                "        var cd=ifs2[j].contentDocument||"
+                "          ifs2[j].contentWindow.document;"
+                "        var plots2=cd.querySelectorAll("
+                "          '.js-plotly-plot');"
+                "        for(var pk=0;pk<plots2.length;pk++){"
+                "          var p2=plots2[pk];"
+                "          if(p2&&p2._fullLayout&&p2._fullData"
+                "            &&p2._fullData[0]"
+                "            &&p2._fullData[0].type==='pie'"
+                "            &&!p2.dataset.pdBound){"
+                "            pd=p2;chart_ifr=ifs2[j];break;"
+                "          }"
+                "        }"
+                "        if(pd)break;"
+                "      }catch(e){}"
+                "    }"
+                "    if(pd)break;"
+                "  }"
+                "  if(!pd||!pd._fullLayout){"
+                "    setTimeout(attach,250);return;}"
+                "  pd.dataset.pdBound='1';"
+                "  pd.on('plotly_hover',function(ev){"
+                "    clearTimeout(ht);"
+                "    var pt=ev.points[0];"
+                "    var key=pt.label,cd=TD[key];"
+                "    if(cd){"
+                "      var mx=ev.event.clientX,my=ev.event.clientY;"
+                "      if(chart_ifr){"
+                "        var r=chart_ifr.getBoundingClientRect();"
+                "        mx+=r.left;my+=r.top;"
+                "      }"
+                "      showTT(bld(key,cd),mx,my);"
+                "    }"
+                "  });"
+                "  pd.on('plotly_unhover',function(){"
+                "    ht=setTimeout(hideTT,300);"
+                "  });"
+                "}"
+                "attach();"
+                "})();"
+                "</script></head><body></body></html>"
+            )
+            import streamlit.components.v1 as _stc_pd
+            _stc_pd.html(_pd_tooltip_html, height=0, scrolling=False)
         else:
             st.info("No risk findings to display.")
 

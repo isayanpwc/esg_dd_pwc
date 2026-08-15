@@ -132,6 +132,60 @@ def _status_pill(text, variant="info"):
     )
 
 
+def _confidence_bar(value):
+    pct = int(round(value * 100))
+    if pct >= 85:
+        bar_color = "#059669"
+    elif pct >= 70:
+        bar_color = "#D97706"
+    else:
+        bar_color = "#DC2626"
+    return (
+        f'<div style="display:flex;align-items:center;gap:8px;">'
+        f'<div style="flex:1;max-width:100px;height:6px;background:#E5E7EB;border-radius:3px;">'
+        f'<div style="width:{pct}%;height:100%;background:{bar_color};border-radius:3px;"></div></div>'
+        f'<span style="font-size:0.82rem;font-weight:600;color:{bar_color};">{pct}%</span></div>'
+    )
+
+
+_TABLE_CSS = (
+    'width:100%;border-collapse:collapse;'
+)
+_TH_CSS = (
+    'padding:10px 14px;text-align:left;font-size:0.75rem;font-weight:600;'
+    'color:#6B7280;text-transform:uppercase;letter-spacing:0.04em;'
+    'background:#F9FAFB;border-bottom:2px solid #E5E7EB;'
+    'position:sticky;top:0;z-index:1;'
+)
+_TD_CSS = 'padding:10px 14px;font-size:0.84rem;color:#374151;border-bottom:1px solid #F3F4F6;'
+
+
+def _html_table(card_title, headers, rows, subtitle=None):
+    thead = "".join(f'<th style="{_TH_CSS}">{h}</th>' for h in headers)
+    tbody_rows = []
+    for i, row in enumerate(rows):
+        bg = "background:#FAFAFA;" if i % 2 == 1 else ""
+        cells = "".join(f'<td style="{_TD_CSS}{bg}">{c}</td>' for c in row)
+        tbody_rows.append(
+            f'<tr style="{bg}transition:background 0.15s;" '
+            f'onmouseover="this.style.background=\'#FFF7ED\'" '
+            f'onmouseout="this.style.background=\'{("#FAFAFA" if i % 2 == 1 else "")}\'">'
+            f'{cells}</tr>'
+        )
+    tbody = "".join(tbody_rows)
+    sub = (f'<p style="color:#6B7280;font-size:0.82rem;margin:4px 0 0;">{subtitle}</p>'
+           if subtitle else "")
+    return (
+        f'<div style="border:1px solid #E5E7EB;border-radius:12px;overflow:hidden;margin:12px 0;">'
+        f'<div style="padding:16px 18px 12px;border-bottom:1px solid #F3F4F6;">'
+        f'<h4 style="margin:0;font-size:1rem;font-weight:700;color:#111827;">{card_title}</h4>'
+        f'{sub}</div>'
+        f'<div style="overflow-x:auto;max-height:420px;overflow-y:auto;">'
+        f'<table style="{_TABLE_CSS}"><thead><tr>{thead}</tr></thead>'
+        f'<tbody>{tbody}</tbody></table></div></div>'
+    )
+
+
 # ════════════════════════════════════════════════════════════
 #  AGENT PAGE — step-by-step flow
 # ════════════════════════════════════════════════════════════
@@ -684,8 +738,103 @@ def _step_6_summary():
     with mc5:
         _metric_card("DQ Score", f"{dq_score:.0%}")
 
-    _section("Output JSON")
-    output = {
+    # ── Registration Summary table ──────────────────────
+    summary_rows = [
+        ["Source ID", f'<code style="font-size:0.82rem;background:#F3F4F6;padding:2px 8px;'
+                      f'border-radius:6px;">{source_id}</code>'],
+        ["Source Name", source.get("source_name", "")],
+        ["Target Table", f'<code style="font-size:0.82rem;background:#F3F4F6;padding:2px 8px;'
+                         f'border-radius:6px;">{target_table}</code>'],
+        ["Mapping Status", _status_pill("Approved", "success")],
+        ["Mapping Confidence", _confidence_bar(avg_conf)],
+        ["Data Quality Score", _confidence_bar(dq_score)],
+        ["Mapped Columns", f'<span style="font-weight:600;color:#059669;">{len(mapped)}</span>'],
+        ["Unmapped Columns",
+         f'<span style="font-weight:600;color:{"#DC2626" if unmapped else "#059669"};">'
+         f'{len(unmapped)}</span>'],
+    ]
+    st.markdown(
+        _html_table("Registration Summary",
+                     ["Property", "Value"],
+                     summary_rows,
+                     subtitle="Mapping and quality overview for this source"),
+        unsafe_allow_html=True,
+    )
+
+    if map_warnings:
+        warn_items = "".join(
+            f'<div style="display:flex;align-items:flex-start;gap:8px;padding:8px 14px;'
+            f'border-bottom:1px solid #FDE68A;font-size:0.82rem;color:#92400E;">'
+            f'<span style="flex-shrink:0;margin-top:1px;">&#9888;</span>'
+            f'<span>{w}</span></div>'
+            for w in map_warnings[:10]
+        )
+        st.markdown(
+            f'<div style="border:1px solid #FDE68A;border-radius:12px;overflow:hidden;'
+            f'margin:0 0 12px;background:#FFFBEB;">'
+            f'<div style="padding:12px 18px 8px;border-bottom:1px solid #FDE68A;">'
+            f'<h4 style="margin:0;font-size:0.92rem;font-weight:700;color:#92400E;">'
+            f'Warnings ({len(map_warnings)})</h4></div>'
+            f'{warn_items}</div>',
+            unsafe_allow_html=True,
+        )
+
+    # ── Ingestion Configuration tables ────────────────
+    config = generate_ingestion_configuration(source_id)
+    if config:
+        overview_rows = [
+            ["Source ID", f'<code style="font-size:0.82rem;background:#F3F4F6;'
+                          f'padding:2px 8px;border-radius:6px;">{config.get("source_id", "")}</code>'],
+            ["Source Name", config.get("source_name", "")],
+            ["Source Type", config.get("source_type", "")],
+            ["Target Tables", ", ".join(
+                f'<code style="font-size:0.82rem;background:#F3F4F6;padding:2px 8px;'
+                f'border-radius:6px;">{t}</code>'
+                for t in config.get("target_tables", []))],
+            ["Mapped / Unmapped",
+             f'<span style="font-weight:600;color:#059669;">{config.get("mapped_columns", 0)}</span>'
+             f' / <span style="font-weight:600;color:#DC2626;">{config.get("unmapped_columns", 0)}</span>'],
+            ["Generated At", config.get("generated_at", "")],
+        ]
+        st.markdown(
+            _html_table("Ingestion Configuration",
+                         ["Property", "Value"],
+                         overview_rows,
+                         subtitle="Source and ingestion metadata"),
+            unsafe_allow_html=True,
+        )
+
+        cfg_mappings = config.get("mappings", [])
+        if cfg_mappings:
+            mapping_rows = []
+            for i, m in enumerate(cfg_mappings, 1):
+                conf = m.get("mapping_confidence", 0)
+                status = m.get("mapping_status", "")
+                variant = "success" if status == "Approved" else "warning"
+                mapping_rows.append([
+                    str(i),
+                    f'<code style="font-size:0.8rem;">{m.get("source_column", "")}</code>',
+                    f'<code style="font-size:0.8rem;">{m.get("target_table", "")}</code>',
+                    f'<code style="font-size:0.8rem;">{m.get("target_column", "")}</code>',
+                    f'<span style="font-size:0.8rem;color:#6B7280;">'
+                    f'{m.get("transformation_rule", "")[:60]}</span>',
+                    _confidence_bar(conf),
+                    _status_pill(status, variant),
+                    m.get("approved_by") or "—",
+                ])
+            st.markdown(
+                _html_table("Column Mappings",
+                             ["#", "Source Column", "Target Table", "Target Column",
+                              "Transformation", "Confidence", "Status", "Approved By"],
+                             mapping_rows,
+                             subtitle=f"{len(cfg_mappings)} column mapping(s)"),
+                unsafe_allow_html=True,
+            )
+    else:
+        st.info("No ingestion configuration generated (incomplete data).")
+
+    # ── Export / Copy buttons ─────────────────────────
+    output_dict = {
         "source_id": source_id,
         "source_name": source.get("source_name", ""),
         "recommended_target_table": target_table,
@@ -696,17 +845,45 @@ def _step_6_summary():
         "unmapped_columns": len(unmapped),
         "warnings": map_warnings[:10],
     }
-    st.json(output)
 
-    _section("Ingestion Configuration")
-    config = generate_ingestion_configuration(source_id)
+    exp_rows = []
     if config:
-        st.json(config)
-    else:
-        st.info("No ingestion configuration generated (incomplete data).")
+        for m in config.get("mappings", []):
+            exp_rows.append({
+                "Source Column": m.get("source_column", ""),
+                "Target Table": m.get("target_table", ""),
+                "Target Column": m.get("target_column", ""),
+                "Transformation": m.get("transformation_rule", ""),
+                "Confidence": m.get("mapping_confidence", 0),
+                "Status": m.get("mapping_status", ""),
+                "Approved By": m.get("approved_by", ""),
+            })
 
     st.markdown("---")
-    if st.button("🔄 Register Another Source", key="ra_restart", type="primary"):
+    bc1, bc2, bc3 = st.columns([1, 1, 2])
+    with bc1:
+        csv_data = pd.DataFrame(exp_rows).to_csv(index=False) if exp_rows else "No data"
+        st.download_button(
+            "Export Table (CSV)",
+            data=csv_data,
+            file_name=f"{source_id}_mappings.csv",
+            mime="text/csv",
+            key="ra_export_csv",
+            use_container_width=True,
+        )
+    with bc2:
+        full_config = {**output_dict, "ingestion_configuration": config} if config else output_dict
+        st.download_button(
+            "Copy Configuration (JSON)",
+            data=json.dumps(full_config, indent=2, default=str),
+            file_name=f"{source_id}_config.json",
+            mime="application/json",
+            key="ra_export_json",
+            use_container_width=True,
+        )
+
+    st.markdown("")
+    if st.button("Register Another Source", key="ra_restart", type="primary"):
         for k in list(st.session_state.keys()):
             if k.startswith("ra_"):
                 del st.session_state[k]

@@ -251,6 +251,90 @@
       },
       "status": "Connected",
       "created_at": "2026-08-05 14:35:09"
+    },
+    {
+      "user": "joe",
+      "datasource_name": "company_financials.csv",
+      "type": "File Upload",
+      "config": {
+        "filename": "company_financials.csv",
+        "size_mb": 0.0,
+        "path": "C:\\Users\\dmahtab002\\OneDrive - PwC\\Desktop\\esg\\uploads\\company_financials.csv"
+      },
+      "status": "Connected",
+      "created_at": "2026-08-06 13:04:23"
+    },
+    {
+      "user": "joe",
+      "datasource_name": "compliance_assessment.csv",
+      "type": "File Upload",
+      "config": {
+        "filename": "compliance_assessment.csv",
+        "size_mb": 0.02,
+        "path": "C:\\Users\\dmahtab002\\OneDrive - PwC\\Desktop\\esg\\uploads\\compliance_assessment.csv"
+      },
+      "status": "Connected",
+      "created_at": "2026-08-06 13:04:44"
+    },
+    {
+      "user": "joe",
+      "datasource_name": "metric_standard_crosswalk.csv",
+      "type": "File Upload",
+      "config": {
+        "filename": "metric_standard_crosswalk.csv",
+        "size_mb": 0.0,
+        "path": "C:\\Users\\dmahtab002\\OneDrive - PwC\\Desktop\\esg\\uploads\\metric_standard_crosswalk.csv"
+      },
+      "status": "Connected",
+      "created_at": "2026-08-09 23:01:10"
+    },
+    {
+      "user": "joe",
+      "datasource_name": "user_master.csv",
+      "type": "File Upload",
+      "config": {
+        "filename": "user_master.csv",
+        "size_mb": 0.0,
+        "path": "C:\\Users\\dmahtab002\\OneDrive - PwC\\Desktop\\esg\\uploads\\user_master.csv"
+      },
+      "status": "Connected",
+      "created_at": "2026-08-09 23:01:57"
+    },
+    {
+      "user": "joe",
+      "datasource_name": "peer_benchmark_data.csv",
+      "type": "File Upload",
+      "config": {
+        "filename": "peer_benchmark_data.csv",
+        "size_mb": 0.19,
+        "path": "C:\\Users\\dmahtab002\\OneDrive - PwC\\Desktop\\esg\\uploads\\peer_benchmark_data.csv"
+      },
+      "status": "Connected",
+      "created_at": "2026-08-09 23:06:35"
+    },
+    {
+      "user": "joe",
+      "datasource_name": "esg_risk_opportunity.csv",
+      "type": "File Upload",
+      "config": {
+        "filename": "esg_risk_opportunity.csv",
+        "size_mb": 0.01,
+        "path": "C:\\Users\\dmahtab002\\OneDrive - PwC\\Desktop\\esg\\uploads\\esg_risk_opportunity.csv"
+      },
+      "status": "Connected",
+      "created_at": "2026-08-09 23:06:56"
+    },
+    {
+      "user": "ABC",
+      "datasource_name": "certification.csv",
+      "type": "File Upload",
+      "config": {
+        "filename": "certification.csv",
+        "size_mb": 0.0,
+        "path": "C:\\Users\\dmahtab002\\OneDrive - PwC\\Desktop\\esg\\uploads\\certification.csv"
+      },
+      "status": "Connected",
+      "created_at": "2026-08-12 12:11:03"
     }
   ]
 }

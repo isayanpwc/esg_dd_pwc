@@ -988,7 +988,7 @@
       "message": "Compliance analysis identified 11 critical or high priority gap(s) requiring immediate attention.",
       "category": "critical_gap",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0100",
@@ -998,7 +998,7 @@
       "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
       "category": "compliance_drop",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0101",
@@ -1008,7 +1008,7 @@
       "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
       "category": "regulatory_change",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0102",
@@ -1048,7 +1048,7 @@
       "message": "Compliance analysis identified 11 critical or high priority gap(s) requiring immediate attention.",
       "category": "critical_gap",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0106",
@@ -1058,7 +1058,7 @@
       "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
       "category": "compliance_drop",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0107",
@@ -1068,7 +1068,7 @@
       "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
       "category": "regulatory_change",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0108",
@@ -1078,7 +1078,7 @@
       "message": "Compliance analysis identified 11 critical or high priority gap(s) requiring immediate attention.",
       "category": "critical_gap",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0109",
@@ -1088,7 +1088,7 @@
       "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
       "category": "compliance_drop",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0110",
@@ -1098,7 +1098,7 @@
       "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
       "category": "regulatory_change",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0111",
@@ -1108,7 +1108,7 @@
       "message": "Compliance analysis identified 11 critical or high priority gap(s) requiring immediate attention.",
       "category": "critical_gap",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0112",
@@ -1118,7 +1118,7 @@
       "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
       "category": "compliance_drop",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0113",
@@ -1128,7 +1128,7 @@
       "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
       "category": "regulatory_change",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0114",
@@ -1138,7 +1138,7 @@
       "message": "Compliance analysis identified 11 critical or high priority gap(s) requiring immediate attention.",
       "category": "critical_gap",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0115",
@@ -1148,7 +1148,7 @@
       "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
       "category": "compliance_drop",
       "framework": "",
-      "read": false
+      "read": true
     },
     {
       "id": "NOTIF-0116",
@@ -1158,7 +1158,907 @@
       "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
       "category": "regulatory_change",
       "framework": "",
-      "read": false
+      "read": true
+    },
+    {
+      "id": "NOTIF-0117",
+      "timestamp": "2026-08-06 12:15:29",
+      "user": "joe",
+      "title": "11 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 11 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0118",
+      "timestamp": "2026-08-06 12:15:29",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 0.0%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0119",
+      "timestamp": "2026-08-06 12:15:29",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0120",
+      "timestamp": "2026-08-06 12:40:39",
+      "user": "joe",
+      "title": "11 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 11 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0121",
+      "timestamp": "2026-08-06 12:40:40",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 0.0%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0122",
+      "timestamp": "2026-08-06 12:40:40",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0123",
+      "timestamp": "2026-08-06 13:03:42",
+      "user": "joe",
+      "title": "11 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 11 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0124",
+      "timestamp": "2026-08-06 13:03:42",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 0.0%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0125",
+      "timestamp": "2026-08-06 13:03:42",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0126",
+      "timestamp": "2026-08-06 13:03:46",
+      "user": "joe",
+      "title": "11 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 11 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0127",
+      "timestamp": "2026-08-06 13:03:46",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 0.0%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0128",
+      "timestamp": "2026-08-06 13:03:47",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0129",
+      "timestamp": "2026-08-06 13:03:48",
+      "user": "joe",
+      "title": "11 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 11 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0130",
+      "timestamp": "2026-08-06 13:03:48",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 0.0%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0131",
+      "timestamp": "2026-08-06 13:03:48",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0132",
+      "timestamp": "2026-08-06 13:05:01",
+      "user": "joe",
+      "title": "11 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 11 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0133",
+      "timestamp": "2026-08-06 13:05:01",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 0.0%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0134",
+      "timestamp": "2026-08-06 13:05:01",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0135",
+      "timestamp": "2026-08-06 13:05:04",
+      "user": "joe",
+      "title": "11 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 11 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0136",
+      "timestamp": "2026-08-06 13:05:04",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 0.0%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0137",
+      "timestamp": "2026-08-06 13:05:04",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0138",
+      "timestamp": "2026-08-06 13:11:03",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0139",
+      "timestamp": "2026-08-06 13:11:03",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 34.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0140",
+      "timestamp": "2026-08-06 13:11:03",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0141",
+      "timestamp": "2026-08-06 13:11:27",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0142",
+      "timestamp": "2026-08-06 13:11:27",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 51.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0143",
+      "timestamp": "2026-08-06 13:11:27",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0144",
+      "timestamp": "2026-08-06 13:11:51",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0145",
+      "timestamp": "2026-08-06 13:11:51",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 51.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0146",
+      "timestamp": "2026-08-06 13:11:51",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0147",
+      "timestamp": "2026-08-06 13:13:01",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0148",
+      "timestamp": "2026-08-06 13:13:01",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 34.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0149",
+      "timestamp": "2026-08-06 13:13:01",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0150",
+      "timestamp": "2026-08-07 11:22:59",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0151",
+      "timestamp": "2026-08-07 11:22:59",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 34.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0152",
+      "timestamp": "2026-08-07 11:22:59",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0153",
+      "timestamp": "2026-08-07 11:26:15",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0154",
+      "timestamp": "2026-08-07 11:26:15",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 34.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0155",
+      "timestamp": "2026-08-07 11:26:15",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0156",
+      "timestamp": "2026-08-07 11:51:49",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0157",
+      "timestamp": "2026-08-07 11:51:49",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 34.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0158",
+      "timestamp": "2026-08-07 11:51:49",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0159",
+      "timestamp": "2026-08-07 11:57:26",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0160",
+      "timestamp": "2026-08-07 11:57:26",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 34.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0161",
+      "timestamp": "2026-08-07 11:57:26",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0162",
+      "timestamp": "2026-08-07 12:23:38",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0163",
+      "timestamp": "2026-08-07 12:23:38",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 34.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0164",
+      "timestamp": "2026-08-07 12:23:38",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0165",
+      "timestamp": "2026-08-07 16:29:12",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0166",
+      "timestamp": "2026-08-07 16:29:12",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 34.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0167",
+      "timestamp": "2026-08-07 16:29:12",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0168",
+      "timestamp": "2026-08-07 19:08:38",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0169",
+      "timestamp": "2026-08-07 19:08:38",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 34.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0170",
+      "timestamp": "2026-08-07 19:08:38",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0171",
+      "timestamp": "2026-08-07 19:32:20",
+      "user": "joe",
+      "title": "6 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 6 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0172",
+      "timestamp": "2026-08-07 19:32:20",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 58.3%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0173",
+      "timestamp": "2026-08-07 19:32:20",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0174",
+      "timestamp": "2026-08-07 19:32:34",
+      "user": "joe",
+      "title": "6 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 6 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0175",
+      "timestamp": "2026-08-07 19:32:34",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 72.5%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0176",
+      "timestamp": "2026-08-07 19:32:34",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0177",
+      "timestamp": "2026-08-07 19:32:41",
+      "user": "joe",
+      "title": "6 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 6 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0178",
+      "timestamp": "2026-08-07 19:32:41",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 70.0%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0179",
+      "timestamp": "2026-08-07 19:32:41",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0180",
+      "timestamp": "2026-08-08 14:37:57",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0181",
+      "timestamp": "2026-08-08 14:37:57",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 34.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0182",
+      "timestamp": "2026-08-08 14:37:57",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0183",
+      "timestamp": "2026-08-08 14:38:23",
+      "user": "joe",
+      "title": "5 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 5 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0184",
+      "timestamp": "2026-08-08 14:38:23",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 58.0%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0185",
+      "timestamp": "2026-08-08 14:38:23",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0186",
+      "timestamp": "2026-08-08 14:38:39",
+      "user": "joe",
+      "title": "6 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 6 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0187",
+      "timestamp": "2026-08-08 14:38:39",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 70.0%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0188",
+      "timestamp": "2026-08-08 14:38:39",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0189",
+      "timestamp": "2026-08-09 14:16:42",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0190",
+      "timestamp": "2026-08-09 14:16:42",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 34.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0191",
+      "timestamp": "2026-08-09 14:16:42",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0192",
+      "timestamp": "2026-08-09 23:00:36",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0193",
+      "timestamp": "2026-08-09 23:00:36",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 34.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0194",
+      "timestamp": "2026-08-09 23:00:36",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0195",
+      "timestamp": "2026-08-09 23:03:39",
+      "user": "joe",
+      "title": "7 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 7 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0196",
+      "timestamp": "2026-08-09 23:03:39",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 34.2%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0197",
+      "timestamp": "2026-08-09 23:03:39",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0198",
+      "timestamp": "2026-08-09 23:04:11",
+      "user": "joe",
+      "title": "5 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 5 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0199",
+      "timestamp": "2026-08-09 23:04:11",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 58.0%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0200",
+      "timestamp": "2026-08-09 23:04:11",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0201",
+      "timestamp": "2026-08-09 23:04:28",
+      "user": "joe",
+      "title": "6 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 6 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0202",
+      "timestamp": "2026-08-09 23:04:28",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 58.0%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0203",
+      "timestamp": "2026-08-09 23:04:28",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0204",
+      "timestamp": "2026-08-09 23:04:38",
+      "user": "joe",
+      "title": "6 Critical/High Priority Gaps Detected",
+      "message": "Compliance analysis identified 6 critical or high priority gap(s) requiring immediate attention.",
+      "category": "critical_gap",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0205",
+      "timestamp": "2026-08-09 23:04:38",
+      "user": "joe",
+      "title": "Compliance Score Below Threshold: 70.0%",
+      "message": "Overall compliance score has dropped below the 80% threshold. Review gap analysis for remediation steps.",
+      "category": "compliance_drop",
+      "framework": "",
+      "read": true
+    },
+    {
+      "id": "NOTIF-0206",
+      "timestamp": "2026-08-09 23:04:38",
+      "user": "joe",
+      "title": "6 Pending Regulatory Updates",
+      "message": "New regulatory changes have been detected and require review. Visit the Global Framework Updates tab.",
+      "category": "regulatory_change",
+      "framework": "",
+      "read": true
     }
   ]
 }

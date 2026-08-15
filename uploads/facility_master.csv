@@ -1,16 +1,25 @@
-facility_id,company_id,facility_name,facility_type,country,city,operational_status,commissioned_year
-FAC001,COMP001,Mumbai HQ,Office,India,Mumbai,Active,2008
-FAC002,COMP001,Bangalore Tech Campus,Office,India,Bangalore,Active,2012
-FAC003,COMP001,Chennai DC,Data Centre,India,Chennai,Active,2015
-FAC004,COMP001,Pune Development Centre,Office,India,Pune,Active,2017
-FAC005,COMP002,Hyderabad HQ,Office,India,Hyderabad,Active,2010
-FAC006,COMP002,Noida Campus,Office,India,Noida,Active,2013
-FAC007,COMP002,Mumbai DC,Data Centre,India,Mumbai,Active,2016
-FAC008,COMP003,Zurich HQ,Office,Switzerland,Zurich,Active,2005
-FAC009,COMP003,Geneva R&D Centre,Office,Switzerland,Geneva,Active,2011
-FAC010,COMP003,Frankfurt DC,Data Centre,Germany,Frankfurt,Active,2014
-FAC011,COMP003,London Office,Office,United Kingdom,London,Active,2016
-FAC012,COMP004,San Francisco HQ,Office,United States,San Francisco,Active,2007
-FAC013,COMP004,Austin Campus,Office,United States,Austin,Active,2013
-FAC014,COMP004,Virginia DC,Data Centre,United States,Ashburn,Active,2015
-FAC015,COMP004,Seattle Office,Office,United States,Seattle,Active,2018
+facility_id,company_id,facility_name,facility_type,country,city,ownership_type,operational_status,employee_count
+D1-FAC01,COMP001,Bengaluru Development Centre,Development Centre,India,Bengaluru,Owned,Active,5025
+D1-FAC02,COMP001,Hyderabad Development Centre,Development Centre,India,Hyderabad,Leased,Active,12766
+D1-FAC03,COMP001,Pune Data Centre,Data Centre,India,Pune,Owned,Active,235
+D1-FAC04,COMP001,Chennai Office,Office,India,Chennai,Leased,Active,640
+D1-FAC05,COMP001,Noida Development Centre,Development Centre,India,Noida,Leased,Active,8844
+D1-FAC06,COMP001,Mumbai Data Centre,Data Centre,India,Mumbai,Leased,Under construction,137
+D2-FAC01,COMP002,Bengaluru Development Centre,Development Centre,India,Bengaluru,Owned,Active,8006
+D2-FAC02,COMP002,Hyderabad Development Centre,Development Centre,India,Hyderabad,Leased,Active,6458
+D2-FAC03,COMP002,Pune Data Centre,Data Centre,India,Pune,Owned,Active,210
+D2-FAC04,COMP002,Chennai Office,Office,India,Chennai,Leased,Active,370
+D2-FAC05,COMP002,Noida Development Centre,Development Centre,India,Noida,Leased,Active,6432
+D2-FAC06,COMP002,Mumbai Data Centre,Data Centre,India,Mumbai,Leased,Under construction,242
+D3-FAC01,COMP003,Zurich Development Centre,Development Centre,Switzerland,Zurich,Owned,Active,11493
+D3-FAC02,COMP003,Geneva Development Centre,Development Centre,Switzerland,Geneva,Leased,Active,7100
+D3-FAC03,COMP003,Basel Data Centre,Data Centre,Switzerland,Basel,Owned,Active,208
+D3-FAC04,COMP003,Bern Office,Office,Switzerland,Bern,Leased,Active,328
+D3-FAC05,COMP003,Lausanne Development Centre,Development Centre,Switzerland,Lausanne,Leased,Active,2509
+D3-FAC06,COMP003,Lugano Data Centre,Data Centre,Switzerland,Lugano,Leased,Under construction,137
+D4-FAC01,COMP004,Austin Development Centre,Development Centre,United States,Austin,Owned,Active,13563
+D4-FAC02,COMP004,Seattle Development Centre,Development Centre,United States,Seattle,Leased,Active,2807
+D4-FAC03,COMP004,Denver Data Centre,Data Centre,United States,Denver,Owned,Active,234
+D4-FAC04,COMP004,Boston Office,Office,United States,Boston,Leased,Active,372
+D4-FAC05,COMP004,Phoenix Development Centre,Development Centre,United States,Phoenix,Leased,Active,9070
+D4-FAC06,COMP004,Dallas Data Centre,Data Centre,United States,Dallas,Leased,Under construction,183

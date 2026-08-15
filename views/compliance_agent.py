@@ -27,7 +27,6 @@ from utils.compliance_agent import (
     extract_radar_chart_data,
     generate_compliance_narrative,
     generate_executive_narrative_llm,
-    generate_structured_remediation,
     load_framework_updates,
     apply_framework_update,
     dismiss_framework_update,
@@ -433,11 +432,41 @@ def _render_compliance_radar(all_results):
 #  Tab 2 — Gap Analysis
 # ════════════════════════════════════════════════════════════
 
+_IMPROVEMENT_MAP = {
+    "no data mapping available": "Upload and map relevant data source",
+    "no metric data found": "Collect and upload the required metric data",
+    "no supporting document found": "Prepare and upload the required disclosure document",
+    "reporting period mismatch": "Update data to cover the current reporting period",
+    "no assurance obtained": "Obtain independent third-party assurance for this metric",
+    "insufficient evidence": "Gather additional evidence and supporting documentation",
+    "data quality below threshold": "Review and improve data quality controls",
+    "pending regulatory update requires review": "Review the regulatory update and update compliance documentation",
+}
+
+
+def _derive_improvement(reason):
+    """Generate an improvement suggestion from the gap reason text (UI layer only)."""
+    if not reason:
+        return "Review and address the identified gap"
+    reason_lower = reason.lower().strip()
+    for key, suggestion in _IMPROVEMENT_MAP.items():
+        if key in reason_lower:
+            return suggestion
+    if "no " in reason_lower and "data" in reason_lower:
+        return "Identify and upload the required data source"
+    if "no " in reason_lower and "document" in reason_lower:
+        return "Prepare and upload the required document"
+    if "missing" in reason_lower:
+        return "Collect and provide the missing information"
+    if "assurance" in reason_lower:
+        return "Obtain independent assurance or verification"
+    return "Review gap details and implement corrective action"
+
+
 def _render_gap_analysis(all_results):
     st.markdown(
         '<p style="color:#6B7280; font-size:0.85rem; margin-bottom:16px;">'
-        'Each gap below is paired with a structured remediation plan that tells you '
-        'exactly why the gap exists, what data to upload, and how to close it.</p>',
+        'Identified compliance gaps with suggested improvements.</p>',
         unsafe_allow_html=True,
     )
 
@@ -455,54 +484,33 @@ def _render_gap_analysis(all_results):
         _section(f"{gd['abbreviation']} Gaps ({gd['gap_count']})")
 
         header = (
-            '<table style="width:100%; border-collapse:collapse; font-size:0.84rem; margin-bottom:12px;">'
+            '<table style="width:100%; border-collapse:collapse; font-size:0.82rem; margin-bottom:4px;">'
             '<thead><tr style="border-bottom:2px solid #E5E7EB;">'
-            '<th style="text-align:left; padding:10px 12px; color:#6B7280; font-weight:600; width:18%;">ID</th>'
-            '<th style="text-align:left; padding:10px 12px; color:#6B7280; font-weight:600; width:40%;">Requirement</th>'
-            '<th style="text-align:left; padding:10px 12px; color:#6B7280; font-weight:600; width:10%;">Status</th>'
-            '<th style="text-align:left; padding:10px 12px; color:#6B7280; font-weight:600; width:14%;">Priority</th>'
-            '<th style="text-align:left; padding:10px 12px; color:#6B7280; font-weight:600; width:18%;">Reason</th>'
+            '<th style="text-align:left; padding:10px 8px; color:#6B7280; font-weight:600; width:10%;">ID</th>'
+            '<th style="text-align:left; padding:10px 8px; color:#6B7280; font-weight:600; width:22%;">Requirement</th>'
+            '<th style="text-align:left; padding:10px 8px; color:#6B7280; font-weight:600; width:8%;">Status</th>'
+            '<th style="text-align:left; padding:10px 8px; color:#6B7280; font-weight:600; width:9%;">Priority</th>'
+            '<th style="text-align:left; padding:10px 8px; color:#6B7280; font-weight:600; width:23%;">Reason</th>'
+            '<th style="text-align:left; padding:10px 8px; color:#6B7280; font-weight:600; width:28%;">Improvement</th>'
             '</tr></thead><tbody>'
         )
         rows_html = ""
         for g in gd["gaps"]:
-            reason = g["reason"] if g["reason"] else "No data mapping available"
+            reason = g.get("reason", "No data mapping available")
+            recommendation = g.get("recommendation", "")
+            improvement = recommendation if recommendation else _derive_improvement(reason)
+
             rows_html += (
                 f'<tr style="border-bottom:1px solid #F3F4F6;">'
-                f'<td style="padding:10px 12px; color:#111827; font-weight:500;">{g["requirement_id"]}</td>'
-                f'<td style="padding:10px 12px; color:#374151;">{g["requirement_name"]}</td>'
-                f'<td style="padding:10px 12px; color:#374151;">{g["status"]}</td>'
-                f'<td style="padding:10px 12px;">{_priority_dot(g["priority"])}</td>'
-                f'<td style="padding:10px 12px; color:#6B7280;">{reason}</td>'
+                f'<td style="padding:10px 8px; color:#111827; font-weight:500;">{g["requirement_id"]}</td>'
+                f'<td style="padding:10px 8px; color:#374151; line-height:1.4;">{g["requirement_name"]}</td>'
+                f'<td style="padding:10px 8px;">{_status_pill(g["status"])}</td>'
+                f'<td style="padding:10px 8px;">{_priority_dot(g["priority"])}</td>'
+                f'<td style="padding:10px 8px; color:#6B7280; font-size:0.8rem; line-height:1.4;">{reason}</td>'
+                f'<td style="padding:10px 8px; color:#374151; font-size:0.8rem; line-height:1.4;">{improvement}</td>'
                 f'</tr>'
             )
         st.markdown(header + rows_html + '</tbody></table>', unsafe_allow_html=True)
-
-        st.markdown(
-            '<h4 style="font-size:1rem; font-weight:700; color:#111827; margin:20px 0 12px 0;">'
-            'Remediation Plans</h4>',
-            unsafe_allow_html=True,
-        )
-
-        for g in gd["gaps"]:
-            req_result = _find_requirement_result(all_results, g["requirement_id"])
-            if req_result:
-                remediation = generate_structured_remediation(req_result, gd["abbreviation"])
-                with st.expander(f"{_priority_dot(g['priority'])}  {g['requirement_id']} — {g['requirement_name'][:80]}", expanded=False):
-                    _render_remediation_section("Why This Gap Exists", remediation["why_gap_exists"])
-                    _render_remediation_section("Impact Assessment", [remediation["impact_assessment"]])
-                    _render_remediation_section("Required Datasets", [f"**{d['name']}**: {d['description']}" for d in remediation["required_datasets"]])
-                    _render_remediation_section("Documentation Needed", remediation["documentation_needed"])
-                    _render_remediation_section("How to Close This Gap", remediation["how_to_close"])
-            else:
-                fix_match = next((f for f in gd.get("fix_suggestions", []) if f.get("fix_id") == g["requirement_id"]), None)
-                if fix_match:
-                    with st.expander(f"{_priority_dot(g['priority'])}  {g['requirement_id']} — {g['requirement_name'][:80]}", expanded=False):
-                        st.markdown(
-                            f'<div style="font-size:0.85rem; color:#374151; line-height:1.7;">'
-                            f'{fix_match.get("description", fix_match.get("action", ""))}</div>',
-                            unsafe_allow_html=True,
-                        )
 
         st.markdown("")
 

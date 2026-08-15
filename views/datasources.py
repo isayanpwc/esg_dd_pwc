@@ -54,50 +54,37 @@ def _connect_data_sources_page():
         '<span style="font-size:1.1rem; flex-shrink:0;">&#128161;</span>'
         '<div style="font-size:0.84rem; color:#92400E; line-height:1.55;">'
         '<b>How it works:</b> '
-        '1. Enter a name for your data source below. '
-        '2. Choose a connector tab (start with <b>File Upload</b> for CSV/Excel). '
-        '3. Click <b>Test & Preview</b> to validate. '
-        '4. Click <b>Save & Connect</b> to load the data into the platform.</div></div>',
+        '1. Choose a data source from the <b>Select Data Source</b> dropdown. '
+        '2. Click <b>Test & Preview</b> to validate. '
+        '3. Click <b>Save & Connect</b> to load the data into the platform.</div></div>',
         unsafe_allow_html=True,
     )
 
-    ds_name = st.text_input(
-        "Data Source Name",
-        key="ds_global_name",
-        placeholder="e.g. My Emissions Data",
-        help="Give this data source a descriptive name so you can find it later",
+    ds_name = ""
+
+    _CONNECTORS = [
+        ("File Upload",    _file_upload_connector),
+        ("Google Sheets",  _google_sheets_connector),
+        ("REST API",       _rest_api_connector),
+        ("AWS S3",         _aws_connector),
+        ("BigQuery",       _bigquery_connector),
+        ("GCS",            _gcs_connector),
+        ("Azure Blob",     _azure_connector),
+        ("Delta Lake",     _delta_lake_connector),
+        ("Snowflake",      _snowflake_connector),
+    ]
+
+    selected = st.selectbox(
+        "Select Data Source",
+        options=[name for name, _ in _CONNECTORS],
+        key="ds_connector_select",
+        help="Choose a connector to configure your data source",
     )
 
-    connector_tabs = st.tabs([
-        "📁 File Upload",
-        "📊 Google Sheets",
-        "🌐 REST API",
-        "☁️ AWS S3",
-        "◆ BigQuery",
-        "◇ GCS",
-        "● Azure Blob",
-        "▲ Delta Lake",
-        "❄️ Snowflake",
-    ])
-
-    with connector_tabs[0]:
-        _file_upload_connector(ds_name)
-    with connector_tabs[1]:
-        _google_sheets_connector(ds_name)
-    with connector_tabs[2]:
-        _rest_api_connector(ds_name)
-    with connector_tabs[3]:
-        _aws_connector(ds_name)
-    with connector_tabs[4]:
-        _bigquery_connector(ds_name)
-    with connector_tabs[5]:
-        _gcs_connector(ds_name)
-    with connector_tabs[6]:
-        _azure_connector(ds_name)
-    with connector_tabs[7]:
-        _delta_lake_connector(ds_name)
-    with connector_tabs[8]:
-        _snowflake_connector(ds_name)
+    for name, handler in _CONNECTORS:
+        if name == selected:
+            handler(ds_name)
+            break
 
 
 

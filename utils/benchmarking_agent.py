@@ -79,7 +79,22 @@ def _load_csv(filename):
 
 
 def load_peer_benchmark_data():
-    return _load_csv("peer_benchmark_data.csv")
+    df = _load_csv("peer_benchmark_data.csv")
+    if df.empty:
+        return df
+    rename = {}
+    if "peer_company_name" in df.columns and "company_id" not in df.columns:
+        company_master = _load_csv("company_master.csv")
+        if not company_master.empty and "company_name" in company_master.columns and "company_id" in company_master.columns:
+            lookup = dict(zip(company_master["company_name"], company_master["company_id"]))
+            df["company_id"] = df["peer_company_name"].map(lookup).fillna(df["peer_company_name"])
+        else:
+            rename["peer_company_name"] = "company_id"
+    if "metric_value" in df.columns and "value" not in df.columns:
+        rename["metric_value"] = "value"
+    if rename:
+        df = df.rename(columns=rename)
+    return df
 
 
 def load_esg_metric_data():
@@ -132,10 +147,23 @@ def get_available_metrics(company_id=None):
     masters = load_metric_master()
     if masters.empty:
         return []
+    peer_data = load_peer_benchmark_data()
+    peer_metrics = set(peer_data["metric_code"].unique()) if not peer_data.empty else set()
+    metric_data = load_esg_metric_data()
+    company_metrics = set()
+    if not metric_data.empty:
+        df = metric_data
+        if company_id:
+            df = df[df["company_id"] == company_id]
+        company_metrics = set(df["metric_code"].unique())
+    benchmarkable = peer_metrics & company_metrics if company_metrics else peer_metrics
     result = []
     for _, row in masters.iterrows():
+        code = row["metric_code"]
+        if benchmarkable and code not in benchmarkable:
+            continue
         result.append({
-            "metric_code": row["metric_code"],
+            "metric_code": code,
             "metric_name": row["metric_name"],
             "esg_pillar": row.get("esg_pillar", ""),
             "unit": row.get("unit", ""),
@@ -623,6 +651,72 @@ def run_benchmark(company_id, metric_code, year):
         "normalisation_type": norm.get("normalisation_type"),
         "peer_details": peer_details,
     }
+# ════════════════════════════════════════════════════════════
+#  Peer Distribution Categories
+# ════════════════════════════════════════════════════════════
+
+def get_distribution_description(category):
+    return {
+        "🎯Around You": (
+            "Peer companies performing within a similar range as the target company."
+        ),
+        "🏆Leaders": (
+            "Top-performing peer companies leading the distribution."
+        ),
+        "📉Laggards": (
+            "Peer companies performing below the market median."
+        ),
+        "📊Full Distribution": (
+            "Complete peer distribution across all benchmarked companies."
+        ),
+    }.get(
+        category,
+        "Complete peer distribution across all benchmarked companies."
+    )
+
+
+def filter_peer_distribution(
+    peer_details,
+    target_value,
+    median,
+    q1,
+    q3,
+    category="📊Full Distribution"
+):
+    """
+    Returns filtered peer set based on selected category.
+    """
+
+    if not peer_details:
+        return []
+
+    peers = list(peer_details)
+
+    if category == "🏆Leaders":
+
+        return [
+            p for p in peers
+            if float(p["value"]) >= q3
+        ]
+
+    elif category == "📉Laggards":
+
+        return [
+            p for p in peers
+            if float(p["value"]) <= median
+        ]
+
+    elif category == "🎯Around You":
+
+        tolerance = abs(target_value) * 0.20
+
+        return [
+            p for p in peers
+            if abs(float(p["value"]) - target_value)
+            <= tolerance
+        ]
+
+    return peers
 
 
 def run_benchmark_summary(company_id, year):

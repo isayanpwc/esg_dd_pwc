@@ -530,6 +530,321 @@
       "framework": "",
       "details": "Analyzed 12 frameworks",
       "status": ""
+    },
+    {
+      "id": "AUDIT-0060",
+      "timestamp": "2026-08-06 12:15:29",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0061",
+      "timestamp": "2026-08-06 12:16:25",
+      "user": "joe",
+      "action": "Review & Report Generated",
+      "framework": "Review & Governance",
+      "details": "Quality score: 0.64",
+      "status": "completed"
+    },
+    {
+      "id": "AUDIT-0062",
+      "timestamp": "2026-08-06 12:40:39",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0063",
+      "timestamp": "2026-08-06 13:03:42",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 6 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0064",
+      "timestamp": "2026-08-06 13:03:46",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 6 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0065",
+      "timestamp": "2026-08-06 13:03:48",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 6 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0066",
+      "timestamp": "2026-08-06 13:05:01",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0067",
+      "timestamp": "2026-08-06 13:05:04",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0068",
+      "timestamp": "2026-08-06 13:11:03",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0069",
+      "timestamp": "2026-08-06 13:11:27",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 8 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0070",
+      "timestamp": "2026-08-06 13:11:51",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 8 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0071",
+      "timestamp": "2026-08-06 13:13:01",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0072",
+      "timestamp": "2026-08-06 14:12:37",
+      "user": "joe",
+      "action": "Review & Report Generated",
+      "framework": "Review & Governance",
+      "details": "Quality score: 0.80",
+      "status": "completed"
+    },
+    {
+      "id": "AUDIT-0073",
+      "timestamp": "2026-08-07 11:22:59",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0074",
+      "timestamp": "2026-08-07 11:26:15",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0075",
+      "timestamp": "2026-08-07 11:51:49",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0076",
+      "timestamp": "2026-08-07 11:57:26",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0077",
+      "timestamp": "2026-08-07 12:23:38",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0078",
+      "timestamp": "2026-08-07 16:29:12",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0079",
+      "timestamp": "2026-08-07 19:08:38",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0080",
+      "timestamp": "2026-08-07 19:32:20",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 6 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0081",
+      "timestamp": "2026-08-07 19:32:34",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 4 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0082",
+      "timestamp": "2026-08-07 19:32:41",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 5 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0083",
+      "timestamp": "2026-08-07 19:33:57",
+      "user": "joe",
+      "action": "Review & Report Generated",
+      "framework": "Review & Governance",
+      "details": "Quality score: 0.81",
+      "status": "completed"
+    },
+    {
+      "id": "AUDIT-0084",
+      "timestamp": "2026-08-08 14:37:57",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0085",
+      "timestamp": "2026-08-08 14:38:23",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 5 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0086",
+      "timestamp": "2026-08-08 14:38:39",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 5 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0087",
+      "timestamp": "2026-08-08 14:39:47",
+      "user": "system",
+      "action": "Updates Refreshed",
+      "framework": "",
+      "details": "Framework updates check completed",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0088",
+      "timestamp": "2026-08-09 14:16:42",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0089",
+      "timestamp": "2026-08-09 23:00:36",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0090",
+      "timestamp": "2026-08-09 23:03:39",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 12 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0091",
+      "timestamp": "2026-08-09 23:04:11",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 5 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0092",
+      "timestamp": "2026-08-09 23:04:28",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 5 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0093",
+      "timestamp": "2026-08-09 23:04:38",
+      "user": "joe",
+      "action": "Compliance Analysis Run",
+      "framework": "",
+      "details": "Analyzed 5 frameworks",
+      "status": ""
+    },
+    {
+      "id": "AUDIT-0094",
+      "timestamp": "2026-08-09 23:05:27",
+      "user": "system",
+      "action": "Updates Refreshed",
+      "framework": "",
+      "details": "Framework updates check completed",
+      "status": ""
     }
   ]
 }

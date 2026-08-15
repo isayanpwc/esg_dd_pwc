@@ -351,8 +351,8 @@ def retrieve_requirement_evidence(company_id, requirement_id, reporting_year, de
         return {"requirement_id": requirement_id, "error": f"Requirement {requirement_id} not found"}
 
     req = req_row.iloc[0]
-    required_metric = str(req.get("required_metric", "")).strip()
-    required_doc_type = str(req.get("required_document_type", "")).strip()
+    required_metric = str(req.get("required_metric_code", "")).strip()
+    required_doc_type = str(req.get("required_document", "")).strip()
     mandatory = str(req.get("mandatory_flag", "")).strip()
     criticality = str(req.get("criticality", "")).strip()
 
@@ -769,7 +769,7 @@ def run_full_compliance_assessment(company_id, regulation_id, reporting_year, de
             "regulation_id": regulation_id,
             "requirement_id": req_id,
             "requirement_name": req.get("requirement_name", req_id),
-            "required_metric": req.get("required_metric", ""),
+            "required_metric": req.get("required_metric_code", ""),
             "applicability": compliance.get("applicability", applicability.get("applicability", "")),
             "compliance_status": compliance["compliance_status"],
             "completeness_score": completeness["completeness_score"],
@@ -883,6 +883,79 @@ def get_all_regulation_abbreviations():
     return result
 
 
+def generate_gap_recommendation(requirement_result, framework_abbr):
+    """Generate a concise, actionable recommendation for a compliance gap."""
+    metric = requirement_result.get("required_metric", "")
+    req_name = requirement_result.get("requirement_name", "")
+    components = requirement_result.get("evidence_components", {})
+    severity = requirement_result.get("severity", "Medium")
+
+    missing = []
+    if not components.get("metric_present"):
+        missing.append("metric_data")
+    if not components.get("document_present"):
+        missing.append("document")
+    if components.get("metric_present") and not components.get("correct_reporting_period"):
+        missing.append("reporting_period")
+    if components.get("metric_present") and not components.get("adequate_assurance"):
+        missing.append("assurance")
+    if components.get("metric_present") and not components.get("evidence_page_present"):
+        missing.append("evidence_page")
+
+    _METRIC_SOURCE_MAP = {
+        "ENV_GHG_SCOPE1": "energy consumption records, fuel purchase logs, and operational emissions inventory",
+        "ENV_GHG_SCOPE2": "electricity billing records, grid emission factors, and energy procurement data",
+        "ENV_GHG_SCOPE3": "supply chain surveys, travel records, and value-chain emission estimates",
+        "ENV_ENERGY": "utility bills, energy management systems, and metering data",
+        "ENV_WATER": "water utility records, metering data, and wastewater treatment logs",
+        "ENV_WASTE": "waste management vendor reports, disposal manifests, and recycling records",
+        "ENV_EWASTE": "e-waste disposal certificates, IT asset disposal logs, and vendor recycling reports",
+        "SOC_DIVERSITY": "HR workforce demographic data including gender, age, and diversity metrics",
+        "SOC_WELLBEING": "employee health, safety, wellness programme participation, and engagement survey data",
+        "SOC_TRAINING": "learning management system records, training hours logs, and skill development programmes",
+        "SOC_TURNOVER": "HR attrition reports, exit interview data, and workforce retention analytics",
+        "SOC_SAFETY": "incident reporting systems, OSHA logs, and workplace safety audit records",
+        "GOV_BOARD": "board composition records, director profiles, and governance disclosures",
+        "GOV_ETHICS": "ethics programme records, whistleblower logs, and anti-corruption policy documents",
+        "GOV_RISK": "enterprise risk register, risk assessment reports, and mitigation plans",
+    }
+
+    parts = []
+    if "metric_data" in missing:
+        source_hint = _METRIC_SOURCE_MAP.get(metric, "relevant operational and reporting systems")
+        parts.append(f"Collect {metric} data from {source_hint}")
+    if "document" in missing:
+        parts.append(f"prepare the required {framework_abbr} disclosure document")
+    if "reporting_period" in missing:
+        parts.append("update data to cover the current reporting period")
+    if "assurance" in missing:
+        parts.append("obtain independent third-party assurance")
+    if "evidence_page" in missing:
+        parts.append("add source page references for traceability")
+
+    if not parts:
+        parts.append(f"Review and verify existing data completeness for {req_name}")
+
+    recommendation = ". ".join(s[0].upper() + s[1:] for s in parts) + "."
+
+    effort_map = {"Critical": "High", "High": "High", "Medium": "Medium", "Low": "Low"}
+    effort = effort_map.get(severity, "Medium")
+    data_needed = []
+    if "metric_data" in missing:
+        data_needed.append(metric)
+    if "document" in missing:
+        data_needed.append("Disclosure document")
+    if "assurance" in missing:
+        data_needed.append("Assurance report")
+
+    return {
+        "summary": recommendation,
+        "effort": effort,
+        "data_required": data_needed if data_needed else ["Existing data review"],
+        "missing_components": missing,
+    }
+
+
 def extract_gap_analysis(all_results):
     gap_analysis = []
 
@@ -897,12 +970,20 @@ def extract_gap_analysis(all_results):
         for req in req_results:
             status = req.get("compliance_status", "")
             if status in ("Non-compliant", "Partially compliant", "Insufficient evidence"):
+                gap_desc = req.get("gap_description", "")
+                reason = gap_desc if gap_desc else "No data mapping available"
+
+                rec = generate_gap_recommendation(req, abbr)
+
                 gaps.append({
                     "requirement_id": req.get("requirement_id", ""),
                     "requirement_name": req.get("requirement_name", ""),
                     "status": "Missing",
                     "priority": req.get("severity", "Medium"),
-                    "reason": "No data mapping available",
+                    "reason": reason,
+                    "recommendation": rec["summary"],
+                    "effort": rec["effort"],
+                    "data_required": rec["data_required"],
                 })
                 for action in req.get("remediation_actions", []):
                     fixes.append({
@@ -943,7 +1024,10 @@ def extract_gap_analysis(all_results):
             "requirement_name": u.get("title", ""),
             "status": "Missing",
             "priority": priority,
-            "reason": "No data mapping available",
+            "reason": u.get("description", "Pending regulatory update requires review"),
+            "recommendation": f"Review and implement {fw_abbr} regulatory update: {u.get('title', '')}. Assess impact on current disclosures and update compliance documentation accordingly.",
+            "effort": "Medium" if priority in ("Medium", "Low") else "High",
+            "data_required": ["Updated compliance documentation"],
         }
 
         fix_entry = {

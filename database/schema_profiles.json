@@ -5895,6 +5895,1595 @@
           ]
         }
       ]
+    },
+    {
+      "source_id": "SRC_ESG_029",
+      "row_count": 1120,
+      "column_count": 11,
+      "profiled_at": "2026-08-09 22:15:39",
+      "columns": [
+        {
+          "column": "benchmark_record_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 1120,
+          "uniqueness_pct": 100.0,
+          "duplicate_count": 0,
+          "duplicate_pct": 0.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "BM00001",
+            "BM00002",
+            "BM00003",
+            "BM00004",
+            "BM00005"
+          ]
+        },
+        {
+          "column": "peer_company_name",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 14,
+          "uniqueness_pct": 1.2,
+          "duplicate_count": 1106,
+          "duplicate_pct": 98.8,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Silverline Softworks Ltd",
+            "Silverline Softworks Ltd",
+            "Silverline Softworks Ltd",
+            "Silverline Softworks Ltd",
+            "Silverline Softworks Ltd"
+          ]
+        },
+        {
+          "column": "industry",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 2,
+          "uniqueness_pct": 0.2,
+          "duplicate_count": 1118,
+          "duplicate_pct": 99.8,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "IT Services & Consulting",
+            "IT Services & Consulting",
+            "IT Services & Consulting",
+            "IT Services & Consulting",
+            "IT Services & Consulting"
+          ]
+        },
+        {
+          "column": "country",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 5,
+          "uniqueness_pct": 0.4,
+          "duplicate_count": 1115,
+          "duplicate_pct": 99.6,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "India",
+            "India",
+            "India",
+            "India",
+            "India"
+          ]
+        },
+        {
+          "column": "reporting_year",
+          "inferred_type": "integer",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 10,
+          "uniqueness_pct": 0.9,
+          "duplicate_count": 1110,
+          "duplicate_pct": 99.1,
+          "min": "2015",
+          "max": "2024",
+          "date_pattern": null,
+          "numeric_range": "2015 \u2013 2024",
+          "samples": [
+            "2015",
+            "2015",
+            "2015",
+            "2015",
+            "2015"
+          ]
+        },
+        {
+          "column": "metric_code",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 8,
+          "uniqueness_pct": 0.7,
+          "duplicate_count": 1112,
+          "duplicate_pct": 99.3,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "ENV_RENEW_PCT",
+            "ENV_DC_PUE",
+            "ENV_EWASTE_REC_PCT",
+            "SOC_ATTRITION",
+            "SOC_FEMALE_PCT"
+          ]
+        },
+        {
+          "column": "metric_value",
+          "inferred_type": "float",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 1003,
+          "uniqueness_pct": 89.6,
+          "duplicate_count": 117,
+          "duplicate_pct": 10.4,
+          "min": "-7.02",
+          "max": "108.94",
+          "date_pattern": null,
+          "numeric_range": "-7.02 \u2013 108.94",
+          "samples": [
+            "18.55",
+            "1.93",
+            "66.32",
+            "12.97",
+            "32.26"
+          ]
+        },
+        {
+          "column": "unit",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 3,
+          "uniqueness_pct": 0.3,
+          "duplicate_count": 1117,
+          "duplicate_pct": 99.7,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "%",
+            "ratio",
+            "%",
+            "%",
+            "%"
+          ]
+        },
+        {
+          "column": "normalised_value",
+          "inferred_type": "float",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 1003,
+          "uniqueness_pct": 89.6,
+          "duplicate_count": 117,
+          "duplicate_pct": 10.4,
+          "min": "-7.02",
+          "max": "108.94",
+          "date_pattern": null,
+          "numeric_range": "-7.02 \u2013 108.94",
+          "samples": [
+            "18.55",
+            "1.93",
+            "66.32",
+            "12.97",
+            "32.26"
+          ]
+        },
+        {
+          "column": "source_name",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 1,
+          "uniqueness_pct": 0.1,
+          "duplicate_count": 1119,
+          "duplicate_pct": 99.9,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Wikirate / peer ESG report",
+            "Wikirate / peer ESG report",
+            "Wikirate / peer ESG report",
+            "Wikirate / peer ESG report",
+            "Wikirate / peer ESG report"
+          ]
+        },
+        {
+          "column": "source_document",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 140,
+          "uniqueness_pct": 12.5,
+          "duplicate_count": 980,
+          "duplicate_pct": 87.5,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Silverline Softworks Ltd Sustainability Report 2015",
+            "Silverline Softworks Ltd Sustainability Report 2015",
+            "Silverline Softworks Ltd Sustainability Report 2015",
+            "Silverline Softworks Ltd Sustainability Report 2015",
+            "Silverline Softworks Ltd Sustainability Report 2015"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_ESG_030",
+      "row_count": 1120,
+      "column_count": 11,
+      "profiled_at": "2026-08-09 22:41:01",
+      "columns": [
+        {
+          "column": "benchmark_record_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 1120,
+          "uniqueness_pct": 100.0,
+          "duplicate_count": 0,
+          "duplicate_pct": 0.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "BM00001",
+            "BM00002",
+            "BM00003",
+            "BM00004",
+            "BM00005"
+          ]
+        },
+        {
+          "column": "peer_company_name",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 14,
+          "uniqueness_pct": 1.2,
+          "duplicate_count": 1106,
+          "duplicate_pct": 98.8,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Silverline Softworks Ltd",
+            "Silverline Softworks Ltd",
+            "Silverline Softworks Ltd",
+            "Silverline Softworks Ltd",
+            "Silverline Softworks Ltd"
+          ]
+        },
+        {
+          "column": "industry",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 2,
+          "uniqueness_pct": 0.2,
+          "duplicate_count": 1118,
+          "duplicate_pct": 99.8,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "IT Services & Consulting",
+            "IT Services & Consulting",
+            "IT Services & Consulting",
+            "IT Services & Consulting",
+            "IT Services & Consulting"
+          ]
+        },
+        {
+          "column": "country",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 5,
+          "uniqueness_pct": 0.4,
+          "duplicate_count": 1115,
+          "duplicate_pct": 99.6,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "India",
+            "India",
+            "India",
+            "India",
+            "India"
+          ]
+        },
+        {
+          "column": "reporting_year",
+          "inferred_type": "integer",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 10,
+          "uniqueness_pct": 0.9,
+          "duplicate_count": 1110,
+          "duplicate_pct": 99.1,
+          "min": "2015",
+          "max": "2024",
+          "date_pattern": null,
+          "numeric_range": "2015 \u2013 2024",
+          "samples": [
+            "2015",
+            "2015",
+            "2015",
+            "2015",
+            "2015"
+          ]
+        },
+        {
+          "column": "metric_code",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 8,
+          "uniqueness_pct": 0.7,
+          "duplicate_count": 1112,
+          "duplicate_pct": 99.3,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "ENV_RENEW_PCT",
+            "ENV_DC_PUE",
+            "ENV_EWASTE_REC_PCT",
+            "SOC_ATTRITION",
+            "SOC_FEMALE_PCT"
+          ]
+        },
+        {
+          "column": "metric_value",
+          "inferred_type": "float",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 1003,
+          "uniqueness_pct": 89.6,
+          "duplicate_count": 117,
+          "duplicate_pct": 10.4,
+          "min": "-7.02",
+          "max": "108.94",
+          "date_pattern": null,
+          "numeric_range": "-7.02 \u2013 108.94",
+          "samples": [
+            "18.55",
+            "1.93",
+            "66.32",
+            "12.97",
+            "32.26"
+          ]
+        },
+        {
+          "column": "unit",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 3,
+          "uniqueness_pct": 0.3,
+          "duplicate_count": 1117,
+          "duplicate_pct": 99.7,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "%",
+            "ratio",
+            "%",
+            "%",
+            "%"
+          ]
+        },
+        {
+          "column": "normalised_value",
+          "inferred_type": "float",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 1003,
+          "uniqueness_pct": 89.6,
+          "duplicate_count": 117,
+          "duplicate_pct": 10.4,
+          "min": "-7.02",
+          "max": "108.94",
+          "date_pattern": null,
+          "numeric_range": "-7.02 \u2013 108.94",
+          "samples": [
+            "18.55",
+            "1.93",
+            "66.32",
+            "12.97",
+            "32.26"
+          ]
+        },
+        {
+          "column": "source_name",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 1,
+          "uniqueness_pct": 0.1,
+          "duplicate_count": 1119,
+          "duplicate_pct": 99.9,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Wikirate / peer ESG report",
+            "Wikirate / peer ESG report",
+            "Wikirate / peer ESG report",
+            "Wikirate / peer ESG report",
+            "Wikirate / peer ESG report"
+          ]
+        },
+        {
+          "column": "source_document",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 140,
+          "uniqueness_pct": 12.5,
+          "duplicate_count": 980,
+          "duplicate_pct": 87.5,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Silverline Softworks Ltd Sustainability Report 2015",
+            "Silverline Softworks Ltd Sustainability Report 2015",
+            "Silverline Softworks Ltd Sustainability Report 2015",
+            "Silverline Softworks Ltd Sustainability Report 2015",
+            "Silverline Softworks Ltd Sustainability Report 2015"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_ESG_031",
+      "row_count": 24,
+      "column_count": 9,
+      "profiled_at": "2026-08-09 22:42:41",
+      "columns": [
+        {
+          "column": "facility_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 24,
+          "uniqueness_pct": 100.0,
+          "duplicate_count": 0,
+          "duplicate_pct": 0.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "D1-FAC01",
+            "D1-FAC02",
+            "D1-FAC03",
+            "D1-FAC04",
+            "D1-FAC05"
+          ]
+        },
+        {
+          "column": "company_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 4,
+          "uniqueness_pct": 16.7,
+          "duplicate_count": 20,
+          "duplicate_pct": 83.3,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "COMP001",
+            "COMP001",
+            "COMP001",
+            "COMP001",
+            "COMP001"
+          ]
+        },
+        {
+          "column": "facility_name",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 18,
+          "uniqueness_pct": 75.0,
+          "duplicate_count": 6,
+          "duplicate_pct": 25.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Bengaluru Development Centre",
+            "Hyderabad Development Centre",
+            "Pune Data Centre",
+            "Chennai Office",
+            "Noida Development Centre"
+          ]
+        },
+        {
+          "column": "facility_type",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 3,
+          "uniqueness_pct": 12.5,
+          "duplicate_count": 21,
+          "duplicate_pct": 87.5,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Development Centre",
+            "Development Centre",
+            "Data Centre",
+            "Office",
+            "Development Centre"
+          ]
+        },
+        {
+          "column": "country",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 3,
+          "uniqueness_pct": 12.5,
+          "duplicate_count": 21,
+          "duplicate_pct": 87.5,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "India",
+            "India",
+            "India",
+            "India",
+            "India"
+          ]
+        },
+        {
+          "column": "city",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 18,
+          "uniqueness_pct": 75.0,
+          "duplicate_count": 6,
+          "duplicate_pct": 25.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Bengaluru",
+            "Hyderabad",
+            "Pune",
+            "Chennai",
+            "Noida"
+          ]
+        },
+        {
+          "column": "ownership_type",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 2,
+          "uniqueness_pct": 8.3,
+          "duplicate_count": 22,
+          "duplicate_pct": 91.7,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Owned",
+            "Leased",
+            "Owned",
+            "Leased",
+            "Leased"
+          ]
+        },
+        {
+          "column": "operational_status",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 2,
+          "uniqueness_pct": 8.3,
+          "duplicate_count": 22,
+          "duplicate_pct": 91.7,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Active",
+            "Active",
+            "Active",
+            "Active",
+            "Active"
+          ]
+        },
+        {
+          "column": "employee_count",
+          "inferred_type": "integer",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 23,
+          "uniqueness_pct": 95.8,
+          "duplicate_count": 1,
+          "duplicate_pct": 4.2,
+          "min": "137",
+          "max": "13563",
+          "date_pattern": null,
+          "numeric_range": "137 \u2013 13563",
+          "samples": [
+            "5025",
+            "12766",
+            "235",
+            "640",
+            "8844"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_ESG_032",
+      "row_count": 72,
+      "column_count": 13,
+      "profiled_at": "2026-08-09 23:02:20",
+      "columns": [
+        {
+          "column": "supplier_assessment_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 72,
+          "uniqueness_pct": 100.0,
+          "duplicate_count": 0,
+          "duplicate_pct": 0.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "D1-SA-SUP008-2022",
+            "D1-SA-SUP008-2023",
+            "D1-SA-SUP008-2024",
+            "D1-SA-SUP009-2022",
+            "D1-SA-SUP009-2023"
+          ]
+        },
+        {
+          "column": "deal_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 4,
+          "uniqueness_pct": 5.6,
+          "duplicate_count": 68,
+          "duplicate_pct": 94.4,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "DEAL001",
+            "DEAL001",
+            "DEAL001",
+            "DEAL001",
+            "DEAL001"
+          ]
+        },
+        {
+          "column": "supplier_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 12,
+          "uniqueness_pct": 16.7,
+          "duplicate_count": 60,
+          "duplicate_pct": 83.3,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "SUP008",
+            "SUP008",
+            "SUP008",
+            "SUP009",
+            "SUP009"
+          ]
+        },
+        {
+          "column": "company_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 4,
+          "uniqueness_pct": 5.6,
+          "duplicate_count": 68,
+          "duplicate_pct": 94.4,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "COMP001",
+            "COMP001",
+            "COMP001",
+            "COMP001",
+            "COMP001"
+          ]
+        },
+        {
+          "column": "assessment_date",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 3,
+          "uniqueness_pct": 4.2,
+          "duplicate_count": 69,
+          "duplicate_pct": 95.8,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "2022-09-15",
+            "2023-09-15",
+            "2024-09-15",
+            "2022-09-15",
+            "2023-09-15"
+          ]
+        },
+        {
+          "column": "environment_score",
+          "inferred_type": "float",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 66,
+          "uniqueness_pct": 91.7,
+          "duplicate_count": 6,
+          "duplicate_pct": 8.3,
+          "min": "40.1",
+          "max": "91.5",
+          "date_pattern": null,
+          "numeric_range": "40.1 \u2013 91.5",
+          "samples": [
+            "69.2",
+            "70.9",
+            "73.4",
+            "61.5",
+            "62.9"
+          ]
+        },
+        {
+          "column": "social_score",
+          "inferred_type": "float",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 67,
+          "uniqueness_pct": 93.1,
+          "duplicate_count": 5,
+          "duplicate_pct": 6.9,
+          "min": "36.2",
+          "max": "87.0",
+          "date_pattern": null,
+          "numeric_range": "36.2 \u2013 87.0",
+          "samples": [
+            "57.7",
+            "60.2",
+            "67.5",
+            "55.1",
+            "57.6"
+          ]
+        },
+        {
+          "column": "governance_score",
+          "inferred_type": "float",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 69,
+          "uniqueness_pct": 95.8,
+          "duplicate_count": 3,
+          "duplicate_pct": 4.2,
+          "min": "45.3",
+          "max": "95.0",
+          "date_pattern": null,
+          "numeric_range": "45.3 \u2013 95.0",
+          "samples": [
+            "71.2",
+            "68.7",
+            "75.3",
+            "61.4",
+            "66.4"
+          ]
+        },
+        {
+          "column": "overall_esg_score",
+          "inferred_type": "float",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 66,
+          "uniqueness_pct": 91.7,
+          "duplicate_count": 6,
+          "duplicate_pct": 8.3,
+          "min": "40.9",
+          "max": "90.7",
+          "date_pattern": null,
+          "numeric_range": "40.9 \u2013 90.7",
+          "samples": [
+            "66.0",
+            "66.6",
+            "72.1",
+            "59.3",
+            "62.3"
+          ]
+        },
+        {
+          "column": "human_rights_risk",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 3,
+          "uniqueness_pct": 4.2,
+          "duplicate_count": 69,
+          "duplicate_pct": 95.8,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Low",
+            "Low",
+            "Low",
+            "High",
+            "High"
+          ]
+        },
+        {
+          "column": "carbon_data_available",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 2,
+          "uniqueness_pct": 2.8,
+          "duplicate_count": 70,
+          "duplicate_pct": 97.2,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes"
+          ]
+        },
+        {
+          "column": "audit_status",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 2,
+          "uniqueness_pct": 2.8,
+          "duplicate_count": 70,
+          "duplicate_pct": 97.2,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Audited",
+            "Audited",
+            "Audited",
+            "Audited",
+            "Audited"
+          ]
+        },
+        {
+          "column": "corrective_action_status",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 3,
+          "uniqueness_pct": 4.2,
+          "duplicate_count": 69,
+          "duplicate_pct": 95.8,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Overdue",
+            "Overdue",
+            "Overdue",
+            "Overdue",
+            "Overdue"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_ESG_033",
+      "row_count": 16,
+      "column_count": 15,
+      "profiled_at": "2026-08-10 11:24:32",
+      "columns": [
+        {
+          "column": "penalty_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 16,
+          "uniqueness_pct": 100.0,
+          "duplicate_count": 0,
+          "duplicate_pct": 0.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "D1-PEN01",
+            "D1-PEN02",
+            "D1-PEN03",
+            "D1-PEN04",
+            "D1-PEN05"
+          ]
+        },
+        {
+          "column": "deal_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 4,
+          "uniqueness_pct": 25.0,
+          "duplicate_count": 12,
+          "duplicate_pct": 75.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "DEAL001",
+            "DEAL001",
+            "DEAL001",
+            "DEAL001",
+            "DEAL001"
+          ]
+        },
+        {
+          "column": "company_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 4,
+          "uniqueness_pct": 25.0,
+          "duplicate_count": 12,
+          "duplicate_pct": 75.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "COMP001",
+            "COMP001",
+            "COMP001",
+            "COMP001",
+            "COMP001"
+          ]
+        },
+        {
+          "column": "controversy_id",
+          "inferred_type": "str",
+          "null_count": 4,
+          "null_pct": 25.0,
+          "distinct_count": 12,
+          "uniqueness_pct": 100.0,
+          "duplicate_count": 0,
+          "duplicate_pct": 0.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "D1-CTRL-breach",
+            "D1-CTRL-breach_reg",
+            "D1-CTRL-insider",
+            "D1-CTRL-labour",
+            "D2-CTRL-insider"
+          ]
+        },
+        {
+          "column": "case_reference",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 16,
+          "uniqueness_pct": 100.0,
+          "duplicate_count": 0,
+          "duplicate_pct": 0.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "DPA/2023/848",
+            "DPA/2023/918-INQ",
+            "SEBI/AO/2022/270",
+            "DOL/2018/4178",
+            "REG/BRSR/2021/45"
+          ]
+        },
+        {
+          "column": "regulator_body",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 3,
+          "uniqueness_pct": 18.8,
+          "duplicate_count": 13,
+          "duplicate_pct": 81.2,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Data Protection Authority (EU)",
+            "Data Protection Authority (EU)",
+            "SEBI",
+            "US Dept of Labor",
+            "SEBI"
+          ]
+        },
+        {
+          "column": "jurisdiction",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 3,
+          "uniqueness_pct": 18.8,
+          "duplicate_count": 13,
+          "duplicate_pct": 81.2,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "EU",
+            "EU",
+            "India",
+            "United States",
+            "India"
+          ]
+        },
+        {
+          "column": "penalty_type",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 4,
+          "uniqueness_pct": 25.0,
+          "duplicate_count": 12,
+          "duplicate_pct": 75.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Fine",
+            "Notice",
+            "Penalty",
+            "Settlement",
+            "Penalty"
+          ]
+        },
+        {
+          "column": "amount",
+          "inferred_type": "integer",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 12,
+          "uniqueness_pct": 75.0,
+          "duplicate_count": 4,
+          "duplicate_pct": 25.0,
+          "min": "0",
+          "max": "120000000",
+          "date_pattern": null,
+          "numeric_range": "0 \u2013 120000000",
+          "samples": [
+            "80000000",
+            "0",
+            "12000000",
+            "45000000",
+            "500000"
+          ]
+        },
+        {
+          "column": "currency",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 3,
+          "uniqueness_pct": 18.8,
+          "duplicate_count": 13,
+          "duplicate_pct": 81.2,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "INR",
+            "INR",
+            "INR",
+            "INR",
+            "INR"
+          ]
+        },
+        {
+          "column": "status",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 4,
+          "uniqueness_pct": 25.0,
+          "duplicate_count": 12,
+          "duplicate_pct": 75.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Contingent",
+            "Open",
+            "Under appeal",
+            "Paid",
+            "Paid"
+          ]
+        },
+        {
+          "column": "provision_booked",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 2,
+          "uniqueness_pct": 12.5,
+          "duplicate_count": 14,
+          "duplicate_pct": 87.5,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "No",
+            "No",
+            "Yes",
+            "Yes",
+            "Yes"
+          ]
+        },
+        {
+          "column": "filed_date",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 7,
+          "uniqueness_pct": 43.8,
+          "duplicate_count": 9,
+          "duplicate_pct": 56.2,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "2023-11-05",
+            "2023-12-01",
+            "2022-08-22",
+            "2018-05-14",
+            "2021-09-30"
+          ]
+        },
+        {
+          "column": "resolution_date",
+          "inferred_type": "str",
+          "null_count": 8,
+          "null_pct": 50.0,
+          "distinct_count": 2,
+          "uniqueness_pct": 25.0,
+          "duplicate_count": 6,
+          "duplicate_pct": 37.5,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "2019-02-10",
+            "2021-11-15",
+            "2019-02-10",
+            "2021-11-15",
+            "2019-02-10"
+          ]
+        },
+        {
+          "column": "description",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 5,
+          "uniqueness_pct": 31.2,
+          "duplicate_count": 11,
+          "duplicate_pct": 68.8,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Estimated GDPR fine exposure for data breach; not yet assessed",
+            "GDPR Article 33 inquiry into late breach notification",
+            "Insider-trading penalty; company appealing",
+            "Settlement of visa wage-practice class action",
+            "Minor penalty for delayed BRSR filing"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_ESG_034",
+      "row_count": 24,
+      "column_count": 9,
+      "profiled_at": "2026-08-10 12:52:56",
+      "columns": [
+        {
+          "column": "facility_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 24,
+          "uniqueness_pct": 100.0,
+          "duplicate_count": 0,
+          "duplicate_pct": 0.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "D1-FAC01",
+            "D1-FAC02",
+            "D1-FAC03",
+            "D1-FAC04",
+            "D1-FAC05"
+          ]
+        },
+        {
+          "column": "company_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 4,
+          "uniqueness_pct": 16.7,
+          "duplicate_count": 20,
+          "duplicate_pct": 83.3,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "COMP001",
+            "COMP001",
+            "COMP001",
+            "COMP001",
+            "COMP001"
+          ]
+        },
+        {
+          "column": "facility_name",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 18,
+          "uniqueness_pct": 75.0,
+          "duplicate_count": 6,
+          "duplicate_pct": 25.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Bengaluru Development Centre",
+            "Hyderabad Development Centre",
+            "Pune Data Centre",
+            "Chennai Office",
+            "Noida Development Centre"
+          ]
+        },
+        {
+          "column": "facility_type",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 3,
+          "uniqueness_pct": 12.5,
+          "duplicate_count": 21,
+          "duplicate_pct": 87.5,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Development Centre",
+            "Development Centre",
+            "Data Centre",
+            "Office",
+            "Development Centre"
+          ]
+        },
+        {
+          "column": "country",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 3,
+          "uniqueness_pct": 12.5,
+          "duplicate_count": 21,
+          "duplicate_pct": 87.5,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "India",
+            "India",
+            "India",
+            "India",
+            "India"
+          ]
+        },
+        {
+          "column": "city",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 18,
+          "uniqueness_pct": 75.0,
+          "duplicate_count": 6,
+          "duplicate_pct": 25.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Bengaluru",
+            "Hyderabad",
+            "Pune",
+            "Chennai",
+            "Noida"
+          ]
+        },
+        {
+          "column": "ownership_type",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 2,
+          "uniqueness_pct": 8.3,
+          "duplicate_count": 22,
+          "duplicate_pct": 91.7,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Owned",
+            "Leased",
+            "Owned",
+            "Leased",
+            "Leased"
+          ]
+        },
+        {
+          "column": "operational_status",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 2,
+          "uniqueness_pct": 8.3,
+          "duplicate_count": 22,
+          "duplicate_pct": 91.7,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "Active",
+            "Active",
+            "Active",
+            "Active",
+            "Active"
+          ]
+        },
+        {
+          "column": "employee_count",
+          "inferred_type": "integer",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 23,
+          "uniqueness_pct": 95.8,
+          "duplicate_count": 1,
+          "duplicate_pct": 4.2,
+          "min": "137",
+          "max": "13563",
+          "date_pattern": null,
+          "numeric_range": "137 \u2013 13563",
+          "samples": [
+            "5025",
+            "12766",
+            "235",
+            "640",
+            "8844"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_ESG_035",
+      "row_count": 40,
+      "column_count": 5,
+      "profiled_at": "2026-08-10 13:48:45",
+      "columns": [
+        {
+          "column": "company_id",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 4,
+          "uniqueness_pct": 10.0,
+          "duplicate_count": 36,
+          "duplicate_pct": 90.0,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "COMP001",
+            "COMP001",
+            "COMP001",
+            "COMP001",
+            "COMP001"
+          ]
+        },
+        {
+          "column": "reporting_year",
+          "inferred_type": "integer",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 10,
+          "uniqueness_pct": 25.0,
+          "duplicate_count": 30,
+          "duplicate_pct": 75.0,
+          "min": "2015",
+          "max": "2024",
+          "date_pattern": null,
+          "numeric_range": "2015 \u2013 2024",
+          "samples": [
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019"
+          ]
+        },
+        {
+          "column": "annual_revenue",
+          "inferred_type": "integer",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 40,
+          "uniqueness_pct": 100.0,
+          "duplicate_count": 0,
+          "duplicate_pct": 0.0,
+          "min": "19042486064",
+          "max": "189015776942",
+          "date_pattern": null,
+          "numeric_range": "19042486064 \u2013 189015776942",
+          "samples": [
+            "32324152872",
+            "35961327844",
+            "39938065155",
+            "45506310310",
+            "50620841245"
+          ]
+        },
+        {
+          "column": "employee_count",
+          "inferred_type": "integer",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 39,
+          "uniqueness_pct": 97.5,
+          "duplicate_count": 1,
+          "duplicate_pct": 2.5,
+          "min": "8400",
+          "max": "86100",
+          "date_pattern": null,
+          "numeric_range": "8400 \u2013 86100",
+          "samples": [
+            "14000",
+            "17000",
+            "20000",
+            "23000",
+            "26000"
+          ]
+        },
+        {
+          "column": "reporting_currency",
+          "inferred_type": "str",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "distinct_count": 3,
+          "uniqueness_pct": 7.5,
+          "duplicate_count": 37,
+          "duplicate_pct": 92.5,
+          "min": null,
+          "max": null,
+          "date_pattern": null,
+          "numeric_range": null,
+          "samples": [
+            "INR",
+            "INR",
+            "INR",
+            "INR",
+            "INR"
+          ]
+        }
+      ]
     }
   ]
 }

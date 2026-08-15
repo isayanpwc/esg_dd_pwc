@@ -20,6 +20,8 @@ from utils.benchmarking_agent import (
     compare_against_target,
     classify_performance,
     get_performance_color,
+    get_distribution_description,
+    filter_peer_distribution,
 )
 
 
@@ -30,8 +32,17 @@ from utils.benchmarking_agent import (
 def _section(title, subtitle=None):
     st.markdown(
         f'<div style="margin:24px 0 8px 0;">'
-        f'<h3 style="margin:0; font-size:1.15rem; font-weight:700; color:#111827;">{title}</h3>'
-        + (f'<p style="color:#6B7280; font-size:0.84rem; margin:4px 0 0 0;">{subtitle}</p>' if subtitle else "")
+        f'<h3 style="margin:0; font-size:1.15rem; font-weight:700; color:#111827;">'
+        f'{title}</h3>'
+        + (
+            f'<p class="peer-distribution-subtitle" '
+            f'style="color:#6B7280; '
+            f'font-size:0.84rem; '
+            f'margin:4px 0 0 0; '
+            f'line-height:1.45;">'
+            f'{subtitle}</p>'
+            if subtitle else ""
+        )
         + '</div>',
         unsafe_allow_html=True,
     )
@@ -81,14 +92,34 @@ def _performance_variant(perf):
 # ════════════════════════════════════════════════════════════
 
 def render():
+
+    st.markdown("""
+    <style>
+
+    .peer-distribution-subtitle{
+        transition:all .25s ease-in-out;
+    }
+
+    div[role="radiogroup"]{
+        gap:14px;
+    }
+
+    </style>
+    """, unsafe_allow_html=True)
+
     st.markdown(
-        '<div style="margin-bottom:6px;">'
-        '<h2 style="margin:0; font-size:1.55rem; font-weight:700; color:#111827;">'
-        '📈 ESG Benchmarking Agent</h2>'
-        '<p style="color:#6B7280; font-size:0.88rem; margin:6px 0 16px 0; line-height:1.6;">'
-        'Compare your company\'s ESG performance against industry peers — '
-        'peer group selection, percentile ranking, and performance classification.</p></div>',
-        unsafe_allow_html=True,
+        """
+        <div style="margin-bottom:6px;">
+            <h2 style="margin:0; font-size:1.55rem; font-weight:700; color:#111827;">
+                📈 ESG Benchmarking Agent
+            </h2>
+            <p style="color:#6B7280; font-size:0.88rem; margin:6px 0 16px 0; line-height:1.6;">
+                Compare your company's ESG performance against industry peers —
+                peer group selection, percentile ranking, and performance classification.
+            </p>
+        </div>
+        """,
+        unsafe_allow_html=True
     )
 
     tabs = st.tabs(["📊  Benchmark Analysis", "📋  Benchmark Summary"])
@@ -276,10 +307,30 @@ def _render_peer_group_info(result):
 
 # ── Peer Distribution Chart ──
 
-def _render_distribution_chart(result, company_name):
-    _section("Peer Distribution", "How the target company compares to each peer")
+def _render_distribution_chart(
+    result,
+    company_name,
+    distribution_category="Full Distribution"
+): 
+    _section(
+            "Peer Distribution",
+            get_distribution_description(distribution_category)
+        )
+
+    distribution_category = st.radio(
+        "",
+        [
+            "🎯Around You",
+            "🏆Leaders",
+            "📉Laggards",
+            "📊Full Distribution"
+        ],
+        horizontal=True,
+        key="peer_distribution_category"
+    )
 
     peers = result.get("peer_details", [])
+
     if not peers:
         return
 
@@ -289,42 +340,70 @@ def _render_distribution_chart(result, company_name):
     q3 = result["q3"]
     unit = result.get("unit", "")
 
-    all_entries = list(peers) + [{
+    filtered_peers = filter_peer_distribution(
+        peers,
+        target_value,
+        median,
+        q1,
+        q3,
+        distribution_category
+    )
+
+    all_entries = list(filtered_peers)
+
+    all_entries.append({
         "company_name": company_name,
         "value": target_value,
         "is_target": True,
-    }]
+    })
+
     all_entries.sort(key=lambda x: x["value"])
 
     names = []
     values = []
     colors = []
+
     for entry in all_entries:
         names.append(entry["company_name"])
         values.append(entry["value"])
-        colors.append("#FF5A00" if entry.get("is_target") else "#CBD5E1")
+        colors.append(
+            "#FF5A00"
+            if entry.get("is_target")
+            else "#CBD5E1"
+        )
 
     fig = go.Figure()
 
     fig.add_shape(
-        type="rect", x0=q1, x1=q3, y0=-0.5, y1=len(names) - 0.5,
-        fillcolor="rgba(37,99,235,0.08)", line=dict(width=0),
+        type="rect",
+        x0=q1,
+        x1=q3,
+        y0=-0.5,
+        y1=len(names) - 0.5,
+        fillcolor="rgba(37,99,235,0.08)",
+        line=dict(width=0),
         layer="below",
     )
 
-    fig.add_trace(go.Bar(
-        y=names, x=values, orientation="h",
-        marker_color=colors,
-        marker_line_width=0,
-        text=[f"{v:,.2f}" for v in values],
-        textposition="outside",
-        textfont_size=11,
-    ))
+    fig.add_trace(
+        go.Bar(
+            y=names,
+            x=values,
+            orientation="h",
+            marker_color=colors,
+            marker_line_width=0,
+            text=[f"{v:,.2f}" for v in values],
+            textposition="outside",
+        )
+    )
 
-    fig.add_vline(x=median, line_dash="dash", line_color="#6B7280", line_width=2,
-                  annotation_text=f"Median: {median:,.2f}",
-                  annotation_position="top right",
-                  annotation_font_size=11)
+    fig.add_vline(
+        x=median,
+        line_dash="dash",
+        line_color="#6B7280",
+        line_width=2,
+        annotation_text=f"Median: {median:,.2f}",
+    )
 
     fig.update_layout(
         height=max(350, len(names) * 32 + 80),
@@ -333,12 +412,13 @@ def _render_distribution_chart(result, company_name):
         yaxis=dict(autorange="reversed"),
         plot_bgcolor="white",
         paper_bgcolor="white",
-        font=dict(size=12),
         showlegend=False,
     )
-    fig.update_xaxes(showgrid=True, gridcolor="#F3F4F6")
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(
+        fig,
+        use_container_width=True
+    )
 
     st.markdown(
         '<div style="display:flex; gap:16px; justify-content:center; font-size:0.78rem; color:#6B7280;">'

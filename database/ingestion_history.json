@@ -359,6 +359,36 @@
       "loaded_by": "joe",
       "loaded_at": "2026-08-05 14:34:51",
       "error": null
+    },
+    {
+      "source_name": "compliance_assessment.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 200,
+      "status": "Success",
+      "loaded_by": "joe",
+      "loaded_at": "2026-08-06 13:04:44",
+      "error": null
+    },
+    {
+      "source_name": "peer_benchmark_data.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 1120,
+      "status": "Success",
+      "loaded_by": "joe",
+      "loaded_at": "2026-08-09 22:59:59",
+      "error": null
+    },
+    {
+      "source_name": "esg_risk_opportunity.csv",
+      "source_type": "File Upload",
+      "category": "esg_data",
+      "row_count": 28,
+      "status": "Success",
+      "loaded_by": "joe",
+      "loaded_at": "2026-08-09 23:06:56",
+      "error": null
     }
   ]
 }
