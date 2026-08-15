@@ -1,0 +1,116 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Tests (SQLite)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
+
+      - name: Verify migrations build the schema from scratch
+        env:
+          DATABASE_URL: sqlite+pysqlite:///./ci.db
+          ESG_DATA_KEYS: ci-key:MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA=
+          ESG_ACTIVE_KEY_ID: ci-key
+        run: |
+          python -m alembic upgrade head
+          python -m alembic downgrade base
+          python -m alembic upgrade head
+
+      - name: Run tests
+        env:
+          ESG_DATA_KEYS: ci-key:MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA=
+          ESG_ACTIVE_KEY_ID: ci-key
+        run: pytest -q --cov=esg --cov-report=term-missing --cov-fail-under=80
+
+  test-postgres:
+    name: Tests (Postgres + row-level security)
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: esg_test
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
+          pip install "psycopg[binary]>=3.1"
+
+      - name: Migrate and test against Postgres
+        env:
+          DATABASE_URL: postgresql+psycopg://postgres:postgres@localhost:5432/esg_test
+          ESG_DATA_KEYS: ci-key:MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA=
+          ESG_ACTIVE_KEY_ID: ci-key
+        run: |
+          python -m alembic upgrade head
+          pytest -q -m "not sqlite_only"
+
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install ruff
+      - run: ruff check esg tests
+      - run: ruff format --check esg tests
+
+  audit-chain:
+    name: Audit-chain smoke test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
+      - name: The audit chain must detect tampering
+        env:
+          DATABASE_URL: sqlite+pysqlite:///./audit.db
+          ESG_DATA_KEYS: ci-key:MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA=
+          ESG_ACTIVE_KEY_ID: ci-key
+        run: pytest -q tests/test_access_control.py -k "tamper or delet or chain"

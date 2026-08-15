@@ -1,0 +1,43 @@
+{
+  "regulation": {
+    "regulation_id": "REG002",
+    "regulation_name": "EU CSRD / ESRS Set 1",
+    "jurisdiction": "EU",
+    "regulatory_body": "European Commission",
+    "applicable_industry": "Large and listed EU undertakings",
+    "mandatory_flag": "Yes",
+    "source_url": "https://finance.ec.europa.eu/"
+  },
+  "ruleset_version": "esrs-set1-2024",
+  "effective_from": "2024-01-01",
+  "effective_to": null,
+  "coverage": {
+    "completeness": "partial-extract",
+    "requirements_in_pack": 20,
+    "estimated_total_datapoints": 1100,
+    "source": "ESRS Set 1 delegated act — cross-cutting and topical standards",
+    "caveat": "Extract of the cross-cutting standards and the most deal-relevant E1/S1/G1 disclosure requirements. ESRS Set 1 contains roughly 1,100 data points and materiality determines which apply; this pack cannot support a completeness assertion. Verify against the delegated act and the entity's own materiality assessment."
+  },
+  "requirements": [
+    {"requirement_code": "ESRS2-BP1", "requirement_name": "General basis for preparation", "requirement_description": "Disclose the basis of preparation, consolidation scope and value chain boundary.", "required_document": "Sustainability statement", "disclosure_topic": "General", "source_citation": "ESRS 2 BP-1"},
+    {"requirement_code": "ESRS2-GOV1", "requirement_name": "Role of administrative and supervisory bodies", "requirement_description": "Disclose the composition, expertise and sustainability oversight role of governance bodies.", "required_metric_code": "GOV_BOARD_INDEP_PCT", "required_document": "Sustainability statement", "disclosure_topic": "Governance", "source_citation": "ESRS 2 GOV-1"},
+    {"requirement_code": "ESRS2-GOV3", "requirement_name": "Sustainability in incentive schemes", "requirement_description": "Disclose whether and how sustainability performance is reflected in remuneration.", "required_document": "Remuneration report", "disclosure_topic": "Governance", "source_citation": "ESRS 2 GOV-3"},
+    {"requirement_code": "ESRS2-SBM3", "requirement_name": "Material impacts, risks and opportunities", "requirement_description": "Disclose material IROs identified by the double materiality assessment and their interaction with strategy.", "required_document": "Sustainability statement", "disclosure_topic": "General", "source_citation": "ESRS 2 SBM-3"},
+    {"requirement_code": "ESRS2-IRO1", "requirement_name": "Double materiality process", "requirement_description": "Describe the process to identify and assess material impacts, risks and opportunities.", "required_document": "Sustainability statement", "disclosure_topic": "General", "source_citation": "ESRS 2 IRO-1"},
+    {"requirement_code": "ESRS-E1-1", "requirement_name": "Transition plan for climate change mitigation", "requirement_description": "Disclose a transition plan compatible with limiting warming to 1.5C, including decarbonisation levers.", "required_document": "Sustainability statement", "disclosure_topic": "Climate", "source_citation": "ESRS E1-1"},
+    {"requirement_code": "ESRS-E1-4", "requirement_name": "Climate targets", "requirement_description": "Disclose GHG emission reduction targets with base year, target year and scope coverage.", "required_document": "Sustainability statement", "disclosure_topic": "Climate", "source_citation": "ESRS E1-4"},
+    {"requirement_code": "ESRS-E1-5", "requirement_name": "Energy consumption and mix", "requirement_description": "Disclose total energy consumption split by fossil, nuclear and renewable sources.", "required_metric_code": "ENV_ENERGY_TOTAL", "required_document": "Sustainability statement", "disclosure_topic": "Energy", "source_citation": "ESRS E1-5"},
+    {"requirement_code": "ESRS-E1-6-S1", "requirement_name": "Gross Scope 1 GHG emissions", "requirement_description": "Disclose gross Scope 1 GHG emissions in tCO2e and the percentage under regulated emission trading schemes.", "required_metric_code": "ENV_SCOPE1", "required_document": "Sustainability statement", "disclosure_topic": "Climate", "source_citation": "ESRS E1-6"},
+    {"requirement_code": "ESRS-E1-6-S2", "requirement_name": "Gross Scope 2 GHG emissions", "requirement_description": "Disclose gross location-based and market-based Scope 2 GHG emissions in tCO2e.", "required_metric_code": "ENV_SCOPE2", "required_document": "Sustainability statement", "disclosure_topic": "Climate", "source_citation": "ESRS E1-6"},
+    {"requirement_code": "ESRS-E1-6-S3", "requirement_name": "Gross Scope 3 GHG emissions", "requirement_description": "Disclose gross Scope 3 GHG emissions by significant category with the calculation basis.", "required_metric_code": "ENV_SCOPE3", "required_document": "Sustainability statement", "disclosure_topic": "Climate", "source_citation": "ESRS E1-6"},
+    {"requirement_code": "ESRS-E1-7", "requirement_name": "Removals and carbon credits", "requirement_description": "Disclose GHG removals and any carbon credits cancelled or planned to be cancelled.", "required_document": "Sustainability statement", "mandatory_flag": "No", "disclosure_topic": "Climate", "source_citation": "ESRS E1-7"},
+    {"requirement_code": "ESRS-E1-9", "requirement_name": "Anticipated financial effects of climate risk", "requirement_description": "Disclose anticipated financial effects from material physical and transition risks.", "required_document": "Sustainability statement", "disclosure_topic": "Climate", "source_citation": "ESRS E1-9"},
+    {"requirement_code": "ESRS-E3-4", "requirement_name": "Water consumption", "requirement_description": "Disclose total water consumption, and consumption in areas of water stress.", "required_metric_code": "ENV_WATER_WITHDRAWAL", "required_document": "Sustainability statement", "disclosure_topic": "Water", "source_citation": "ESRS E3-4"},
+    {"requirement_code": "ESRS-E5-4", "requirement_name": "Resource inflows", "requirement_description": "Disclose material resource inflows including the share of secondary reused or recycled components.", "required_document": "Sustainability statement", "disclosure_topic": "Circularity", "source_citation": "ESRS E5-4"},
+    {"requirement_code": "ESRS-E5-5", "requirement_name": "Resource outflows and waste", "requirement_description": "Disclose total waste generated, diverted from disposal and directed to disposal.", "required_metric_code": "ENV_WASTE_TOTAL", "required_document": "Sustainability statement", "disclosure_topic": "Circularity", "source_citation": "ESRS E5-5"},
+    {"requirement_code": "ESRS-S1-6", "requirement_name": "Characteristics of employees", "requirement_description": "Disclose headcount by gender and country, and employee turnover.", "required_metric_code": "SOC_ATTRITION", "required_document": "Sustainability statement", "disclosure_topic": "Workforce", "source_citation": "ESRS S1-6"},
+    {"requirement_code": "ESRS-S1-9", "requirement_name": "Diversity metrics", "requirement_description": "Disclose gender distribution at top management and the age distribution of employees.", "required_metric_code": "SOC_FEMALE_PCT", "required_document": "Sustainability statement", "disclosure_topic": "Diversity", "source_citation": "ESRS S1-9"},
+    {"requirement_code": "ESRS-S1-14", "requirement_name": "Health and safety metrics", "requirement_description": "Disclose recordable work-related injuries, fatalities and days lost.", "required_metric_code": "SOC_FATALITIES", "required_document": "Sustainability statement", "disclosure_topic": "Health and safety", "source_citation": "ESRS S1-14"},
+    {"requirement_code": "ESRS-G1-3", "requirement_name": "Prevention and detection of corruption", "requirement_description": "Disclose procedures to prevent, detect and address allegations of corruption and bribery.", "required_metric_code": "GOV_BRIBERY_CASES", "required_document": "Sustainability statement", "disclosure_topic": "Business conduct", "source_citation": "ESRS G1-3"}
+  ]
+}

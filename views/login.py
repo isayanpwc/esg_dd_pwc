@@ -1,8 +1,7 @@
 import streamlit as st
 from datetime import datetime
-from utils.auth import login_user
+from utils.auth import login_user, redeem_invite
 from utils.security import hash_password, validate_email, validate_password_strength, sanitize_input
-from utils.json_manager import username_exists, email_exists, save_user, add_audit_log
 
 
 _BG_CSS = """
@@ -331,7 +330,7 @@ def render():
     col_left, col_center, col_right = st.columns([1.2, 2, 1.2])
 
     with col_center:
-        tab_signin, tab_create = st.tabs(["Sign in", "Create account"])
+        tab_signin, tab_create = st.tabs(["Sign in", "Redeem invitation"])
 
         with tab_signin:
             _render_sign_in()
@@ -378,108 +377,73 @@ def _render_sign_in():
             if not identifier or not password:
                 st.error("Please fill in all fields.")
                 return
-            if login_user(identifier, password):
+            ok, message = login_user(identifier, password)
+            if ok:
                 st.session_state["page"] = "home"
                 st.rerun()
             else:
-                st.error("Invalid credentials.")
+                st.error(message or "Incorrect username or password.")
 
 
 def _render_create_account():
+    """Redeem an invitation.
+
+    Accounts are provisioned by an administrator, who sets the role. There is
+    deliberately no role selector here: letting the person being provisioned
+    choose their own permissions was the previous escalation path.
+    """
     st.markdown("")
 
     col_title, col_desc = st.columns([1, 1.5])
     with col_title:
         st.markdown(
-            '<div class="section-heading">Create your<br>account</div>',
+            '<div class="section-heading">Redeem your<br>invitation</div>',
             unsafe_allow_html=True,
         )
     with col_desc:
         st.markdown(
             '<p class="section-subtitle" style="margin-top:8px;">'
-            'Self-serve signup. Your account is stored in a private, persistent registry.</p>',
+            'Paste the single-use token an administrator sent you, then choose a '
+            'username and password. Your role is set by the invitation.</p>',
             unsafe_allow_html=True,
         )
 
     st.markdown("")
 
     with st.container(border=True):
-        col_name, col_email = st.columns(2)
-        with col_name:
-            full_name = st.text_input("Full name", key="reg_name", placeholder="Jane Doe")
-        with col_email:
-            email = st.text_input("Work email", key="reg_email", placeholder="jane@example.com")
+        token = st.text_input(
+            "Invitation token", key="reg_token", placeholder="",
+            help="Single-use and time-limited. Ask an administrator to reissue if expired.",
+        )
+        username = st.text_input(
+            "Choose a username", key="reg_user", placeholder="jane.doe",
+            help="3-64 characters: letters, digits, dot, underscore or hyphen",
+        )
+        password = st.text_input(
+            "Password", type="password", key="reg_pw",
+            help="At least 12 characters. 16 or more needs no character classes.",
+        )
+        confirm = st.text_input("Confirm password", type="password", key="reg_pw2")
 
-        col_user, col_role = st.columns(2)
-        with col_user:
-            username = st.text_input("Username", key="reg_user", placeholder="jane.doe",
-                                     help="Must be unique across all accounts")
-        with col_role:
-            role = st.selectbox("Role", ["viewer", "analyst", "manager", "admin"], key="reg_role",
-                                help="Determines your access level")
-
-        password = st.text_input("Password", type="password", key="reg_pw", placeholder="",
-                                 help="Min 8 chars, uppercase, lowercase, digit, special char")
-        confirm = st.text_input("Confirm password", type="password", key="reg_pw2", placeholder="")
-
-        st.markdown("<div style='height:2px'></div>", unsafe_allow_html=True)
-
-        terms = st.checkbox(
-            "I understand my credentials are stored securely and can be deleted on request.",
-            key="reg_terms",
+        st.caption(
+            "Need access? Ask a platform administrator to issue an invitation for "
+            "your work email. Accounts cannot be self-created."
         )
 
         st.markdown("<div style='height:6px'></div>", unsafe_allow_html=True)
 
-        if st.button("Create account", key="btn_create", use_container_width=True, type="primary"):
-            full_name = sanitize_input(full_name)
-            email = sanitize_input(email)
-            username = sanitize_input(username)
-
-            if not all([full_name, email, username, password, confirm]):
+        if st.button("Create account", key="btn_create",
+                     use_container_width=True, type="primary"):
+            if not all([token, username, password, confirm]):
                 st.error("Please fill in all fields.")
                 return
-
-            if not validate_email(email):
-                st.error("Please enter a valid email address.")
-                return
-
-            if email_exists(email.lower()):
-                st.error("An account with this email already exists.")
-                return
-
-            if username_exists(username):
-                st.error("Username already exists. Please select another username.")
-                return
-
-            valid, msg = validate_password_strength(password)
-            if not valid:
-                st.error(msg)
-                return
-
             if password != confirm:
                 st.error("Passwords do not match.")
                 return
 
-            if not terms:
-                st.error("You must agree to the Terms & Conditions.")
-                return
-
-            display_role = role.capitalize()
-            user_data = {
-                "full_name": full_name,
-                "email": email.lower(),
-                "username": username,
-                "role": display_role,
-                "password_hash": hash_password(password),
-                "created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            }
-            save_user(user_data)
-            add_audit_log(username, "User Registered")
-
-            st.session_state["logged_in"] = True
-            st.session_state["user"] = username
-            st.session_state["role"] = display_role
-            st.session_state["full_name"] = full_name
-            st.session_state["page"] = "home"
-            st.rerun()
+            ok, message = redeem_invite(token.strip(), sanitize_input(username), password)
+            if ok:
+                st.success(message)
+                st.info("Switch to the Sign in tab to continue.")
+            else:
+                st.error(message)
