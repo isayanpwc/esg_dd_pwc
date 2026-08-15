@@ -465,6 +465,28 @@ st.set_page_config(
 )
 
 
+# Bring a fresh container up to a usable state: schema, and the first Admin if
+# bootstrap credentials are supplied. Cached so it runs once per process.
+@st.cache_resource
+def _bootstrap():
+    from esg.bootstrap import initialise
+
+    return initialise()
+
+
+_BOOT = _bootstrap()
+
+if _BOOT and _BOOT.get("ephemeral"):
+    st.warning(
+        "**Demo deployment — storage is not durable.** This instance keeps its "
+        "database in the container filesystem, which is reset when the Space "
+        "rebuilds or sleeps. Anything uploaded here can disappear without "
+        "warning, so do not load confidential deal data. Point `DATABASE_URL` at "
+        "a managed Postgres instance for real use — see docs/DEPLOYMENT.md.",
+        icon="⚠️",
+    )
+
+
 # ══════════════════════════════════════════════════════════════
 #  CSS
 # ══════════════════════════════════════════════════════════════
