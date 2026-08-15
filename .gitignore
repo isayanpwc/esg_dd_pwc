@@ -2,3 +2,6 @@
 *.env
 *env*
 *.pyc
+*.pptx
+._*
+.DS_Store
