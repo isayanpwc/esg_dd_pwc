@@ -3,8 +3,8 @@ title: ESG Due Diligence Platform
 emoji: 🌿
 colorFrom: gray
 colorTo: indigo
-sdk: streamlit
-app_file: app.py
+sdk: docker
+app_port: 7860
 pinned: false
 short_description: AI-assisted ESG due diligence for M&A, with page-level evidence
 ---
