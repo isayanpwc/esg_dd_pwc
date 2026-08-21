@@ -160,6 +160,57 @@ SPECS = {
         integer=("employee_count",),
         references={"company_id": (models.CompanyMaster, "company_id")},
     ),
+    # ── reference tables ──
+    # Parents for the foreign-key checks above. Without specs the loader skips
+    # them, and every child row then fails its referential check.
+    "esg_metric_master": TableSpec(
+        model=models.EsgMetricMaster,
+        required=("metric_code", "metric_name"),
+        boolean=("is_intensity",),
+        enums={"direction": ("higher", "lower")},
+        max_len={"metric_code": 64, "unit": 64},
+    ),
+    "supplier_master": TableSpec(
+        model=models.SupplierMaster,
+        required=("supplier_id", "supplier_name"),
+        numeric=("annual_spend",),
+        non_negative=("annual_spend",),
+        max_len={"spend_currency": 8},
+    ),
+    "regulation_master": TableSpec(
+        model=models.RegulationMaster,
+        required=("regulation_id", "regulation_name"),
+        date=("effective_date",),
+    ),
+    "regulatory_requirement": TableSpec(
+        model=models.RegulatoryRequirement,
+        required=("requirement_id", "regulation_id", "requirement_code",
+                  "requirement_name"),
+        date=("effective_from", "effective_to"),
+        references={"regulation_id": (models.RegulationMaster, "regulation_id")},
+    ),
+    "fx_rate_reference": TableSpec(
+        model=models.FxRateReference,
+        required=("from_currency", "to_currency", "rate", "rate_date"),
+        numeric=("rate",),
+        non_negative=("rate",),
+        date=("rate_date",),
+        max_len={"from_currency": 8, "to_currency": 8},
+    ),
+    "deal_master": TableSpec(
+        model=models.DealMaster,
+        required=("deal_id", "deal_name", "company_id"),
+        date=("start_date", "target_close_date"),
+        references={"company_id": (models.CompanyMaster, "company_id")},
+    ),
+    "esg_risk_opportunity": TableSpec(
+        model=models.EsgRiskOpportunity,
+        required=("finding_id", "company_id"),
+        numeric=("overall_score", "financial_impact"),
+        integer=("likelihood_score", "impact_score"),
+        enums={"esg_pillar": _PILLARS},
+        references={"company_id": (models.CompanyMaster, "company_id")},
+    ),
     "esg_document_register": TableSpec(
         model=models.EsgDocumentRegister,
         required=("document_id", "company_id", "document_name"),

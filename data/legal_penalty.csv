@@ -1,0 +1,17 @@
+penalty_id,deal_id,company_id,controversy_id,case_reference,regulator_body,jurisdiction,penalty_type,amount,currency,status,provision_booked,filed_date,resolution_date,description
+D1-PEN01,DEAL001,COMP001,D1-CTRL-breach,DPA/2023/848,Data Protection Authority (EU),EU,Fine,80000000,INR,Contingent,No,2023-11-05,,Estimated GDPR fine exposure for data breach; not yet assessed
+D1-PEN02,DEAL001,COMP001,D1-CTRL-breach_reg,DPA/2023/918-INQ,Data Protection Authority (EU),EU,Notice,0,INR,Open,No,2023-12-01,,GDPR Article 33 inquiry into late breach notification
+D1-PEN03,DEAL001,COMP001,D1-CTRL-insider,SEBI/AO/2022/270,SEBI,India,Penalty,12000000,INR,Under appeal,Yes,2022-08-22,,Insider-trading penalty; company appealing
+D1-PEN04,DEAL001,COMP001,D1-CTRL-labour,DOL/2018/4178,US Dept of Labor,United States,Settlement,45000000,INR,Paid,Yes,2018-05-14,2019-02-10,Settlement of visa wage-practice class action
+D1-PEN05,DEAL001,COMP001,,REG/BRSR/2021/45,SEBI,India,Penalty,500000,INR,Paid,Yes,2021-09-30,2021-11-15,Minor penalty for delayed BRSR filing
+D2-PEN01,DEAL002,COMP002,D2-CTRL-insider,SEBI/AO/2022/867,SEBI,India,Penalty,7200000,INR,Under appeal,Yes,2022-08-22,,Insider-trading penalty; company appealing
+D2-PEN02,DEAL002,COMP002,D2-CTRL-labour,DOL/2018/8310,US Dept of Labor,United States,Settlement,27000000,INR,Paid,Yes,2018-05-14,2019-02-10,Settlement of visa wage-practice class action
+D2-PEN03,DEAL002,COMP002,,REG/BRSR/2021/89,SEBI,India,Penalty,500000,INR,Paid,Yes,2021-09-30,2021-11-15,Minor penalty for delayed BRSR filing
+D3-PEN01,DEAL003,COMP003,D3-CTRL-insider,SEBI/AO/2022/709,SEBI,India,Penalty,25200000,CHF,Under appeal,Yes,2022-08-22,,Insider-trading penalty; company appealing
+D3-PEN02,DEAL003,COMP003,D3-CTRL-labour,DOL/2018/8986,US Dept of Labor,United States,Settlement,94500000,CHF,Paid,Yes,2018-05-14,2019-02-10,Settlement of visa wage-practice class action
+D3-PEN03,DEAL003,COMP003,,REG/BRSR/2021/79,SEBI,India,Penalty,500000,CHF,Paid,Yes,2021-09-30,2021-11-15,Minor penalty for delayed BRSR filing
+D4-PEN01,DEAL004,COMP004,D4-CTRL-breach,DPA/2022/687,Data Protection Authority (EU),EU,Fine,120000000,USD,Contingent,No,2022-11-05,,Estimated GDPR fine exposure for data breach; not yet assessed
+D4-PEN02,DEAL004,COMP004,D4-CTRL-breach_reg,DPA/2022/587-INQ,Data Protection Authority (EU),EU,Notice,0,USD,Open,No,2022-12-01,,GDPR Article 33 inquiry into late breach notification
+D4-PEN03,DEAL004,COMP004,D4-CTRL-insider,SEBI/AO/2022/693,SEBI,India,Penalty,18000000,USD,Under appeal,Yes,2022-08-22,,Insider-trading penalty; company appealing
+D4-PEN04,DEAL004,COMP004,D4-CTRL-labour,DOL/2018/5951,US Dept of Labor,United States,Settlement,67500000,USD,Paid,Yes,2018-05-14,2019-02-10,Settlement of visa wage-practice class action
+D4-PEN05,DEAL004,COMP004,,REG/BRSR/2021/47,SEBI,India,Penalty,500000,USD,Paid,Yes,2021-09-30,2021-11-15,Minor penalty for delayed BRSR filing

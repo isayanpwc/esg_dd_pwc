@@ -1,0 +1,1121 @@
+benchmark_record_id,peer_company_name,industry,country,reporting_year,metric_code,metric_value,unit,normalised_value,source_name,source_document
+BM00001,Silverline Softworks Ltd,IT Services & Consulting,India,2015,ENV_RENEW_PCT,18.55,%,18.55,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2015
+BM00002,Silverline Softworks Ltd,IT Services & Consulting,India,2015,ENV_DC_PUE,1.93,ratio,1.93,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2015
+BM00003,Silverline Softworks Ltd,IT Services & Consulting,India,2015,ENV_EWASTE_REC_PCT,66.32,%,66.32,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2015
+BM00004,Silverline Softworks Ltd,IT Services & Consulting,India,2015,SOC_ATTRITION,12.97,%,12.97,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2015
+BM00005,Silverline Softworks Ltd,IT Services & Consulting,India,2015,SOC_FEMALE_PCT,32.26,%,32.26,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2015
+BM00006,Silverline Softworks Ltd,IT Services & Consulting,India,2015,SOC_ESAT,71.24,score,71.24,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2015
+BM00007,Silverline Softworks Ltd,IT Services & Consulting,India,2015,GOV_BOARD_INDEP_PCT,47.7,%,47.7,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2015
+BM00008,Silverline Softworks Ltd,IT Services & Consulting,India,2015,GOV_WOMEN_BOARD_PCT,16.43,%,16.43,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2015
+BM00009,Silverline Softworks Ltd,IT Services & Consulting,India,2016,ENV_RENEW_PCT,23.43,%,23.43,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2016
+BM00010,Silverline Softworks Ltd,IT Services & Consulting,India,2016,ENV_DC_PUE,1.87,ratio,1.87,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2016
+BM00011,Silverline Softworks Ltd,IT Services & Consulting,India,2016,ENV_EWASTE_REC_PCT,69.3,%,69.3,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2016
+BM00012,Silverline Softworks Ltd,IT Services & Consulting,India,2016,SOC_ATTRITION,12.63,%,12.63,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2016
+BM00013,Silverline Softworks Ltd,IT Services & Consulting,India,2016,SOC_FEMALE_PCT,33.08,%,33.08,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2016
+BM00014,Silverline Softworks Ltd,IT Services & Consulting,India,2016,SOC_ESAT,71.87,score,71.87,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2016
+BM00015,Silverline Softworks Ltd,IT Services & Consulting,India,2016,GOV_BOARD_INDEP_PCT,49.21,%,49.21,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2016
+BM00016,Silverline Softworks Ltd,IT Services & Consulting,India,2016,GOV_WOMEN_BOARD_PCT,18.2,%,18.2,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2016
+BM00017,Silverline Softworks Ltd,IT Services & Consulting,India,2017,ENV_RENEW_PCT,26.37,%,26.37,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2017
+BM00018,Silverline Softworks Ltd,IT Services & Consulting,India,2017,ENV_DC_PUE,1.78,ratio,1.78,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2017
+BM00019,Silverline Softworks Ltd,IT Services & Consulting,India,2017,ENV_EWASTE_REC_PCT,75.16,%,75.16,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2017
+BM00020,Silverline Softworks Ltd,IT Services & Consulting,India,2017,SOC_ATTRITION,11.68,%,11.68,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2017
+BM00021,Silverline Softworks Ltd,IT Services & Consulting,India,2017,SOC_FEMALE_PCT,35.03,%,35.03,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2017
+BM00022,Silverline Softworks Ltd,IT Services & Consulting,India,2017,SOC_ESAT,74.37,score,74.37,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2017
+BM00023,Silverline Softworks Ltd,IT Services & Consulting,India,2017,GOV_BOARD_INDEP_PCT,49.87,%,49.87,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2017
+BM00024,Silverline Softworks Ltd,IT Services & Consulting,India,2017,GOV_WOMEN_BOARD_PCT,21.14,%,21.14,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2017
+BM00025,Silverline Softworks Ltd,IT Services & Consulting,India,2018,ENV_RENEW_PCT,31.17,%,31.17,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2018
+BM00026,Silverline Softworks Ltd,IT Services & Consulting,India,2018,ENV_DC_PUE,1.66,ratio,1.66,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2018
+BM00027,Silverline Softworks Ltd,IT Services & Consulting,India,2018,ENV_EWASTE_REC_PCT,79.93,%,79.93,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2018
+BM00028,Silverline Softworks Ltd,IT Services & Consulting,India,2018,SOC_ATTRITION,12.29,%,12.29,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2018
+BM00029,Silverline Softworks Ltd,IT Services & Consulting,India,2018,SOC_FEMALE_PCT,36.51,%,36.51,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2018
+BM00030,Silverline Softworks Ltd,IT Services & Consulting,India,2018,SOC_ESAT,76.3,score,76.3,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2018
+BM00031,Silverline Softworks Ltd,IT Services & Consulting,India,2018,GOV_BOARD_INDEP_PCT,54.04,%,54.04,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2018
+BM00032,Silverline Softworks Ltd,IT Services & Consulting,India,2018,GOV_WOMEN_BOARD_PCT,23.8,%,23.8,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2018
+BM00033,Silverline Softworks Ltd,IT Services & Consulting,India,2019,ENV_RENEW_PCT,36.11,%,36.11,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2019
+BM00034,Silverline Softworks Ltd,IT Services & Consulting,India,2019,ENV_DC_PUE,1.55,ratio,1.55,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2019
+BM00035,Silverline Softworks Ltd,IT Services & Consulting,India,2019,ENV_EWASTE_REC_PCT,85.36,%,85.36,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2019
+BM00036,Silverline Softworks Ltd,IT Services & Consulting,India,2019,SOC_ATTRITION,11.19,%,11.19,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2019
+BM00037,Silverline Softworks Ltd,IT Services & Consulting,India,2019,SOC_FEMALE_PCT,38.6,%,38.6,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2019
+BM00038,Silverline Softworks Ltd,IT Services & Consulting,India,2019,SOC_ESAT,79.69,score,79.69,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2019
+BM00039,Silverline Softworks Ltd,IT Services & Consulting,India,2019,GOV_BOARD_INDEP_PCT,57.06,%,57.06,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2019
+BM00040,Silverline Softworks Ltd,IT Services & Consulting,India,2019,GOV_WOMEN_BOARD_PCT,25.81,%,25.81,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2019
+BM00041,Silverline Softworks Ltd,IT Services & Consulting,India,2020,ENV_RENEW_PCT,42.12,%,42.12,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2020
+BM00042,Silverline Softworks Ltd,IT Services & Consulting,India,2020,ENV_DC_PUE,1.5,ratio,1.5,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2020
+BM00043,Silverline Softworks Ltd,IT Services & Consulting,India,2020,ENV_EWASTE_REC_PCT,88.88,%,88.88,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2020
+BM00044,Silverline Softworks Ltd,IT Services & Consulting,India,2020,SOC_ATTRITION,11.37,%,11.37,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2020
+BM00045,Silverline Softworks Ltd,IT Services & Consulting,India,2020,SOC_FEMALE_PCT,39.66,%,39.66,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2020
+BM00046,Silverline Softworks Ltd,IT Services & Consulting,India,2020,SOC_ESAT,75.78,score,75.78,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2020
+BM00047,Silverline Softworks Ltd,IT Services & Consulting,India,2020,GOV_BOARD_INDEP_PCT,57.88,%,57.88,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2020
+BM00048,Silverline Softworks Ltd,IT Services & Consulting,India,2020,GOV_WOMEN_BOARD_PCT,27.49,%,27.49,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2020
+BM00049,Silverline Softworks Ltd,IT Services & Consulting,India,2021,ENV_RENEW_PCT,46.35,%,46.35,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2021
+BM00050,Silverline Softworks Ltd,IT Services & Consulting,India,2021,ENV_DC_PUE,1.5,ratio,1.5,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2021
+BM00051,Silverline Softworks Ltd,IT Services & Consulting,India,2021,ENV_EWASTE_REC_PCT,86.07,%,86.07,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2021
+BM00052,Silverline Softworks Ltd,IT Services & Consulting,India,2021,SOC_ATTRITION,14.64,%,14.64,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2021
+BM00053,Silverline Softworks Ltd,IT Services & Consulting,India,2021,SOC_FEMALE_PCT,41.13,%,41.13,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2021
+BM00054,Silverline Softworks Ltd,IT Services & Consulting,India,2021,SOC_ESAT,82.07,score,82.07,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2021
+BM00055,Silverline Softworks Ltd,IT Services & Consulting,India,2021,GOV_BOARD_INDEP_PCT,60.14,%,60.14,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2021
+BM00056,Silverline Softworks Ltd,IT Services & Consulting,India,2021,GOV_WOMEN_BOARD_PCT,30.79,%,30.79,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2021
+BM00057,Silverline Softworks Ltd,IT Services & Consulting,India,2022,ENV_RENEW_PCT,49.45,%,49.45,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2022
+BM00058,Silverline Softworks Ltd,IT Services & Consulting,India,2022,ENV_DC_PUE,1.41,ratio,1.41,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2022
+BM00059,Silverline Softworks Ltd,IT Services & Consulting,India,2022,ENV_EWASTE_REC_PCT,94.29,%,94.29,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2022
+BM00060,Silverline Softworks Ltd,IT Services & Consulting,India,2022,SOC_ATTRITION,14.72,%,14.72,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2022
+BM00061,Silverline Softworks Ltd,IT Services & Consulting,India,2022,SOC_FEMALE_PCT,42.35,%,42.35,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2022
+BM00062,Silverline Softworks Ltd,IT Services & Consulting,India,2022,SOC_ESAT,82.56,score,82.56,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2022
+BM00063,Silverline Softworks Ltd,IT Services & Consulting,India,2022,GOV_BOARD_INDEP_PCT,61.41,%,61.41,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2022
+BM00064,Silverline Softworks Ltd,IT Services & Consulting,India,2022,GOV_WOMEN_BOARD_PCT,31.84,%,31.84,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2022
+BM00065,Silverline Softworks Ltd,IT Services & Consulting,India,2023,ENV_RENEW_PCT,54.46,%,54.46,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2023
+BM00066,Silverline Softworks Ltd,IT Services & Consulting,India,2023,ENV_DC_PUE,1.26,ratio,1.26,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2023
+BM00067,Silverline Softworks Ltd,IT Services & Consulting,India,2023,ENV_EWASTE_REC_PCT,99.2,%,99.2,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2023
+BM00068,Silverline Softworks Ltd,IT Services & Consulting,India,2023,SOC_ATTRITION,10.88,%,10.88,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2023
+BM00069,Silverline Softworks Ltd,IT Services & Consulting,India,2023,SOC_FEMALE_PCT,41.58,%,41.58,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2023
+BM00070,Silverline Softworks Ltd,IT Services & Consulting,India,2023,SOC_ESAT,82.47,score,82.47,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2023
+BM00071,Silverline Softworks Ltd,IT Services & Consulting,India,2023,GOV_BOARD_INDEP_PCT,62.9,%,62.9,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2023
+BM00072,Silverline Softworks Ltd,IT Services & Consulting,India,2023,GOV_WOMEN_BOARD_PCT,33.03,%,33.03,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2023
+BM00073,Silverline Softworks Ltd,IT Services & Consulting,India,2024,ENV_RENEW_PCT,57.74,%,57.74,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2024
+BM00074,Silverline Softworks Ltd,IT Services & Consulting,India,2024,ENV_DC_PUE,1.19,ratio,1.19,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2024
+BM00075,Silverline Softworks Ltd,IT Services & Consulting,India,2024,ENV_EWASTE_REC_PCT,102.9,%,102.9,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2024
+BM00076,Silverline Softworks Ltd,IT Services & Consulting,India,2024,SOC_ATTRITION,9.95,%,9.95,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2024
+BM00077,Silverline Softworks Ltd,IT Services & Consulting,India,2024,SOC_FEMALE_PCT,44.96,%,44.96,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2024
+BM00078,Silverline Softworks Ltd,IT Services & Consulting,India,2024,SOC_ESAT,85.29,score,85.29,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2024
+BM00079,Silverline Softworks Ltd,IT Services & Consulting,India,2024,GOV_BOARD_INDEP_PCT,64.81,%,64.81,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2024
+BM00080,Silverline Softworks Ltd,IT Services & Consulting,India,2024,GOV_WOMEN_BOARD_PCT,35.76,%,35.76,Wikirate / peer ESG report,Silverline Softworks Ltd Sustainability Report 2024
+BM00081,Trilokya Infotech Ltd,IT Services & Consulting,India,2015,ENV_RENEW_PCT,-7.02,%,-7.02,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2015
+BM00082,Trilokya Infotech Ltd,IT Services & Consulting,India,2015,ENV_DC_PUE,2.27,ratio,2.27,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2015
+BM00083,Trilokya Infotech Ltd,IT Services & Consulting,India,2015,ENV_EWASTE_REC_PCT,48.09,%,48.09,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2015
+BM00084,Trilokya Infotech Ltd,IT Services & Consulting,India,2015,SOC_ATTRITION,19.37,%,19.37,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2015
+BM00085,Trilokya Infotech Ltd,IT Services & Consulting,India,2015,SOC_FEMALE_PCT,23.05,%,23.05,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2015
+BM00086,Trilokya Infotech Ltd,IT Services & Consulting,India,2015,SOC_ESAT,63.63,score,63.63,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2015
+BM00087,Trilokya Infotech Ltd,IT Services & Consulting,India,2015,GOV_BOARD_INDEP_PCT,33.42,%,33.42,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2015
+BM00088,Trilokya Infotech Ltd,IT Services & Consulting,India,2015,GOV_WOMEN_BOARD_PCT,2.8,%,2.8,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2015
+BM00089,Trilokya Infotech Ltd,IT Services & Consulting,India,2016,ENV_RENEW_PCT,-2.61,%,-2.61,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2016
+BM00090,Trilokya Infotech Ltd,IT Services & Consulting,India,2016,ENV_DC_PUE,2.15,ratio,2.15,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2016
+BM00091,Trilokya Infotech Ltd,IT Services & Consulting,India,2016,ENV_EWASTE_REC_PCT,50.14,%,50.14,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2016
+BM00092,Trilokya Infotech Ltd,IT Services & Consulting,India,2016,SOC_ATTRITION,18.79,%,18.79,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2016
+BM00093,Trilokya Infotech Ltd,IT Services & Consulting,India,2016,SOC_FEMALE_PCT,24.94,%,24.94,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2016
+BM00094,Trilokya Infotech Ltd,IT Services & Consulting,India,2016,SOC_ESAT,65.69,score,65.69,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2016
+BM00095,Trilokya Infotech Ltd,IT Services & Consulting,India,2016,GOV_BOARD_INDEP_PCT,34.42,%,34.42,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2016
+BM00096,Trilokya Infotech Ltd,IT Services & Consulting,India,2016,GOV_WOMEN_BOARD_PCT,5.08,%,5.08,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2016
+BM00097,Trilokya Infotech Ltd,IT Services & Consulting,India,2017,ENV_RENEW_PCT,2.16,%,2.16,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2017
+BM00098,Trilokya Infotech Ltd,IT Services & Consulting,India,2017,ENV_DC_PUE,2.13,ratio,2.13,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2017
+BM00099,Trilokya Infotech Ltd,IT Services & Consulting,India,2017,ENV_EWASTE_REC_PCT,54.63,%,54.63,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2017
+BM00100,Trilokya Infotech Ltd,IT Services & Consulting,India,2017,SOC_ATTRITION,18.68,%,18.68,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2017
+BM00101,Trilokya Infotech Ltd,IT Services & Consulting,India,2017,SOC_FEMALE_PCT,25.8,%,25.8,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2017
+BM00102,Trilokya Infotech Ltd,IT Services & Consulting,India,2017,SOC_ESAT,66.0,score,66.0,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2017
+BM00103,Trilokya Infotech Ltd,IT Services & Consulting,India,2017,GOV_BOARD_INDEP_PCT,36.71,%,36.71,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2017
+BM00104,Trilokya Infotech Ltd,IT Services & Consulting,India,2017,GOV_WOMEN_BOARD_PCT,7.22,%,7.22,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2017
+BM00105,Trilokya Infotech Ltd,IT Services & Consulting,India,2018,ENV_RENEW_PCT,6.58,%,6.58,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2018
+BM00106,Trilokya Infotech Ltd,IT Services & Consulting,India,2018,ENV_DC_PUE,2.05,ratio,2.05,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2018
+BM00107,Trilokya Infotech Ltd,IT Services & Consulting,India,2018,ENV_EWASTE_REC_PCT,56.34,%,56.34,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2018
+BM00108,Trilokya Infotech Ltd,IT Services & Consulting,India,2018,SOC_ATTRITION,18.78,%,18.78,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2018
+BM00109,Trilokya Infotech Ltd,IT Services & Consulting,India,2018,SOC_FEMALE_PCT,27.35,%,27.35,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2018
+BM00110,Trilokya Infotech Ltd,IT Services & Consulting,India,2018,SOC_ESAT,68.94,score,68.94,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2018
+BM00111,Trilokya Infotech Ltd,IT Services & Consulting,India,2018,GOV_BOARD_INDEP_PCT,40.13,%,40.13,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2018
+BM00112,Trilokya Infotech Ltd,IT Services & Consulting,India,2018,GOV_WOMEN_BOARD_PCT,9.24,%,9.24,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2018
+BM00113,Trilokya Infotech Ltd,IT Services & Consulting,India,2019,ENV_RENEW_PCT,11.6,%,11.6,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2019
+BM00114,Trilokya Infotech Ltd,IT Services & Consulting,India,2019,ENV_DC_PUE,2.07,ratio,2.07,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2019
+BM00115,Trilokya Infotech Ltd,IT Services & Consulting,India,2019,ENV_EWASTE_REC_PCT,63.2,%,63.2,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2019
+BM00116,Trilokya Infotech Ltd,IT Services & Consulting,India,2019,SOC_ATTRITION,18.23,%,18.23,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2019
+BM00117,Trilokya Infotech Ltd,IT Services & Consulting,India,2019,SOC_FEMALE_PCT,28.84,%,28.84,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2019
+BM00118,Trilokya Infotech Ltd,IT Services & Consulting,India,2019,SOC_ESAT,66.8,score,66.8,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2019
+BM00119,Trilokya Infotech Ltd,IT Services & Consulting,India,2019,GOV_BOARD_INDEP_PCT,42.0,%,42.0,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2019
+BM00120,Trilokya Infotech Ltd,IT Services & Consulting,India,2019,GOV_WOMEN_BOARD_PCT,11.76,%,11.76,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2019
+BM00121,Trilokya Infotech Ltd,IT Services & Consulting,India,2020,ENV_RENEW_PCT,16.12,%,16.12,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2020
+BM00122,Trilokya Infotech Ltd,IT Services & Consulting,India,2020,ENV_DC_PUE,1.9,ratio,1.9,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2020
+BM00123,Trilokya Infotech Ltd,IT Services & Consulting,India,2020,ENV_EWASTE_REC_PCT,65.12,%,65.12,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2020
+BM00124,Trilokya Infotech Ltd,IT Services & Consulting,India,2020,SOC_ATTRITION,18.1,%,18.1,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2020
+BM00125,Trilokya Infotech Ltd,IT Services & Consulting,India,2020,SOC_FEMALE_PCT,29.93,%,29.93,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2020
+BM00126,Trilokya Infotech Ltd,IT Services & Consulting,India,2020,SOC_ESAT,67.51,score,67.51,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2020
+BM00127,Trilokya Infotech Ltd,IT Services & Consulting,India,2020,GOV_BOARD_INDEP_PCT,42.56,%,42.56,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2020
+BM00128,Trilokya Infotech Ltd,IT Services & Consulting,India,2020,GOV_WOMEN_BOARD_PCT,14.28,%,14.28,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2020
+BM00129,Trilokya Infotech Ltd,IT Services & Consulting,India,2021,ENV_RENEW_PCT,20.63,%,20.63,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2021
+BM00130,Trilokya Infotech Ltd,IT Services & Consulting,India,2021,ENV_DC_PUE,1.89,ratio,1.89,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2021
+BM00131,Trilokya Infotech Ltd,IT Services & Consulting,India,2021,ENV_EWASTE_REC_PCT,68.3,%,68.3,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2021
+BM00132,Trilokya Infotech Ltd,IT Services & Consulting,India,2021,SOC_ATTRITION,23.65,%,23.65,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2021
+BM00133,Trilokya Infotech Ltd,IT Services & Consulting,India,2021,SOC_FEMALE_PCT,30.48,%,30.48,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2021
+BM00134,Trilokya Infotech Ltd,IT Services & Consulting,India,2021,SOC_ESAT,71.22,score,71.22,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2021
+BM00135,Trilokya Infotech Ltd,IT Services & Consulting,India,2021,GOV_BOARD_INDEP_PCT,45.23,%,45.23,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2021
+BM00136,Trilokya Infotech Ltd,IT Services & Consulting,India,2021,GOV_WOMEN_BOARD_PCT,16.15,%,16.15,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2021
+BM00137,Trilokya Infotech Ltd,IT Services & Consulting,India,2022,ENV_RENEW_PCT,25.29,%,25.29,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2022
+BM00138,Trilokya Infotech Ltd,IT Services & Consulting,India,2022,ENV_DC_PUE,1.85,ratio,1.85,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2022
+BM00139,Trilokya Infotech Ltd,IT Services & Consulting,India,2022,ENV_EWASTE_REC_PCT,74.63,%,74.63,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2022
+BM00140,Trilokya Infotech Ltd,IT Services & Consulting,India,2022,SOC_ATTRITION,24.78,%,24.78,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2022
+BM00141,Trilokya Infotech Ltd,IT Services & Consulting,India,2022,SOC_FEMALE_PCT,31.7,%,31.7,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2022
+BM00142,Trilokya Infotech Ltd,IT Services & Consulting,India,2022,SOC_ESAT,73.23,score,73.23,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2022
+BM00143,Trilokya Infotech Ltd,IT Services & Consulting,India,2022,GOV_BOARD_INDEP_PCT,47.1,%,47.1,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2022
+BM00144,Trilokya Infotech Ltd,IT Services & Consulting,India,2022,GOV_WOMEN_BOARD_PCT,17.76,%,17.76,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2022
+BM00145,Trilokya Infotech Ltd,IT Services & Consulting,India,2023,ENV_RENEW_PCT,29.55,%,29.55,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2023
+BM00146,Trilokya Infotech Ltd,IT Services & Consulting,India,2023,ENV_DC_PUE,1.66,ratio,1.66,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2023
+BM00147,Trilokya Infotech Ltd,IT Services & Consulting,India,2023,ENV_EWASTE_REC_PCT,74.42,%,74.42,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2023
+BM00148,Trilokya Infotech Ltd,IT Services & Consulting,India,2023,SOC_ATTRITION,17.58,%,17.58,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2023
+BM00149,Trilokya Infotech Ltd,IT Services & Consulting,India,2023,SOC_FEMALE_PCT,32.98,%,32.98,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2023
+BM00150,Trilokya Infotech Ltd,IT Services & Consulting,India,2023,SOC_ESAT,73.13,score,73.13,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2023
+BM00151,Trilokya Infotech Ltd,IT Services & Consulting,India,2023,GOV_BOARD_INDEP_PCT,51.37,%,51.37,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2023
+BM00152,Trilokya Infotech Ltd,IT Services & Consulting,India,2023,GOV_WOMEN_BOARD_PCT,20.01,%,20.01,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2023
+BM00153,Trilokya Infotech Ltd,IT Services & Consulting,India,2024,ENV_RENEW_PCT,35.07,%,35.07,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2024
+BM00154,Trilokya Infotech Ltd,IT Services & Consulting,India,2024,ENV_DC_PUE,1.6,ratio,1.6,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2024
+BM00155,Trilokya Infotech Ltd,IT Services & Consulting,India,2024,ENV_EWASTE_REC_PCT,79.99,%,79.99,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2024
+BM00156,Trilokya Infotech Ltd,IT Services & Consulting,India,2024,SOC_ATTRITION,16.57,%,16.57,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2024
+BM00157,Trilokya Infotech Ltd,IT Services & Consulting,India,2024,SOC_FEMALE_PCT,33.96,%,33.96,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2024
+BM00158,Trilokya Infotech Ltd,IT Services & Consulting,India,2024,SOC_ESAT,75.6,score,75.6,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2024
+BM00159,Trilokya Infotech Ltd,IT Services & Consulting,India,2024,GOV_BOARD_INDEP_PCT,51.27,%,51.27,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2024
+BM00160,Trilokya Infotech Ltd,IT Services & Consulting,India,2024,GOV_WOMEN_BOARD_PCT,22.48,%,22.48,Wikirate / peer ESG report,Trilokya Infotech Ltd Sustainability Report 2024
+BM00161,Helvetia Digital AG,IT Services & Consulting,Switzerland,2015,ENV_RENEW_PCT,25.52,%,25.52,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2015
+BM00162,Helvetia Digital AG,IT Services & Consulting,Switzerland,2015,ENV_DC_PUE,1.77,ratio,1.77,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2015
+BM00163,Helvetia Digital AG,IT Services & Consulting,Switzerland,2015,ENV_EWASTE_REC_PCT,74.18,%,74.18,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2015
+BM00164,Helvetia Digital AG,IT Services & Consulting,Switzerland,2015,SOC_ATTRITION,10.84,%,10.84,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2015
+BM00165,Helvetia Digital AG,IT Services & Consulting,Switzerland,2015,SOC_FEMALE_PCT,36.43,%,36.43,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2015
+BM00166,Helvetia Digital AG,IT Services & Consulting,Switzerland,2015,SOC_ESAT,74.33,score,74.33,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2015
+BM00167,Helvetia Digital AG,IT Services & Consulting,Switzerland,2015,GOV_BOARD_INDEP_PCT,51.44,%,51.44,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2015
+BM00168,Helvetia Digital AG,IT Services & Consulting,Switzerland,2015,GOV_WOMEN_BOARD_PCT,20.4,%,20.4,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2015
+BM00169,Helvetia Digital AG,IT Services & Consulting,Switzerland,2016,ENV_RENEW_PCT,30.02,%,30.02,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2016
+BM00170,Helvetia Digital AG,IT Services & Consulting,Switzerland,2016,ENV_DC_PUE,1.77,ratio,1.77,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2016
+BM00171,Helvetia Digital AG,IT Services & Consulting,Switzerland,2016,ENV_EWASTE_REC_PCT,77.78,%,77.78,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2016
+BM00172,Helvetia Digital AG,IT Services & Consulting,Switzerland,2016,SOC_ATTRITION,10.02,%,10.02,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2016
+BM00173,Helvetia Digital AG,IT Services & Consulting,Switzerland,2016,SOC_FEMALE_PCT,37.3,%,37.3,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2016
+BM00174,Helvetia Digital AG,IT Services & Consulting,Switzerland,2016,SOC_ESAT,74.01,score,74.01,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2016
+BM00175,Helvetia Digital AG,IT Services & Consulting,Switzerland,2016,GOV_BOARD_INDEP_PCT,51.54,%,51.54,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2016
+BM00176,Helvetia Digital AG,IT Services & Consulting,Switzerland,2016,GOV_WOMEN_BOARD_PCT,22.94,%,22.94,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2016
+BM00177,Helvetia Digital AG,IT Services & Consulting,Switzerland,2017,ENV_RENEW_PCT,34.81,%,34.81,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2017
+BM00178,Helvetia Digital AG,IT Services & Consulting,Switzerland,2017,ENV_DC_PUE,1.68,ratio,1.68,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2017
+BM00179,Helvetia Digital AG,IT Services & Consulting,Switzerland,2017,ENV_EWASTE_REC_PCT,78.99,%,78.99,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2017
+BM00180,Helvetia Digital AG,IT Services & Consulting,Switzerland,2017,SOC_ATTRITION,9.89,%,9.89,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2017
+BM00181,Helvetia Digital AG,IT Services & Consulting,Switzerland,2017,SOC_FEMALE_PCT,36.66,%,36.66,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2017
+BM00182,Helvetia Digital AG,IT Services & Consulting,Switzerland,2017,SOC_ESAT,74.81,score,74.81,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2017
+BM00183,Helvetia Digital AG,IT Services & Consulting,Switzerland,2017,GOV_BOARD_INDEP_PCT,56.6,%,56.6,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2017
+BM00184,Helvetia Digital AG,IT Services & Consulting,Switzerland,2017,GOV_WOMEN_BOARD_PCT,25.57,%,25.57,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2017
+BM00185,Helvetia Digital AG,IT Services & Consulting,Switzerland,2018,ENV_RENEW_PCT,41.17,%,41.17,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2018
+BM00186,Helvetia Digital AG,IT Services & Consulting,Switzerland,2018,ENV_DC_PUE,1.54,ratio,1.54,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2018
+BM00187,Helvetia Digital AG,IT Services & Consulting,Switzerland,2018,ENV_EWASTE_REC_PCT,84.58,%,84.58,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2018
+BM00188,Helvetia Digital AG,IT Services & Consulting,Switzerland,2018,SOC_ATTRITION,9.78,%,9.78,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2018
+BM00189,Helvetia Digital AG,IT Services & Consulting,Switzerland,2018,SOC_FEMALE_PCT,39.48,%,39.48,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2018
+BM00190,Helvetia Digital AG,IT Services & Consulting,Switzerland,2018,SOC_ESAT,80.78,score,80.78,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2018
+BM00191,Helvetia Digital AG,IT Services & Consulting,Switzerland,2018,GOV_BOARD_INDEP_PCT,58.99,%,58.99,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2018
+BM00192,Helvetia Digital AG,IT Services & Consulting,Switzerland,2018,GOV_WOMEN_BOARD_PCT,28.11,%,28.11,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2018
+BM00193,Helvetia Digital AG,IT Services & Consulting,Switzerland,2019,ENV_RENEW_PCT,44.89,%,44.89,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2019
+BM00194,Helvetia Digital AG,IT Services & Consulting,Switzerland,2019,ENV_DC_PUE,1.49,ratio,1.49,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2019
+BM00195,Helvetia Digital AG,IT Services & Consulting,Switzerland,2019,ENV_EWASTE_REC_PCT,88.82,%,88.82,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2019
+BM00196,Helvetia Digital AG,IT Services & Consulting,Switzerland,2019,SOC_ATTRITION,9.3,%,9.3,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2019
+BM00197,Helvetia Digital AG,IT Services & Consulting,Switzerland,2019,SOC_FEMALE_PCT,41.41,%,41.41,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2019
+BM00198,Helvetia Digital AG,IT Services & Consulting,Switzerland,2019,SOC_ESAT,77.89,score,77.89,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2019
+BM00199,Helvetia Digital AG,IT Services & Consulting,Switzerland,2019,GOV_BOARD_INDEP_PCT,61.57,%,61.57,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2019
+BM00200,Helvetia Digital AG,IT Services & Consulting,Switzerland,2019,GOV_WOMEN_BOARD_PCT,30.49,%,30.49,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2019
+BM00201,Helvetia Digital AG,IT Services & Consulting,Switzerland,2020,ENV_RENEW_PCT,48.67,%,48.67,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2020
+BM00202,Helvetia Digital AG,IT Services & Consulting,Switzerland,2020,ENV_DC_PUE,1.41,ratio,1.41,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2020
+BM00203,Helvetia Digital AG,IT Services & Consulting,Switzerland,2020,ENV_EWASTE_REC_PCT,95.04,%,95.04,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2020
+BM00204,Helvetia Digital AG,IT Services & Consulting,Switzerland,2020,SOC_ATTRITION,9.07,%,9.07,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2020
+BM00205,Helvetia Digital AG,IT Services & Consulting,Switzerland,2020,SOC_FEMALE_PCT,40.5,%,40.5,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2020
+BM00206,Helvetia Digital AG,IT Services & Consulting,Switzerland,2020,SOC_ESAT,82.42,score,82.42,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2020
+BM00207,Helvetia Digital AG,IT Services & Consulting,Switzerland,2020,GOV_BOARD_INDEP_PCT,60.9,%,60.9,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2020
+BM00208,Helvetia Digital AG,IT Services & Consulting,Switzerland,2020,GOV_WOMEN_BOARD_PCT,32.06,%,32.06,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2020
+BM00209,Helvetia Digital AG,IT Services & Consulting,Switzerland,2021,ENV_RENEW_PCT,51.83,%,51.83,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2021
+BM00210,Helvetia Digital AG,IT Services & Consulting,Switzerland,2021,ENV_DC_PUE,1.31,ratio,1.31,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2021
+BM00211,Helvetia Digital AG,IT Services & Consulting,Switzerland,2021,ENV_EWASTE_REC_PCT,92.9,%,92.9,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2021
+BM00212,Helvetia Digital AG,IT Services & Consulting,Switzerland,2021,SOC_ATTRITION,12.54,%,12.54,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2021
+BM00213,Helvetia Digital AG,IT Services & Consulting,Switzerland,2021,SOC_FEMALE_PCT,42.4,%,42.4,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2021
+BM00214,Helvetia Digital AG,IT Services & Consulting,Switzerland,2021,SOC_ESAT,82.2,score,82.2,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2021
+BM00215,Helvetia Digital AG,IT Services & Consulting,Switzerland,2021,GOV_BOARD_INDEP_PCT,63.78,%,63.78,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2021
+BM00216,Helvetia Digital AG,IT Services & Consulting,Switzerland,2021,GOV_WOMEN_BOARD_PCT,34.28,%,34.28,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2021
+BM00217,Helvetia Digital AG,IT Services & Consulting,Switzerland,2022,ENV_RENEW_PCT,57.53,%,57.53,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2022
+BM00218,Helvetia Digital AG,IT Services & Consulting,Switzerland,2022,ENV_DC_PUE,1.3,ratio,1.3,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2022
+BM00219,Helvetia Digital AG,IT Services & Consulting,Switzerland,2022,ENV_EWASTE_REC_PCT,96.69,%,96.69,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2022
+BM00220,Helvetia Digital AG,IT Services & Consulting,Switzerland,2022,SOC_ATTRITION,11.22,%,11.22,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2022
+BM00221,Helvetia Digital AG,IT Services & Consulting,Switzerland,2022,SOC_FEMALE_PCT,44.03,%,44.03,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2022
+BM00222,Helvetia Digital AG,IT Services & Consulting,Switzerland,2022,SOC_ESAT,83.56,score,83.56,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2022
+BM00223,Helvetia Digital AG,IT Services & Consulting,Switzerland,2022,GOV_BOARD_INDEP_PCT,67.78,%,67.78,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2022
+BM00224,Helvetia Digital AG,IT Services & Consulting,Switzerland,2022,GOV_WOMEN_BOARD_PCT,37.39,%,37.39,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2022
+BM00225,Helvetia Digital AG,IT Services & Consulting,Switzerland,2023,ENV_RENEW_PCT,60.97,%,60.97,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2023
+BM00226,Helvetia Digital AG,IT Services & Consulting,Switzerland,2023,ENV_DC_PUE,1.15,ratio,1.15,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2023
+BM00227,Helvetia Digital AG,IT Services & Consulting,Switzerland,2023,ENV_EWASTE_REC_PCT,99.44,%,99.44,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2023
+BM00228,Helvetia Digital AG,IT Services & Consulting,Switzerland,2023,SOC_ATTRITION,8.43,%,8.43,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2023
+BM00229,Helvetia Digital AG,IT Services & Consulting,Switzerland,2023,SOC_FEMALE_PCT,46.34,%,46.34,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2023
+BM00230,Helvetia Digital AG,IT Services & Consulting,Switzerland,2023,SOC_ESAT,82.16,score,82.16,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2023
+BM00231,Helvetia Digital AG,IT Services & Consulting,Switzerland,2023,GOV_BOARD_INDEP_PCT,71.18,%,71.18,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2023
+BM00232,Helvetia Digital AG,IT Services & Consulting,Switzerland,2023,GOV_WOMEN_BOARD_PCT,38.93,%,38.93,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2023
+BM00233,Helvetia Digital AG,IT Services & Consulting,Switzerland,2024,ENV_RENEW_PCT,66.5,%,66.5,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2024
+BM00234,Helvetia Digital AG,IT Services & Consulting,Switzerland,2024,ENV_DC_PUE,1.09,ratio,1.09,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2024
+BM00235,Helvetia Digital AG,IT Services & Consulting,Switzerland,2024,ENV_EWASTE_REC_PCT,108.94,%,108.94,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2024
+BM00236,Helvetia Digital AG,IT Services & Consulting,Switzerland,2024,SOC_ATTRITION,7.85,%,7.85,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2024
+BM00237,Helvetia Digital AG,IT Services & Consulting,Switzerland,2024,SOC_FEMALE_PCT,47.0,%,47.0,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2024
+BM00238,Helvetia Digital AG,IT Services & Consulting,Switzerland,2024,SOC_ESAT,86.32,score,86.32,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2024
+BM00239,Helvetia Digital AG,IT Services & Consulting,Switzerland,2024,GOV_BOARD_INDEP_PCT,69.26,%,69.26,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2024
+BM00240,Helvetia Digital AG,IT Services & Consulting,Switzerland,2024,GOV_WOMEN_BOARD_PCT,42.13,%,42.13,Wikirate / peer ESG report,Helvetia Digital AG Sustainability Report 2024
+BM00241,Beacon Cloud Systems Inc,Software & Cloud,United States,2015,ENV_RENEW_PCT,12.12,%,12.12,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2015
+BM00242,Beacon Cloud Systems Inc,Software & Cloud,United States,2015,ENV_DC_PUE,1.96,ratio,1.96,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2015
+BM00243,Beacon Cloud Systems Inc,Software & Cloud,United States,2015,ENV_EWASTE_REC_PCT,64.86,%,64.86,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2015
+BM00244,Beacon Cloud Systems Inc,Software & Cloud,United States,2015,SOC_ATTRITION,14.24,%,14.24,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2015
+BM00245,Beacon Cloud Systems Inc,Software & Cloud,United States,2015,SOC_FEMALE_PCT,29.65,%,29.65,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2015
+BM00246,Beacon Cloud Systems Inc,Software & Cloud,United States,2015,SOC_ESAT,70.02,score,70.02,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2015
+BM00247,Beacon Cloud Systems Inc,Software & Cloud,United States,2015,GOV_BOARD_INDEP_PCT,43.89,%,43.89,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2015
+BM00248,Beacon Cloud Systems Inc,Software & Cloud,United States,2015,GOV_WOMEN_BOARD_PCT,13.47,%,13.47,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2015
+BM00249,Beacon Cloud Systems Inc,Software & Cloud,United States,2016,ENV_RENEW_PCT,16.84,%,16.84,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2016
+BM00250,Beacon Cloud Systems Inc,Software & Cloud,United States,2016,ENV_DC_PUE,1.87,ratio,1.87,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2016
+BM00251,Beacon Cloud Systems Inc,Software & Cloud,United States,2016,ENV_EWASTE_REC_PCT,68.05,%,68.05,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2016
+BM00252,Beacon Cloud Systems Inc,Software & Cloud,United States,2016,SOC_ATTRITION,13.43,%,13.43,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2016
+BM00253,Beacon Cloud Systems Inc,Software & Cloud,United States,2016,SOC_FEMALE_PCT,31.8,%,31.8,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2016
+BM00254,Beacon Cloud Systems Inc,Software & Cloud,United States,2016,SOC_ESAT,70.78,score,70.78,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2016
+BM00255,Beacon Cloud Systems Inc,Software & Cloud,United States,2016,GOV_BOARD_INDEP_PCT,44.18,%,44.18,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2016
+BM00256,Beacon Cloud Systems Inc,Software & Cloud,United States,2016,GOV_WOMEN_BOARD_PCT,16.42,%,16.42,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2016
+BM00257,Beacon Cloud Systems Inc,Software & Cloud,United States,2017,ENV_RENEW_PCT,21.49,%,21.49,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2017
+BM00258,Beacon Cloud Systems Inc,Software & Cloud,United States,2017,ENV_DC_PUE,1.83,ratio,1.83,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2017
+BM00259,Beacon Cloud Systems Inc,Software & Cloud,United States,2017,ENV_EWASTE_REC_PCT,72.85,%,72.85,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2017
+BM00260,Beacon Cloud Systems Inc,Software & Cloud,United States,2017,SOC_ATTRITION,14.07,%,14.07,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2017
+BM00261,Beacon Cloud Systems Inc,Software & Cloud,United States,2017,SOC_FEMALE_PCT,33.62,%,33.62,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2017
+BM00262,Beacon Cloud Systems Inc,Software & Cloud,United States,2017,SOC_ESAT,70.81,score,70.81,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2017
+BM00263,Beacon Cloud Systems Inc,Software & Cloud,United States,2017,GOV_BOARD_INDEP_PCT,49.09,%,49.09,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2017
+BM00264,Beacon Cloud Systems Inc,Software & Cloud,United States,2017,GOV_WOMEN_BOARD_PCT,17.81,%,17.81,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2017
+BM00265,Beacon Cloud Systems Inc,Software & Cloud,United States,2018,ENV_RENEW_PCT,26.65,%,26.65,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2018
+BM00266,Beacon Cloud Systems Inc,Software & Cloud,United States,2018,ENV_DC_PUE,1.74,ratio,1.74,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2018
+BM00267,Beacon Cloud Systems Inc,Software & Cloud,United States,2018,ENV_EWASTE_REC_PCT,73.22,%,73.22,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2018
+BM00268,Beacon Cloud Systems Inc,Software & Cloud,United States,2018,SOC_ATTRITION,13.23,%,13.23,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2018
+BM00269,Beacon Cloud Systems Inc,Software & Cloud,United States,2018,SOC_FEMALE_PCT,33.98,%,33.98,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2018
+BM00270,Beacon Cloud Systems Inc,Software & Cloud,United States,2018,SOC_ESAT,74.18,score,74.18,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2018
+BM00271,Beacon Cloud Systems Inc,Software & Cloud,United States,2018,GOV_BOARD_INDEP_PCT,49.76,%,49.76,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2018
+BM00272,Beacon Cloud Systems Inc,Software & Cloud,United States,2018,GOV_WOMEN_BOARD_PCT,19.55,%,19.55,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2018
+BM00273,Beacon Cloud Systems Inc,Software & Cloud,United States,2019,ENV_RENEW_PCT,31.93,%,31.93,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2019
+BM00274,Beacon Cloud Systems Inc,Software & Cloud,United States,2019,ENV_DC_PUE,1.7,ratio,1.7,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2019
+BM00275,Beacon Cloud Systems Inc,Software & Cloud,United States,2019,ENV_EWASTE_REC_PCT,77.72,%,77.72,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2019
+BM00276,Beacon Cloud Systems Inc,Software & Cloud,United States,2019,SOC_ATTRITION,12.93,%,12.93,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2019
+BM00277,Beacon Cloud Systems Inc,Software & Cloud,United States,2019,SOC_FEMALE_PCT,35.94,%,35.94,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2019
+BM00278,Beacon Cloud Systems Inc,Software & Cloud,United States,2019,SOC_ESAT,73.84,score,73.84,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2019
+BM00279,Beacon Cloud Systems Inc,Software & Cloud,United States,2019,GOV_BOARD_INDEP_PCT,52.65,%,52.65,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2019
+BM00280,Beacon Cloud Systems Inc,Software & Cloud,United States,2019,GOV_WOMEN_BOARD_PCT,22.5,%,22.5,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2019
+BM00281,Beacon Cloud Systems Inc,Software & Cloud,United States,2020,ENV_RENEW_PCT,37.09,%,37.09,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2020
+BM00282,Beacon Cloud Systems Inc,Software & Cloud,United States,2020,ENV_DC_PUE,1.56,ratio,1.56,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2020
+BM00283,Beacon Cloud Systems Inc,Software & Cloud,United States,2020,ENV_EWASTE_REC_PCT,82.17,%,82.17,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2020
+BM00284,Beacon Cloud Systems Inc,Software & Cloud,United States,2020,SOC_ATTRITION,13.27,%,13.27,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2020
+BM00285,Beacon Cloud Systems Inc,Software & Cloud,United States,2020,SOC_FEMALE_PCT,35.05,%,35.05,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2020
+BM00286,Beacon Cloud Systems Inc,Software & Cloud,United States,2020,SOC_ESAT,78.11,score,78.11,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2020
+BM00287,Beacon Cloud Systems Inc,Software & Cloud,United States,2020,GOV_BOARD_INDEP_PCT,54.05,%,54.05,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2020
+BM00288,Beacon Cloud Systems Inc,Software & Cloud,United States,2020,GOV_WOMEN_BOARD_PCT,24.95,%,24.95,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2020
+BM00289,Beacon Cloud Systems Inc,Software & Cloud,United States,2021,ENV_RENEW_PCT,40.77,%,40.77,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2021
+BM00290,Beacon Cloud Systems Inc,Software & Cloud,United States,2021,ENV_DC_PUE,1.56,ratio,1.56,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2021
+BM00291,Beacon Cloud Systems Inc,Software & Cloud,United States,2021,ENV_EWASTE_REC_PCT,85.63,%,85.63,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2021
+BM00292,Beacon Cloud Systems Inc,Software & Cloud,United States,2021,SOC_ATTRITION,17.46,%,17.46,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2021
+BM00293,Beacon Cloud Systems Inc,Software & Cloud,United States,2021,SOC_FEMALE_PCT,37.88,%,37.88,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2021
+BM00294,Beacon Cloud Systems Inc,Software & Cloud,United States,2021,SOC_ESAT,78.17,score,78.17,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2021
+BM00295,Beacon Cloud Systems Inc,Software & Cloud,United States,2021,GOV_BOARD_INDEP_PCT,56.28,%,56.28,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2021
+BM00296,Beacon Cloud Systems Inc,Software & Cloud,United States,2021,GOV_WOMEN_BOARD_PCT,27.86,%,27.86,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2021
+BM00297,Beacon Cloud Systems Inc,Software & Cloud,United States,2022,ENV_RENEW_PCT,45.75,%,45.75,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2022
+BM00298,Beacon Cloud Systems Inc,Software & Cloud,United States,2022,ENV_DC_PUE,1.48,ratio,1.48,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2022
+BM00299,Beacon Cloud Systems Inc,Software & Cloud,United States,2022,ENV_EWASTE_REC_PCT,89.25,%,89.25,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2022
+BM00300,Beacon Cloud Systems Inc,Software & Cloud,United States,2022,SOC_ATTRITION,16.31,%,16.31,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2022
+BM00301,Beacon Cloud Systems Inc,Software & Cloud,United States,2022,SOC_FEMALE_PCT,39.96,%,39.96,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2022
+BM00302,Beacon Cloud Systems Inc,Software & Cloud,United States,2022,SOC_ESAT,77.2,score,77.2,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2022
+BM00303,Beacon Cloud Systems Inc,Software & Cloud,United States,2022,GOV_BOARD_INDEP_PCT,58.94,%,58.94,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2022
+BM00304,Beacon Cloud Systems Inc,Software & Cloud,United States,2022,GOV_WOMEN_BOARD_PCT,28.39,%,28.39,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2022
+BM00305,Beacon Cloud Systems Inc,Software & Cloud,United States,2023,ENV_RENEW_PCT,49.87,%,49.87,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2023
+BM00306,Beacon Cloud Systems Inc,Software & Cloud,United States,2023,ENV_DC_PUE,1.43,ratio,1.43,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2023
+BM00307,Beacon Cloud Systems Inc,Software & Cloud,United States,2023,ENV_EWASTE_REC_PCT,88.29,%,88.29,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2023
+BM00308,Beacon Cloud Systems Inc,Software & Cloud,United States,2023,SOC_ATTRITION,12.45,%,12.45,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2023
+BM00309,Beacon Cloud Systems Inc,Software & Cloud,United States,2023,SOC_FEMALE_PCT,39.27,%,39.27,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2023
+BM00310,Beacon Cloud Systems Inc,Software & Cloud,United States,2023,SOC_ESAT,83.36,score,83.36,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2023
+BM00311,Beacon Cloud Systems Inc,Software & Cloud,United States,2023,GOV_BOARD_INDEP_PCT,61.07,%,61.07,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2023
+BM00312,Beacon Cloud Systems Inc,Software & Cloud,United States,2023,GOV_WOMEN_BOARD_PCT,32.26,%,32.26,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2023
+BM00313,Beacon Cloud Systems Inc,Software & Cloud,United States,2024,ENV_RENEW_PCT,56.53,%,56.53,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2024
+BM00314,Beacon Cloud Systems Inc,Software & Cloud,United States,2024,ENV_DC_PUE,1.32,ratio,1.32,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2024
+BM00315,Beacon Cloud Systems Inc,Software & Cloud,United States,2024,ENV_EWASTE_REC_PCT,94.47,%,94.47,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2024
+BM00316,Beacon Cloud Systems Inc,Software & Cloud,United States,2024,SOC_ATTRITION,12.14,%,12.14,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2024
+BM00317,Beacon Cloud Systems Inc,Software & Cloud,United States,2024,SOC_FEMALE_PCT,40.81,%,40.81,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2024
+BM00318,Beacon Cloud Systems Inc,Software & Cloud,United States,2024,SOC_ESAT,83.45,score,83.45,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2024
+BM00319,Beacon Cloud Systems Inc,Software & Cloud,United States,2024,GOV_BOARD_INDEP_PCT,61.66,%,61.66,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2024
+BM00320,Beacon Cloud Systems Inc,Software & Cloud,United States,2024,GOV_WOMEN_BOARD_PCT,34.06,%,34.06,Wikirate / peer ESG report,Beacon Cloud Systems Inc Sustainability Report 2024
+BM00321,Meridian Systems India Ltd,IT Services & Consulting,India,2015,ENV_RENEW_PCT,8.05,%,8.05,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2015
+BM00322,Meridian Systems India Ltd,IT Services & Consulting,India,2015,ENV_DC_PUE,2.1,ratio,2.1,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2015
+BM00323,Meridian Systems India Ltd,IT Services & Consulting,India,2015,ENV_EWASTE_REC_PCT,58.74,%,58.74,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2015
+BM00324,Meridian Systems India Ltd,IT Services & Consulting,India,2015,SOC_ATTRITION,15.31,%,15.31,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2015
+BM00325,Meridian Systems India Ltd,IT Services & Consulting,India,2015,SOC_FEMALE_PCT,29.21,%,29.21,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2015
+BM00326,Meridian Systems India Ltd,IT Services & Consulting,India,2015,SOC_ESAT,70.1,score,70.1,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2015
+BM00327,Meridian Systems India Ltd,IT Services & Consulting,India,2015,GOV_BOARD_INDEP_PCT,42.35,%,42.35,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2015
+BM00328,Meridian Systems India Ltd,IT Services & Consulting,India,2015,GOV_WOMEN_BOARD_PCT,10.98,%,10.98,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2015
+BM00329,Meridian Systems India Ltd,IT Services & Consulting,India,2016,ENV_RENEW_PCT,12.45,%,12.45,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2016
+BM00330,Meridian Systems India Ltd,IT Services & Consulting,India,2016,ENV_DC_PUE,1.91,ratio,1.91,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2016
+BM00331,Meridian Systems India Ltd,IT Services & Consulting,India,2016,ENV_EWASTE_REC_PCT,62.08,%,62.08,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2016
+BM00332,Meridian Systems India Ltd,IT Services & Consulting,India,2016,SOC_ATTRITION,14.58,%,14.58,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2016
+BM00333,Meridian Systems India Ltd,IT Services & Consulting,India,2016,SOC_FEMALE_PCT,31.06,%,31.06,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2016
+BM00334,Meridian Systems India Ltd,IT Services & Consulting,India,2016,SOC_ESAT,69.58,score,69.58,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2016
+BM00335,Meridian Systems India Ltd,IT Services & Consulting,India,2016,GOV_BOARD_INDEP_PCT,42.63,%,42.63,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2016
+BM00336,Meridian Systems India Ltd,IT Services & Consulting,India,2016,GOV_WOMEN_BOARD_PCT,13.08,%,13.08,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2016
+BM00337,Meridian Systems India Ltd,IT Services & Consulting,India,2017,ENV_RENEW_PCT,18.19,%,18.19,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2017
+BM00338,Meridian Systems India Ltd,IT Services & Consulting,India,2017,ENV_DC_PUE,1.96,ratio,1.96,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2017
+BM00339,Meridian Systems India Ltd,IT Services & Consulting,India,2017,ENV_EWASTE_REC_PCT,66.98,%,66.98,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2017
+BM00340,Meridian Systems India Ltd,IT Services & Consulting,India,2017,SOC_ATTRITION,15.16,%,15.16,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2017
+BM00341,Meridian Systems India Ltd,IT Services & Consulting,India,2017,SOC_FEMALE_PCT,32.0,%,32.0,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2017
+BM00342,Meridian Systems India Ltd,IT Services & Consulting,India,2017,SOC_ESAT,74.01,score,74.01,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2017
+BM00343,Meridian Systems India Ltd,IT Services & Consulting,India,2017,GOV_BOARD_INDEP_PCT,46.89,%,46.89,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2017
+BM00344,Meridian Systems India Ltd,IT Services & Consulting,India,2017,GOV_WOMEN_BOARD_PCT,15.92,%,15.92,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2017
+BM00345,Meridian Systems India Ltd,IT Services & Consulting,India,2018,ENV_RENEW_PCT,23.01,%,23.01,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2018
+BM00346,Meridian Systems India Ltd,IT Services & Consulting,India,2018,ENV_DC_PUE,1.86,ratio,1.86,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2018
+BM00347,Meridian Systems India Ltd,IT Services & Consulting,India,2018,ENV_EWASTE_REC_PCT,71.87,%,71.87,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2018
+BM00348,Meridian Systems India Ltd,IT Services & Consulting,India,2018,SOC_ATTRITION,14.53,%,14.53,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2018
+BM00349,Meridian Systems India Ltd,IT Services & Consulting,India,2018,SOC_FEMALE_PCT,31.19,%,31.19,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2018
+BM00350,Meridian Systems India Ltd,IT Services & Consulting,India,2018,SOC_ESAT,75.26,score,75.26,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2018
+BM00351,Meridian Systems India Ltd,IT Services & Consulting,India,2018,GOV_BOARD_INDEP_PCT,47.05,%,47.05,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2018
+BM00352,Meridian Systems India Ltd,IT Services & Consulting,India,2018,GOV_WOMEN_BOARD_PCT,17.4,%,17.4,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2018
+BM00353,Meridian Systems India Ltd,IT Services & Consulting,India,2019,ENV_RENEW_PCT,26.55,%,26.55,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2019
+BM00354,Meridian Systems India Ltd,IT Services & Consulting,India,2019,ENV_DC_PUE,1.71,ratio,1.71,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2019
+BM00355,Meridian Systems India Ltd,IT Services & Consulting,India,2019,ENV_EWASTE_REC_PCT,75.11,%,75.11,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2019
+BM00356,Meridian Systems India Ltd,IT Services & Consulting,India,2019,SOC_ATTRITION,13.73,%,13.73,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2019
+BM00357,Meridian Systems India Ltd,IT Services & Consulting,India,2019,SOC_FEMALE_PCT,32.55,%,32.55,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2019
+BM00358,Meridian Systems India Ltd,IT Services & Consulting,India,2019,SOC_ESAT,74.01,score,74.01,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2019
+BM00359,Meridian Systems India Ltd,IT Services & Consulting,India,2019,GOV_BOARD_INDEP_PCT,49.29,%,49.29,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2019
+BM00360,Meridian Systems India Ltd,IT Services & Consulting,India,2019,GOV_WOMEN_BOARD_PCT,20.13,%,20.13,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2019
+BM00361,Meridian Systems India Ltd,IT Services & Consulting,India,2020,ENV_RENEW_PCT,30.86,%,30.86,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2020
+BM00362,Meridian Systems India Ltd,IT Services & Consulting,India,2020,ENV_DC_PUE,1.66,ratio,1.66,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2020
+BM00363,Meridian Systems India Ltd,IT Services & Consulting,India,2020,ENV_EWASTE_REC_PCT,80.64,%,80.64,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2020
+BM00364,Meridian Systems India Ltd,IT Services & Consulting,India,2020,SOC_ATTRITION,14.14,%,14.14,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2020
+BM00365,Meridian Systems India Ltd,IT Services & Consulting,India,2020,SOC_FEMALE_PCT,34.0,%,34.0,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2020
+BM00366,Meridian Systems India Ltd,IT Services & Consulting,India,2020,SOC_ESAT,74.18,score,74.18,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2020
+BM00367,Meridian Systems India Ltd,IT Services & Consulting,India,2020,GOV_BOARD_INDEP_PCT,50.33,%,50.33,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2020
+BM00368,Meridian Systems India Ltd,IT Services & Consulting,India,2020,GOV_WOMEN_BOARD_PCT,22.21,%,22.21,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2020
+BM00369,Meridian Systems India Ltd,IT Services & Consulting,India,2021,ENV_RENEW_PCT,37.08,%,37.08,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2021
+BM00370,Meridian Systems India Ltd,IT Services & Consulting,India,2021,ENV_DC_PUE,1.56,ratio,1.56,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2021
+BM00371,Meridian Systems India Ltd,IT Services & Consulting,India,2021,ENV_EWASTE_REC_PCT,82.65,%,82.65,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2021
+BM00372,Meridian Systems India Ltd,IT Services & Consulting,India,2021,SOC_ATTRITION,18.79,%,18.79,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2021
+BM00373,Meridian Systems India Ltd,IT Services & Consulting,India,2021,SOC_FEMALE_PCT,35.81,%,35.81,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2021
+BM00374,Meridian Systems India Ltd,IT Services & Consulting,India,2021,SOC_ESAT,74.54,score,74.54,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2021
+BM00375,Meridian Systems India Ltd,IT Services & Consulting,India,2021,GOV_BOARD_INDEP_PCT,52.85,%,52.85,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2021
+BM00376,Meridian Systems India Ltd,IT Services & Consulting,India,2021,GOV_WOMEN_BOARD_PCT,24.31,%,24.31,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2021
+BM00377,Meridian Systems India Ltd,IT Services & Consulting,India,2022,ENV_RENEW_PCT,41.59,%,41.59,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2022
+BM00378,Meridian Systems India Ltd,IT Services & Consulting,India,2022,ENV_DC_PUE,1.59,ratio,1.59,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2022
+BM00379,Meridian Systems India Ltd,IT Services & Consulting,India,2022,ENV_EWASTE_REC_PCT,85.87,%,85.87,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2022
+BM00380,Meridian Systems India Ltd,IT Services & Consulting,India,2022,SOC_ATTRITION,18.59,%,18.59,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2022
+BM00381,Meridian Systems India Ltd,IT Services & Consulting,India,2022,SOC_FEMALE_PCT,37.83,%,37.83,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2022
+BM00382,Meridian Systems India Ltd,IT Services & Consulting,India,2022,SOC_ESAT,74.98,score,74.98,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2022
+BM00383,Meridian Systems India Ltd,IT Services & Consulting,India,2022,GOV_BOARD_INDEP_PCT,57.83,%,57.83,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2022
+BM00384,Meridian Systems India Ltd,IT Services & Consulting,India,2022,GOV_WOMEN_BOARD_PCT,27.25,%,27.25,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2022
+BM00385,Meridian Systems India Ltd,IT Services & Consulting,India,2023,ENV_RENEW_PCT,44.83,%,44.83,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2023
+BM00386,Meridian Systems India Ltd,IT Services & Consulting,India,2023,ENV_DC_PUE,1.45,ratio,1.45,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2023
+BM00387,Meridian Systems India Ltd,IT Services & Consulting,India,2023,ENV_EWASTE_REC_PCT,88.66,%,88.66,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2023
+BM00388,Meridian Systems India Ltd,IT Services & Consulting,India,2023,SOC_ATTRITION,12.78,%,12.78,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2023
+BM00389,Meridian Systems India Ltd,IT Services & Consulting,India,2023,SOC_FEMALE_PCT,38.36,%,38.36,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2023
+BM00390,Meridian Systems India Ltd,IT Services & Consulting,India,2023,SOC_ESAT,78.64,score,78.64,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2023
+BM00391,Meridian Systems India Ltd,IT Services & Consulting,India,2023,GOV_BOARD_INDEP_PCT,59.92,%,59.92,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2023
+BM00392,Meridian Systems India Ltd,IT Services & Consulting,India,2023,GOV_WOMEN_BOARD_PCT,29.76,%,29.76,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2023
+BM00393,Meridian Systems India Ltd,IT Services & Consulting,India,2024,ENV_RENEW_PCT,49.61,%,49.61,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2024
+BM00394,Meridian Systems India Ltd,IT Services & Consulting,India,2024,ENV_DC_PUE,1.35,ratio,1.35,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2024
+BM00395,Meridian Systems India Ltd,IT Services & Consulting,India,2024,ENV_EWASTE_REC_PCT,92.67,%,92.67,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2024
+BM00396,Meridian Systems India Ltd,IT Services & Consulting,India,2024,SOC_ATTRITION,13.31,%,13.31,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2024
+BM00397,Meridian Systems India Ltd,IT Services & Consulting,India,2024,SOC_FEMALE_PCT,39.66,%,39.66,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2024
+BM00398,Meridian Systems India Ltd,IT Services & Consulting,India,2024,SOC_ESAT,82.24,score,82.24,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2024
+BM00399,Meridian Systems India Ltd,IT Services & Consulting,India,2024,GOV_BOARD_INDEP_PCT,60.95,%,60.95,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2024
+BM00400,Meridian Systems India Ltd,IT Services & Consulting,India,2024,GOV_WOMEN_BOARD_PCT,32.26,%,32.26,Wikirate / peer ESG report,Meridian Systems India Ltd Sustainability Report 2024
+BM00401,Northgate Software plc,Software & Cloud,United Kingdom,2015,ENV_RENEW_PCT,15.24,%,15.24,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2015
+BM00402,Northgate Software plc,Software & Cloud,United Kingdom,2015,ENV_DC_PUE,1.99,ratio,1.99,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2015
+BM00403,Northgate Software plc,Software & Cloud,United Kingdom,2015,ENV_EWASTE_REC_PCT,64.73,%,64.73,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2015
+BM00404,Northgate Software plc,Software & Cloud,United Kingdom,2015,SOC_ATTRITION,13.8,%,13.8,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2015
+BM00405,Northgate Software plc,Software & Cloud,United Kingdom,2015,SOC_FEMALE_PCT,30.01,%,30.01,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2015
+BM00406,Northgate Software plc,Software & Cloud,United Kingdom,2015,SOC_ESAT,71.71,score,71.71,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2015
+BM00407,Northgate Software plc,Software & Cloud,United Kingdom,2015,GOV_BOARD_INDEP_PCT,44.0,%,44.0,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2015
+BM00408,Northgate Software plc,Software & Cloud,United Kingdom,2015,GOV_WOMEN_BOARD_PCT,14.91,%,14.91,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2015
+BM00409,Northgate Software plc,Software & Cloud,United Kingdom,2016,ENV_RENEW_PCT,19.63,%,19.63,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2016
+BM00410,Northgate Software plc,Software & Cloud,United Kingdom,2016,ENV_DC_PUE,1.88,ratio,1.88,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2016
+BM00411,Northgate Software plc,Software & Cloud,United Kingdom,2016,ENV_EWASTE_REC_PCT,70.21,%,70.21,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2016
+BM00412,Northgate Software plc,Software & Cloud,United Kingdom,2016,SOC_ATTRITION,13.73,%,13.73,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2016
+BM00413,Northgate Software plc,Software & Cloud,United Kingdom,2016,SOC_FEMALE_PCT,33.05,%,33.05,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2016
+BM00414,Northgate Software plc,Software & Cloud,United Kingdom,2016,SOC_ESAT,70.73,score,70.73,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2016
+BM00415,Northgate Software plc,Software & Cloud,United Kingdom,2016,GOV_BOARD_INDEP_PCT,48.05,%,48.05,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2016
+BM00416,Northgate Software plc,Software & Cloud,United Kingdom,2016,GOV_WOMEN_BOARD_PCT,17.63,%,17.63,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2016
+BM00417,Northgate Software plc,Software & Cloud,United Kingdom,2017,ENV_RENEW_PCT,24.82,%,24.82,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2017
+BM00418,Northgate Software plc,Software & Cloud,United Kingdom,2017,ENV_DC_PUE,1.78,ratio,1.78,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2017
+BM00419,Northgate Software plc,Software & Cloud,United Kingdom,2017,ENV_EWASTE_REC_PCT,73.09,%,73.09,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2017
+BM00420,Northgate Software plc,Software & Cloud,United Kingdom,2017,SOC_ATTRITION,13.13,%,13.13,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2017
+BM00421,Northgate Software plc,Software & Cloud,United Kingdom,2017,SOC_FEMALE_PCT,34.88,%,34.88,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2017
+BM00422,Northgate Software plc,Software & Cloud,United Kingdom,2017,SOC_ESAT,71.58,score,71.58,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2017
+BM00423,Northgate Software plc,Software & Cloud,United Kingdom,2017,GOV_BOARD_INDEP_PCT,48.68,%,48.68,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2017
+BM00424,Northgate Software plc,Software & Cloud,United Kingdom,2017,GOV_WOMEN_BOARD_PCT,19.14,%,19.14,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2017
+BM00425,Northgate Software plc,Software & Cloud,United Kingdom,2018,ENV_RENEW_PCT,28.43,%,28.43,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2018
+BM00426,Northgate Software plc,Software & Cloud,United Kingdom,2018,ENV_DC_PUE,1.69,ratio,1.69,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2018
+BM00427,Northgate Software plc,Software & Cloud,United Kingdom,2018,ENV_EWASTE_REC_PCT,75.85,%,75.85,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2018
+BM00428,Northgate Software plc,Software & Cloud,United Kingdom,2018,SOC_ATTRITION,12.95,%,12.95,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2018
+BM00429,Northgate Software plc,Software & Cloud,United Kingdom,2018,SOC_FEMALE_PCT,36.2,%,36.2,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2018
+BM00430,Northgate Software plc,Software & Cloud,United Kingdom,2018,SOC_ESAT,76.55,score,76.55,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2018
+BM00431,Northgate Software plc,Software & Cloud,United Kingdom,2018,GOV_BOARD_INDEP_PCT,53.42,%,53.42,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2018
+BM00432,Northgate Software plc,Software & Cloud,United Kingdom,2018,GOV_WOMEN_BOARD_PCT,22.1,%,22.1,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2018
+BM00433,Northgate Software plc,Software & Cloud,United Kingdom,2019,ENV_RENEW_PCT,32.14,%,32.14,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2019
+BM00434,Northgate Software plc,Software & Cloud,United Kingdom,2019,ENV_DC_PUE,1.72,ratio,1.72,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2019
+BM00435,Northgate Software plc,Software & Cloud,United Kingdom,2019,ENV_EWASTE_REC_PCT,77.64,%,77.64,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2019
+BM00436,Northgate Software plc,Software & Cloud,United Kingdom,2019,SOC_ATTRITION,12.16,%,12.16,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2019
+BM00437,Northgate Software plc,Software & Cloud,United Kingdom,2019,SOC_FEMALE_PCT,37.26,%,37.26,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2019
+BM00438,Northgate Software plc,Software & Cloud,United Kingdom,2019,SOC_ESAT,73.58,score,73.58,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2019
+BM00439,Northgate Software plc,Software & Cloud,United Kingdom,2019,GOV_BOARD_INDEP_PCT,51.85,%,51.85,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2019
+BM00440,Northgate Software plc,Software & Cloud,United Kingdom,2019,GOV_WOMEN_BOARD_PCT,23.89,%,23.89,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2019
+BM00441,Northgate Software plc,Software & Cloud,United Kingdom,2020,ENV_RENEW_PCT,38.38,%,38.38,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2020
+BM00442,Northgate Software plc,Software & Cloud,United Kingdom,2020,ENV_DC_PUE,1.57,ratio,1.57,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2020
+BM00443,Northgate Software plc,Software & Cloud,United Kingdom,2020,ENV_EWASTE_REC_PCT,81.08,%,81.08,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2020
+BM00444,Northgate Software plc,Software & Cloud,United Kingdom,2020,SOC_ATTRITION,12.43,%,12.43,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2020
+BM00445,Northgate Software plc,Software & Cloud,United Kingdom,2020,SOC_FEMALE_PCT,37.25,%,37.25,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2020
+BM00446,Northgate Software plc,Software & Cloud,United Kingdom,2020,SOC_ESAT,75.09,score,75.09,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2020
+BM00447,Northgate Software plc,Software & Cloud,United Kingdom,2020,GOV_BOARD_INDEP_PCT,53.87,%,53.87,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2020
+BM00448,Northgate Software plc,Software & Cloud,United Kingdom,2020,GOV_WOMEN_BOARD_PCT,25.37,%,25.37,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2020
+BM00449,Northgate Software plc,Software & Cloud,United Kingdom,2021,ENV_RENEW_PCT,41.83,%,41.83,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2021
+BM00450,Northgate Software plc,Software & Cloud,United Kingdom,2021,ENV_DC_PUE,1.54,ratio,1.54,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2021
+BM00451,Northgate Software plc,Software & Cloud,United Kingdom,2021,ENV_EWASTE_REC_PCT,87.24,%,87.24,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2021
+BM00452,Northgate Software plc,Software & Cloud,United Kingdom,2021,SOC_ATTRITION,16.15,%,16.15,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2021
+BM00453,Northgate Software plc,Software & Cloud,United Kingdom,2021,SOC_FEMALE_PCT,39.15,%,39.15,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2021
+BM00454,Northgate Software plc,Software & Cloud,United Kingdom,2021,SOC_ESAT,76.28,score,76.28,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2021
+BM00455,Northgate Software plc,Software & Cloud,United Kingdom,2021,GOV_BOARD_INDEP_PCT,56.6,%,56.6,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2021
+BM00456,Northgate Software plc,Software & Cloud,United Kingdom,2021,GOV_WOMEN_BOARD_PCT,27.33,%,27.33,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2021
+BM00457,Northgate Software plc,Software & Cloud,United Kingdom,2022,ENV_RENEW_PCT,46.08,%,46.08,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2022
+BM00458,Northgate Software plc,Software & Cloud,United Kingdom,2022,ENV_DC_PUE,1.43,ratio,1.43,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2022
+BM00459,Northgate Software plc,Software & Cloud,United Kingdom,2022,ENV_EWASTE_REC_PCT,88.6,%,88.6,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2022
+BM00460,Northgate Software plc,Software & Cloud,United Kingdom,2022,SOC_ATTRITION,15.83,%,15.83,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2022
+BM00461,Northgate Software plc,Software & Cloud,United Kingdom,2022,SOC_FEMALE_PCT,40.59,%,40.59,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2022
+BM00462,Northgate Software plc,Software & Cloud,United Kingdom,2022,SOC_ESAT,78.49,score,78.49,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2022
+BM00463,Northgate Software plc,Software & Cloud,United Kingdom,2022,GOV_BOARD_INDEP_PCT,60.03,%,60.03,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2022
+BM00464,Northgate Software plc,Software & Cloud,United Kingdom,2022,GOV_WOMEN_BOARD_PCT,30.64,%,30.64,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2022
+BM00465,Northgate Software plc,Software & Cloud,United Kingdom,2023,ENV_RENEW_PCT,51.69,%,51.69,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2023
+BM00466,Northgate Software plc,Software & Cloud,United Kingdom,2023,ENV_DC_PUE,1.34,ratio,1.34,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2023
+BM00467,Northgate Software plc,Software & Cloud,United Kingdom,2023,ENV_EWASTE_REC_PCT,91.79,%,91.79,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2023
+BM00468,Northgate Software plc,Software & Cloud,United Kingdom,2023,SOC_ATTRITION,11.47,%,11.47,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2023
+BM00469,Northgate Software plc,Software & Cloud,United Kingdom,2023,SOC_FEMALE_PCT,39.48,%,39.48,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2023
+BM00470,Northgate Software plc,Software & Cloud,United Kingdom,2023,SOC_ESAT,78.05,score,78.05,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2023
+BM00471,Northgate Software plc,Software & Cloud,United Kingdom,2023,GOV_BOARD_INDEP_PCT,60.15,%,60.15,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2023
+BM00472,Northgate Software plc,Software & Cloud,United Kingdom,2023,GOV_WOMEN_BOARD_PCT,32.59,%,32.59,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2023
+BM00473,Northgate Software plc,Software & Cloud,United Kingdom,2024,ENV_RENEW_PCT,58.97,%,58.97,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2024
+BM00474,Northgate Software plc,Software & Cloud,United Kingdom,2024,ENV_DC_PUE,1.28,ratio,1.28,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2024
+BM00475,Northgate Software plc,Software & Cloud,United Kingdom,2024,ENV_EWASTE_REC_PCT,99.74,%,99.74,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2024
+BM00476,Northgate Software plc,Software & Cloud,United Kingdom,2024,SOC_ATTRITION,10.84,%,10.84,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2024
+BM00477,Northgate Software plc,Software & Cloud,United Kingdom,2024,SOC_FEMALE_PCT,41.06,%,41.06,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2024
+BM00478,Northgate Software plc,Software & Cloud,United Kingdom,2024,SOC_ESAT,80.41,score,80.41,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2024
+BM00479,Northgate Software plc,Software & Cloud,United Kingdom,2024,GOV_BOARD_INDEP_PCT,64.28,%,64.28,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2024
+BM00480,Northgate Software plc,Software & Cloud,United Kingdom,2024,GOV_WOMEN_BOARD_PCT,34.53,%,34.53,Wikirate / peer ESG report,Northgate Software plc Sustainability Report 2024
+BM00481,Auroville Analytics Ltd,IT Services & Consulting,India,2015,ENV_RENEW_PCT,-0.59,%,-0.59,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2015
+BM00482,Auroville Analytics Ltd,IT Services & Consulting,India,2015,ENV_DC_PUE,2.22,ratio,2.22,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2015
+BM00483,Auroville Analytics Ltd,IT Services & Consulting,India,2015,ENV_EWASTE_REC_PCT,51.94,%,51.94,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2015
+BM00484,Auroville Analytics Ltd,IT Services & Consulting,India,2015,SOC_ATTRITION,18.26,%,18.26,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2015
+BM00485,Auroville Analytics Ltd,IT Services & Consulting,India,2015,SOC_FEMALE_PCT,25.07,%,25.07,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2015
+BM00486,Auroville Analytics Ltd,IT Services & Consulting,India,2015,SOC_ESAT,64.68,score,64.68,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2015
+BM00487,Auroville Analytics Ltd,IT Services & Consulting,India,2015,GOV_BOARD_INDEP_PCT,37.48,%,37.48,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2015
+BM00488,Auroville Analytics Ltd,IT Services & Consulting,India,2015,GOV_WOMEN_BOARD_PCT,6.36,%,6.36,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2015
+BM00489,Auroville Analytics Ltd,IT Services & Consulting,India,2016,ENV_RENEW_PCT,3.95,%,3.95,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2016
+BM00490,Auroville Analytics Ltd,IT Services & Consulting,India,2016,ENV_DC_PUE,2.11,ratio,2.11,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2016
+BM00491,Auroville Analytics Ltd,IT Services & Consulting,India,2016,ENV_EWASTE_REC_PCT,57.94,%,57.94,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2016
+BM00492,Auroville Analytics Ltd,IT Services & Consulting,India,2016,SOC_ATTRITION,17.11,%,17.11,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2016
+BM00493,Auroville Analytics Ltd,IT Services & Consulting,India,2016,SOC_FEMALE_PCT,26.73,%,26.73,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2016
+BM00494,Auroville Analytics Ltd,IT Services & Consulting,India,2016,SOC_ESAT,64.76,score,64.76,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2016
+BM00495,Auroville Analytics Ltd,IT Services & Consulting,India,2016,GOV_BOARD_INDEP_PCT,39.59,%,39.59,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2016
+BM00496,Auroville Analytics Ltd,IT Services & Consulting,India,2016,GOV_WOMEN_BOARD_PCT,8.44,%,8.44,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2016
+BM00497,Auroville Analytics Ltd,IT Services & Consulting,India,2017,ENV_RENEW_PCT,9.01,%,9.01,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2017
+BM00498,Auroville Analytics Ltd,IT Services & Consulting,India,2017,ENV_DC_PUE,1.98,ratio,1.98,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2017
+BM00499,Auroville Analytics Ltd,IT Services & Consulting,India,2017,ENV_EWASTE_REC_PCT,61.47,%,61.47,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2017
+BM00500,Auroville Analytics Ltd,IT Services & Consulting,India,2017,SOC_ATTRITION,16.63,%,16.63,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2017
+BM00501,Auroville Analytics Ltd,IT Services & Consulting,India,2017,SOC_FEMALE_PCT,27.63,%,27.63,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2017
+BM00502,Auroville Analytics Ltd,IT Services & Consulting,India,2017,SOC_ESAT,69.36,score,69.36,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2017
+BM00503,Auroville Analytics Ltd,IT Services & Consulting,India,2017,GOV_BOARD_INDEP_PCT,39.37,%,39.37,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2017
+BM00504,Auroville Analytics Ltd,IT Services & Consulting,India,2017,GOV_WOMEN_BOARD_PCT,11.08,%,11.08,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2017
+BM00505,Auroville Analytics Ltd,IT Services & Consulting,India,2018,ENV_RENEW_PCT,13.65,%,13.65,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2018
+BM00506,Auroville Analytics Ltd,IT Services & Consulting,India,2018,ENV_DC_PUE,2.02,ratio,2.02,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2018
+BM00507,Auroville Analytics Ltd,IT Services & Consulting,India,2018,ENV_EWASTE_REC_PCT,61.43,%,61.43,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2018
+BM00508,Auroville Analytics Ltd,IT Services & Consulting,India,2018,SOC_ATTRITION,16.88,%,16.88,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2018
+BM00509,Auroville Analytics Ltd,IT Services & Consulting,India,2018,SOC_FEMALE_PCT,29.69,%,29.69,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2018
+BM00510,Auroville Analytics Ltd,IT Services & Consulting,India,2018,SOC_ESAT,68.96,score,68.96,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2018
+BM00511,Auroville Analytics Ltd,IT Services & Consulting,India,2018,GOV_BOARD_INDEP_PCT,44.61,%,44.61,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2018
+BM00512,Auroville Analytics Ltd,IT Services & Consulting,India,2018,GOV_WOMEN_BOARD_PCT,13.2,%,13.2,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2018
+BM00513,Auroville Analytics Ltd,IT Services & Consulting,India,2019,ENV_RENEW_PCT,17.6,%,17.6,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2019
+BM00514,Auroville Analytics Ltd,IT Services & Consulting,India,2019,ENV_DC_PUE,1.85,ratio,1.85,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2019
+BM00515,Auroville Analytics Ltd,IT Services & Consulting,India,2019,ENV_EWASTE_REC_PCT,64.46,%,64.46,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2019
+BM00516,Auroville Analytics Ltd,IT Services & Consulting,India,2019,SOC_ATTRITION,16.18,%,16.18,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2019
+BM00517,Auroville Analytics Ltd,IT Services & Consulting,India,2019,SOC_FEMALE_PCT,31.62,%,31.62,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2019
+BM00518,Auroville Analytics Ltd,IT Services & Consulting,India,2019,SOC_ESAT,68.72,score,68.72,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2019
+BM00519,Auroville Analytics Ltd,IT Services & Consulting,India,2019,GOV_BOARD_INDEP_PCT,45.49,%,45.49,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2019
+BM00520,Auroville Analytics Ltd,IT Services & Consulting,India,2019,GOV_WOMEN_BOARD_PCT,15.31,%,15.31,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2019
+BM00521,Auroville Analytics Ltd,IT Services & Consulting,India,2020,ENV_RENEW_PCT,21.88,%,21.88,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2020
+BM00522,Auroville Analytics Ltd,IT Services & Consulting,India,2020,ENV_DC_PUE,1.87,ratio,1.87,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2020
+BM00523,Auroville Analytics Ltd,IT Services & Consulting,India,2020,ENV_EWASTE_REC_PCT,72.17,%,72.17,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2020
+BM00524,Auroville Analytics Ltd,IT Services & Consulting,India,2020,SOC_ATTRITION,16.65,%,16.65,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2020
+BM00525,Auroville Analytics Ltd,IT Services & Consulting,India,2020,SOC_FEMALE_PCT,32.17,%,32.17,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2020
+BM00526,Auroville Analytics Ltd,IT Services & Consulting,India,2020,SOC_ESAT,69.37,score,69.37,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2020
+BM00527,Auroville Analytics Ltd,IT Services & Consulting,India,2020,GOV_BOARD_INDEP_PCT,47.31,%,47.31,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2020
+BM00528,Auroville Analytics Ltd,IT Services & Consulting,India,2020,GOV_WOMEN_BOARD_PCT,17.97,%,17.97,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2020
+BM00529,Auroville Analytics Ltd,IT Services & Consulting,India,2021,ENV_RENEW_PCT,28.44,%,28.44,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2021
+BM00530,Auroville Analytics Ltd,IT Services & Consulting,India,2021,ENV_DC_PUE,1.74,ratio,1.74,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2021
+BM00531,Auroville Analytics Ltd,IT Services & Consulting,India,2021,ENV_EWASTE_REC_PCT,75.57,%,75.57,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2021
+BM00532,Auroville Analytics Ltd,IT Services & Consulting,India,2021,SOC_ATTRITION,21.88,%,21.88,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2021
+BM00533,Auroville Analytics Ltd,IT Services & Consulting,India,2021,SOC_FEMALE_PCT,31.64,%,31.64,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2021
+BM00534,Auroville Analytics Ltd,IT Services & Consulting,India,2021,SOC_ESAT,74.93,score,74.93,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2021
+BM00535,Auroville Analytics Ltd,IT Services & Consulting,India,2021,GOV_BOARD_INDEP_PCT,50.13,%,50.13,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2021
+BM00536,Auroville Analytics Ltd,IT Services & Consulting,India,2021,GOV_WOMEN_BOARD_PCT,19.77,%,19.77,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2021
+BM00537,Auroville Analytics Ltd,IT Services & Consulting,India,2022,ENV_RENEW_PCT,32.38,%,32.38,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2022
+BM00538,Auroville Analytics Ltd,IT Services & Consulting,India,2022,ENV_DC_PUE,1.73,ratio,1.73,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2022
+BM00539,Auroville Analytics Ltd,IT Services & Consulting,India,2022,ENV_EWASTE_REC_PCT,77.21,%,77.21,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2022
+BM00540,Auroville Analytics Ltd,IT Services & Consulting,India,2022,SOC_ATTRITION,21.1,%,21.1,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2022
+BM00541,Auroville Analytics Ltd,IT Services & Consulting,India,2022,SOC_FEMALE_PCT,35.45,%,35.45,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2022
+BM00542,Auroville Analytics Ltd,IT Services & Consulting,India,2022,SOC_ESAT,76.33,score,76.33,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2022
+BM00543,Auroville Analytics Ltd,IT Services & Consulting,India,2022,GOV_BOARD_INDEP_PCT,51.15,%,51.15,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2022
+BM00544,Auroville Analytics Ltd,IT Services & Consulting,India,2022,GOV_WOMEN_BOARD_PCT,21.37,%,21.37,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2022
+BM00545,Auroville Analytics Ltd,IT Services & Consulting,India,2023,ENV_RENEW_PCT,35.81,%,35.81,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2023
+BM00546,Auroville Analytics Ltd,IT Services & Consulting,India,2023,ENV_DC_PUE,1.64,ratio,1.64,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2023
+BM00547,Auroville Analytics Ltd,IT Services & Consulting,India,2023,ENV_EWASTE_REC_PCT,81.61,%,81.61,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2023
+BM00548,Auroville Analytics Ltd,IT Services & Consulting,India,2023,SOC_ATTRITION,15.14,%,15.14,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2023
+BM00549,Auroville Analytics Ltd,IT Services & Consulting,India,2023,SOC_FEMALE_PCT,36.44,%,36.44,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2023
+BM00550,Auroville Analytics Ltd,IT Services & Consulting,India,2023,SOC_ESAT,73.6,score,73.6,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2023
+BM00551,Auroville Analytics Ltd,IT Services & Consulting,India,2023,GOV_BOARD_INDEP_PCT,55.15,%,55.15,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2023
+BM00552,Auroville Analytics Ltd,IT Services & Consulting,India,2023,GOV_WOMEN_BOARD_PCT,24.58,%,24.58,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2023
+BM00553,Auroville Analytics Ltd,IT Services & Consulting,India,2024,ENV_RENEW_PCT,39.85,%,39.85,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2024
+BM00554,Auroville Analytics Ltd,IT Services & Consulting,India,2024,ENV_DC_PUE,1.56,ratio,1.56,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2024
+BM00555,Auroville Analytics Ltd,IT Services & Consulting,India,2024,ENV_EWASTE_REC_PCT,83.89,%,83.89,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2024
+BM00556,Auroville Analytics Ltd,IT Services & Consulting,India,2024,SOC_ATTRITION,14.88,%,14.88,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2024
+BM00557,Auroville Analytics Ltd,IT Services & Consulting,India,2024,SOC_FEMALE_PCT,36.36,%,36.36,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2024
+BM00558,Auroville Analytics Ltd,IT Services & Consulting,India,2024,SOC_ESAT,74.98,score,74.98,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2024
+BM00559,Auroville Analytics Ltd,IT Services & Consulting,India,2024,GOV_BOARD_INDEP_PCT,58.33,%,58.33,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2024
+BM00560,Auroville Analytics Ltd,IT Services & Consulting,India,2024,GOV_WOMEN_BOARD_PCT,25.64,%,25.64,Wikirate / peer ESG report,Auroville Analytics Ltd Sustainability Report 2024
+BM00561,Rhein Cloud GmbH,Software & Cloud,Germany,2015,ENV_RENEW_PCT,21.26,%,21.26,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2015
+BM00562,Rhein Cloud GmbH,Software & Cloud,Germany,2015,ENV_DC_PUE,1.85,ratio,1.85,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2015
+BM00563,Rhein Cloud GmbH,Software & Cloud,Germany,2015,ENV_EWASTE_REC_PCT,70.6,%,70.6,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2015
+BM00564,Rhein Cloud GmbH,Software & Cloud,Germany,2015,SOC_ATTRITION,12.23,%,12.23,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2015
+BM00565,Rhein Cloud GmbH,Software & Cloud,Germany,2015,SOC_FEMALE_PCT,33.89,%,33.89,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2015
+BM00566,Rhein Cloud GmbH,Software & Cloud,Germany,2015,SOC_ESAT,74.28,score,74.28,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2015
+BM00567,Rhein Cloud GmbH,Software & Cloud,Germany,2015,GOV_BOARD_INDEP_PCT,49.84,%,49.84,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2015
+BM00568,Rhein Cloud GmbH,Software & Cloud,Germany,2015,GOV_WOMEN_BOARD_PCT,17.77,%,17.77,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2015
+BM00569,Rhein Cloud GmbH,Software & Cloud,Germany,2016,ENV_RENEW_PCT,26.7,%,26.7,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2016
+BM00570,Rhein Cloud GmbH,Software & Cloud,Germany,2016,ENV_DC_PUE,1.78,ratio,1.78,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2016
+BM00571,Rhein Cloud GmbH,Software & Cloud,Germany,2016,ENV_EWASTE_REC_PCT,75.74,%,75.74,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2016
+BM00572,Rhein Cloud GmbH,Software & Cloud,Germany,2016,SOC_ATTRITION,11.32,%,11.32,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2016
+BM00573,Rhein Cloud GmbH,Software & Cloud,Germany,2016,SOC_FEMALE_PCT,33.7,%,33.7,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2016
+BM00574,Rhein Cloud GmbH,Software & Cloud,Germany,2016,SOC_ESAT,73.32,score,73.32,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2016
+BM00575,Rhein Cloud GmbH,Software & Cloud,Germany,2016,GOV_BOARD_INDEP_PCT,50.82,%,50.82,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2016
+BM00576,Rhein Cloud GmbH,Software & Cloud,Germany,2016,GOV_WOMEN_BOARD_PCT,19.8,%,19.8,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2016
+BM00577,Rhein Cloud GmbH,Software & Cloud,Germany,2017,ENV_RENEW_PCT,30.43,%,30.43,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2017
+BM00578,Rhein Cloud GmbH,Software & Cloud,Germany,2017,ENV_DC_PUE,1.68,ratio,1.68,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2017
+BM00579,Rhein Cloud GmbH,Software & Cloud,Germany,2017,ENV_EWASTE_REC_PCT,78.55,%,78.55,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2017
+BM00580,Rhein Cloud GmbH,Software & Cloud,Germany,2017,SOC_ATTRITION,11.48,%,11.48,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2017
+BM00581,Rhein Cloud GmbH,Software & Cloud,Germany,2017,SOC_FEMALE_PCT,36.57,%,36.57,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2017
+BM00582,Rhein Cloud GmbH,Software & Cloud,Germany,2017,SOC_ESAT,75.23,score,75.23,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2017
+BM00583,Rhein Cloud GmbH,Software & Cloud,Germany,2017,GOV_BOARD_INDEP_PCT,53.48,%,53.48,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2017
+BM00584,Rhein Cloud GmbH,Software & Cloud,Germany,2017,GOV_WOMEN_BOARD_PCT,23.71,%,23.71,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2017
+BM00585,Rhein Cloud GmbH,Software & Cloud,Germany,2018,ENV_RENEW_PCT,36.61,%,36.61,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2018
+BM00586,Rhein Cloud GmbH,Software & Cloud,Germany,2018,ENV_DC_PUE,1.69,ratio,1.69,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2018
+BM00587,Rhein Cloud GmbH,Software & Cloud,Germany,2018,ENV_EWASTE_REC_PCT,82.57,%,82.57,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2018
+BM00588,Rhein Cloud GmbH,Software & Cloud,Germany,2018,SOC_ATTRITION,11.18,%,11.18,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2018
+BM00589,Rhein Cloud GmbH,Software & Cloud,Germany,2018,SOC_FEMALE_PCT,37.17,%,37.17,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2018
+BM00590,Rhein Cloud GmbH,Software & Cloud,Germany,2018,SOC_ESAT,77.81,score,77.81,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2018
+BM00591,Rhein Cloud GmbH,Software & Cloud,Germany,2018,GOV_BOARD_INDEP_PCT,56.87,%,56.87,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2018
+BM00592,Rhein Cloud GmbH,Software & Cloud,Germany,2018,GOV_WOMEN_BOARD_PCT,24.4,%,24.4,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2018
+BM00593,Rhein Cloud GmbH,Software & Cloud,Germany,2019,ENV_RENEW_PCT,40.64,%,40.64,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2019
+BM00594,Rhein Cloud GmbH,Software & Cloud,Germany,2019,ENV_DC_PUE,1.56,ratio,1.56,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2019
+BM00595,Rhein Cloud GmbH,Software & Cloud,Germany,2019,ENV_EWASTE_REC_PCT,85.53,%,85.53,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2019
+BM00596,Rhein Cloud GmbH,Software & Cloud,Germany,2019,SOC_ATTRITION,10.65,%,10.65,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2019
+BM00597,Rhein Cloud GmbH,Software & Cloud,Germany,2019,SOC_FEMALE_PCT,39.28,%,39.28,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2019
+BM00598,Rhein Cloud GmbH,Software & Cloud,Germany,2019,SOC_ESAT,76.24,score,76.24,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2019
+BM00599,Rhein Cloud GmbH,Software & Cloud,Germany,2019,GOV_BOARD_INDEP_PCT,57.71,%,57.71,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2019
+BM00600,Rhein Cloud GmbH,Software & Cloud,Germany,2019,GOV_WOMEN_BOARD_PCT,26.52,%,26.52,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2019
+BM00601,Rhein Cloud GmbH,Software & Cloud,Germany,2020,ENV_RENEW_PCT,43.97,%,43.97,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2020
+BM00602,Rhein Cloud GmbH,Software & Cloud,Germany,2020,ENV_DC_PUE,1.48,ratio,1.48,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2020
+BM00603,Rhein Cloud GmbH,Software & Cloud,Germany,2020,ENV_EWASTE_REC_PCT,89.49,%,89.49,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2020
+BM00604,Rhein Cloud GmbH,Software & Cloud,Germany,2020,SOC_ATTRITION,10.11,%,10.11,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2020
+BM00605,Rhein Cloud GmbH,Software & Cloud,Germany,2020,SOC_FEMALE_PCT,40.71,%,40.71,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2020
+BM00606,Rhein Cloud GmbH,Software & Cloud,Germany,2020,SOC_ESAT,80.42,score,80.42,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2020
+BM00607,Rhein Cloud GmbH,Software & Cloud,Germany,2020,GOV_BOARD_INDEP_PCT,57.63,%,57.63,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2020
+BM00608,Rhein Cloud GmbH,Software & Cloud,Germany,2020,GOV_WOMEN_BOARD_PCT,29.96,%,29.96,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2020
+BM00609,Rhein Cloud GmbH,Software & Cloud,Germany,2021,ENV_RENEW_PCT,51.17,%,51.17,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2021
+BM00610,Rhein Cloud GmbH,Software & Cloud,Germany,2021,ENV_DC_PUE,1.44,ratio,1.44,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2021
+BM00611,Rhein Cloud GmbH,Software & Cloud,Germany,2021,ENV_EWASTE_REC_PCT,89.36,%,89.36,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2021
+BM00612,Rhein Cloud GmbH,Software & Cloud,Germany,2021,SOC_ATTRITION,14.06,%,14.06,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2021
+BM00613,Rhein Cloud GmbH,Software & Cloud,Germany,2021,SOC_FEMALE_PCT,40.67,%,40.67,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2021
+BM00614,Rhein Cloud GmbH,Software & Cloud,Germany,2021,SOC_ESAT,78.67,score,78.67,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2021
+BM00615,Rhein Cloud GmbH,Software & Cloud,Germany,2021,GOV_BOARD_INDEP_PCT,62.17,%,62.17,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2021
+BM00616,Rhein Cloud GmbH,Software & Cloud,Germany,2021,GOV_WOMEN_BOARD_PCT,32.27,%,32.27,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2021
+BM00617,Rhein Cloud GmbH,Software & Cloud,Germany,2022,ENV_RENEW_PCT,55.98,%,55.98,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2022
+BM00618,Rhein Cloud GmbH,Software & Cloud,Germany,2022,ENV_DC_PUE,1.28,ratio,1.28,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2022
+BM00619,Rhein Cloud GmbH,Software & Cloud,Germany,2022,ENV_EWASTE_REC_PCT,98.38,%,98.38,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2022
+BM00620,Rhein Cloud GmbH,Software & Cloud,Germany,2022,SOC_ATTRITION,12.96,%,12.96,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2022
+BM00621,Rhein Cloud GmbH,Software & Cloud,Germany,2022,SOC_FEMALE_PCT,42.19,%,42.19,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2022
+BM00622,Rhein Cloud GmbH,Software & Cloud,Germany,2022,SOC_ESAT,80.35,score,80.35,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2022
+BM00623,Rhein Cloud GmbH,Software & Cloud,Germany,2022,GOV_BOARD_INDEP_PCT,64.0,%,64.0,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2022
+BM00624,Rhein Cloud GmbH,Software & Cloud,Germany,2022,GOV_WOMEN_BOARD_PCT,35.1,%,35.1,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2022
+BM00625,Rhein Cloud GmbH,Software & Cloud,Germany,2023,ENV_RENEW_PCT,60.02,%,60.02,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2023
+BM00626,Rhein Cloud GmbH,Software & Cloud,Germany,2023,ENV_DC_PUE,1.28,ratio,1.28,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2023
+BM00627,Rhein Cloud GmbH,Software & Cloud,Germany,2023,ENV_EWASTE_REC_PCT,102.32,%,102.32,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2023
+BM00628,Rhein Cloud GmbH,Software & Cloud,Germany,2023,SOC_ATTRITION,9.74,%,9.74,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2023
+BM00629,Rhein Cloud GmbH,Software & Cloud,Germany,2023,SOC_FEMALE_PCT,41.68,%,41.68,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2023
+BM00630,Rhein Cloud GmbH,Software & Cloud,Germany,2023,SOC_ESAT,80.93,score,80.93,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2023
+BM00631,Rhein Cloud GmbH,Software & Cloud,Germany,2023,GOV_BOARD_INDEP_PCT,68.03,%,68.03,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2023
+BM00632,Rhein Cloud GmbH,Software & Cloud,Germany,2023,GOV_WOMEN_BOARD_PCT,37.22,%,37.22,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2023
+BM00633,Rhein Cloud GmbH,Software & Cloud,Germany,2024,ENV_RENEW_PCT,63.17,%,63.17,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2024
+BM00634,Rhein Cloud GmbH,Software & Cloud,Germany,2024,ENV_DC_PUE,1.13,ratio,1.13,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2024
+BM00635,Rhein Cloud GmbH,Software & Cloud,Germany,2024,ENV_EWASTE_REC_PCT,103.96,%,103.96,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2024
+BM00636,Rhein Cloud GmbH,Software & Cloud,Germany,2024,SOC_ATTRITION,9.41,%,9.41,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2024
+BM00637,Rhein Cloud GmbH,Software & Cloud,Germany,2024,SOC_FEMALE_PCT,44.3,%,44.3,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2024
+BM00638,Rhein Cloud GmbH,Software & Cloud,Germany,2024,SOC_ESAT,85.06,score,85.06,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2024
+BM00639,Rhein Cloud GmbH,Software & Cloud,Germany,2024,GOV_BOARD_INDEP_PCT,67.94,%,67.94,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2024
+BM00640,Rhein Cloud GmbH,Software & Cloud,Germany,2024,GOV_WOMEN_BOARD_PCT,39.5,%,39.5,Wikirate / peer ESG report,Rhein Cloud GmbH Sustainability Report 2024
+BM00641,Pacific Byte Corp,IT Services & Consulting,United States,2015,ENV_RENEW_PCT,3.75,%,3.75,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2015
+BM00642,Pacific Byte Corp,IT Services & Consulting,United States,2015,ENV_DC_PUE,2.2,ratio,2.2,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2015
+BM00643,Pacific Byte Corp,IT Services & Consulting,United States,2015,ENV_EWASTE_REC_PCT,57.96,%,57.96,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2015
+BM00644,Pacific Byte Corp,IT Services & Consulting,United States,2015,SOC_ATTRITION,16.73,%,16.73,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2015
+BM00645,Pacific Byte Corp,IT Services & Consulting,United States,2015,SOC_FEMALE_PCT,26.77,%,26.77,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2015
+BM00646,Pacific Byte Corp,IT Services & Consulting,United States,2015,SOC_ESAT,68.67,score,68.67,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2015
+BM00647,Pacific Byte Corp,IT Services & Consulting,United States,2015,GOV_BOARD_INDEP_PCT,40.22,%,40.22,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2015
+BM00648,Pacific Byte Corp,IT Services & Consulting,United States,2015,GOV_WOMEN_BOARD_PCT,9.0,%,9.0,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2015
+BM00649,Pacific Byte Corp,IT Services & Consulting,United States,2016,ENV_RENEW_PCT,8.71,%,8.71,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2016
+BM00650,Pacific Byte Corp,IT Services & Consulting,United States,2016,ENV_DC_PUE,2.11,ratio,2.11,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2016
+BM00651,Pacific Byte Corp,IT Services & Consulting,United States,2016,ENV_EWASTE_REC_PCT,60.21,%,60.21,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2016
+BM00652,Pacific Byte Corp,IT Services & Consulting,United States,2016,SOC_ATTRITION,15.86,%,15.86,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2016
+BM00653,Pacific Byte Corp,IT Services & Consulting,United States,2016,SOC_FEMALE_PCT,27.89,%,27.89,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2016
+BM00654,Pacific Byte Corp,IT Services & Consulting,United States,2016,SOC_ESAT,66.24,score,66.24,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2016
+BM00655,Pacific Byte Corp,IT Services & Consulting,United States,2016,GOV_BOARD_INDEP_PCT,40.12,%,40.12,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2016
+BM00656,Pacific Byte Corp,IT Services & Consulting,United States,2016,GOV_WOMEN_BOARD_PCT,11.21,%,11.21,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2016
+BM00657,Pacific Byte Corp,IT Services & Consulting,United States,2017,ENV_RENEW_PCT,13.16,%,13.16,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2017
+BM00658,Pacific Byte Corp,IT Services & Consulting,United States,2017,ENV_DC_PUE,1.92,ratio,1.92,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2017
+BM00659,Pacific Byte Corp,IT Services & Consulting,United States,2017,ENV_EWASTE_REC_PCT,63.58,%,63.58,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2017
+BM00660,Pacific Byte Corp,IT Services & Consulting,United States,2017,SOC_ATTRITION,15.68,%,15.68,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2017
+BM00661,Pacific Byte Corp,IT Services & Consulting,United States,2017,SOC_FEMALE_PCT,30.41,%,30.41,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2017
+BM00662,Pacific Byte Corp,IT Services & Consulting,United States,2017,SOC_ESAT,70.88,score,70.88,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2017
+BM00663,Pacific Byte Corp,IT Services & Consulting,United States,2017,GOV_BOARD_INDEP_PCT,42.17,%,42.17,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2017
+BM00664,Pacific Byte Corp,IT Services & Consulting,United States,2017,GOV_WOMEN_BOARD_PCT,12.96,%,12.96,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2017
+BM00665,Pacific Byte Corp,IT Services & Consulting,United States,2018,ENV_RENEW_PCT,17.36,%,17.36,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2018
+BM00666,Pacific Byte Corp,IT Services & Consulting,United States,2018,ENV_DC_PUE,1.93,ratio,1.93,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2018
+BM00667,Pacific Byte Corp,IT Services & Consulting,United States,2018,ENV_EWASTE_REC_PCT,65.88,%,65.88,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2018
+BM00668,Pacific Byte Corp,IT Services & Consulting,United States,2018,SOC_ATTRITION,15.83,%,15.83,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2018
+BM00669,Pacific Byte Corp,IT Services & Consulting,United States,2018,SOC_FEMALE_PCT,30.07,%,30.07,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2018
+BM00670,Pacific Byte Corp,IT Services & Consulting,United States,2018,SOC_ESAT,71.66,score,71.66,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2018
+BM00671,Pacific Byte Corp,IT Services & Consulting,United States,2018,GOV_BOARD_INDEP_PCT,45.52,%,45.52,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2018
+BM00672,Pacific Byte Corp,IT Services & Consulting,United States,2018,GOV_WOMEN_BOARD_PCT,15.74,%,15.74,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2018
+BM00673,Pacific Byte Corp,IT Services & Consulting,United States,2019,ENV_RENEW_PCT,22.45,%,22.45,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2019
+BM00674,Pacific Byte Corp,IT Services & Consulting,United States,2019,ENV_DC_PUE,1.86,ratio,1.86,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2019
+BM00675,Pacific Byte Corp,IT Services & Consulting,United States,2019,ENV_EWASTE_REC_PCT,69.59,%,69.59,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2019
+BM00676,Pacific Byte Corp,IT Services & Consulting,United States,2019,SOC_ATTRITION,15.31,%,15.31,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2019
+BM00677,Pacific Byte Corp,IT Services & Consulting,United States,2019,SOC_FEMALE_PCT,32.62,%,32.62,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2019
+BM00678,Pacific Byte Corp,IT Services & Consulting,United States,2019,SOC_ESAT,72.03,score,72.03,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2019
+BM00679,Pacific Byte Corp,IT Services & Consulting,United States,2019,GOV_BOARD_INDEP_PCT,49.27,%,49.27,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2019
+BM00680,Pacific Byte Corp,IT Services & Consulting,United States,2019,GOV_WOMEN_BOARD_PCT,17.71,%,17.71,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2019
+BM00681,Pacific Byte Corp,IT Services & Consulting,United States,2020,ENV_RENEW_PCT,26.27,%,26.27,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2020
+BM00682,Pacific Byte Corp,IT Services & Consulting,United States,2020,ENV_DC_PUE,1.81,ratio,1.81,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2020
+BM00683,Pacific Byte Corp,IT Services & Consulting,United States,2020,ENV_EWASTE_REC_PCT,71.39,%,71.39,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2020
+BM00684,Pacific Byte Corp,IT Services & Consulting,United States,2020,SOC_ATTRITION,15.74,%,15.74,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2020
+BM00685,Pacific Byte Corp,IT Services & Consulting,United States,2020,SOC_FEMALE_PCT,34.49,%,34.49,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2020
+BM00686,Pacific Byte Corp,IT Services & Consulting,United States,2020,SOC_ESAT,71.96,score,71.96,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2020
+BM00687,Pacific Byte Corp,IT Services & Consulting,United States,2020,GOV_BOARD_INDEP_PCT,51.68,%,51.68,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2020
+BM00688,Pacific Byte Corp,IT Services & Consulting,United States,2020,GOV_WOMEN_BOARD_PCT,19.4,%,19.4,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2020
+BM00689,Pacific Byte Corp,IT Services & Consulting,United States,2021,ENV_RENEW_PCT,30.76,%,30.76,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2021
+BM00690,Pacific Byte Corp,IT Services & Consulting,United States,2021,ENV_DC_PUE,1.67,ratio,1.67,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2021
+BM00691,Pacific Byte Corp,IT Services & Consulting,United States,2021,ENV_EWASTE_REC_PCT,77.92,%,77.92,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2021
+BM00692,Pacific Byte Corp,IT Services & Consulting,United States,2021,SOC_ATTRITION,19.76,%,19.76,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2021
+BM00693,Pacific Byte Corp,IT Services & Consulting,United States,2021,SOC_FEMALE_PCT,33.64,%,33.64,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2021
+BM00694,Pacific Byte Corp,IT Services & Consulting,United States,2021,SOC_ESAT,72.16,score,72.16,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2021
+BM00695,Pacific Byte Corp,IT Services & Consulting,United States,2021,GOV_BOARD_INDEP_PCT,51.69,%,51.69,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2021
+BM00696,Pacific Byte Corp,IT Services & Consulting,United States,2021,GOV_WOMEN_BOARD_PCT,21.32,%,21.32,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2021
+BM00697,Pacific Byte Corp,IT Services & Consulting,United States,2022,ENV_RENEW_PCT,36.51,%,36.51,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2022
+BM00698,Pacific Byte Corp,IT Services & Consulting,United States,2022,ENV_DC_PUE,1.58,ratio,1.58,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2022
+BM00699,Pacific Byte Corp,IT Services & Consulting,United States,2022,ENV_EWASTE_REC_PCT,82.2,%,82.2,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2022
+BM00700,Pacific Byte Corp,IT Services & Consulting,United States,2022,SOC_ATTRITION,20.18,%,20.18,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2022
+BM00701,Pacific Byte Corp,IT Services & Consulting,United States,2022,SOC_FEMALE_PCT,34.55,%,34.55,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2022
+BM00702,Pacific Byte Corp,IT Services & Consulting,United States,2022,SOC_ESAT,72.86,score,72.86,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2022
+BM00703,Pacific Byte Corp,IT Services & Consulting,United States,2022,GOV_BOARD_INDEP_PCT,52.9,%,52.9,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2022
+BM00704,Pacific Byte Corp,IT Services & Consulting,United States,2022,GOV_WOMEN_BOARD_PCT,24.55,%,24.55,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2022
+BM00705,Pacific Byte Corp,IT Services & Consulting,United States,2023,ENV_RENEW_PCT,39.69,%,39.69,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2023
+BM00706,Pacific Byte Corp,IT Services & Consulting,United States,2023,ENV_DC_PUE,1.57,ratio,1.57,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2023
+BM00707,Pacific Byte Corp,IT Services & Consulting,United States,2023,ENV_EWASTE_REC_PCT,87.05,%,87.05,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2023
+BM00708,Pacific Byte Corp,IT Services & Consulting,United States,2023,SOC_ATTRITION,13.88,%,13.88,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2023
+BM00709,Pacific Byte Corp,IT Services & Consulting,United States,2023,SOC_FEMALE_PCT,37.16,%,37.16,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2023
+BM00710,Pacific Byte Corp,IT Services & Consulting,United States,2023,SOC_ESAT,78.68,score,78.68,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2023
+BM00711,Pacific Byte Corp,IT Services & Consulting,United States,2023,GOV_BOARD_INDEP_PCT,57.8,%,57.8,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2023
+BM00712,Pacific Byte Corp,IT Services & Consulting,United States,2023,GOV_WOMEN_BOARD_PCT,27.2,%,27.2,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2023
+BM00713,Pacific Byte Corp,IT Services & Consulting,United States,2024,ENV_RENEW_PCT,47.12,%,47.12,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2024
+BM00714,Pacific Byte Corp,IT Services & Consulting,United States,2024,ENV_DC_PUE,1.45,ratio,1.45,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2024
+BM00715,Pacific Byte Corp,IT Services & Consulting,United States,2024,ENV_EWASTE_REC_PCT,87.84,%,87.84,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2024
+BM00716,Pacific Byte Corp,IT Services & Consulting,United States,2024,SOC_ATTRITION,14.36,%,14.36,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2024
+BM00717,Pacific Byte Corp,IT Services & Consulting,United States,2024,SOC_FEMALE_PCT,37.06,%,37.06,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2024
+BM00718,Pacific Byte Corp,IT Services & Consulting,United States,2024,SOC_ESAT,78.83,score,78.83,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2024
+BM00719,Pacific Byte Corp,IT Services & Consulting,United States,2024,GOV_BOARD_INDEP_PCT,58.64,%,58.64,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2024
+BM00720,Pacific Byte Corp,IT Services & Consulting,United States,2024,GOV_WOMEN_BOARD_PCT,29.1,%,29.1,Wikirate / peer ESG report,Pacific Byte Corp Sustainability Report 2024
+BM00721,Deccan Digital Ltd,IT Services & Consulting,India,2015,ENV_RENEW_PCT,-4.9,%,-4.9,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2015
+BM00722,Deccan Digital Ltd,IT Services & Consulting,India,2015,ENV_DC_PUE,2.25,ratio,2.25,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2015
+BM00723,Deccan Digital Ltd,IT Services & Consulting,India,2015,ENV_EWASTE_REC_PCT,50.74,%,50.74,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2015
+BM00724,Deccan Digital Ltd,IT Services & Consulting,India,2015,SOC_ATTRITION,18.65,%,18.65,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2015
+BM00725,Deccan Digital Ltd,IT Services & Consulting,India,2015,SOC_FEMALE_PCT,23.09,%,23.09,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2015
+BM00726,Deccan Digital Ltd,IT Services & Consulting,India,2015,SOC_ESAT,64.11,score,64.11,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2015
+BM00727,Deccan Digital Ltd,IT Services & Consulting,India,2015,GOV_BOARD_INDEP_PCT,33.08,%,33.08,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2015
+BM00728,Deccan Digital Ltd,IT Services & Consulting,India,2015,GOV_WOMEN_BOARD_PCT,4.13,%,4.13,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2015
+BM00729,Deccan Digital Ltd,IT Services & Consulting,India,2016,ENV_RENEW_PCT,-0.34,%,-0.34,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2016
+BM00730,Deccan Digital Ltd,IT Services & Consulting,India,2016,ENV_DC_PUE,2.23,ratio,2.23,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2016
+BM00731,Deccan Digital Ltd,IT Services & Consulting,India,2016,ENV_EWASTE_REC_PCT,51.19,%,51.19,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2016
+BM00732,Deccan Digital Ltd,IT Services & Consulting,India,2016,SOC_ATTRITION,19.18,%,19.18,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2016
+BM00733,Deccan Digital Ltd,IT Services & Consulting,India,2016,SOC_FEMALE_PCT,25.77,%,25.77,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2016
+BM00734,Deccan Digital Ltd,IT Services & Consulting,India,2016,SOC_ESAT,67.3,score,67.3,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2016
+BM00735,Deccan Digital Ltd,IT Services & Consulting,India,2016,GOV_BOARD_INDEP_PCT,37.19,%,37.19,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2016
+BM00736,Deccan Digital Ltd,IT Services & Consulting,India,2016,GOV_WOMEN_BOARD_PCT,6.47,%,6.47,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2016
+BM00737,Deccan Digital Ltd,IT Services & Consulting,India,2017,ENV_RENEW_PCT,4.48,%,4.48,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2017
+BM00738,Deccan Digital Ltd,IT Services & Consulting,India,2017,ENV_DC_PUE,2.1,ratio,2.1,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2017
+BM00739,Deccan Digital Ltd,IT Services & Consulting,India,2017,ENV_EWASTE_REC_PCT,58.18,%,58.18,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2017
+BM00740,Deccan Digital Ltd,IT Services & Consulting,India,2017,SOC_ATTRITION,18.25,%,18.25,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2017
+BM00741,Deccan Digital Ltd,IT Services & Consulting,India,2017,SOC_FEMALE_PCT,25.73,%,25.73,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2017
+BM00742,Deccan Digital Ltd,IT Services & Consulting,India,2017,SOC_ESAT,64.95,score,64.95,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2017
+BM00743,Deccan Digital Ltd,IT Services & Consulting,India,2017,GOV_BOARD_INDEP_PCT,39.39,%,39.39,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2017
+BM00744,Deccan Digital Ltd,IT Services & Consulting,India,2017,GOV_WOMEN_BOARD_PCT,8.48,%,8.48,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2017
+BM00745,Deccan Digital Ltd,IT Services & Consulting,India,2018,ENV_RENEW_PCT,9.26,%,9.26,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2018
+BM00746,Deccan Digital Ltd,IT Services & Consulting,India,2018,ENV_DC_PUE,2.02,ratio,2.02,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2018
+BM00747,Deccan Digital Ltd,IT Services & Consulting,India,2018,ENV_EWASTE_REC_PCT,58.11,%,58.11,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2018
+BM00748,Deccan Digital Ltd,IT Services & Consulting,India,2018,SOC_ATTRITION,18.37,%,18.37,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2018
+BM00749,Deccan Digital Ltd,IT Services & Consulting,India,2018,SOC_FEMALE_PCT,28.51,%,28.51,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2018
+BM00750,Deccan Digital Ltd,IT Services & Consulting,India,2018,SOC_ESAT,69.58,score,69.58,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2018
+BM00751,Deccan Digital Ltd,IT Services & Consulting,India,2018,GOV_BOARD_INDEP_PCT,39.82,%,39.82,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2018
+BM00752,Deccan Digital Ltd,IT Services & Consulting,India,2018,GOV_WOMEN_BOARD_PCT,10.73,%,10.73,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2018
+BM00753,Deccan Digital Ltd,IT Services & Consulting,India,2019,ENV_RENEW_PCT,13.89,%,13.89,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2019
+BM00754,Deccan Digital Ltd,IT Services & Consulting,India,2019,ENV_DC_PUE,2.05,ratio,2.05,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2019
+BM00755,Deccan Digital Ltd,IT Services & Consulting,India,2019,ENV_EWASTE_REC_PCT,61.03,%,61.03,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2019
+BM00756,Deccan Digital Ltd,IT Services & Consulting,India,2019,SOC_ATTRITION,17.59,%,17.59,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2019
+BM00757,Deccan Digital Ltd,IT Services & Consulting,India,2019,SOC_FEMALE_PCT,28.64,%,28.64,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2019
+BM00758,Deccan Digital Ltd,IT Services & Consulting,India,2019,SOC_ESAT,70.2,score,70.2,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2019
+BM00759,Deccan Digital Ltd,IT Services & Consulting,India,2019,GOV_BOARD_INDEP_PCT,42.16,%,42.16,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2019
+BM00760,Deccan Digital Ltd,IT Services & Consulting,India,2019,GOV_WOMEN_BOARD_PCT,13.37,%,13.37,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2019
+BM00761,Deccan Digital Ltd,IT Services & Consulting,India,2020,ENV_RENEW_PCT,17.64,%,17.64,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2020
+BM00762,Deccan Digital Ltd,IT Services & Consulting,India,2020,ENV_DC_PUE,1.94,ratio,1.94,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2020
+BM00763,Deccan Digital Ltd,IT Services & Consulting,India,2020,ENV_EWASTE_REC_PCT,69.16,%,69.16,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2020
+BM00764,Deccan Digital Ltd,IT Services & Consulting,India,2020,SOC_ATTRITION,16.96,%,16.96,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2020
+BM00765,Deccan Digital Ltd,IT Services & Consulting,India,2020,SOC_FEMALE_PCT,29.16,%,29.16,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2020
+BM00766,Deccan Digital Ltd,IT Services & Consulting,India,2020,SOC_ESAT,68.9,score,68.9,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2020
+BM00767,Deccan Digital Ltd,IT Services & Consulting,India,2020,GOV_BOARD_INDEP_PCT,46.79,%,46.79,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2020
+BM00768,Deccan Digital Ltd,IT Services & Consulting,India,2020,GOV_WOMEN_BOARD_PCT,14.86,%,14.86,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2020
+BM00769,Deccan Digital Ltd,IT Services & Consulting,India,2021,ENV_RENEW_PCT,23.34,%,23.34,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2021
+BM00770,Deccan Digital Ltd,IT Services & Consulting,India,2021,ENV_DC_PUE,1.85,ratio,1.85,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2021
+BM00771,Deccan Digital Ltd,IT Services & Consulting,India,2021,ENV_EWASTE_REC_PCT,67.58,%,67.58,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2021
+BM00772,Deccan Digital Ltd,IT Services & Consulting,India,2021,SOC_ATTRITION,24.24,%,24.24,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2021
+BM00773,Deccan Digital Ltd,IT Services & Consulting,India,2021,SOC_FEMALE_PCT,32.47,%,32.47,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2021
+BM00774,Deccan Digital Ltd,IT Services & Consulting,India,2021,SOC_ESAT,72.07,score,72.07,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2021
+BM00775,Deccan Digital Ltd,IT Services & Consulting,India,2021,GOV_BOARD_INDEP_PCT,48.76,%,48.76,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2021
+BM00776,Deccan Digital Ltd,IT Services & Consulting,India,2021,GOV_WOMEN_BOARD_PCT,17.43,%,17.43,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2021
+BM00777,Deccan Digital Ltd,IT Services & Consulting,India,2022,ENV_RENEW_PCT,28.66,%,28.66,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2022
+BM00778,Deccan Digital Ltd,IT Services & Consulting,India,2022,ENV_DC_PUE,1.75,ratio,1.75,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2022
+BM00779,Deccan Digital Ltd,IT Services & Consulting,India,2022,ENV_EWASTE_REC_PCT,74.12,%,74.12,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2022
+BM00780,Deccan Digital Ltd,IT Services & Consulting,India,2022,SOC_ATTRITION,22.19,%,22.19,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2022
+BM00781,Deccan Digital Ltd,IT Services & Consulting,India,2022,SOC_FEMALE_PCT,33.77,%,33.77,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2022
+BM00782,Deccan Digital Ltd,IT Services & Consulting,India,2022,SOC_ESAT,72.83,score,72.83,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2022
+BM00783,Deccan Digital Ltd,IT Services & Consulting,India,2022,GOV_BOARD_INDEP_PCT,48.65,%,48.65,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2022
+BM00784,Deccan Digital Ltd,IT Services & Consulting,India,2022,GOV_WOMEN_BOARD_PCT,19.93,%,19.93,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2022
+BM00785,Deccan Digital Ltd,IT Services & Consulting,India,2023,ENV_RENEW_PCT,31.42,%,31.42,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2023
+BM00786,Deccan Digital Ltd,IT Services & Consulting,India,2023,ENV_DC_PUE,1.72,ratio,1.72,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2023
+BM00787,Deccan Digital Ltd,IT Services & Consulting,India,2023,ENV_EWASTE_REC_PCT,77.22,%,77.22,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2023
+BM00788,Deccan Digital Ltd,IT Services & Consulting,India,2023,SOC_ATTRITION,16.86,%,16.86,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2023
+BM00789,Deccan Digital Ltd,IT Services & Consulting,India,2023,SOC_FEMALE_PCT,34.98,%,34.98,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2023
+BM00790,Deccan Digital Ltd,IT Services & Consulting,India,2023,SOC_ESAT,74.61,score,74.61,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2023
+BM00791,Deccan Digital Ltd,IT Services & Consulting,India,2023,GOV_BOARD_INDEP_PCT,51.94,%,51.94,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2023
+BM00792,Deccan Digital Ltd,IT Services & Consulting,India,2023,GOV_WOMEN_BOARD_PCT,22.26,%,22.26,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2023
+BM00793,Deccan Digital Ltd,IT Services & Consulting,India,2024,ENV_RENEW_PCT,36.43,%,36.43,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2024
+BM00794,Deccan Digital Ltd,IT Services & Consulting,India,2024,ENV_DC_PUE,1.63,ratio,1.63,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2024
+BM00795,Deccan Digital Ltd,IT Services & Consulting,India,2024,ENV_EWASTE_REC_PCT,80.02,%,80.02,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2024
+BM00796,Deccan Digital Ltd,IT Services & Consulting,India,2024,SOC_ATTRITION,16.29,%,16.29,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2024
+BM00797,Deccan Digital Ltd,IT Services & Consulting,India,2024,SOC_FEMALE_PCT,35.39,%,35.39,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2024
+BM00798,Deccan Digital Ltd,IT Services & Consulting,India,2024,SOC_ESAT,74.24,score,74.24,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2024
+BM00799,Deccan Digital Ltd,IT Services & Consulting,India,2024,GOV_BOARD_INDEP_PCT,56.08,%,56.08,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2024
+BM00800,Deccan Digital Ltd,IT Services & Consulting,India,2024,GOV_WOMEN_BOARD_PCT,24.03,%,24.03,Wikirate / peer ESG report,Deccan Digital Ltd Sustainability Report 2024
+BM00801,Nimbus Technologies Ltd,Software & Cloud,India,2015,ENV_RENEW_PCT,10.78,%,10.78,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2015
+BM00802,Nimbus Technologies Ltd,Software & Cloud,India,2015,ENV_DC_PUE,2.01,ratio,2.01,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2015
+BM00803,Nimbus Technologies Ltd,Software & Cloud,India,2015,ENV_EWASTE_REC_PCT,63.16,%,63.16,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2015
+BM00804,Nimbus Technologies Ltd,Software & Cloud,India,2015,SOC_ATTRITION,14.42,%,14.42,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2015
+BM00805,Nimbus Technologies Ltd,Software & Cloud,India,2015,SOC_FEMALE_PCT,29.31,%,29.31,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2015
+BM00806,Nimbus Technologies Ltd,Software & Cloud,India,2015,SOC_ESAT,70.45,score,70.45,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2015
+BM00807,Nimbus Technologies Ltd,Software & Cloud,India,2015,GOV_BOARD_INDEP_PCT,41.21,%,41.21,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2015
+BM00808,Nimbus Technologies Ltd,Software & Cloud,India,2015,GOV_WOMEN_BOARD_PCT,12.66,%,12.66,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2015
+BM00809,Nimbus Technologies Ltd,Software & Cloud,India,2016,ENV_RENEW_PCT,15.28,%,15.28,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2016
+BM00810,Nimbus Technologies Ltd,Software & Cloud,India,2016,ENV_DC_PUE,1.98,ratio,1.98,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2016
+BM00811,Nimbus Technologies Ltd,Software & Cloud,India,2016,ENV_EWASTE_REC_PCT,64.82,%,64.82,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2016
+BM00812,Nimbus Technologies Ltd,Software & Cloud,India,2016,SOC_ATTRITION,14.36,%,14.36,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2016
+BM00813,Nimbus Technologies Ltd,Software & Cloud,India,2016,SOC_FEMALE_PCT,30.13,%,30.13,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2016
+BM00814,Nimbus Technologies Ltd,Software & Cloud,India,2016,SOC_ESAT,72.63,score,72.63,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2016
+BM00815,Nimbus Technologies Ltd,Software & Cloud,India,2016,GOV_BOARD_INDEP_PCT,43.84,%,43.84,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2016
+BM00816,Nimbus Technologies Ltd,Software & Cloud,India,2016,GOV_WOMEN_BOARD_PCT,14.1,%,14.1,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2016
+BM00817,Nimbus Technologies Ltd,Software & Cloud,India,2017,ENV_RENEW_PCT,20.04,%,20.04,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2017
+BM00818,Nimbus Technologies Ltd,Software & Cloud,India,2017,ENV_DC_PUE,1.91,ratio,1.91,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2017
+BM00819,Nimbus Technologies Ltd,Software & Cloud,India,2017,ENV_EWASTE_REC_PCT,67.59,%,67.59,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2017
+BM00820,Nimbus Technologies Ltd,Software & Cloud,India,2017,SOC_ATTRITION,14.57,%,14.57,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2017
+BM00821,Nimbus Technologies Ltd,Software & Cloud,India,2017,SOC_FEMALE_PCT,30.81,%,30.81,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2017
+BM00822,Nimbus Technologies Ltd,Software & Cloud,India,2017,SOC_ESAT,69.97,score,69.97,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2017
+BM00823,Nimbus Technologies Ltd,Software & Cloud,India,2017,GOV_BOARD_INDEP_PCT,46.58,%,46.58,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2017
+BM00824,Nimbus Technologies Ltd,Software & Cloud,India,2017,GOV_WOMEN_BOARD_PCT,16.21,%,16.21,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2017
+BM00825,Nimbus Technologies Ltd,Software & Cloud,India,2018,ENV_RENEW_PCT,25.25,%,25.25,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2018
+BM00826,Nimbus Technologies Ltd,Software & Cloud,India,2018,ENV_DC_PUE,1.82,ratio,1.82,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2018
+BM00827,Nimbus Technologies Ltd,Software & Cloud,India,2018,ENV_EWASTE_REC_PCT,70.37,%,70.37,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2018
+BM00828,Nimbus Technologies Ltd,Software & Cloud,India,2018,SOC_ATTRITION,13.59,%,13.59,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2018
+BM00829,Nimbus Technologies Ltd,Software & Cloud,India,2018,SOC_FEMALE_PCT,34.18,%,34.18,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2018
+BM00830,Nimbus Technologies Ltd,Software & Cloud,India,2018,SOC_ESAT,74.53,score,74.53,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2018
+BM00831,Nimbus Technologies Ltd,Software & Cloud,India,2018,GOV_BOARD_INDEP_PCT,48.24,%,48.24,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2018
+BM00832,Nimbus Technologies Ltd,Software & Cloud,India,2018,GOV_WOMEN_BOARD_PCT,19.32,%,19.32,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2018
+BM00833,Nimbus Technologies Ltd,Software & Cloud,India,2019,ENV_RENEW_PCT,28.69,%,28.69,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2019
+BM00834,Nimbus Technologies Ltd,Software & Cloud,India,2019,ENV_DC_PUE,1.77,ratio,1.77,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2019
+BM00835,Nimbus Technologies Ltd,Software & Cloud,India,2019,ENV_EWASTE_REC_PCT,76.73,%,76.73,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2019
+BM00836,Nimbus Technologies Ltd,Software & Cloud,India,2019,SOC_ATTRITION,13.52,%,13.52,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2019
+BM00837,Nimbus Technologies Ltd,Software & Cloud,India,2019,SOC_FEMALE_PCT,33.5,%,33.5,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2019
+BM00838,Nimbus Technologies Ltd,Software & Cloud,India,2019,SOC_ESAT,71.98,score,71.98,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2019
+BM00839,Nimbus Technologies Ltd,Software & Cloud,India,2019,GOV_BOARD_INDEP_PCT,52.52,%,52.52,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2019
+BM00840,Nimbus Technologies Ltd,Software & Cloud,India,2019,GOV_WOMEN_BOARD_PCT,20.75,%,20.75,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2019
+BM00841,Nimbus Technologies Ltd,Software & Cloud,India,2020,ENV_RENEW_PCT,33.45,%,33.45,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2020
+BM00842,Nimbus Technologies Ltd,Software & Cloud,India,2020,ENV_DC_PUE,1.72,ratio,1.72,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2020
+BM00843,Nimbus Technologies Ltd,Software & Cloud,India,2020,ENV_EWASTE_REC_PCT,79.29,%,79.29,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2020
+BM00844,Nimbus Technologies Ltd,Software & Cloud,India,2020,SOC_ATTRITION,13.26,%,13.26,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2020
+BM00845,Nimbus Technologies Ltd,Software & Cloud,India,2020,SOC_FEMALE_PCT,36.61,%,36.61,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2020
+BM00846,Nimbus Technologies Ltd,Software & Cloud,India,2020,SOC_ESAT,73.88,score,73.88,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2020
+BM00847,Nimbus Technologies Ltd,Software & Cloud,India,2020,GOV_BOARD_INDEP_PCT,54.81,%,54.81,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2020
+BM00848,Nimbus Technologies Ltd,Software & Cloud,India,2020,GOV_WOMEN_BOARD_PCT,22.75,%,22.75,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2020
+BM00849,Nimbus Technologies Ltd,Software & Cloud,India,2021,ENV_RENEW_PCT,37.98,%,37.98,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2021
+BM00850,Nimbus Technologies Ltd,Software & Cloud,India,2021,ENV_DC_PUE,1.59,ratio,1.59,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2021
+BM00851,Nimbus Technologies Ltd,Software & Cloud,India,2021,ENV_EWASTE_REC_PCT,85.05,%,85.05,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2021
+BM00852,Nimbus Technologies Ltd,Software & Cloud,India,2021,SOC_ATTRITION,18.06,%,18.06,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2021
+BM00853,Nimbus Technologies Ltd,Software & Cloud,India,2021,SOC_FEMALE_PCT,36.11,%,36.11,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2021
+BM00854,Nimbus Technologies Ltd,Software & Cloud,India,2021,SOC_ESAT,79.77,score,79.77,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2021
+BM00855,Nimbus Technologies Ltd,Software & Cloud,India,2021,GOV_BOARD_INDEP_PCT,55.06,%,55.06,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2021
+BM00856,Nimbus Technologies Ltd,Software & Cloud,India,2021,GOV_WOMEN_BOARD_PCT,25.05,%,25.05,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2021
+BM00857,Nimbus Technologies Ltd,Software & Cloud,India,2022,ENV_RENEW_PCT,42.2,%,42.2,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2022
+BM00858,Nimbus Technologies Ltd,Software & Cloud,India,2022,ENV_DC_PUE,1.53,ratio,1.53,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2022
+BM00859,Nimbus Technologies Ltd,Software & Cloud,India,2022,ENV_EWASTE_REC_PCT,83.33,%,83.33,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2022
+BM00860,Nimbus Technologies Ltd,Software & Cloud,India,2022,SOC_ATTRITION,17.06,%,17.06,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2022
+BM00861,Nimbus Technologies Ltd,Software & Cloud,India,2022,SOC_FEMALE_PCT,38.52,%,38.52,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2022
+BM00862,Nimbus Technologies Ltd,Software & Cloud,India,2022,SOC_ESAT,79.0,score,79.0,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2022
+BM00863,Nimbus Technologies Ltd,Software & Cloud,India,2022,GOV_BOARD_INDEP_PCT,58.06,%,58.06,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2022
+BM00864,Nimbus Technologies Ltd,Software & Cloud,India,2022,GOV_WOMEN_BOARD_PCT,27.39,%,27.39,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2022
+BM00865,Nimbus Technologies Ltd,Software & Cloud,India,2023,ENV_RENEW_PCT,49.57,%,49.57,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2023
+BM00866,Nimbus Technologies Ltd,Software & Cloud,India,2023,ENV_DC_PUE,1.42,ratio,1.42,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2023
+BM00867,Nimbus Technologies Ltd,Software & Cloud,India,2023,ENV_EWASTE_REC_PCT,87.34,%,87.34,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2023
+BM00868,Nimbus Technologies Ltd,Software & Cloud,India,2023,SOC_ATTRITION,12.39,%,12.39,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2023
+BM00869,Nimbus Technologies Ltd,Software & Cloud,India,2023,SOC_FEMALE_PCT,38.17,%,38.17,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2023
+BM00870,Nimbus Technologies Ltd,Software & Cloud,India,2023,SOC_ESAT,81.19,score,81.19,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2023
+BM00871,Nimbus Technologies Ltd,Software & Cloud,India,2023,GOV_BOARD_INDEP_PCT,59.62,%,59.62,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2023
+BM00872,Nimbus Technologies Ltd,Software & Cloud,India,2023,GOV_WOMEN_BOARD_PCT,29.12,%,29.12,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2023
+BM00873,Nimbus Technologies Ltd,Software & Cloud,India,2024,ENV_RENEW_PCT,50.55,%,50.55,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2024
+BM00874,Nimbus Technologies Ltd,Software & Cloud,India,2024,ENV_DC_PUE,1.34,ratio,1.34,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2024
+BM00875,Nimbus Technologies Ltd,Software & Cloud,India,2024,ENV_EWASTE_REC_PCT,97.31,%,97.31,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2024
+BM00876,Nimbus Technologies Ltd,Software & Cloud,India,2024,SOC_ATTRITION,11.93,%,11.93,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2024
+BM00877,Nimbus Technologies Ltd,Software & Cloud,India,2024,SOC_FEMALE_PCT,39.4,%,39.4,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2024
+BM00878,Nimbus Technologies Ltd,Software & Cloud,India,2024,SOC_ESAT,82.12,score,82.12,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2024
+BM00879,Nimbus Technologies Ltd,Software & Cloud,India,2024,GOV_BOARD_INDEP_PCT,63.09,%,63.09,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2024
+BM00880,Nimbus Technologies Ltd,Software & Cloud,India,2024,GOV_WOMEN_BOARD_PCT,31.24,%,31.24,Wikirate / peer ESG report,Nimbus Technologies Ltd Sustainability Report 2024
+BM00881,Cortex Consulting AG,IT Services & Consulting,Switzerland,2015,ENV_RENEW_PCT,19.46,%,19.46,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2015
+BM00882,Cortex Consulting AG,IT Services & Consulting,Switzerland,2015,ENV_DC_PUE,1.93,ratio,1.93,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2015
+BM00883,Cortex Consulting AG,IT Services & Consulting,Switzerland,2015,ENV_EWASTE_REC_PCT,68.44,%,68.44,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2015
+BM00884,Cortex Consulting AG,IT Services & Consulting,Switzerland,2015,SOC_ATTRITION,12.85,%,12.85,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2015
+BM00885,Cortex Consulting AG,IT Services & Consulting,Switzerland,2015,SOC_FEMALE_PCT,32.2,%,32.2,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2015
+BM00886,Cortex Consulting AG,IT Services & Consulting,Switzerland,2015,SOC_ESAT,69.93,score,69.93,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2015
+BM00887,Cortex Consulting AG,IT Services & Consulting,Switzerland,2015,GOV_BOARD_INDEP_PCT,45.38,%,45.38,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2015
+BM00888,Cortex Consulting AG,IT Services & Consulting,Switzerland,2015,GOV_WOMEN_BOARD_PCT,17.4,%,17.4,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2015
+BM00889,Cortex Consulting AG,IT Services & Consulting,Switzerland,2016,ENV_RENEW_PCT,23.48,%,23.48,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2016
+BM00890,Cortex Consulting AG,IT Services & Consulting,Switzerland,2016,ENV_DC_PUE,1.87,ratio,1.87,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2016
+BM00891,Cortex Consulting AG,IT Services & Consulting,Switzerland,2016,ENV_EWASTE_REC_PCT,73.6,%,73.6,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2016
+BM00892,Cortex Consulting AG,IT Services & Consulting,Switzerland,2016,SOC_ATTRITION,11.89,%,11.89,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2016
+BM00893,Cortex Consulting AG,IT Services & Consulting,Switzerland,2016,SOC_FEMALE_PCT,34.23,%,34.23,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2016
+BM00894,Cortex Consulting AG,IT Services & Consulting,Switzerland,2016,SOC_ESAT,75.83,score,75.83,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2016
+BM00895,Cortex Consulting AG,IT Services & Consulting,Switzerland,2016,GOV_BOARD_INDEP_PCT,51.3,%,51.3,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2016
+BM00896,Cortex Consulting AG,IT Services & Consulting,Switzerland,2016,GOV_WOMEN_BOARD_PCT,18.66,%,18.66,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2016
+BM00897,Cortex Consulting AG,IT Services & Consulting,Switzerland,2017,ENV_RENEW_PCT,28.2,%,28.2,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2017
+BM00898,Cortex Consulting AG,IT Services & Consulting,Switzerland,2017,ENV_DC_PUE,1.75,ratio,1.75,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2017
+BM00899,Cortex Consulting AG,IT Services & Consulting,Switzerland,2017,ENV_EWASTE_REC_PCT,73.22,%,73.22,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2017
+BM00900,Cortex Consulting AG,IT Services & Consulting,Switzerland,2017,SOC_ATTRITION,11.52,%,11.52,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2017
+BM00901,Cortex Consulting AG,IT Services & Consulting,Switzerland,2017,SOC_FEMALE_PCT,35.78,%,35.78,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2017
+BM00902,Cortex Consulting AG,IT Services & Consulting,Switzerland,2017,SOC_ESAT,74.05,score,74.05,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2017
+BM00903,Cortex Consulting AG,IT Services & Consulting,Switzerland,2017,GOV_BOARD_INDEP_PCT,50.65,%,50.65,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2017
+BM00904,Cortex Consulting AG,IT Services & Consulting,Switzerland,2017,GOV_WOMEN_BOARD_PCT,21.63,%,21.63,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2017
+BM00905,Cortex Consulting AG,IT Services & Consulting,Switzerland,2018,ENV_RENEW_PCT,32.36,%,32.36,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2018
+BM00906,Cortex Consulting AG,IT Services & Consulting,Switzerland,2018,ENV_DC_PUE,1.63,ratio,1.63,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2018
+BM00907,Cortex Consulting AG,IT Services & Consulting,Switzerland,2018,ENV_EWASTE_REC_PCT,78.6,%,78.6,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2018
+BM00908,Cortex Consulting AG,IT Services & Consulting,Switzerland,2018,SOC_ATTRITION,11.54,%,11.54,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2018
+BM00909,Cortex Consulting AG,IT Services & Consulting,Switzerland,2018,SOC_FEMALE_PCT,37.06,%,37.06,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2018
+BM00910,Cortex Consulting AG,IT Services & Consulting,Switzerland,2018,SOC_ESAT,76.42,score,76.42,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2018
+BM00911,Cortex Consulting AG,IT Services & Consulting,Switzerland,2018,GOV_BOARD_INDEP_PCT,54.88,%,54.88,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2018
+BM00912,Cortex Consulting AG,IT Services & Consulting,Switzerland,2018,GOV_WOMEN_BOARD_PCT,23.35,%,23.35,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2018
+BM00913,Cortex Consulting AG,IT Services & Consulting,Switzerland,2019,ENV_RENEW_PCT,36.87,%,36.87,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2019
+BM00914,Cortex Consulting AG,IT Services & Consulting,Switzerland,2019,ENV_DC_PUE,1.54,ratio,1.54,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2019
+BM00915,Cortex Consulting AG,IT Services & Consulting,Switzerland,2019,ENV_EWASTE_REC_PCT,80.94,%,80.94,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2019
+BM00916,Cortex Consulting AG,IT Services & Consulting,Switzerland,2019,SOC_ATTRITION,11.21,%,11.21,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2019
+BM00917,Cortex Consulting AG,IT Services & Consulting,Switzerland,2019,SOC_FEMALE_PCT,37.37,%,37.37,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2019
+BM00918,Cortex Consulting AG,IT Services & Consulting,Switzerland,2019,SOC_ESAT,78.02,score,78.02,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2019
+BM00919,Cortex Consulting AG,IT Services & Consulting,Switzerland,2019,GOV_BOARD_INDEP_PCT,55.17,%,55.17,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2019
+BM00920,Cortex Consulting AG,IT Services & Consulting,Switzerland,2019,GOV_WOMEN_BOARD_PCT,26.67,%,26.67,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2019
+BM00921,Cortex Consulting AG,IT Services & Consulting,Switzerland,2020,ENV_RENEW_PCT,43.44,%,43.44,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2020
+BM00922,Cortex Consulting AG,IT Services & Consulting,Switzerland,2020,ENV_DC_PUE,1.53,ratio,1.53,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2020
+BM00923,Cortex Consulting AG,IT Services & Consulting,Switzerland,2020,ENV_EWASTE_REC_PCT,88.11,%,88.11,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2020
+BM00924,Cortex Consulting AG,IT Services & Consulting,Switzerland,2020,SOC_ATTRITION,11.26,%,11.26,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2020
+BM00925,Cortex Consulting AG,IT Services & Consulting,Switzerland,2020,SOC_FEMALE_PCT,37.41,%,37.41,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2020
+BM00926,Cortex Consulting AG,IT Services & Consulting,Switzerland,2020,SOC_ESAT,78.96,score,78.96,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2020
+BM00927,Cortex Consulting AG,IT Services & Consulting,Switzerland,2020,GOV_BOARD_INDEP_PCT,57.25,%,57.25,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2020
+BM00928,Cortex Consulting AG,IT Services & Consulting,Switzerland,2020,GOV_WOMEN_BOARD_PCT,28.23,%,28.23,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2020
+BM00929,Cortex Consulting AG,IT Services & Consulting,Switzerland,2021,ENV_RENEW_PCT,46.63,%,46.63,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2021
+BM00930,Cortex Consulting AG,IT Services & Consulting,Switzerland,2021,ENV_DC_PUE,1.46,ratio,1.46,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2021
+BM00931,Cortex Consulting AG,IT Services & Consulting,Switzerland,2021,ENV_EWASTE_REC_PCT,86.83,%,86.83,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2021
+BM00932,Cortex Consulting AG,IT Services & Consulting,Switzerland,2021,SOC_ATTRITION,14.12,%,14.12,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2021
+BM00933,Cortex Consulting AG,IT Services & Consulting,Switzerland,2021,SOC_FEMALE_PCT,41.58,%,41.58,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2021
+BM00934,Cortex Consulting AG,IT Services & Consulting,Switzerland,2021,SOC_ESAT,81.53,score,81.53,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2021
+BM00935,Cortex Consulting AG,IT Services & Consulting,Switzerland,2021,GOV_BOARD_INDEP_PCT,60.81,%,60.81,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2021
+BM00936,Cortex Consulting AG,IT Services & Consulting,Switzerland,2021,GOV_WOMEN_BOARD_PCT,30.9,%,30.9,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2021
+BM00937,Cortex Consulting AG,IT Services & Consulting,Switzerland,2022,ENV_RENEW_PCT,50.95,%,50.95,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2022
+BM00938,Cortex Consulting AG,IT Services & Consulting,Switzerland,2022,ENV_DC_PUE,1.36,ratio,1.36,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2022
+BM00939,Cortex Consulting AG,IT Services & Consulting,Switzerland,2022,ENV_EWASTE_REC_PCT,94.14,%,94.14,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2022
+BM00940,Cortex Consulting AG,IT Services & Consulting,Switzerland,2022,SOC_ATTRITION,13.6,%,13.6,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2022
+BM00941,Cortex Consulting AG,IT Services & Consulting,Switzerland,2022,SOC_FEMALE_PCT,41.67,%,41.67,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2022
+BM00942,Cortex Consulting AG,IT Services & Consulting,Switzerland,2022,SOC_ESAT,81.56,score,81.56,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2022
+BM00943,Cortex Consulting AG,IT Services & Consulting,Switzerland,2022,GOV_BOARD_INDEP_PCT,63.43,%,63.43,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2022
+BM00944,Cortex Consulting AG,IT Services & Consulting,Switzerland,2022,GOV_WOMEN_BOARD_PCT,33.82,%,33.82,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2022
+BM00945,Cortex Consulting AG,IT Services & Consulting,Switzerland,2023,ENV_RENEW_PCT,57.51,%,57.51,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2023
+BM00946,Cortex Consulting AG,IT Services & Consulting,Switzerland,2023,ENV_DC_PUE,1.31,ratio,1.31,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2023
+BM00947,Cortex Consulting AG,IT Services & Consulting,Switzerland,2023,ENV_EWASTE_REC_PCT,95.06,%,95.06,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2023
+BM00948,Cortex Consulting AG,IT Services & Consulting,Switzerland,2023,SOC_ATTRITION,10.31,%,10.31,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2023
+BM00949,Cortex Consulting AG,IT Services & Consulting,Switzerland,2023,SOC_FEMALE_PCT,42.48,%,42.48,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2023
+BM00950,Cortex Consulting AG,IT Services & Consulting,Switzerland,2023,SOC_ESAT,83.79,score,83.79,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2023
+BM00951,Cortex Consulting AG,IT Services & Consulting,Switzerland,2023,GOV_BOARD_INDEP_PCT,63.9,%,63.9,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2023
+BM00952,Cortex Consulting AG,IT Services & Consulting,Switzerland,2023,GOV_WOMEN_BOARD_PCT,33.74,%,33.74,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2023
+BM00953,Cortex Consulting AG,IT Services & Consulting,Switzerland,2024,ENV_RENEW_PCT,63.05,%,63.05,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2024
+BM00954,Cortex Consulting AG,IT Services & Consulting,Switzerland,2024,ENV_DC_PUE,1.25,ratio,1.25,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2024
+BM00955,Cortex Consulting AG,IT Services & Consulting,Switzerland,2024,ENV_EWASTE_REC_PCT,103.29,%,103.29,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2024
+BM00956,Cortex Consulting AG,IT Services & Consulting,Switzerland,2024,SOC_ATTRITION,10.29,%,10.29,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2024
+BM00957,Cortex Consulting AG,IT Services & Consulting,Switzerland,2024,SOC_FEMALE_PCT,44.81,%,44.81,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2024
+BM00958,Cortex Consulting AG,IT Services & Consulting,Switzerland,2024,SOC_ESAT,84.09,score,84.09,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2024
+BM00959,Cortex Consulting AG,IT Services & Consulting,Switzerland,2024,GOV_BOARD_INDEP_PCT,65.31,%,65.31,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2024
+BM00960,Cortex Consulting AG,IT Services & Consulting,Switzerland,2024,GOV_WOMEN_BOARD_PCT,37.56,%,37.56,Wikirate / peer ESG report,Cortex Consulting AG Sustainability Report 2024
+BM00961,Blue Meridian Softworks,Software & Cloud,United States,2015,ENV_RENEW_PCT,16.71,%,16.71,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2015
+BM00962,Blue Meridian Softworks,Software & Cloud,United States,2015,ENV_DC_PUE,1.99,ratio,1.99,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2015
+BM00963,Blue Meridian Softworks,Software & Cloud,United States,2015,ENV_EWASTE_REC_PCT,66.82,%,66.82,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2015
+BM00964,Blue Meridian Softworks,Software & Cloud,United States,2015,SOC_ATTRITION,13.49,%,13.49,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2015
+BM00965,Blue Meridian Softworks,Software & Cloud,United States,2015,SOC_FEMALE_PCT,30.93,%,30.93,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2015
+BM00966,Blue Meridian Softworks,Software & Cloud,United States,2015,SOC_ESAT,73.53,score,73.53,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2015
+BM00967,Blue Meridian Softworks,Software & Cloud,United States,2015,GOV_BOARD_INDEP_PCT,45.26,%,45.26,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2015
+BM00968,Blue Meridian Softworks,Software & Cloud,United States,2015,GOV_WOMEN_BOARD_PCT,15.77,%,15.77,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2015
+BM00969,Blue Meridian Softworks,Software & Cloud,United States,2016,ENV_RENEW_PCT,22.41,%,22.41,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2016
+BM00970,Blue Meridian Softworks,Software & Cloud,United States,2016,ENV_DC_PUE,1.86,ratio,1.86,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2016
+BM00971,Blue Meridian Softworks,Software & Cloud,United States,2016,ENV_EWASTE_REC_PCT,72.16,%,72.16,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2016
+BM00972,Blue Meridian Softworks,Software & Cloud,United States,2016,SOC_ATTRITION,12.61,%,12.61,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2016
+BM00973,Blue Meridian Softworks,Software & Cloud,United States,2016,SOC_FEMALE_PCT,32.13,%,32.13,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2016
+BM00974,Blue Meridian Softworks,Software & Cloud,United States,2016,SOC_ESAT,73.89,score,73.89,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2016
+BM00975,Blue Meridian Softworks,Software & Cloud,United States,2016,GOV_BOARD_INDEP_PCT,49.82,%,49.82,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2016
+BM00976,Blue Meridian Softworks,Software & Cloud,United States,2016,GOV_WOMEN_BOARD_PCT,18.11,%,18.11,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2016
+BM00977,Blue Meridian Softworks,Software & Cloud,United States,2017,ENV_RENEW_PCT,25.57,%,25.57,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2017
+BM00978,Blue Meridian Softworks,Software & Cloud,United States,2017,ENV_DC_PUE,1.76,ratio,1.76,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2017
+BM00979,Blue Meridian Softworks,Software & Cloud,United States,2017,ENV_EWASTE_REC_PCT,72.37,%,72.37,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2017
+BM00980,Blue Meridian Softworks,Software & Cloud,United States,2017,SOC_ATTRITION,12.5,%,12.5,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2017
+BM00981,Blue Meridian Softworks,Software & Cloud,United States,2017,SOC_FEMALE_PCT,33.48,%,33.48,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2017
+BM00982,Blue Meridian Softworks,Software & Cloud,United States,2017,SOC_ESAT,76.97,score,76.97,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2017
+BM00983,Blue Meridian Softworks,Software & Cloud,United States,2017,GOV_BOARD_INDEP_PCT,49.98,%,49.98,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2017
+BM00984,Blue Meridian Softworks,Software & Cloud,United States,2017,GOV_WOMEN_BOARD_PCT,20.48,%,20.48,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2017
+BM00985,Blue Meridian Softworks,Software & Cloud,United States,2018,ENV_RENEW_PCT,30.73,%,30.73,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2018
+BM00986,Blue Meridian Softworks,Software & Cloud,United States,2018,ENV_DC_PUE,1.73,ratio,1.73,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2018
+BM00987,Blue Meridian Softworks,Software & Cloud,United States,2018,ENV_EWASTE_REC_PCT,77.96,%,77.96,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2018
+BM00988,Blue Meridian Softworks,Software & Cloud,United States,2018,SOC_ATTRITION,12.46,%,12.46,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2018
+BM00989,Blue Meridian Softworks,Software & Cloud,United States,2018,SOC_FEMALE_PCT,36.91,%,36.91,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2018
+BM00990,Blue Meridian Softworks,Software & Cloud,United States,2018,SOC_ESAT,77.15,score,77.15,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2018
+BM00991,Blue Meridian Softworks,Software & Cloud,United States,2018,GOV_BOARD_INDEP_PCT,52.06,%,52.06,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2018
+BM00992,Blue Meridian Softworks,Software & Cloud,United States,2018,GOV_WOMEN_BOARD_PCT,22.04,%,22.04,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2018
+BM00993,Blue Meridian Softworks,Software & Cloud,United States,2019,ENV_RENEW_PCT,35.65,%,35.65,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2019
+BM00994,Blue Meridian Softworks,Software & Cloud,United States,2019,ENV_DC_PUE,1.58,ratio,1.58,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2019
+BM00995,Blue Meridian Softworks,Software & Cloud,United States,2019,ENV_EWASTE_REC_PCT,78.26,%,78.26,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2019
+BM00996,Blue Meridian Softworks,Software & Cloud,United States,2019,SOC_ATTRITION,11.6,%,11.6,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2019
+BM00997,Blue Meridian Softworks,Software & Cloud,United States,2019,SOC_FEMALE_PCT,36.43,%,36.43,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2019
+BM00998,Blue Meridian Softworks,Software & Cloud,United States,2019,SOC_ESAT,76.94,score,76.94,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2019
+BM00999,Blue Meridian Softworks,Software & Cloud,United States,2019,GOV_BOARD_INDEP_PCT,57.0,%,57.0,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2019
+BM01000,Blue Meridian Softworks,Software & Cloud,United States,2019,GOV_WOMEN_BOARD_PCT,25.35,%,25.35,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2019
+BM01001,Blue Meridian Softworks,Software & Cloud,United States,2020,ENV_RENEW_PCT,41.59,%,41.59,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2020
+BM01002,Blue Meridian Softworks,Software & Cloud,United States,2020,ENV_DC_PUE,1.59,ratio,1.59,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2020
+BM01003,Blue Meridian Softworks,Software & Cloud,United States,2020,ENV_EWASTE_REC_PCT,83.01,%,83.01,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2020
+BM01004,Blue Meridian Softworks,Software & Cloud,United States,2020,SOC_ATTRITION,11.31,%,11.31,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2020
+BM01005,Blue Meridian Softworks,Software & Cloud,United States,2020,SOC_FEMALE_PCT,37.17,%,37.17,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2020
+BM01006,Blue Meridian Softworks,Software & Cloud,United States,2020,SOC_ESAT,80.55,score,80.55,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2020
+BM01007,Blue Meridian Softworks,Software & Cloud,United States,2020,GOV_BOARD_INDEP_PCT,58.96,%,58.96,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2020
+BM01008,Blue Meridian Softworks,Software & Cloud,United States,2020,GOV_WOMEN_BOARD_PCT,26.07,%,26.07,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2020
+BM01009,Blue Meridian Softworks,Software & Cloud,United States,2021,ENV_RENEW_PCT,46.3,%,46.3,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2021
+BM01010,Blue Meridian Softworks,Software & Cloud,United States,2021,ENV_DC_PUE,1.52,ratio,1.52,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2021
+BM01011,Blue Meridian Softworks,Software & Cloud,United States,2021,ENV_EWASTE_REC_PCT,90.99,%,90.99,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2021
+BM01012,Blue Meridian Softworks,Software & Cloud,United States,2021,SOC_ATTRITION,14.74,%,14.74,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2021
+BM01013,Blue Meridian Softworks,Software & Cloud,United States,2021,SOC_FEMALE_PCT,38.04,%,38.04,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2021
+BM01014,Blue Meridian Softworks,Software & Cloud,United States,2021,SOC_ESAT,76.91,score,76.91,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2021
+BM01015,Blue Meridian Softworks,Software & Cloud,United States,2021,GOV_BOARD_INDEP_PCT,59.68,%,59.68,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2021
+BM01016,Blue Meridian Softworks,Software & Cloud,United States,2021,GOV_WOMEN_BOARD_PCT,29.63,%,29.63,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2021
+BM01017,Blue Meridian Softworks,Software & Cloud,United States,2022,ENV_RENEW_PCT,51.16,%,51.16,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2022
+BM01018,Blue Meridian Softworks,Software & Cloud,United States,2022,ENV_DC_PUE,1.41,ratio,1.41,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2022
+BM01019,Blue Meridian Softworks,Software & Cloud,United States,2022,ENV_EWASTE_REC_PCT,95.23,%,95.23,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2022
+BM01020,Blue Meridian Softworks,Software & Cloud,United States,2022,SOC_ATTRITION,15.04,%,15.04,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2022
+BM01021,Blue Meridian Softworks,Software & Cloud,United States,2022,SOC_FEMALE_PCT,39.18,%,39.18,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2022
+BM01022,Blue Meridian Softworks,Software & Cloud,United States,2022,SOC_ESAT,78.77,score,78.77,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2022
+BM01023,Blue Meridian Softworks,Software & Cloud,United States,2022,GOV_BOARD_INDEP_PCT,62.55,%,62.55,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2022
+BM01024,Blue Meridian Softworks,Software & Cloud,United States,2022,GOV_WOMEN_BOARD_PCT,30.81,%,30.81,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2022
+BM01025,Blue Meridian Softworks,Software & Cloud,United States,2023,ENV_RENEW_PCT,52.26,%,52.26,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2023
+BM01026,Blue Meridian Softworks,Software & Cloud,United States,2023,ENV_DC_PUE,1.29,ratio,1.29,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2023
+BM01027,Blue Meridian Softworks,Software & Cloud,United States,2023,ENV_EWASTE_REC_PCT,98.21,%,98.21,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2023
+BM01028,Blue Meridian Softworks,Software & Cloud,United States,2023,SOC_ATTRITION,10.4,%,10.4,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2023
+BM01029,Blue Meridian Softworks,Software & Cloud,United States,2023,SOC_FEMALE_PCT,40.64,%,40.64,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2023
+BM01030,Blue Meridian Softworks,Software & Cloud,United States,2023,SOC_ESAT,79.0,score,79.0,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2023
+BM01031,Blue Meridian Softworks,Software & Cloud,United States,2023,GOV_BOARD_INDEP_PCT,64.87,%,64.87,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2023
+BM01032,Blue Meridian Softworks,Software & Cloud,United States,2023,GOV_WOMEN_BOARD_PCT,33.18,%,33.18,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2023
+BM01033,Blue Meridian Softworks,Software & Cloud,United States,2024,ENV_RENEW_PCT,58.12,%,58.12,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2024
+BM01034,Blue Meridian Softworks,Software & Cloud,United States,2024,ENV_DC_PUE,1.2,ratio,1.2,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2024
+BM01035,Blue Meridian Softworks,Software & Cloud,United States,2024,ENV_EWASTE_REC_PCT,102.82,%,102.82,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2024
+BM01036,Blue Meridian Softworks,Software & Cloud,United States,2024,SOC_ATTRITION,10.91,%,10.91,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2024
+BM01037,Blue Meridian Softworks,Software & Cloud,United States,2024,SOC_FEMALE_PCT,41.96,%,41.96,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2024
+BM01038,Blue Meridian Softworks,Software & Cloud,United States,2024,SOC_ESAT,84.59,score,84.59,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2024
+BM01039,Blue Meridian Softworks,Software & Cloud,United States,2024,GOV_BOARD_INDEP_PCT,68.0,%,68.0,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2024
+BM01040,Blue Meridian Softworks,Software & Cloud,United States,2024,GOV_WOMEN_BOARD_PCT,36.16,%,36.16,Wikirate / peer ESG report,Blue Meridian Softworks Sustainability Report 2024
+BM01041,Ganges Infotech Ltd,IT Services & Consulting,India,2015,ENV_RENEW_PCT,-2.91,%,-2.91,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2015
+BM01042,Ganges Infotech Ltd,IT Services & Consulting,India,2015,ENV_DC_PUE,2.27,ratio,2.27,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2015
+BM01043,Ganges Infotech Ltd,IT Services & Consulting,India,2015,ENV_EWASTE_REC_PCT,50.36,%,50.36,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2015
+BM01044,Ganges Infotech Ltd,IT Services & Consulting,India,2015,SOC_ATTRITION,18.17,%,18.17,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2015
+BM01045,Ganges Infotech Ltd,IT Services & Consulting,India,2015,SOC_FEMALE_PCT,24.83,%,24.83,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2015
+BM01046,Ganges Infotech Ltd,IT Services & Consulting,India,2015,SOC_ESAT,63.36,score,63.36,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2015
+BM01047,Ganges Infotech Ltd,IT Services & Consulting,India,2015,GOV_BOARD_INDEP_PCT,34.19,%,34.19,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2015
+BM01048,Ganges Infotech Ltd,IT Services & Consulting,India,2015,GOV_WOMEN_BOARD_PCT,5.32,%,5.32,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2015
+BM01049,Ganges Infotech Ltd,IT Services & Consulting,India,2016,ENV_RENEW_PCT,1.9,%,1.9,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2016
+BM01050,Ganges Infotech Ltd,IT Services & Consulting,India,2016,ENV_DC_PUE,2.1,ratio,2.1,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2016
+BM01051,Ganges Infotech Ltd,IT Services & Consulting,India,2016,ENV_EWASTE_REC_PCT,56.16,%,56.16,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2016
+BM01052,Ganges Infotech Ltd,IT Services & Consulting,India,2016,SOC_ATTRITION,17.73,%,17.73,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2016
+BM01053,Ganges Infotech Ltd,IT Services & Consulting,India,2016,SOC_FEMALE_PCT,25.72,%,25.72,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2016
+BM01054,Ganges Infotech Ltd,IT Services & Consulting,India,2016,SOC_ESAT,64.75,score,64.75,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2016
+BM01055,Ganges Infotech Ltd,IT Services & Consulting,India,2016,GOV_BOARD_INDEP_PCT,36.34,%,36.34,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2016
+BM01056,Ganges Infotech Ltd,IT Services & Consulting,India,2016,GOV_WOMEN_BOARD_PCT,7.44,%,7.44,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2016
+BM01057,Ganges Infotech Ltd,IT Services & Consulting,India,2017,ENV_RENEW_PCT,6.34,%,6.34,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2017
+BM01058,Ganges Infotech Ltd,IT Services & Consulting,India,2017,ENV_DC_PUE,2.02,ratio,2.02,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2017
+BM01059,Ganges Infotech Ltd,IT Services & Consulting,India,2017,ENV_EWASTE_REC_PCT,59.39,%,59.39,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2017
+BM01060,Ganges Infotech Ltd,IT Services & Consulting,India,2017,SOC_ATTRITION,18.54,%,18.54,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2017
+BM01061,Ganges Infotech Ltd,IT Services & Consulting,India,2017,SOC_FEMALE_PCT,28.17,%,28.17,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2017
+BM01062,Ganges Infotech Ltd,IT Services & Consulting,India,2017,SOC_ESAT,66.65,score,66.65,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2017
+BM01063,Ganges Infotech Ltd,IT Services & Consulting,India,2017,GOV_BOARD_INDEP_PCT,39.87,%,39.87,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2017
+BM01064,Ganges Infotech Ltd,IT Services & Consulting,India,2017,GOV_WOMEN_BOARD_PCT,9.4,%,9.4,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2017
+BM01065,Ganges Infotech Ltd,IT Services & Consulting,India,2018,ENV_RENEW_PCT,11.48,%,11.48,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2018
+BM01066,Ganges Infotech Ltd,IT Services & Consulting,India,2018,ENV_DC_PUE,2.05,ratio,2.05,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2018
+BM01067,Ganges Infotech Ltd,IT Services & Consulting,India,2018,ENV_EWASTE_REC_PCT,59.41,%,59.41,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2018
+BM01068,Ganges Infotech Ltd,IT Services & Consulting,India,2018,SOC_ATTRITION,17.96,%,17.96,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2018
+BM01069,Ganges Infotech Ltd,IT Services & Consulting,India,2018,SOC_FEMALE_PCT,28.92,%,28.92,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2018
+BM01070,Ganges Infotech Ltd,IT Services & Consulting,India,2018,SOC_ESAT,66.71,score,66.71,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2018
+BM01071,Ganges Infotech Ltd,IT Services & Consulting,India,2018,GOV_BOARD_INDEP_PCT,43.13,%,43.13,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2018
+BM01072,Ganges Infotech Ltd,IT Services & Consulting,India,2018,GOV_WOMEN_BOARD_PCT,11.85,%,11.85,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2018
+BM01073,Ganges Infotech Ltd,IT Services & Consulting,India,2019,ENV_RENEW_PCT,15.68,%,15.68,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2019
+BM01074,Ganges Infotech Ltd,IT Services & Consulting,India,2019,ENV_DC_PUE,1.94,ratio,1.94,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2019
+BM01075,Ganges Infotech Ltd,IT Services & Consulting,India,2019,ENV_EWASTE_REC_PCT,64.38,%,64.38,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2019
+BM01076,Ganges Infotech Ltd,IT Services & Consulting,India,2019,SOC_ATTRITION,17.74,%,17.74,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2019
+BM01077,Ganges Infotech Ltd,IT Services & Consulting,India,2019,SOC_FEMALE_PCT,28.58,%,28.58,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2019
+BM01078,Ganges Infotech Ltd,IT Services & Consulting,India,2019,SOC_ESAT,72.19,score,72.19,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2019
+BM01079,Ganges Infotech Ltd,IT Services & Consulting,India,2019,GOV_BOARD_INDEP_PCT,43.66,%,43.66,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2019
+BM01080,Ganges Infotech Ltd,IT Services & Consulting,India,2019,GOV_WOMEN_BOARD_PCT,14.41,%,14.41,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2019
+BM01081,Ganges Infotech Ltd,IT Services & Consulting,India,2020,ENV_RENEW_PCT,19.83,%,19.83,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2020
+BM01082,Ganges Infotech Ltd,IT Services & Consulting,India,2020,ENV_DC_PUE,1.82,ratio,1.82,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2020
+BM01083,Ganges Infotech Ltd,IT Services & Consulting,India,2020,ENV_EWASTE_REC_PCT,66.68,%,66.68,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2020
+BM01084,Ganges Infotech Ltd,IT Services & Consulting,India,2020,SOC_ATTRITION,17.56,%,17.56,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2020
+BM01085,Ganges Infotech Ltd,IT Services & Consulting,India,2020,SOC_FEMALE_PCT,32.01,%,32.01,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2020
+BM01086,Ganges Infotech Ltd,IT Services & Consulting,India,2020,SOC_ESAT,72.35,score,72.35,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2020
+BM01087,Ganges Infotech Ltd,IT Services & Consulting,India,2020,GOV_BOARD_INDEP_PCT,45.27,%,45.27,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2020
+BM01088,Ganges Infotech Ltd,IT Services & Consulting,India,2020,GOV_WOMEN_BOARD_PCT,15.84,%,15.84,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2020
+BM01089,Ganges Infotech Ltd,IT Services & Consulting,India,2021,ENV_RENEW_PCT,25.45,%,25.45,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2021
+BM01090,Ganges Infotech Ltd,IT Services & Consulting,India,2021,ENV_DC_PUE,1.8,ratio,1.8,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2021
+BM01091,Ganges Infotech Ltd,IT Services & Consulting,India,2021,ENV_EWASTE_REC_PCT,70.81,%,70.81,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2021
+BM01092,Ganges Infotech Ltd,IT Services & Consulting,India,2021,SOC_ATTRITION,23.11,%,23.11,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2021
+BM01093,Ganges Infotech Ltd,IT Services & Consulting,India,2021,SOC_FEMALE_PCT,33.22,%,33.22,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2021
+BM01094,Ganges Infotech Ltd,IT Services & Consulting,India,2021,SOC_ESAT,74.57,score,74.57,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2021
+BM01095,Ganges Infotech Ltd,IT Services & Consulting,India,2021,GOV_BOARD_INDEP_PCT,46.76,%,46.76,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2021
+BM01096,Ganges Infotech Ltd,IT Services & Consulting,India,2021,GOV_WOMEN_BOARD_PCT,18.92,%,18.92,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2021
+BM01097,Ganges Infotech Ltd,IT Services & Consulting,India,2022,ENV_RENEW_PCT,30.94,%,30.94,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2022
+BM01098,Ganges Infotech Ltd,IT Services & Consulting,India,2022,ENV_DC_PUE,1.76,ratio,1.76,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2022
+BM01099,Ganges Infotech Ltd,IT Services & Consulting,India,2022,ENV_EWASTE_REC_PCT,74.18,%,74.18,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2022
+BM01100,Ganges Infotech Ltd,IT Services & Consulting,India,2022,SOC_ATTRITION,21.53,%,21.53,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2022
+BM01101,Ganges Infotech Ltd,IT Services & Consulting,India,2022,SOC_FEMALE_PCT,34.09,%,34.09,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2022
+BM01102,Ganges Infotech Ltd,IT Services & Consulting,India,2022,SOC_ESAT,76.06,score,76.06,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2022
+BM01103,Ganges Infotech Ltd,IT Services & Consulting,India,2022,GOV_BOARD_INDEP_PCT,49.86,%,49.86,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2022
+BM01104,Ganges Infotech Ltd,IT Services & Consulting,India,2022,GOV_WOMEN_BOARD_PCT,21.21,%,21.21,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2022
+BM01105,Ganges Infotech Ltd,IT Services & Consulting,India,2023,ENV_RENEW_PCT,34.27,%,34.27,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2023
+BM01106,Ganges Infotech Ltd,IT Services & Consulting,India,2023,ENV_DC_PUE,1.61,ratio,1.61,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2023
+BM01107,Ganges Infotech Ltd,IT Services & Consulting,India,2023,ENV_EWASTE_REC_PCT,76.29,%,76.29,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2023
+BM01108,Ganges Infotech Ltd,IT Services & Consulting,India,2023,SOC_ATTRITION,16.04,%,16.04,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2023
+BM01109,Ganges Infotech Ltd,IT Services & Consulting,India,2023,SOC_FEMALE_PCT,35.89,%,35.89,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2023
+BM01110,Ganges Infotech Ltd,IT Services & Consulting,India,2023,SOC_ESAT,76.16,score,76.16,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2023
+BM01111,Ganges Infotech Ltd,IT Services & Consulting,India,2023,GOV_BOARD_INDEP_PCT,51.8,%,51.8,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2023
+BM01112,Ganges Infotech Ltd,IT Services & Consulting,India,2023,GOV_WOMEN_BOARD_PCT,23.11,%,23.11,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2023
+BM01113,Ganges Infotech Ltd,IT Services & Consulting,India,2024,ENV_RENEW_PCT,38.86,%,38.86,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2024
+BM01114,Ganges Infotech Ltd,IT Services & Consulting,India,2024,ENV_DC_PUE,1.6,ratio,1.6,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2024
+BM01115,Ganges Infotech Ltd,IT Services & Consulting,India,2024,ENV_EWASTE_REC_PCT,81.6,%,81.6,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2024
+BM01116,Ganges Infotech Ltd,IT Services & Consulting,India,2024,SOC_ATTRITION,15.99,%,15.99,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2024
+BM01117,Ganges Infotech Ltd,IT Services & Consulting,India,2024,SOC_FEMALE_PCT,37.15,%,37.15,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2024
+BM01118,Ganges Infotech Ltd,IT Services & Consulting,India,2024,SOC_ESAT,74.52,score,74.52,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2024
+BM01119,Ganges Infotech Ltd,IT Services & Consulting,India,2024,GOV_BOARD_INDEP_PCT,55.99,%,55.99,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2024
+BM01120,Ganges Infotech Ltd,IT Services & Consulting,India,2024,GOV_WOMEN_BOARD_PCT,24.28,%,24.28,Wikirate / peer ESG report,Ganges Infotech Ltd Sustainability Report 2024

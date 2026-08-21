@@ -723,6 +723,76 @@ class ErasureRequest(Base):
     outcome_json: Mapped[str] = mapped_column(Text, nullable=True)
 
 
-DEAL_SCOPED_TABLES = tuple(
-    m.__tablename__ for m in Base.__subclasses__() if issubclass(m, DealScoped)
-)
+
+
+# ════════════════════════════════════════════════════════════════════
+#  Agentic orchestration
+# ════════════════════════════════════════════════════════════════════
+
+class AgentRun(Base, DealScoped):
+    """One orchestrated pass over a deal.
+
+    The run and its steps are the reproducibility record: which model planned
+    it, which tools it chose, what they returned, and what it concluded. A
+    finding that reaches a client report can be traced back to the tool call
+    that produced it.
+    """
+
+    __tablename__ = "agent_run"
+
+    run_id: Mapped[str] = mapped_column(String(48), primary_key=True)
+    company_id: Mapped[str] = mapped_column(String(32), nullable=False)
+    goal: Mapped[str] = mapped_column(Text, nullable=False)
+    planner: Mapped[str] = mapped_column(String(32), nullable=False)  # llm | deterministic
+    model: Mapped[str] = mapped_column(String(64), nullable=True)
+    status: Mapped[str] = mapped_column(String(32), default="Running", nullable=False)
+    started_at: Mapped[datetime] = mapped_column(DateTime, default=clock.now)
+    finished_at: Mapped[datetime] = mapped_column(DateTime, nullable=True)
+    steps_taken: Mapped[int] = mapped_column(Integer, default=0)
+    max_steps: Mapped[int] = mapped_column(Integer, default=25)
+    input_tokens: Mapped[int] = mapped_column(Integer, default=0)
+    output_tokens: Mapped[int] = mapped_column(Integer, default=0)
+    summary: Mapped[str] = mapped_column(Text, nullable=True)
+    critique: Mapped[str] = mapped_column(Text, nullable=True)
+    error: Mapped[str] = mapped_column(Text, nullable=True)
+    triggered_by: Mapped[str] = mapped_column(String(64), nullable=True)
+
+
+class AgentStep(Base, DealScoped):
+    """One tool call within a run, with its arguments and result."""
+
+    __tablename__ = "agent_step"
+
+    step_id: Mapped[str] = mapped_column(String(48), primary_key=True)
+    run_id: Mapped[str] = mapped_column(String(48), index=True, nullable=False)
+    sequence: Mapped[int] = mapped_column(Integer, nullable=False)
+    tool_name: Mapped[str] = mapped_column(String(64), nullable=False)
+    arguments_json: Mapped[str] = mapped_column(Text, nullable=True)
+    result_json: Mapped[str] = mapped_column(Text, nullable=True)
+    ok: Mapped[bool] = mapped_column(Boolean, default=True)
+    error: Mapped[str] = mapped_column(Text, nullable=True)
+    duration_ms: Mapped[int] = mapped_column(Integer, nullable=True)
+    started_at: Mapped[datetime] = mapped_column(DateTime, default=clock.now)
+
+    __table_args__ = (
+        UniqueConstraint("run_id", "sequence", name="uq_agent_step_seq"),
+    )
+
+
+def deal_scoped_tables():
+    """Table names of every deal-scoped model, resolved at call time.
+
+    Computed from the live subclass list rather than frozen at import, so a
+    model added below this point still gets row-level security and still
+    trips the fail-closed check in esg.db.scope. Freezing it was a real bug:
+    tables defined after the constant silently lost both protections.
+    """
+    return tuple(
+        m.__tablename__ for m in Base.__subclasses__() if issubclass(m, DealScoped)
+    )
+
+
+# Module-level snapshot for importers; always equals deal_scoped_tables() because
+# every model in this module is defined above it. tests/test_deal_isolation.py
+# asserts the two agree.
+DEAL_SCOPED_TABLES = deal_scoped_tables()

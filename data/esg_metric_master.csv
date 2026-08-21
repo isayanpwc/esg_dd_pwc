@@ -1,0 +1,20 @@
+metric_code,metric_name,esg_pillar,category,standard_unit,higher_is_better
+ENV_SCOPE1,Scope 1 GHG Emissions,Environmental,Emissions,tCO2e,No
+ENV_SCOPE2,Scope 2 GHG Emissions (market-based),Environmental,Emissions,tCO2e,No
+ENV_SCOPE3,Scope 3 GHG Emissions,Environmental,Emissions,tCO2e,No
+ENV_ENERGY,Total Energy Consumption,Environmental,Energy,MWh,No
+ENV_RENEW_PCT,Renewable Energy Share,Environmental,Energy,%,Yes
+ENV_DC_PUE,Data Centre Power Usage Effectiveness,Environmental,Data Centre,ratio,No
+ENV_WATER,Water Withdrawal,Environmental,Water,ML,No
+ENV_EWASTE,E-waste Generated,Environmental,Waste,tonnes,No
+ENV_EWASTE_REC_PCT,E-waste Recycled Rate,Environmental,Waste,%,Yes
+SOC_HEADCOUNT,Total Employees,Social,Workforce,count,Yes
+SOC_FEMALE_PCT,Female Workforce Share,Social,Workforce,%,Yes
+SOC_ATTRITION,Voluntary Attrition Rate,Social,Workforce,%,No
+SOC_TRAIN_HRS,Avg Training Hours per Employee,Social,Workforce,hours,Yes
+SOC_LTIFR,Lost Time Injury Frequency Rate,Social,Health & Safety,per million hrs,No
+SOC_ESAT,Employee Engagement Score,Social,Workforce,score,Yes
+GOV_BOARD_INDEP_PCT,Board Independence,Governance,Board,%,Yes
+GOV_WOMEN_BOARD_PCT,Women on Board,Governance,Board,%,Yes
+GOV_DATA_BREACH,Reportable Data/Privacy Incidents,Governance,Data Privacy,count,No
+GOV_ETHICS_CASES,Ethics Cases Reported,Governance,Ethics,count,No

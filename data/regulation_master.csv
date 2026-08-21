@@ -1,0 +1,8 @@
+regulation_id,regulation_name,jurisdiction,regulatory_body,effective_date,applicable_industry,mandatory_flag,regulation_version,source_url
+REG001,SEBI BRSR,India,SEBI,2021-05-10,Top 1000 listed,Yes,2023 Core,https://www.sebi.gov.in/
+REG002,EU CSRD / ESRS,EU,European Commission,2024-01-01,Large & listed EU,Yes,ESRS Set 1,https://finance.ec.europa.eu/
+REG003,GRI Standards,Global,Global Reporting Initiative,2021-01-01,Voluntary,No,GRI 2021,https://www.globalreporting.org/
+REG004,TCFD Recommendations,Global,FSB TCFD,2017-06-29,Voluntary / mandated in some,No,2021,https://www.fsb-tcfd.org/
+REG005,India DPDP Act,India,MeitY,2023-08-11,Data fiduciaries (IT),Yes,2023,https://www.meity.gov.in/
+REG006,EU GDPR,EU,EDPB,2018-05-25,Processors of EU data,Yes,2016/679,https://edpb.europa.eu/
+REG007,US SEC Climate Disclosure,United States,SEC,2024-03-06,US-listed,Yes,2024 Final Rule,https://www.sec.gov/

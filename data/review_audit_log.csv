@@ -1,0 +1,57 @@
+audit_id,entity_type,entity_id,user_id,action,action_date,comment
+D1-AU001,esg_risk_opportunity,D1-FND01,USR004,Edited,2024-12-02,Drafted finding
+D1-AU002,esg_risk_opportunity,D1-FND01,USR002,Reviewed,2024-12-08,Reviewed for accuracy
+D1-AU003,esg_risk_opportunity,D1-FND02,USR004,Edited,2024-12-02,Drafted finding
+D1-AU004,esg_risk_opportunity,D1-FND02,USR002,Reviewed,2024-12-08,Reviewed for accuracy
+D1-AU005,esg_risk_opportunity,D1-FND03,USR004,Edited,2024-12-02,Drafted finding
+D1-AU006,esg_risk_opportunity,D1-FND03,USR002,Reviewed,2024-12-08,Reviewed for accuracy
+D1-AU007,esg_risk_opportunity,D1-FND04,USR004,Edited,2024-12-02,Drafted finding
+D1-AU008,esg_risk_opportunity,D1-FND04,USR002,Reviewed,2024-12-08,Reviewed for accuracy
+D1-AU009,esg_risk_opportunity,D1-FND05,USR004,Edited,2024-12-02,Drafted finding
+D1-AU010,esg_risk_opportunity,D1-FND05,USR002,Reviewed,2024-12-08,Reviewed for accuracy
+D1-AU011,esg_risk_opportunity,D1-FND06,USR004,Edited,2024-12-02,Drafted finding
+D1-AU012,esg_risk_opportunity,D1-FND06,USR002,Reviewed,2024-12-08,Reviewed for accuracy
+D1-AU013,esg_risk_opportunity,D1-FND07,USR004,Edited,2024-12-02,Drafted finding
+D1-AU014,esg_risk_opportunity,D1-FND07,USR002,Reviewed,2024-12-08,Reviewed for accuracy
+D1-AU015,esg_risk_opportunity,D1-FND08,USR004,Edited,2024-12-02,Drafted finding
+D1-AU016,esg_risk_opportunity,D1-FND08,USR002,Reviewed,2024-12-08,Reviewed for accuracy
+D2-AU001,esg_risk_opportunity,D2-FND01,USR008,Edited,2024-12-02,Drafted finding
+D2-AU002,esg_risk_opportunity,D2-FND01,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D2-AU003,esg_risk_opportunity,D2-FND02,USR008,Edited,2024-12-02,Drafted finding
+D2-AU004,esg_risk_opportunity,D2-FND02,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D2-AU005,esg_risk_opportunity,D2-FND03,USR008,Edited,2024-12-02,Drafted finding
+D2-AU006,esg_risk_opportunity,D2-FND03,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D2-AU007,esg_risk_opportunity,D2-FND04,USR008,Edited,2024-12-02,Drafted finding
+D2-AU008,esg_risk_opportunity,D2-FND04,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D2-AU009,esg_risk_opportunity,D2-FND05,USR008,Edited,2024-12-02,Drafted finding
+D2-AU010,esg_risk_opportunity,D2-FND05,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D2-AU011,esg_risk_opportunity,D2-FND06,USR008,Edited,2024-12-02,Drafted finding
+D2-AU012,esg_risk_opportunity,D2-FND06,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D3-AU001,esg_risk_opportunity,D3-FND01,USR003,Edited,2024-12-02,Drafted finding
+D3-AU002,esg_risk_opportunity,D3-FND01,USR002,Reviewed,2024-12-08,Reviewed for accuracy
+D3-AU003,esg_risk_opportunity,D3-FND02,USR003,Edited,2024-12-02,Drafted finding
+D3-AU004,esg_risk_opportunity,D3-FND02,USR002,Reviewed,2024-12-08,Reviewed for accuracy
+D3-AU005,esg_risk_opportunity,D3-FND03,USR003,Edited,2024-12-02,Drafted finding
+D3-AU006,esg_risk_opportunity,D3-FND03,USR002,Reviewed,2024-12-08,Reviewed for accuracy
+D3-AU007,esg_risk_opportunity,D3-FND04,USR003,Edited,2024-12-02,Drafted finding
+D3-AU008,esg_risk_opportunity,D3-FND04,USR002,Reviewed,2024-12-08,Reviewed for accuracy
+D3-AU009,esg_risk_opportunity,D3-FND05,USR003,Edited,2024-12-02,Drafted finding
+D3-AU010,esg_risk_opportunity,D3-FND05,USR002,Reviewed,2024-12-08,Reviewed for accuracy
+D4-AU001,esg_risk_opportunity,D4-FND01,USR004,Edited,2024-12-02,Drafted finding
+D4-AU002,esg_risk_opportunity,D4-FND01,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D4-AU003,esg_risk_opportunity,D4-FND02,USR004,Edited,2024-12-02,Drafted finding
+D4-AU004,esg_risk_opportunity,D4-FND02,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D4-AU005,esg_risk_opportunity,D4-FND03,USR004,Edited,2024-12-02,Drafted finding
+D4-AU006,esg_risk_opportunity,D4-FND03,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D4-AU007,esg_risk_opportunity,D4-FND04,USR004,Edited,2024-12-02,Drafted finding
+D4-AU008,esg_risk_opportunity,D4-FND04,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D4-AU009,esg_risk_opportunity,D4-FND05,USR004,Edited,2024-12-02,Drafted finding
+D4-AU010,esg_risk_opportunity,D4-FND05,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D4-AU011,esg_risk_opportunity,D4-FND06,USR004,Edited,2024-12-02,Drafted finding
+D4-AU012,esg_risk_opportunity,D4-FND06,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D4-AU013,esg_risk_opportunity,D4-FND07,USR004,Edited,2024-12-02,Drafted finding
+D4-AU014,esg_risk_opportunity,D4-FND07,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D4-AU015,esg_risk_opportunity,D4-FND08,USR004,Edited,2024-12-02,Drafted finding
+D4-AU016,esg_risk_opportunity,D4-FND08,USR007,Reviewed,2024-12-08,Reviewed for accuracy
+D4-AU017,esg_risk_opportunity,D4-FND09,USR004,Edited,2024-12-02,Drafted finding
+D4-AU018,esg_risk_opportunity,D4-FND09,USR007,Reviewed,2024-12-08,Reviewed for accuracy

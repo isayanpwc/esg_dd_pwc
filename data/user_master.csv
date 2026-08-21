@@ -1,0 +1,9 @@
+user_id,user_name,role,email
+USR001,Ananya Rao,Deal Lead,ananya.rao@example-advisory.test
+USR002,Marcus Feld,Reviewer,marcus.feld@example-advisory.test
+USR003,Priya Nair,Analyst,priya.nair@example-advisory.test
+USR004,David Okoro,Analyst,david.okoro@example-advisory.test
+USR005,System Admin,Admin,admin@example-advisory.test
+USR006,Lena Duarte,Deal Lead,lena.duarte@example-advisory.test
+USR007,Sanjay Iyer,Reviewer,sanjay.iyer@example-advisory.test
+USR008,Grace Kim,Analyst,grace.kim@example-advisory.test

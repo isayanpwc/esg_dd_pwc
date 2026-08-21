@@ -1,0 +1,25 @@
+controversy_id,deal_id,company_id,source_type,source_name,source_url,event_date,esg_pillar,category,severity,summary,verified_flag
+D1-CTRL-labour,DEAL001,COMP001,News,The Economic Times,https://example-news.test/d1-ctrl-labour,2018-05-20,Social,Labour practices,Medium,Class-action over alleged visa wage practices at overseas subsidiary,Yes
+D1-CTRL-ethics_gov,DEAL001,COMP001,NGO report,Digital Rights Watch,https://example-news.test/d1-ctrl-ethics_gov,2020-06-19,Governance,Business ethics,Medium,Concerns over surveillance-tech contract with government client,Yes
+D1-CTRL-attrition,DEAL001,COMP001,News,LiveMint,https://example-news.test/d1-ctrl-attrition,2021-04-23,Social,Labour dispute,Medium,Mass attrition and allegations of unpaid overtime during delivery crunch,Yes
+D1-CTRL-insider,DEAL001,COMP001,Regulator action,SEBI,https://example-news.test/d1-ctrl-insider,2022-02-16,Governance,Business ethics,High,Insider-trading probe into senior executives,Yes
+D1-CTRL-scope3,DEAL001,COMP001,NGO report,CarbonWatch,https://example-news.test/d1-ctrl-scope3,2024-04-26,Environmental,Disclosure quality,Medium,Scope 3 cloud emissions flagged as under-counted,No
+D1-CTRL-breach,DEAL001,COMP001,News,Reuters,https://example-news.test/d1-ctrl-breach,2023-06-11,Governance,Data privacy,High,Customer data breach exposes records of an enterprise client,No
+D1-CTRL-breach_reg,DEAL001,COMP001,Regulator action,Data Protection Authority (EU),https://example-news.test/d1-ctrl-breach_reg,2023-08-26,Governance,Data privacy,High,GDPR inquiry opened following the data breach,No
+D2-CTRL-labour,DEAL002,COMP002,News,The Economic Times,https://example-news.test/d2-ctrl-labour,2018-02-28,Social,Labour practices,Medium,Class-action over alleged visa wage practices at overseas subsidiary,Yes
+D2-CTRL-ethics_gov,DEAL002,COMP002,NGO report,Digital Rights Watch,https://example-news.test/d2-ctrl-ethics_gov,2020-05-21,Governance,Business ethics,Medium,Concerns over surveillance-tech contract with government client,Yes
+D2-CTRL-attrition,DEAL002,COMP002,News,LiveMint,https://example-news.test/d2-ctrl-attrition,2021-03-26,Social,Labour dispute,Medium,Mass attrition and allegations of unpaid overtime during delivery crunch,Yes
+D2-CTRL-insider,DEAL002,COMP002,Regulator action,SEBI,https://example-news.test/d2-ctrl-insider,2022-03-11,Governance,Business ethics,High,Insider-trading probe into senior executives,Yes
+D2-CTRL-scope3,DEAL002,COMP002,NGO report,CarbonWatch,https://example-news.test/d2-ctrl-scope3,2024-03-15,Environmental,Disclosure quality,Medium,Scope 3 cloud emissions flagged as under-counted,No
+D3-CTRL-labour,DEAL003,COMP003,News,The Economic Times,https://example-news.test/d3-ctrl-labour,2018-02-25,Social,Labour practices,Medium,Class-action over alleged visa wage practices at overseas subsidiary,Yes
+D3-CTRL-ethics_gov,DEAL003,COMP003,NGO report,Digital Rights Watch,https://example-news.test/d3-ctrl-ethics_gov,2020-07-14,Governance,Business ethics,Medium,Concerns over surveillance-tech contract with government client,Yes
+D3-CTRL-attrition,DEAL003,COMP003,News,LiveMint,https://example-news.test/d3-ctrl-attrition,2021-08-20,Social,Labour dispute,Medium,Mass attrition and allegations of unpaid overtime during delivery crunch,Yes
+D3-CTRL-insider,DEAL003,COMP003,Regulator action,SEBI,https://example-news.test/d3-ctrl-insider,2022-05-17,Governance,Business ethics,High,Insider-trading probe into senior executives,Yes
+D3-CTRL-scope3,DEAL003,COMP003,NGO report,CarbonWatch,https://example-news.test/d3-ctrl-scope3,2024-03-24,Environmental,Disclosure quality,Medium,Scope 3 cloud emissions flagged as under-counted,No
+D4-CTRL-labour,DEAL004,COMP004,News,The Economic Times,https://example-news.test/d4-ctrl-labour,2018-07-22,Social,Labour practices,Medium,Class-action over alleged visa wage practices at overseas subsidiary,Yes
+D4-CTRL-ethics_gov,DEAL004,COMP004,NGO report,Digital Rights Watch,https://example-news.test/d4-ctrl-ethics_gov,2020-03-12,Governance,Business ethics,Medium,Concerns over surveillance-tech contract with government client,Yes
+D4-CTRL-attrition,DEAL004,COMP004,News,LiveMint,https://example-news.test/d4-ctrl-attrition,2021-04-27,Social,Labour dispute,Medium,Mass attrition and allegations of unpaid overtime during delivery crunch,Yes
+D4-CTRL-insider,DEAL004,COMP004,Regulator action,SEBI,https://example-news.test/d4-ctrl-insider,2022-08-23,Governance,Business ethics,High,Insider-trading probe into senior executives,Yes
+D4-CTRL-scope3,DEAL004,COMP004,NGO report,CarbonWatch,https://example-news.test/d4-ctrl-scope3,2024-08-13,Environmental,Disclosure quality,Medium,Scope 3 cloud emissions flagged as under-counted,No
+D4-CTRL-breach,DEAL004,COMP004,News,Reuters,https://example-news.test/d4-ctrl-breach,2022-07-11,Governance,Data privacy,High,Customer data breach exposes records of an enterprise client,No
+D4-CTRL-breach_reg,DEAL004,COMP004,Regulator action,Data Protection Authority (EU),https://example-news.test/d4-ctrl-breach_reg,2022-07-22,Governance,Data privacy,High,GDPR inquiry opened following the data breach,No

@@ -1,0 +1,11 @@
+requirement_id,regulation_id,requirement_code,requirement_name,requirement_description,required_metric_code,required_document,mandatory_flag,compliance_frequency
+REQ001,REG001,BRSR-P6-7,GHG emissions disclosure,Disclose Scope 1 and Scope 2 emissions,ENV_SCOPE2,ESG report,Yes,Annual
+REQ002,REG001,BRSR-P6-9,E-waste disclosure,Disclose e-waste generated and recycled,ENV_EWASTE,ESG report,Yes,Annual
+REQ003,REG001,BRSR-P5,Workforce diversity,Disclose female workforce share,SOC_FEMALE_PCT,ESG report,Yes,Annual
+REQ004,REG001,BRSR-P3,Employee wellbeing,Disclose attrition and training,SOC_ATTRITION,ESG report,Yes,Annual
+REQ005,REG002,ESRS-E1-6,Scope 1/2/3 emissions,Disclose gross emissions all scopes,ENV_SCOPE3,ESG report,Yes,Annual
+REQ006,REG002,ESRS-E1-5,Energy consumption,Disclose total energy and renewable share,ENV_RENEW_PCT,ESG report,Yes,Annual
+REQ007,REG005,DPDP-8,Data breach notification,Report reportable personal-data breaches,GOV_DATA_BREACH,Incident log,Yes,Event-based
+REQ008,REG006,GDPR-33,Breach notification to SA,Notify supervisory authority within 72h,GOV_DATA_BREACH,Incident log,Yes,Event-based
+REQ009,REG004,TCFD-GOV-a,Board climate oversight,Describe board oversight of climate risks,GOV_BOARD_INDEP_PCT,Governance report,No,Annual
+REQ010,REG007,SEC-CL-1502,Climate risk & GHG disclosure,Disclose material climate risks and Scope 1/2,ENV_SCOPE1,10-K,Yes,Annual
