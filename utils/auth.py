@@ -105,8 +105,11 @@ def session_scope():
     principal = current_principal()
     if principal is None:
         raise PermissionError("Not signed in.")
-    with db_engine.session() as session:
-        with bind_principal(principal):
+    # Nesting order matters: db_engine.session() commits as *its* context
+    # exits, so the principal has to outlive it. Bound the other way round the
+    # flush happens with nothing bound and every deal-scoped write fails.
+    with bind_principal(principal):
+        with db_engine.session() as session:
             yield session
 
 
